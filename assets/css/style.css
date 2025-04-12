@@ -1,0 +1,24 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&family=Skranji:wght@400;700&display=swap');
+
+/* Global Styles */
+body {
+    background-color: teal;
+    text-align: center;
+}
+
+h1 {
+    font-family: 'Skranji', cursive;
+    color: gold;
+}
+
+h2, h3, h4, h5, h6 {
+    font-family: 'Skranji', cursive;
+    font-weight: 100;
+    color: gold;
+}
+
+p {
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.2rem;
+    color: whitesmoke;
+}
