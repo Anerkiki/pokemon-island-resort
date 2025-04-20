@@ -1,24 +1,76 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&family=Skranji:wght@400;700&display=swap');
 
+:root {
+    --heading-font: 'Skranji', cursive;
+    --paragraph-font: 'Roboto', sans-serif;
+    --main-color: #B86F52;
+    /* rgb(184, 111, 82) */
+    --sand-color: wheat;
+    --dark-green: #006400;
+    --leaf-color: #008769;
+}
+
+/* Global styles */
+body {
+    font-family: var(--primary-font);
+}
+
+
 /* Global Styles */
 body {
-    background-color: teal;
+    background-color: #0dcaf0;
+    background-image: url(../images/beach-background.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
     text-align: center;
+    font-family: var(--paragraph-font);
+    font-size: 1.2rem;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: var(--heading-font);
+    font-weight: 100;
+    color: var(--leaf-color);
 }
 
 h1 {
-    font-family: 'Skranji', cursive;
-    color: gold;
-}
-
-h2, h3, h4, h5, h6 {
-    font-family: 'Skranji', cursive;
-    font-weight: 100;
-    color: gold;
+    font-weight: 400;
+    color: var(--sand-color);
 }
 
 p {
-    font-family: 'Roboto', sans-serif;
-    font-size: 1.2rem;
-    color: whitesmoke;
+    color: black;
+}
+
+main {
+    position: relative;
+}
+
+/* Section Background */
+.section-background {
+    background: rgba(207, 165, 129, 0.9);
+    position: absolute;
+}
+
+/* Navbar */
+.navheading {
+    background-image: url(../images/bamboo-background.jpg);
+    width: 100%;
+}
+
+.layer {
+    background-color: rgba(0, 131, 105, 0.7);
+}
+
+.page-title {
+    padding-left: 27.8px;
+    color: wheat;
+}
+
+/* Media Queries */
+
+@media (min-width: 992px) {
+    .page-title {
+        display: none;
+    } /* when navbar links are visible make page title hidden */
 }

@@ -1,23 +1,143 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Pokémon Island Resort | About Us</title>
     <!--Bootstrap CSS link-->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
     <!-- Custom CSS Stylesheet -->
     <link rel="stylesheet" href="assets/css/style.css">
     <link rel="icon" type="image/x-icon" href="assets/images/palm.ico">
 </head>
+
 <body>
-    <h1 class="display-5">Pokémon Island Resort</h1>
-    <h2>About Us</h2>
-    <p>Welcome to Pokémon Island Resort, where adventure meets relaxation!</p>
+
+    <!-- Navigation and Title Section -->
+    <section class="navheading">
+        <div class="layer">
+            <h1 class="display-5 head-title">Pokémon Island Resort</h1>
+            <nav class="navbar navbar-dark navbar-expand-lg">
+                <div class="container-fluid">
+                    <a class="navbar-brand mx-auto" href="#">
+                        <h2 class="page-title mb-0">About Us</h2>
+                    </a>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                        aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                            <li class="nav-item">
+                                <a class="nav-link active" aria-current="page" href="index.html">About Us</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">Link</a>
+                            </li>
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                                    aria-expanded="false">
+                                    Our Trainers
+                                </a>
+                                <ul class="dropdown-menu">
+                                    <li><a class="dropdown-item" href="#">View All</a></li>
+                                    <li>
+                                        <hr class="dropdown-divider">
+                                    </li>
+                                    <li><a class="dropdown-item" href="#">Trainer 1</a></li>
+                                    <li><a class="dropdown-item" href="#">Trainer 2</a></li>
+                                    <li><a class="dropdown-item" href="#">Trainer 3</a></li>
+                                    <li><a class="dropdown-item" href="#">Trainer 3</a></li>
+                                </ul>
+                            </li>
+                        </ul>
+
+
+                        <ul class="navbar-nav me-auto me-2 me-lg-0">
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">Link</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">Link</a>
+                            </li>
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                                    aria-expanded="false">
+                                    Dropdown
+                                </a>
+                                <ul class="dropdown-menu">
+                                    <li><a class="dropdown-item" href="#">Action</a></li>
+                                    <li><a class="dropdown-item" href="#">Another action</a></li>
+                                    <li>
+                                        <hr class="dropdown-divider">
+                                    </li>
+                                    <li><a class="dropdown-item" href="#">Something else here</a></li>
+                                </ul>
+                            </li>
+                        </ul>
+
+                        <!-- split button - book a room -->
+                        <div class="btn-group">
+                            <button type="button" class="btn btn-info">Rooms</button>
+                            <button type="button" class="btn btn-info dropdown-toggle dropdown-toggle-split"
+                                data-bs-toggle="dropdown" aria-expanded="false">
+                                <span class="visually-hidden">Toggle Dropdown</span>
+                            </button>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="#">View All</a></li>
+                                <li>
+                                    <hr class="dropdown-divider">
+                                </li>
+                                <li><a class="dropdown-item" href="#">Sea View</a></li>
+                                <li><a class="dropdown-item" href="#">Arena View</a></li>
+                                <li><a class="dropdown-item" href="#">Garden View</a></li>
+                            </ul>
+                        </div>
+
+                        <!-- split button - book an excursion -->
+                        <div class="btn-group">
+                            <button type="button" class="btn btn-info">Excursions</button>
+                            <button type="button" class="btn btn-info dropdown-toggle dropdown-toggle-split"
+                                data-bs-toggle="dropdown" aria-expanded="false">
+                                <span class="visually-hidden">Toggle Dropdown</span>
+                            </button>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="excursion.html">View All</a></li>
+                                <li>
+                                    <hr class="dropdown-divider">
+                                </li>
+                                <li><a class="dropdown-item" href="excursion.html">Lapras | Water Ride</a></li>
+                                <li><a class="dropdown-item" href="excursion.html">Charizard | Flying</a></li>
+                                <li><a class="dropdown-item" href="excursion.html">Squirtle | Snorkeling</a></li>
+                                <li><a class="dropdown-item" href="excursion.html">Charizard | Fire Show</a></li>
+                            </ul>
+                        </div>
+
+
+
+                    </div>
+                </div>
+            </nav>
+        </div>
+    </section>
+    <!-- End of Navigation and Title Section -->
+
+    <main>
+        <div class="section-background">
+        <h2>Welcome</h2>
+        <p>Welcome to Pokémon Island Resort, where adventure meets relaxation!</p>
+    </div>
+    </main>
 
     <!--Bootstrap JS Script-->
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+        crossorigin="anonymous"></script>
     <!-- Font Awesome Kit -->
     <script src="https://kit.fontawesome.com/965ed0e330.js" crossorigin="anonymous"></script>
 </body>
+
 </html>
