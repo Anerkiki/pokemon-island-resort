@@ -10,6 +10,14 @@
     --leaf-color: #008769;
 }
 
+.text-sand {
+    color: var(--sand-color);
+}
+
+.border-sand {
+    border-color: var(--sand-color);
+}
+
 /* Global styles */
 body {
     font-family: var(--primary-font);
@@ -18,7 +26,7 @@ body {
 
 /* Global Styles */
 body {
-    background-color: #0dcaf0;
+    background-color: #FFD8B7;
     background-image: url(../images/beach-background.jpg);
     background-repeat: no-repeat;
     background-size: cover;
@@ -46,10 +54,21 @@ main {
     position: relative;
 }
 
-/* Section Background */
-.section-background {
+/* Section Background Colours to choose from */
+.section-background-one {
     background: rgba(207, 165, 129, 0.9);
-    position: absolute;
+}
+
+.section-background-two {
+    background: rgba(248, 192, 155, 0.9);
+}
+
+.section-background-three {
+    background: rgba(243, 222, 205, 0.9);
+}
+
+.section-background-four {
+    background: rgba(254, 237, 220, 0.9);
 }
 
 /* Navbar */
@@ -66,6 +85,28 @@ main {
     padding-left: 27.8px;
     color: wheat;
 }
+
+/* Navbar Links */
+.navbar .nav-link.text-sand, .navbar .btn.text-sand {
+    color: var(--sand-color);
+    font-family: var(--heading-font);
+    font-weight: 100;
+    text-transform: uppercase;
+}
+
+.navbar .nav-link.text-sand.active {
+    border-bottom: 4px solid var(--sand-color);
+    padding-bottom: 3px;
+    margin-bottom: 1px;
+
+}
+
+.navbar .btn.text-sand.active {
+    text-decoration: underline;
+    text-decoration-thickness: 3px;
+/* maybe add less padding/more margin like above but experiment first */
+}
+
 
 /* Media Queries */
 

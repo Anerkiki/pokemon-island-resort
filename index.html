@@ -24,99 +24,105 @@
                     <a class="navbar-brand mx-auto" href="#">
                         <h2 class="page-title mb-0">About Us</h2>
                     </a>
-                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
-                        data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
-                        aria-expanded="false" aria-label="Toggle navigation">
-                        <span class="navbar-toggler-icon"></span>
+                    <button class="navbar-toggler me-3 border-4 border-sand px-3 py-2" type="button"
+                        data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+                        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                        <i class="fa-solid fa-bars text-sand fs-4"></i>
+                        <!-- fs-4 makes the icon slightly larger -->
                     </button>
                     <div class="collapse navbar-collapse" id="navbarSupportedContent">
                         <ul class="navbar-nav me-auto mb-2 mb-lg-0">
                             <li class="nav-item">
-                                <a class="nav-link active" aria-current="page" href="index.html">About Us</a>
+                                <a class="nav-link active text-sand" aria-current="page" href="index.html">About Us</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link" href="#">Link</a>
+                                <a class="nav-link text-sand" href="#">Link</a>
                             </li>
                             <li class="nav-item dropdown">
-                                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
-                                    aria-expanded="false">
+                                <a class="nav-link dropdown-toggle text-sand" href="#" role="button"
+                                    data-bs-toggle="dropdown" aria-expanded="false">
                                     Our Trainers
                                 </a>
                                 <ul class="dropdown-menu">
-                                    <li><a class="dropdown-item" href="#">View All</a></li>
+                                    <li><a class="dropdown-item text-sand" href="#">View All</a></li>
                                     <li>
                                         <hr class="dropdown-divider">
                                     </li>
-                                    <li><a class="dropdown-item" href="#">Trainer 1</a></li>
-                                    <li><a class="dropdown-item" href="#">Trainer 2</a></li>
-                                    <li><a class="dropdown-item" href="#">Trainer 3</a></li>
-                                    <li><a class="dropdown-item" href="#">Trainer 3</a></li>
+                                    <li><a class="dropdown-item text-sand" href="#">Trainer 1</a></li>
+                                    <li><a class="dropdown-item text-sand" href="#">Trainer 2</a></li>
+                                    <li><a class="dropdown-item text-sand" href="#">Trainer 3</a></li>
+                                    <li><a class="dropdown-item text-sand" href="#">Trainer 3</a></li>
                                 </ul>
                             </li>
                         </ul>
 
-
                         <ul class="navbar-nav me-auto me-2 me-lg-0">
                             <li class="nav-item">
-                                <a class="nav-link" href="#">Link</a>
+                                <a class="nav-link text-sand" href="#">Link</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link" href="#">Link</a>
+                                <a class="nav-link text-sand" href="#">Link</a>
                             </li>
                             <li class="nav-item dropdown">
-                                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
-                                    aria-expanded="false">
+                                <a class="nav-link dropdown-toggle text-sand" href="#" role="button"
+                                    data-bs-toggle="dropdown" aria-expanded="false">
                                     Dropdown
                                 </a>
                                 <ul class="dropdown-menu">
-                                    <li><a class="dropdown-item" href="#">Action</a></li>
-                                    <li><a class="dropdown-item" href="#">Another action</a></li>
+                                    <li><a class="dropdown-item text-sand" href="#">Action</a></li>
+                                    <li><a class="dropdown-item text-sand" href="#">Another action</a></li>
                                     <li>
                                         <hr class="dropdown-divider">
                                     </li>
-                                    <li><a class="dropdown-item" href="#">Something else here</a></li>
+                                    <li><a class="dropdown-item text-sand" href="#">Something else here</a></li>
                                 </ul>
                             </li>
                         </ul>
 
                         <!-- split button - book a room -->
-                        <div class="btn-group">
-                            <button type="button" class="btn btn-info">Rooms</button>
-                            <button type="button" class="btn btn-info dropdown-toggle dropdown-toggle-split"
+                        <div class="btn-group  px-1">
+                            <button type="button"
+                                class="btn bg-transparent border-sand border-4 text-sand">Rooms</button>
+                            <button type="button"
+                                class="btn bg-transparent border-sand border-4 dropdown-toggle dropdown-toggle-split"
                                 data-bs-toggle="dropdown" aria-expanded="false">
                                 <span class="visually-hidden">Toggle Dropdown</span>
                             </button>
                             <ul class="dropdown-menu">
-                                <li><a class="dropdown-item" href="#">View All</a></li>
+                                <li><a class="dropdown-item text-sand" href="#">View All</a></li>
                                 <li>
                                     <hr class="dropdown-divider">
                                 </li>
-                                <li><a class="dropdown-item" href="#">Sea View</a></li>
-                                <li><a class="dropdown-item" href="#">Arena View</a></li>
-                                <li><a class="dropdown-item" href="#">Garden View</a></li>
+                                <li><a class="dropdown-item text-sand" href="#">Sea View</a></li>
+                                <li><a class="dropdown-item text-sand" href="#">Arena View</a></li>
+                                <li><a class="dropdown-item text-sand" href="#">Garden View</a></li>
                             </ul>
                         </div>
 
                         <!-- split button - book an excursion -->
-                        <div class="btn-group">
-                            <button type="button" class="btn btn-info">Excursions</button>
-                            <button type="button" class="btn btn-info dropdown-toggle dropdown-toggle-split"
+                        <div class="btn-group px-1">
+                            <!-- adds padding around sides of buttons -->
+                            <button type="button"
+                                class="btn bg-transparent border-sand border-4 text-sand">Excursions</button>
+                            <button type="button"
+                                class="btn bg-transparent border-sand border-4 dropdown-toggle dropdown-toggle-split"
                                 data-bs-toggle="dropdown" aria-expanded="false">
                                 <span class="visually-hidden">Toggle Dropdown</span>
                             </button>
                             <ul class="dropdown-menu">
-                                <li><a class="dropdown-item" href="excursion.html">View All</a></li>
+                                <li><a class="dropdown-item text-sand" href="excursion.html">View All</a></li>
                                 <li>
                                     <hr class="dropdown-divider">
                                 </li>
-                                <li><a class="dropdown-item" href="excursion.html">Lapras | Water Ride</a></li>
-                                <li><a class="dropdown-item" href="excursion.html">Charizard | Flying</a></li>
-                                <li><a class="dropdown-item" href="excursion.html">Squirtle | Snorkeling</a></li>
-                                <li><a class="dropdown-item" href="excursion.html">Charizard | Fire Show</a></li>
+                                <li><a class="dropdown-item text-sand" href="excursion.html">Lapras | Water Ride</a>
+                                </li>
+                                <li><a class="dropdown-item text-sand" href="excursion.html">Charizard | Flying</a></li>
+                                <li><a class="dropdown-item text-sand" href="excursion.html">Squirtle | Snorkeling</a>
+                                </li>
+                                <li><a class="dropdown-item text-sand" href="excursion.html">Charizard | Fire Show</a>
+                                </li>
                             </ul>
                         </div>
-
-
 
                     </div>
                 </div>
@@ -126,10 +132,22 @@
     <!-- End of Navigation and Title Section -->
 
     <main>
-        <div class="section-background">
-        <h2>Welcome</h2>
-        <p>Welcome to Pokémon Island Resort, where adventure meets relaxation!</p>
-    </div>
+        <div class="section-background-one">
+            <h2>Welcome</h2>
+            <p>Welcome to Pokémon Island Resort, where adventure meets relaxation!</p>
+        </div>
+        <div class="section-background-two">
+            <h2>Section</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+        </div>
+        <div class="section-background-three">
+            <h2>Section</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+        </div>
+        <div class="section-background-four">
+            <h2>Section</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+        </div>
     </main>
 
     <!--Bootstrap JS Script-->
