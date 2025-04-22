@@ -6,8 +6,8 @@
     --main-color: #B86F52;
     /* rgb(184, 111, 82) */
     --sand-color: wheat;
-    --dark-green: #006400;
     --leaf-color: #008769;
+    --blue-color: #0096E7;
 }
 
 .text-sand {
@@ -17,12 +17,6 @@
 .border-sand {
     border-color: var(--sand-color);
 }
-
-/* Global styles */
-body {
-    font-family: var(--primary-font);
-}
-
 
 /* Global Styles */
 body {
@@ -38,7 +32,6 @@ body {
 h1, h2, h3, h4, h5, h6 {
     font-family: var(--heading-font);
     font-weight: 100;
-    color: var(--leaf-color);
 }
 
 h1 {
@@ -47,7 +40,7 @@ h1 {
 }
 
 p {
-    color: black;
+    color: var(--leaf-color);
 }
 
 main {
@@ -98,7 +91,6 @@ main {
     border-bottom: 4px solid var(--sand-color);
     padding-bottom: 3px;
     margin-bottom: 1px;
-
 }
 
 .navbar .btn.text-sand.active {
@@ -107,9 +99,7 @@ main {
 /* maybe add less padding/more margin like above but experiment first */
 }
 
-
 /* Media Queries */
-
 @media (min-width: 992px) {
     .page-title {
         display: none;

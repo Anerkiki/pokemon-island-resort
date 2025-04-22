@@ -24,7 +24,7 @@
                     <a class="navbar-brand mx-auto" href="#">
                         <h2 class="page-title mb-0">About Us</h2>
                     </a>
-                    <button class="navbar-toggler me-3 border-4 border-sand px-3 py-2" type="button"
+                    <button class="navbar-toggler me-3 border-4 border-sand px-3 py-2 mb-3" type="button"
                         data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
                         aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                         <i class="fa-solid fa-bars text-sand fs-4"></i>
@@ -80,12 +80,14 @@
                         </ul>
 
                         <!-- split button - book a room -->
-                        <div class="btn-group  px-1">
-                            <button type="button"
-                                class="btn bg-transparent border-sand border-4 text-sand">Rooms</button>
-                            <button type="button"
-                                class="btn bg-transparent border-sand border-4 dropdown-toggle dropdown-toggle-split"
-                                data-bs-toggle="dropdown" aria-expanded="false">
+                        <div class="btn-group px-1">
+                            <a href="rooms">
+                                <button type="button"
+                                    class="btn bg-transparent border-sand border-4 text-sand">Rooms</button>
+                            </a>
+                            <button type="button" class="btn bg-transparent border-sand border-4 dropdown-toggle-split"
+                                data-bs-toggle="dropdown" aria-expanded="false"><i
+                                    class="fa-solid fa-caret-down text-sand"></i>
                                 <span class="visually-hidden">Toggle Dropdown</span>
                             </button>
                             <ul class="dropdown-menu">
@@ -102,11 +104,11 @@
                         <!-- split button - book an excursion -->
                         <div class="btn-group px-1">
                             <!-- adds padding around sides of buttons -->
-                            <button type="button"
+                            <button href="excursion.html" type="button"
                                 class="btn bg-transparent border-sand border-4 text-sand">Excursions</button>
-                            <button type="button"
-                                class="btn bg-transparent border-sand border-4 dropdown-toggle dropdown-toggle-split"
-                                data-bs-toggle="dropdown" aria-expanded="false">
+                            <button type="button" class="btn bg-transparent border-sand border-4 dropdown-toggle-split"
+                                data-bs-toggle="dropdown" aria-expanded="false"><i
+                                    class="fa-solid fa-caret-down text-sand"></i>
                                 <span class="visually-hidden">Toggle Dropdown</span>
                             </button>
                             <ul class="dropdown-menu">
@@ -132,22 +134,23 @@
     <!-- End of Navigation and Title Section -->
 
     <main>
-        <div class="section-background-one">
+        <section class="section-background-one">
             <h2>Welcome</h2>
-            <p>Welcome to Pokémon Island Resort, where adventure meets relaxation!</p>
-        </div>
-        <div class="section-background-two">
+            <p>Welcome to Pokémon Island Resort, where adventure meets&nbsp;relaxation!</p>
+            <!-- added no-break-space to the last space in each paragraph so that not just one word is left on it's own row When splits -->
+        </section>
+        <section class="section-background-two">
             <h2>Section</h2>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
-        </div>
-        <div class="section-background-three">
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing&nbsp;elit.</p>
+        </section>
+        <section class="section-background-three">
             <h2>Section</h2>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
-        </div>
-        <div class="section-background-four">
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing&nbsp;elit.</p>
+        </section>
+        <section class="section-background-four">
             <h2>Section</h2>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
-        </div>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing&nbsp;elit.</p>
+        </section>
     </main>
 
     <!--Bootstrap JS Script-->
