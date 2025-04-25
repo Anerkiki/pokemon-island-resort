@@ -33,35 +33,42 @@
                     <div class="collapse navbar-collapse" id="navbarSupportedContent">
                         <ul class="navbar-nav me-auto mb-2 mb-lg-0">
 
-                            <li class="nav-item">
-                                <a class="nav-link active text-sand" aria-current="page" href="index.html">About Us</a>
-                            </li>
-
-                            <!-- <li class="nav-item">
-                                <a class="nav-link text-sand" href="#">Link</a>
-                            </li> -->
-
-                            <!-- <li class="nav-item dropdown">
-                                <a class="nav-link dropdown-toggle text-sand" href="index.html#trainers" role="button"
+                            <div class="btn-group px-1">
+                                <!-- adds padding around sides of buttons -->
+                                <a href="index.html">
+                                    <button type="button"
+                                        class="btn bg-transparent border-sand border-4 text-sand active"
+                                        aria-current="page">About Us</button>
+                                </a>
+                                <button type="button" class="btn bg-transparent dropdown-toggle-split"
                                     data-bs-toggle="dropdown" aria-expanded="false">
-                                    Our trainers</a>
-                                <ul class="dropdown-menu">
-                                    <li><a class="dropdown-item text-sand" href="index.html#trainers">View All</a></li>
+                                    <i class="fa-solid fa-caret-down text-sand"></i>
+                                    <span class="visually-hidden">Toggle Dropdown</span>
+                                </button>
+                                <ul class="dropdown-menu dropdown-menu-right">
+                                    <li>
+                                        <a class="dropdown-item text-sand" href="index.html">Home</a>
+                                    </li>
                                     <li>
                                         <hr class="dropdown-divider">
                                     </li>
-                                    <li><a class="dropdown-item text-sand" href="index.html#trainer1">Trainer 1</a></li>
-                                    <li><a class="dropdown-item text-sand" href="index.html#trainer2">Trainer 2</a></li>
-                                    <li><a class="dropdown-item text-sand" href="index.html#trainer3">Trainer 3</a></li>
-                                    <li><a class="dropdown-item text-sand" href="index.html#trainer4">Trainer 4</a></li>
+                                    <li>
+                                        <a class="dropdown-item text-sand" href="index.html#our-island">Our Island</a>
+                                    </li>
+                                    <li>
+                                        <a class="dropdown-item text-sand" href="index.html#our-trainers">Our Trainers</a>
+                                    </li>
+                                    <li>
+                                        <a class="dropdown-item text-sand" href="index.html#contact-us">Contact</a>
+                                    </li>
                                 </ul>
-                            </li> -->
+                            </div>
 
                             <div class="btn-group px-1">
                                 <!-- adds padding around sides of buttons -->
-                                <a href="index.html#trainers">
-                                    <button type="button"
-                                        class="btn bg-transparent border-sand border-4 text-sand">Our Trainers</button>
+                                <a href="index.html#our-trainers">
+                                    <button type="button" class="btn bg-transparent border-sand border-4 text-sand">Our
+                                        Trainers</button>
                                 </a>
                                 <button type="button" class="btn bg-transparent dropdown-toggle-split"
                                     data-bs-toggle="dropdown" aria-expanded="false">
@@ -90,11 +97,9 @@
                                 </ul>
                             </div>
                         </ul>
-                    <!-- Start of right navbar items -->
+                        <!-- Start of right navbar items -->
                         <ul class="navbar-nav me-auto me-2 me-lg-0">
-                            
 
-                            
                             <!-- <li class="nav-item">
                                 <a class="nav-link text-sand" href="#">Link</a>
                             </li>
@@ -116,14 +121,13 @@
                                 </ul>
                             </li> -->
 
-
                         </ul>
 
                         <!-- split button - book a room -->
                         <div class="btn-group px-1">
                             <a href="rooms.html">
-                                <button type="button"
-                                    class="btn bg-transparent border-sand border-4 text-sand">Rooms</button>
+                                <button type="button" class="btn bg-transparent border-sand border-4 text-sand">
+                                    Book a Room</button>
                             </a>
                             <button type="button" class="btn bg-transparent dropdown-toggle-split"
                                 data-bs-toggle="dropdown" aria-expanded="false">
@@ -141,12 +145,12 @@
                             </ul>
                         </div>
 
-                        <!-- split button - book an excursion -->
+                        <!-- split button - book a class -->
                         <div class="btn-group px-1">
                             <!-- adds padding around sides of buttons -->
                             <a href="classes.html">
-                                <button type="button"
-                                    class="btn bg-transparent border-sand border-4 text-sand">Classes</button>
+                                <button type="button" class="btn bg-transparent border-sand border-4 text-sand">Book a
+                                    Class</button>
                             </a>
                             <button type="button" class="btn bg-transparent dropdown-toggle-split"
                                 data-bs-toggle="dropdown" aria-expanded="false">
@@ -196,8 +200,7 @@
         <section class="container m-4 mx-auto">
             <div class="row justify-content-center">
 
-
-                <!-- <article class="col-12 col-lg-5 text-center text-lg-start section-background-five p-5">
+                <!-- <article class="col-12 col-lg-5 text-center section-background-five p-5">
                     <h2 class="disply-6">Welcome!</h2>
                     <p class="lead">A slice of paradise</p>
                     <p class="my-4">Where luxury meets learning</p>
@@ -213,7 +216,7 @@
                         <p>Image or something</p>
                     </div>
                 </div>
-                <article class="col-12 col-lg-5 text-center text-lg-start section-background-five p-5">
+                <article class="col-12 col-lg-5 text-center section-background-five p-5">
                     <h2 class="display-6">Box 2</h2>
                     <p class="lead">Our resort is nice!</p>
                     <p class="my-4">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ullam maxime laboriosam,
@@ -222,12 +225,12 @@
                 </article> -->
 
                 <!-- Island Features -->
-                <div class="col-12 text-center">
+                <div class="col-12 text-center" id="our-island">
                     <h2 class="display-4 section-background-five my-5">Our Island</h2>
                 </div>
 
 
-                <article class="col-12 col-lg-5 text-center text-lg-start section-background-five p-4">
+                <article class="col-12 col-lg-5 text-center section-background-five p-4">
                     <h2 class="display-6">Island Feature</h2>
                     <p class="lead">Our resort is nice!</p>
                     <p class="my-4">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ullam maxime laboriosam,
@@ -245,7 +248,7 @@
                         <p>Image or something</p>
                     </div>
                 </div>
-                <article class="col-12 col-lg-5 text-center text-lg-start section-background-five p-4">
+                <article class="col-12 col-lg-5 text-center section-background-five p-4">
                     <h2 class="display-6">Island Feature</h2>
                     <p class="lead">Our resort is nice!</p>
                     <p class="my-4">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ullam maxime laboriosam,
@@ -255,7 +258,7 @@
 
                 <section class="container m-4 mx-auto">
                     <div class="row">
-                        <article class="col-12 col-lg-5 text-center text-lg-start section-background-five p-4">
+                        <article class="col-12 col-lg-5 text-center section-background-five p-4">
                             <h2 class="display-6">Island Feature</h2>
                             <p class="lead">Our resort is nice!</p>
                             <p class="my-4">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ullam maxime
@@ -279,7 +282,7 @@
                                 <p>Image or something</p>
                             </div>
                         </div>
-                        <article class="col-12 col-lg-5 text-center text-lg-start section-background-five p-4">
+                        <article class="col-12 col-lg-5 text-center section-background-five p-4">
                             <h2 class="display-6">Island Feature</h2>
                             <p class="lead">Our resort is nice!</p>
                             <p class="my-4">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ullam maxime
@@ -292,12 +295,12 @@
                 </section>
 
                 <!-- Trainer Section -->
-                
-                <div class="col-12 text-center" id="trainers">
-                    <h2 class="display-3 section-background-five my-5">Our Trainers and Pokemon</h2>
+
+                <div class="col-12 text-center" id="our-trainers">
+                    <h2 class="display-4 section-background-five my-5">Our Trainers and Pokemon</h2>
                 </div>
 
-                <article class="col-12 col-lg-5 text-center text-lg-start section-background-five p-4" id="trainer1">
+                <article class="col-12 col-lg-5 text-center section-background-five p-4" id="trainer1">
                     <h2 class="display-6">Trainer & Charizard</h2>
                     <p class="lead">Flying & Fire-Breathing</p>
                     <p class="my-4">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ullam maxime laboriosam,
@@ -320,13 +323,12 @@
                     </div>
                 </div>
 
-
                 <div class="col-12 col-lg-7">
                     <div>
                         <p>Image or something</p>
                     </div>
                 </div>
-                <article class="col-12 col-lg-5 text-center text-lg-start section-background-five p-4" id="trainer2">
+                <article class="col-12 col-lg-5 text-center section-background-five p-4" id="trainer2">
                     <h2 class="display-6">Trainer & Lapras</h2>
                     <p class="lead">Ocean Riding</p>
                     <p class="my-4">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ullam maxime laboriosam,
@@ -334,46 +336,36 @@
                         Fugit, laboriosam aperiam. Accusantium,&nbsp;debitis.</p>
                     <a href="classes.html">
                         <button type="button" class="btn btn-light btn-lg">
-                            <h3>Book Fire-Breathing Class</h3>
-                        </button>
-                    </a><br>
-                    <a href="classes.html">
-                        <button type="button" class="btn btn-light btn-lg">
-                            <h3>Book Flying Class</h3>
+                            <h3>Book Class</h3>
                         </button>
                     </a>
                 </article>
 
-                <article class="col-12 col-lg-5 text-center text-lg-start section-background-five p-4" id="trainer3">
+                <article class="col-12 col-lg-5 text-center section-background-five p-4" id="trainer3">
                     <h2 class="display-6">Trainer & Rhyhorn</h2>
                     <p class="lead">Safari Adventure/Ride</p>
                     <p class="my-4">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ullam maxime laboriosam,
                         quae dolores voluptate nisi sed cumque cupiditate tenetur veniam beatae magnam iure. Quo, nam?
                         Fugit, laboriosam aperiam. Accusantium,&nbsp;debitis.</p>
-                    <a href="classes.html">
-                        <button type="button" class="btn btn-light btn-lg">
-                            <h3>Book Fire-Breathing Class</h3>
-                        </button>
-                    </a><br>
-                    <a href="classes.html">
-                        <button type="button" class="btn btn-light btn-lg">
-                            <h3>Book Flying Class</h3>
-                        </button>
-                    </a>
+                        <a href="classes.html">
+                            <button type="button" class="btn btn-light btn-lg">
+                                <h3>Book Class</h3>
+                            </button>
+                        </a>
                 </article>
-                <div class="col-12 col-lg-7">
-                    <div>
-                        <p>Image or something</p>
-                    </div>
-                </div>
-
 
                 <div class="col-12 col-lg-7">
                     <div>
                         <p>Image or something</p>
                     </div>
                 </div>
-                <article class="col-12 col-lg-5 text-center text-lg-start section-background-five p-4" id="trainer4">
+
+                <div class="col-12 col-lg-7">
+                    <div>
+                        <p>Image or something</p>
+                    </div>
+                </div>
+                <article class="col-12 col-lg-5 text-center section-background-five p-4" id="trainer4">
                     <h2 class="display-6">Trainer & Pokemon</h2>
                     <p class="lead">Flying & Fire-Breathing</p>
                     <p class="my-4">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ullam maxime laboriosam,
@@ -381,17 +373,45 @@
                         Fugit, laboriosam aperiam. Accusantium,&nbsp;debitis.</p>
                     <a href="classes.html">
                         <button type="button" class="btn btn-light btn-lg">
-                            <h3>Book Fire-Breathing Class</h3>
-                        </button>
-                    </a><br>
-                    <a href="classes.html">
-                        <button type="button" class="btn btn-light btn-lg">
-                            <h3>Book Flying Class</h3>
+                            <h3>Book Class</h3>
                         </button>
                     </a>
                 </article>
-
                 <!-- End of Section -->
+
+                <div class="col-12 text-center section-background-five p-4" id="contact-us">
+                    <h2 class="display-4">Send Us a Message</h2>
+                    <p class="my-4">
+                        If you have any questions, please fill out the form below and we
+                        will get back to you as soon as possible.
+                    </p>
+
+            
+                    <!-- Booking inquiry form section -->
+                    <section id="booking-form">
+                            <div class="col-12">
+                                <!-- had class col-md-8 but justify-content-center wasn't working and was showing on left instead -->
+                                <form action="success.html" method="GET">
+                                    <div class="row">
+                                        <div class="col-12 col-lg-6 mb-3">
+                                            <label for="name" class="form-label"><h3>Name</h3></label>
+                                            <input class="form-control" id="name" name="name" type="text" required>
+                                        </div>
+                                        <div class="col-12 col-lg-6 mb-3">
+                                            <label for="email" class="form-label"><h3>Email</h3></label>
+                                            <input class="form-control" id="email" name="email" type="email" required>
+                                        </div>
+                                        <div class="col-12 mb-3">
+                                            <label for="message" class="form-label"><h3>Message</h3></label>
+                                            <textarea class="form-control" rows="6" id="message" name="message" required></textarea>
+                                        </div>
+                                    </div>
+                                    <button type="button" class="btn btn-light btn-lg">
+                                        <h3>Submit</h3>
+                                    </button>
+                                </form>
+                            </div>
+                    </section>
 
 
             </div>

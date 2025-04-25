@@ -84,6 +84,12 @@ main {
 }
 
 /* Navbar */
+.head-title {
+    margin-bottom: 0;
+    /* not working - why???? */
+    margin-top: 30px;
+}
+
 .edge-background {
     background-image: url(../images/bamboo-background.jpg);
     width: 100%;
@@ -131,9 +137,20 @@ main {
 
 .hero-bubble {
     position: absolute;
-    top: 50vh;
-    left: 0;
+    top: 400px;
+    left: 50px;
     z-index: 1;
+}
+
+/* Main */
+.book-button {
+    background-color: var(--leaf-color);
+    color: white;
+    font-family: var(--heading-font);
+    font-weight: 100;
+    text-transform: uppercase;
+    border-radius: 5px;
+    padding: 10px 20px;
 }
 
 /* Media Queries */
