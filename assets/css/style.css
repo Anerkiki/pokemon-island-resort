@@ -51,13 +51,6 @@ main {
     position: relative;
 }
 
-.dowpdown-menu {
-    background-color: rgba(0, 131, 105, 0.7);
-    border-radius: 5px;
-    padding: 10px;
-}
-/* not working currently */
-
 /* Section Background Colours to choose from */
 .section-background-one {
     background: rgba(207, 165, 129, 0.9);
@@ -79,15 +72,14 @@ main {
 .section-background-five {
     background: rgba(254, 237, 220, 0.9);
     border: solid 10px rgba(207, 165, 129, 0.7);
-    border-radius: 10%;
+    border-radius: 30px;
     /* #CFA581 */
 }
 
 /* Navbar */
 .head-title {
     margin-bottom: 0;
-    /* not working - why???? */
-    margin-top: 30px;
+    padding-top: 15px;
 }
 
 .edge-background {
@@ -105,33 +97,45 @@ main {
 }
 
 /* Navbar Links */
-.navbar .nav-link.text-sand, .navbar .btn.text-sand {
+/* .navbar .nav-link.text-sand,  */
+.navbar .btn.text-sand {
     color: var(--sand-color);
     font-family: var(--heading-font);
     font-weight: 100;
     text-transform: uppercase;
 }
 
-.navbar .nav-link.text-sand.active {
+/* .navbar .nav-link.text-sand.active {
     border-bottom: 4px solid var(--sand-color);
     padding-bottom: 3px;
     margin-bottom: 1px;
-}
+} */
 
 .navbar .btn.text-sand.active {
     text-decoration: underline;
     text-decoration-thickness: 3px;
-/* maybe add less padding/more margin like above but experiment first */
+    text-underline-position: under;
+}
+
+.dropdown-menu {
+    /* background-color: var(--leaf-color); */
+    background-color: rgb(254, 237, 220);
+    border: solid 2px var(--leaf-color);
+    font-family: var(--heading-font);
+}
+
+.dropdown-item {
+    color: var(--leaf-color);
+}
+
+.dropdown-item:hover {
+    background-color: var(--leaf-color);
+    color: var(--sand-color);
 }
 
 /* Hero Image */
 .hero {
     width: 100%;
-    /* height: auto;
-    max-width: 100%;
-    max-height: 100%;
-    margin-top: 20px; */
-    margin-bottom: 0;
     position: relative; 
 }
 
@@ -143,14 +147,9 @@ main {
 }
 
 /* Main */
-.book-button {
+.book-button.btn {
     background-color: var(--leaf-color);
-    color: white;
-    font-family: var(--heading-font);
-    font-weight: 100;
-    text-transform: uppercase;
-    border-radius: 5px;
-    padding: 10px 20px;
+    color: var(--sand-color);
 }
 
 /* Media Queries */
