@@ -20,18 +20,22 @@
 
 /* Global Styles */
 body {
-    background-color: #FFD8B7;
-    background-image: url(../images/beach-background.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
     text-align: center;
     font-family: var(--paragraph-font);
     font-size: 1.2rem;
 }
 
+main {
+    background-color: #FFD8B7;
+    background-image: url(../images/beach-background.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
 h1, h2, h3, h4, h5, h6 {
     font-family: var(--heading-font);
     font-weight: 100;
+    color: var(--leaf-color);
 }
 
 h1 {
@@ -40,12 +44,19 @@ h1 {
 }
 
 p {
-    color: var(--leaf-color);
+    color: black;
 }
 
 main {
     position: relative;
 }
+
+.dowpdown-menu {
+    background-color: rgba(0, 131, 105, 0.7);
+    border-radius: 5px;
+    padding: 10px;
+}
+/* not working currently */
 
 /* Section Background Colours to choose from */
 .section-background-one {
@@ -62,10 +73,18 @@ main {
 
 .section-background-four {
     background: rgba(254, 237, 220, 0.9);
+    border: solid 5px var(--blue-color);
+}
+
+.section-background-five {
+    background: rgba(254, 237, 220, 0.9);
+    border: solid 10px rgba(207, 165, 129, 0.7);
+    border-radius: 10%;
+    /* #CFA581 */
 }
 
 /* Navbar */
-.navheading {
+.edge-background {
     background-image: url(../images/bamboo-background.jpg);
     width: 100%;
 }
@@ -97,6 +116,24 @@ main {
     text-decoration: underline;
     text-decoration-thickness: 3px;
 /* maybe add less padding/more margin like above but experiment first */
+}
+
+/* Hero Image */
+.hero {
+    width: 100%;
+    /* height: auto;
+    max-width: 100%;
+    max-height: 100%;
+    margin-top: 20px; */
+    margin-bottom: 0;
+    position: relative; 
+}
+
+.hero-bubble {
+    position: absolute;
+    top: 50vh;
+    left: 0;
+    z-index: 1;
 }
 
 /* Media Queries */
