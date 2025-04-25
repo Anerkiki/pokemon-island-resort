@@ -120,8 +120,9 @@ main {
 .dropdown-menu {
     /* background-color: var(--leaf-color); */
     background-color: rgb(254, 237, 220);
-    border: solid 2px var(--leaf-color);
+    border: solid 5px var(--leaf-color);
     font-family: var(--heading-font);
+    border-radius: 10px;
 }
 
 .dropdown-item {
