@@ -6,14 +6,18 @@
     --text-color-dark: #84644b; /* rgb(132, 100, 75); */
     --background-color: #ffd8b7; /* rgb(255, 216, 183); -- matches main colour of background image */
 
+    --shell-color: #f3decd; /* rgb(243, 222, 205) */
+
     --lighter-navbar: #feeddc; /* rgb(254, 237, 220); */
     --lighter-background-opaque: rgba(254, 237, 220, 0.9);
 
     --border-color: #cfa581; /* rgb(207, 165, 129); */
     --border-color-opaque: rgba(207, 165, 129, 0.7);
 
-    --shell-color: #f3decd; /* rgb(243, 222, 205) */
+
     --leaf-color: #008769; /* rgb(0, 135, 105) */
+    --leaf-color-opaque: rgba(0, 135, 105, 0.7);
+
     --blue-color: #0096e7; /* rgb(0, 150, 231) */
     --footprint-color: #f8c09b; /*  rgba(248, 192, 155, 0.9) */
 
@@ -64,12 +68,12 @@ h1 {
 }
 
 .layer {
-    background-color: rgba(0, 135, 105, 0.7);
+    background-color: var(--leaf-color-opaque);
 }
 
 .page-title {
     padding-left: 27.8px;
-    color: var(--background-color);
+    color: var(--lighter-navbar);
 }
 
 /* Navbar Links */
