@@ -98,13 +98,16 @@ h1 {
     text-underline-position: under;
 }
 
-/* Navbar Arrows */
+/* Navbar Arrows and Icon */
 .navbar i {
     color: var(--lighter-navbar);
 }
 
-.dropdown-menu {
+.icon-border {
+    border: solid 4px var(--lighter-navbar);
+}
 
+.dropdown-menu {
     background-color: var(--lighter-navbar);
     border: solid 5px var(--leaf-color);
     font-family: var(--font-heading);
