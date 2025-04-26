@@ -37,7 +37,7 @@ main {
     background-image: url(../images/beach-background.jpg);
     background-repeat: no-repeat;
     background-size: cover;
-    position: relative;
+    position: relative; /*burger icon doesn't show without this*/
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -107,6 +107,7 @@ h1 {
     border: solid 4px var(--lighter-navbar);
 }
 
+/* Navbar Dropdowns */
 .dropdown-menu {
     background-color: var(--lighter-navbar);
     border: solid 5px var(--leaf-color);
@@ -149,9 +150,12 @@ h1 {
     border: solid 5px var(--blue-color);
 } */
 
-.book-button.btn {
+.button-primary {
     background-color: var(--leaf-color);
-    color: var(--background-color);
+    color: var(--lighter-navbar);
+    font-family: var(--font-heading);
+    text-transform: uppercase;
+    margin-bottom: 20px;
 }
 /* needs work */
 
