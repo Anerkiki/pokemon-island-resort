@@ -21,9 +21,9 @@
             <h1 class="display-3 head-title">Pokémon Island Resort</h1>
             <nav class="navbar navbar-dark navbar-expand-lg">
                 <div class="container-fluid">
-                    <a class="navbar-brand mx-auto" href="#">
-                        <h2 class="page-title mb-0">Classes</h2>
-                    </a>
+                    <div class="navbar-brand mx-auto">
+                        <h2 class="page-title mb-0 mx-auto">About Us</h2>
+                    </div>
                     <button class="navbar-toggler me-3 border-4 border-sand px-3 py-2 mb-3" type="button"
                         data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
                         aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -31,34 +31,35 @@
                         <!-- fs-4 makes the icon slightly larger -->
                     </button>
                     <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <ul class="navbar-nav me-auto mb-2">
 
                             <div class="btn-group px-1">
                                 <!-- adds padding around sides of buttons -->
                                 <a href="index.html">
                                     <button type="button"
-                                        class="btn bg-transparent border-sand border-4 text-sand">About Us</button>
+                                        class="btn bg-transparent main-links">About Us</button>
                                 </a>
-                                <button type="button" class="btn bg-transparent dropdown-toggle-split"
+                                <button type="button" class="btn bg-transparent dropdown-toggle-split no-border"
                                     data-bs-toggle="dropdown" aria-expanded="false">
-                                    <i class="fa-solid fa-caret-down text-sand"></i>
+                                    <i class="fa-solid fa-caret-down"></i>
                                     <span class="visually-hidden">Toggle Dropdown</span>
                                 </button>
                                 <ul class="dropdown-menu dropdown-menu-right">
                                     <li>
-                                        <a class="dropdown-item text-sand" href="index.html">Home</a>
+                                        <a class="dropdown-item" href="index.html">Home</a>
                                     </li>
                                     <li>
                                         <hr class="dropdown-divider">
                                     </li>
                                     <li>
-                                        <a class="dropdown-item text-sand" href="index.html#our-island">Our Island</a>
+                                        <a class="dropdown-item" href="index.html#our-island">Our Island</a>
                                     </li>
                                     <li>
-                                        <a class="dropdown-item text-sand" href="index.html#our-trainers">Our Trainers</a>
+                                        <a class="dropdown-item" href="index.html#our-trainers">Our
+                                            Trainers</a>
                                     </li>
                                     <li>
-                                        <a class="dropdown-item text-sand" href="index.html#contact-us">Contact</a>
+                                        <a class="dropdown-item" href="index.html#contact-us">Contact</a>
                                     </li>
                                 </ul>
                             </div>
@@ -66,17 +67,17 @@
                             <div class="btn-group px-1">
                                 <!-- adds padding around sides of buttons -->
                                 <a href="index.html#our-trainers">
-                                    <button type="button"
-                                        class="btn bg-transparent border-sand border-4 text-sand">Our Trainers</button>
+                                    <button type="button" class="btn bg-transparent main-links">Our
+                                        Trainers</button>
                                 </a>
-                                <button type="button" class="btn bg-transparent dropdown-toggle-split"
+                                <button type="button" class="btn bg-transparent dropdown-toggle-split no-border"
                                     data-bs-toggle="dropdown" aria-expanded="false">
                                     <i class="fa-solid fa-caret-down text-sand"></i>
                                     <span class="visually-hidden">Toggle Dropdown</span>
                                 </button>
                                 <ul class="dropdown-menu dropdown-menu-right">
                                     <li>
-                                        <a class="dropdown-item text-sand" href="index.html#our-trainers">View All</a>
+                                        <a class="dropdown-item text-sand" href="index.html#trainers">View All</a>
                                     </li>
                                     <li>
                                         <hr class="dropdown-divider">
@@ -96,68 +97,70 @@
                                 </ul>
                             </div>
                         </ul>
-                    <!-- Start of right navbar items -->
+
+                        <!-- Start of right navbar items -->
                         <ul class="navbar-nav me-auto me-2 me-lg-0">
-                            <!-- DELETE -->
+                            <!-- do I need this? Works without -->
+
+                            <!-- split button - book a room -->
+                            <div class="btn-group px-1">
+                                <a href="rooms.html">
+                                    <button type="button" class="btn bg-transparent main-links">
+                                        Book a Room</button>
+                                </a>
+                                <button type="button" class="btn bg-transparent dropdown-toggle-split no-border"
+                                    data-bs-toggle="dropdown" aria-expanded="false">
+                                    <i class="fa-solid fa-caret-down text-sand"></i>
+                                    <span class="visually-hidden">Toggle Dropdown</span>
+                                </button>
+                                <ul class="dropdown-menu dropdown-menu-right">
+                                    <li><a class="dropdown-item text-sand" href="#">View All</a></li>
+                                    <li>
+                                        <hr class="dropdown-divider">
+                                    </li>
+                                    <li><a class="dropdown-item" href="#">Sea View</a></li>
+                                    <li><a class="dropdown-item" href="#">Arena View</a></li>
+                                    <li><a class="dropdown-item" href="#">Garden View</a></li>
+                                </ul>
+                            </div>
+
+                            <!-- split button - book a class -->
+                            <div class="btn-group px-1">
+                                <!-- adds padding around sides of buttons -->
+                                <a href="classes.html">
+                                    <button type="button" class="btn bg-transparent main-links active"
+                                    aria-current="page">
+                                        Book a Class
+                                    </button>
+                                </a>
+                                <button type="button" class="btn bg-transparent dropdown-toggle-split no-border"
+                                    data-bs-toggle="dropdown" aria-expanded="false">
+                                    <i class="fa-solid fa-caret-down"></i>
+                                    <span class="visually-hidden">Toggle Dropdown</span>
+                                </button>
+                                <ul class="dropdown-menu dropdown-menu-right">
+                                    <li>
+                                        <a class="dropdown-item" href="classes.html">View All</a>
+                                    </li>
+                                    <li>
+                                        <hr class="dropdown-divider">
+                                    </li>
+                                    <li>
+                                        <a class="dropdown-item" href="classes.html">Lapras | Ocean Riding</a>
+                                    </li>
+                                    <li>
+                                        <a class="dropdown-item" href="classes.html">Charizard | Flying</a>
+                                    </li>
+                                    <li>
+                                        <a class="dropdown-item" href="classes.html">Squirtle | Snorkeling</a>
+                                    </li>
+                                    <li>
+                                        <a class="dropdown-item" href="classes.html">Charizard |
+                                            Fire-Breathing</a>
+                                    </li>
+                                </ul>
+                            </div>
                         </ul>
-
-                        <!-- split button - book a room -->
-                        <div class="btn-group px-1">
-                            <a href="rooms.html">
-                                <button type="button"
-                                    class="btn bg-transparent border-sand border-4 text-sand">Book a Room</button>
-                            </a>
-                            <button type="button" class="btn bg-transparent dropdown-toggle-split"
-                                data-bs-toggle="dropdown" aria-expanded="false">
-                                <i class="fa-solid fa-caret-down text-sand"></i>
-                                <span class="visually-hidden">Toggle Dropdown</span>
-                            </button>
-                            <ul class="dropdown-menu dropdown-menu-right">
-                                <li><a class="dropdown-item text-sand" href="#">View All</a></li>
-                                <li>
-                                    <hr class="dropdown-divider">
-                                </li>
-                                <li><a class="dropdown-item text-sand" href="#">Sea View</a></li>
-                                <li><a class="dropdown-item text-sand" href="#">Arena View</a></li>
-                                <li><a class="dropdown-item text-sand" href="#">Garden View</a></li>
-                            </ul>
-                        </div>
-
-                        <!-- split button - book a class -->
-                        <div class="btn-group px-1">
-                            <!-- adds padding around sides of buttons -->
-                            <a href="classes.html">
-                                <button type="button"
-                                    class="btn bg-transparent border-sand border-4 text-sand active" aria-current="page">Book a Class</button>
-                            </a>
-                            <button type="button" class="btn bg-transparent dropdown-toggle-split"
-                                data-bs-toggle="dropdown" aria-expanded="false">
-                                <i class="fa-solid fa-caret-down text-sand"></i>
-                                <span class="visually-hidden">Toggle Dropdown</span>
-                            </button>
-                            <ul class="dropdown-menu dropdown-menu-right">
-                                <li>
-                                    <a class="dropdown-item text-sand" href="classes.html">View All</a>
-                                </li>
-                                <li>
-                                    <hr class="dropdown-divider">
-                                </li>
-                                <li>
-                                    <a class="dropdown-item text-sand" href="classes.html">Lapras | Ocean Riding</a>
-                                </li>
-                                <li>
-                                    <a class="dropdown-item text-sand" href="classes.html">Charizard | Flying</a>
-                                </li>
-                                <li>
-                                    <a class="dropdown-item text-sand" href="classes.html">Squirtle | Snorkeling</a>
-                                </li>
-                                <li>
-                                    <a class="dropdown-item text-sand" href="classes.html">Charizard |
-                                        Fire-Breathing</a>
-                                </li>
-                            </ul>
-                        </div>
-
                     </div>
                 </div>
             </nav>
