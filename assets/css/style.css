@@ -3,11 +3,20 @@
 :root {
     --heading-font: 'Skranji', cursive;
     --paragraph-font: 'Roboto', sans-serif;
-    --main-color: #B86F52;
-    /* rgb(184, 111, 82) */
-    --sand-color: wheat;
+    --background-color: #FFD8B7; /* matching main colour of background image */
+    --shell-color-light: #feeddc; /* from shells in background image */
+    --shell-color: #f3decd; /* from darker spots on shells in background image */
+
+    --sand-color: #FFD8B7; /* from darker spots on shells in background image */
+
+    --darker-beige: #cfa581;
+    --other-beige: #deb18c;
     --leaf-color: #008769;
+    /* rgb(0, 135, 105) */
     --blue-color: #0096E7;
+    /* rgb(0, 150, 231); */
+
+    --bs-primary: 
 }
 
 .text-sand {
@@ -26,7 +35,7 @@ body {
 }
 
 main {
-    background-color: #FFD8B7;
+    background-color: var(--background-color);
     background-image: url(../images/beach-background.jpg);
     background-repeat: no-repeat;
     background-size: cover;
@@ -88,12 +97,12 @@ main {
 }
 
 .layer {
-    background-color: rgba(0, 131, 105, 0.7);
+    background-color: rgba(0, 135, 105, 0.7);
 }
 
 .page-title {
     padding-left: 27.8px;
-    color: wheat;
+    color: var(--sand-color);
 }
 
 /* Navbar Links */
