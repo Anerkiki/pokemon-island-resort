@@ -87,6 +87,7 @@ h1 {
     font-weight: 100;
     text-transform: uppercase;
     border: solid 4px var(--lighter-navbar);
+    font-size: 1.1rem;
 }
 
 .navbar .btn.main-links:hover {
@@ -167,6 +168,8 @@ h1 {
     font-family: var(--font-heading);
     text-transform: uppercase;
     margin-bottom: 20px;
+    border: solid 6px rgba(207, 165, 129, 0.9);
+    border-radius: 15px;
 }
 /* needs work */
 
