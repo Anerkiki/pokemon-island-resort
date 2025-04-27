@@ -28,8 +28,12 @@
 body {
     text-align: center;
     font-family: var(--font-paragraph);
+    background-color: var(--background-color);
     font-size: 1.2rem;
     color: var(--text-color-dark);
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
 }
 
 main {
@@ -38,6 +42,7 @@ main {
     background-repeat: no-repeat;
     background-size: cover;
     position: relative; /*burger icon doesn't show without this*/
+    width: 100%;
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -64,7 +69,6 @@ h1 {
 .edge-background {
     background-image: url(../images/bamboo-background.jpg);
     width: 100%;
-    border-bottom: solid 10px var(--background-color);
 }
 
 .layer {
@@ -126,14 +130,21 @@ h1 {
 
 /* Hero Image */
 .hero {
-    width: 100%;
     position: relative;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}   
+
+.hero img {
+    width: 100%;
 }
 
 .hero-bubble {
     position: absolute;
-    top: 400px;
-    left: 50px;
+    top: 30%;
+    left: 5%;
+    padding: 50px;
     z-index: 1;
 }
 /* needs work */
@@ -152,7 +163,7 @@ h1 {
 
 .button-primary {
     background-color: var(--leaf-color);
-    color: var(--lighter-navbar);
+    color: var(--background-color);
     font-family: var(--font-heading);
     text-transform: uppercase;
     margin-bottom: 20px;
@@ -164,4 +175,10 @@ h1 {
     .page-title {
         display: none;
     }       /* when navbar links are visible this makes the page title hidden */
+}
+
+@media (max-width: 991px) {
+    .hero-bubble {
+        padding: 20px;
+    }
 }
