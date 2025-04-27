@@ -47,7 +47,11 @@ main {
 
 h1, h2, h3, h4, h5, h6 {
     font-family: var(--font-heading);
-    font-weight: 100;
+    color: var(--leaf-color);
+}
+
+.form-label {
+    font-family: var(--font-heading);
     color: var(--leaf-color);
 }
 
@@ -64,6 +68,7 @@ h1 {
 .head-title {
     margin-bottom: 0;
     padding-top: 15px;
+    /* might remove this when working on universal page spacing */
 }
 
 .edge-background {
