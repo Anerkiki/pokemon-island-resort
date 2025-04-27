@@ -151,6 +151,14 @@ h1 {
 /* needs work */
 
 /* Main */
+.title-bubble {
+    margin-bottom: 20px;
+}
+
+.title-bubble-text {
+    padding: 15px;
+}
+
 .floating-section {
     background-color: var(--lighter-background-opaque);
     border: solid 10px var(--border-color-opaque);
