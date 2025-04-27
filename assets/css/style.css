@@ -6,7 +6,9 @@
     --text-color-dark: #84644b; /* rgb(132, 100, 75); */
     --background-color: #ffd8b7; /* rgb(255, 216, 183); -- matches main colour of background image */
 
-    --shell-color: #f3decd; /* rgb(243, 222, 205) */
+    --background-color-light: #FFDFC3; /* rgb(255, 223, 195); */
+
+    --highlight-navbar: #FFE3CA; /* rgb(255, 227, 202); */
 
     --highlight-color: #feeddc; /* rgb(254, 237, 220); */
     --highlight-color-opaque: rgba(254, 237, 220, 0.9);
@@ -14,12 +16,13 @@
     --border-color: #cfa581; /* rgb(207, 165, 129); */
     --border-color-opaque: rgba(207, 165, 129, 0.7);
 
-
     --leaf-color: #008769; /* rgb(0, 135, 105) */
     --leaf-color-opaque: rgba(0, 135, 105, 0.7);
 
     --blue-color: #0096e7; /* rgb(0, 150, 231) */
     --footprint-color: #f8c09b; /*  rgba(248, 192, 155, 0.9) */
+
+    --shell-color: #f3decd; /* rgb(243, 222, 205) */
 
     --other-beige: #deb18c;
 }
@@ -90,7 +93,7 @@ h1 {
 
 .page-title {
     padding-left: 27.8px;
-    color: var(--highlight-color);
+    color: var(--background-color);
 }
 
 /* Navbar Links */
@@ -105,9 +108,9 @@ h1 {
 
 .navbar .btn.main-links:hover {
     background-color: var(--shell-color);
-    color: var(--highlight-color);
+    color: var(--highlight-navbar);
     font-family: var(--font-heading);
-    border: solid 4px var(--highlight-color);
+    border: solid 4px var(--highlight-navbar);
 }
 
 .navbar .btn.active {
@@ -122,16 +125,20 @@ h1 {
 }
 
 .navbar i:hover {
-    color: var(--highlight-color);
+    color: var(--highlight-navbar);
 }
 
 .icon-border {
-    border: solid 4px var(--highlight-color);
+    border: solid 4px var(--background-color);
+}
+
+.icon-border:hover {
+    border: solid 4px var(--highlight-navbar);
 }
 
 /* Navbar Dropdowns */
 .dropdown-menu {
-    background-color: var(--highlight-color);
+    background-color: var(--highlight-navbar);
     border: solid 5px var(--leaf-color);
     font-family: var(--font-heading);
     border-radius: 10px;
@@ -143,7 +150,7 @@ h1 {
 
 .dropdown-item:hover {
     background-color: var(--leaf-color);
-    color: var(--highlight-color);
+    color: var(--highlight-navbar);
 }
 
 /* Hero Image */
@@ -190,7 +197,7 @@ h1 {
 
 .button-primary {
     background-color: var(--leaf-color);
-    color: var(--background-color);
+    color: var(--background-color-light);
     font-family: var(--font-heading);
     text-transform: uppercase;
     margin-bottom: 20px;
