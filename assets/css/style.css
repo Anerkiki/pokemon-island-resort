@@ -181,6 +181,10 @@ h1 {
 }
 
 @media (max-width: 991px) {
+    .main-page-title {
+        display: none;
+    }
+
     .hero-bubble {
         padding: 20px;
     }
