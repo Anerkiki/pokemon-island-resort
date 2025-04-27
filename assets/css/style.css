@@ -8,8 +8,8 @@
 
     --shell-color: #f3decd; /* rgb(243, 222, 205) */
 
-    --lighter-navbar: #feeddc; /* rgb(254, 237, 220); */
-    --lighter-background-opaque: rgba(254, 237, 220, 0.9);
+    --highlight-color: #feeddc; /* rgb(254, 237, 220); */
+    --highlight-color-opaque: rgba(254, 237, 220, 0.9);
 
     --border-color: #cfa581; /* rgb(207, 165, 129); */
     --border-color-opaque: rgba(207, 165, 129, 0.7);
@@ -41,8 +41,9 @@ main {
     background-image: url(../images/beach-background.jpg);
     background-repeat: no-repeat;
     background-size: cover;
-    position: relative; /*burger icon doesn't show without this*/
+    position: relative; /* burger icon doesn't show without this */
     width: 100%;
+    margin-top: 170.94px; /* this is the height of the navbar */;
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -64,13 +65,7 @@ h1 {
     border: none;
 }
 
-/* Navbar */
-.head-title {
-    margin-bottom: 0;
-    padding-top: 15px;
-    /* might remove this when working on universal page spacing */
-}
-
+/* Header and Footer */
 .edge-background {
     background-image: url(../images/bamboo-background.jpg);
     width: 100%;
@@ -80,26 +75,39 @@ h1 {
     background-color: var(--leaf-color-opaque);
 }
 
+/* Navbar */
+.head-nav {
+    position: fixed;
+    border-bottom: solid 10px var(--border-color);
+    z-index: 2;
+}
+
+.head-title {
+    margin-bottom: 0;
+    padding-top: 15px;
+    /* might remove this when working on universal page spacing */
+}
+
 .page-title {
     padding-left: 27.8px;
-    color: var(--lighter-navbar);
+    color: var(--highlight-color);
 }
 
 /* Navbar Links */
 .navbar .btn.main-links {
-    color: var(--lighter-navbar);
+    color: var(--background-color);
     font-family: var(--font-heading);
     font-weight: 100;
     text-transform: uppercase;
-    border: solid 4px var(--lighter-navbar);
+    border: solid 4px var(--background-color);
     font-size: 1.1rem;
 }
 
 .navbar .btn.main-links:hover {
     background-color: var(--shell-color);
-    color: var(--background-color);
+    color: var(--highlight-color);
     font-family: var(--font-heading);
-    border: solid 4px var(--background-color);
+    border: solid 4px var(--highlight-color);
 }
 
 .navbar .btn.active {
@@ -110,16 +118,20 @@ h1 {
 
 /* Navbar Arrows and Icon */
 .navbar i {
-    color: var(--lighter-navbar);
+    color: var(--background-color);
+}
+
+.navbar i:hover {
+    color: var(--highlight-color);
 }
 
 .icon-border {
-    border: solid 4px var(--lighter-navbar);
+    border: solid 4px var(--highlight-color);
 }
 
 /* Navbar Dropdowns */
 .dropdown-menu {
-    background-color: var(--lighter-navbar);
+    background-color: var(--highlight-color);
     border: solid 5px var(--leaf-color);
     font-family: var(--font-heading);
     border-radius: 10px;
@@ -131,7 +143,7 @@ h1 {
 
 .dropdown-item:hover {
     background-color: var(--leaf-color);
-    color: var(--lighter-navbar);
+    color: var(--highlight-color);
 }
 
 /* Hero Image */
@@ -158,6 +170,7 @@ h1 {
 /* Main */
 .title-bubble {
     margin-bottom: 20px;
+    /* change this to be universal 20px gap in between everything on all page, and add margin-top: 0; to just this class */
 }
 
 .title-bubble-text {
@@ -165,13 +178,13 @@ h1 {
 }
 
 .floating-section {
-    background-color: var(--lighter-background-opaque);
+    background-color: var(--highlight-color-opaque);
     border: solid 10px var(--border-color-opaque);
     border-radius: 30px;
 }
 
 /* .floating-section-secondary {
-    background-color: var(--lighter-background-opaque);
+    background-color: var(--highlight-color-opaque);
     border: solid 5px var(--blue-color);
 } */
 
