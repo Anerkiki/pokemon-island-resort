@@ -1,0 +1,270 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pokémon Island Resort | Classes</title>
+    <!--Bootstrap CSS link-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <!-- Custom CSS Stylesheet -->
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="icon" type="image/x-icon" href="assets/images/palm.ico">
+</head>
+
+<body>
+
+    <!-- Navigation and Title Section -->
+    <section class="edge-background head-nav">
+        <div class="layer">
+            <h1 class="display-3 head-title">Pokémon Island Resort</h1>
+            <nav class="navbar navbar-dark navbar-expand-md">
+                <div class="container-fluid">
+                    <div class="navbar-brand mx-auto">
+                        <h2 class="page-title mb-0 mx-auto">Rooms</h2>
+                    </div>
+                    <button class="navbar-toggler me-3 px-3 py-2 mb-3 icon-border" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                        aria-expanded="false" aria-label="Toggle navigation">
+                        <i class="fa-solid fa-bars fs-4"></i>
+                        <!-- fs-4 makes the icon slightly larger -->
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                        <ul class="navbar-nav me-auto mb-2">
+                            <!-- need to change this so no divs in uls? doesn't work without -->
+
+                            <div class="btn-group px-1">
+                                <!-- adds padding around sides of buttons -->
+                                <a href="index.html" class="btn bg-transparent main-links">About Us</a>
+                                <button type="button" class="btn bg-transparent dropdown-toggle-split no-border"
+                                    data-bs-toggle="dropdown" aria-expanded="false">
+                                    <i class="fa-solid fa-caret-down"></i>
+                                    <span class="visually-hidden">Toggle Dropdown</span>
+                                </button>
+                                <ul class="dropdown-menu dropdown-menu-right">
+                                    <li>
+                                        <a class="dropdown-item" href="index.html">Home</a>
+                                    </li>
+                                    <li>
+                                        <hr class="dropdown-divider">
+                                    </li>
+                                    <li>
+                                        <a class="dropdown-item" href="index.html#our-island">Our Island</a>
+                                    </li>
+                                    <li>
+                                        <hr class="dropdown-divider">
+                                    </li>
+                                    <li>
+                                        <a class="dropdown-item" href="index.html#our-trainers">Our
+                                            Trainers</a>
+                                    </li>
+                                    <li>
+                                        <hr class="dropdown-divider">
+                                    </li>
+                                    <li>
+                                        <a class="dropdown-item" href="index.html#contact-us">Contact</a>
+                                    </li>
+                                </ul>
+                            </div>
+
+                            <div class="btn-group px-1">
+                                <!-- adds padding around sides of buttons -->
+                                <a href="index.html#our-trainers" class="btn bg-transparent main-links">
+                                    Our Trainers</a>
+                                <button type="button" class="btn bg-transparent dropdown-toggle-split no-border"
+                                    data-bs-toggle="dropdown" aria-expanded="false">
+                                    <i class="fa-solid fa-caret-down"></i>
+                                    <span class="visually-hidden">Toggle Dropdown</span>
+                                </button>
+                                <ul class="dropdown-menu dropdown-menu-right">
+                                    <li>
+                                        <a class="dropdown-item" href="index.html#trainer1">Trainer 1</a>
+                                    </li>
+                                    <li>
+                                        <hr class="dropdown-divider">
+                                    </li>
+                                    <li>
+                                        <a class="dropdown-item" href="index.html#trainer2">Trainer 2</a>
+                                    </li>
+                                    <li>
+                                        <hr class="dropdown-divider">
+                                    </li>
+                                    <li>
+                                        <a class="dropdown-item" href="index.html#trainer3">Trainer 3</a>
+                                    </li>
+                                    <li>
+                                        <hr class="dropdown-divider">
+                                    </li>
+                                    <li>
+                                        <a class="dropdown-item" href="index.html#trainer4">Trainer 4</a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </ul>
+
+                        <!-- Start of right navbar items -->
+                        <ul class="navbar-nav me-auto me-2 me-md-0">
+                            <!-- do I need this? Works without -->
+
+                            <!-- split button - book a room -->
+                            <div class="btn-group px-1 disappear-tablet">
+                                <a href="rooms.html" class="btn bg-transparent main-links active" aria-current="page">
+                                    Book a Room</a>
+                                <button type="button" class="btn bg-transparent dropdown-toggle-split no-border"
+                                    data-bs-toggle="dropdown" aria-expanded="false">
+                                    <i class="fa-solid fa-caret-down"></i>
+                                    <span class="visually-hidden">Toggle Dropdown</span>
+                                </button>
+                                <ul class="dropdown-menu dropdown-menu-end">
+                                    <li><a class="dropdown-item" href="#">Sea View</a></li>
+                                    <li>
+                                        <hr class="dropdown-divider">
+                                    </li>
+                                    <li><a class="dropdown-item" href="#">Mountain View</a></li>
+                                    <li>
+                                        <hr class="dropdown-divider">
+                                    </li>
+                                    <li><a class="dropdown-item" href="#">Arena View</a></li>
+                                    <li>
+                                        <hr class="dropdown-divider">
+                                    </li>
+                                    <li><a class="dropdown-item" href="#">Garden View</a></li>
+                                </ul>
+                            </div>
+
+                            <!-- split button - book a class -->
+                            <div class="btn-group px-1 disappear-tablet">
+                                <!-- adds padding around sides of buttons -->
+                                <a href="classes.html" class="btn bg-transparent main-links">
+                                    Book a Class</a>
+                                <button type="button" class="btn bg-transparent dropdown-toggle-split no-border"
+                                    data-bs-toggle="dropdown" aria-expanded="false">
+                                    <i class="fa-solid fa-caret-down"></i>
+                                    <span class="visually-hidden">Toggle Dropdown</span>
+                                </button>
+                                <ul class="dropdown-menu dropdown-menu-end">
+                                    <li>
+                                        <a class="dropdown-item" href="classes.html">Lapras | Ocean Riding</a>
+                                    </li>
+                                    <li>
+                                        <hr class="dropdown-divider">
+                                    </li>
+                                    <li>
+                                        <a class="dropdown-item" href="classes.html">Charizard | Flying</a>
+                                    </li>
+                                    <li>
+                                        <hr class="dropdown-divider">
+                                    </li>
+                                    <li>
+                                        <a class="dropdown-item" href="classes.html">Squirtle | Snorkeling</a>
+                                    </li>
+                                    <li>
+                                        <hr class="dropdown-divider">
+                                    </li>
+                                    <li>
+                                        <a class="dropdown-item" href="classes.html">Charizard |
+                                            Fire-Breathing</a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+        </div>
+    </section>
+    <!-- End of Navigation and Title Section -->
+
+    <main class="mx-auto">
+        <section class="container m-4 mx-auto">
+            <div class="row justify-content-center">
+
+                <!-- Rooms -->
+                <div class="col-12 text-center main-page-title title-bubble">
+                    <h2 class="display-4 floating-section title-bubble-text">Rooms</h2>
+                </div>
+
+
+                <article class="col-12 col-lg-5 text-center text-lg-start floating-section p-4">
+                    <h2 class="display-6">Room 1</h2>
+                    <p class="lead">Our resort is nice!</p>
+                    <p class="my-4">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ullam maxime laboriosam,
+                        quae dolores voluptate nisi sed cumque cupiditate tenetur veniam beatae magnam iure. Quo, nam?
+                        Fugit, laboriosam aperiam. Accusantium,&nbsp;debitis.</p>
+                </article>
+                <div class="col-12 col-lg-7">
+                    <div>
+                        <p>Image or something</p>
+                    </div>
+                </div>
+
+                <div class="col-12 col-lg-7">
+                    <div>
+                        <p>Image or something</p>
+                    </div>
+                </div>
+                <article class="col-12 col-lg-5 text-center text-lg-start floating-section p-4">
+                    <h2 class="display-6">Room 2</h2>
+                    <p class="lead">Our resort is nice!</p>
+                    <p class="my-4">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ullam maxime laboriosam,
+                        quae dolores voluptate nisi sed cumque cupiditate tenetur veniam beatae magnam iure. Quo, nam?
+                        Fugit, laboriosam aperiam. Accusantium,&nbsp;debitis.</p>
+                </article>
+
+                <section class="container m-4 mx-auto">
+                    <div class="row">
+                        <article class="col-12 col-lg-5 text-center text-lg-start floating-section p-4">
+                            <h2 class="display-6">Room 3</h2>
+                            <p class="lead">Our resort is nice!</p>
+                            <p class="my-4">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ullam maxime
+                                laboriosam,
+                                quae dolores voluptate nisi sed cumque cupiditate tenetur veniam beatae magnam iure.
+                                Quo, nam?
+                                Fugit, laboriosam aperiam. Accusantium,&nbsp;debitis.</p>
+                        </article>
+                        <div class="col-12 col-lg-7">
+                            <div>
+                                <p>Image or something</p>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+
+                <section class="container m-4 mx-auto">
+                    <div class="row">
+                        <div class="col-12 col-lg-7">
+                            <div>
+                                <p>Image or something</p>
+                            </div>
+                        </div>
+                        <article class="col-12 col-lg-5 text-center text-lg-start floating-section p-4">
+                            <h2 class="display-6">Room 4</h2>
+                            <p class="lead">Our resort is nice!</p>
+                            <p class="my-4">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ullam maxime
+                                laboriosam,
+                                quae dolores voluptate nisi sed cumque cupiditate tenetur veniam beatae magnam iure.
+                                Quo, nam?
+                                Fugit, laboriosam aperiam. Accusantium,&nbsp;debitis.</p>
+                        </article>
+                    </div>
+                </section>
+
+
+            </div>
+        </section>
+    </main>
+
+    <footer class="edge-background">
+        <div class="layer">Footer</div>
+    </footer>
+
+    <!--Bootstrap JS Script-->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+        crossorigin="anonymous"></script>
+    <!-- Font Awesome Kit -->
+    <script src="https://kit.fontawesome.com/965ed0e330.js" crossorigin="anonymous"></script>
+</body>
+
+</html>
