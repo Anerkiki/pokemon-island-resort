@@ -219,6 +219,12 @@ h1 {
     }       /* when navbar links are visible this makes the page title hidden */
 }
 
+@media (max-width: 425px) {
+    .hero-bubble {
+        padding: 20px;
+    }
+}
+
 @media (max-width: 768px) {
     .main-page-title {
         display: none;
@@ -229,8 +235,14 @@ h1 {
     }
 }
 
+@media (max-width: 1024px) {
+    .hero-bubble {
+        padding: 20px;
+    }
+}
+
 .disappear-tablet {
-    @media (max-width: 768px) {
+    @media (max-width: 767px) {
         display: none;
     }
 }
