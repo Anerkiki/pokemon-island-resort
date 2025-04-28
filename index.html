@@ -178,7 +178,16 @@
 
     <main class="mx-auto">
         <section class="hero">
-            <img src="assets/images/island.jpeg" alt="Lots of trainers and pokemon enjoying the island">
+
+            <picture>
+            <source srcset="assets/images/hero-mobile.jpg"
+                media="(max-width: 425px)">
+            <source srcset="assets/images/hero-tablet.jpg"
+                media="(max-width: 768px)">
+            <img src="assets/images/island.jpeg"
+                alt="Lots of trainers and pokemon enjoying the island">
+            </picture>
+
             <article class="hero-bubble text-center floating-section">
                 <h2 class="disply-6">Welcome!</h2>
                 <p class="lead">A slice of paradise</p>
