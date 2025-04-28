@@ -204,7 +204,13 @@ h1 {
     border: solid 6px rgba(207, 165, 129, 0.9);
     border-radius: 15px;
 }
-/* needs work */
+
+.button-primary:hover {
+    background-color: var(--highlight-color-opaque);
+    color: var(--text-color-dark);
+    font-family: var(--font-heading);
+    border-color: var(--border-color);
+}
 
 /* Media Queries */
 @media (min-width: 992px) {
