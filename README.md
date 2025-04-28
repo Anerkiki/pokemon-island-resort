@@ -41,7 +41,7 @@ https://www.google.com/imgres?q=pokemon%20beach%20portrait&imgurl=https%3A%2F%2F
 
 https://www.google.com/imgres?q=pokemon%20beach%20portrait&imgurl=https%3A%2F%2Fwww.dexerto.com%2Fcdn-image%2Fwp-content%2Fuploads%2F2024%2F03%2F09%2FSeason_of_Alola_loading_screen.jpg%3Fwidth%3D1200%26quality%3D75%26format%3Dauto&imgrefurl=https%3A%2F%2Fwww.dexerto.com%2Fpokemon%2Fevery-pokemon-go-loading-screen-ever-released-2567317%2F&docid=XHUiiZ3_xZ8nnM&tbnid=nByzU-bgUxCbvM&vet=12ahUKEwjJ6u3hzfuMAxXwgP0HHfIaArcQM3oECBIQAA..i&w=521&h=1024&hcb=2&itg=1&ved=2ahUKEwjJ6u3hzfuMAxXwgP0HHfIaArcQM3oECBIQAA
 
-
+Other Options: (probably don't include)
 https://uk.pinterest.com/pin/156851999511116852/
 
 https://www.google.com/imgres?imgurl=https%3A%2F%2Fimages-wixmp-ed30a86b8c4ca887773594c2.wixmp.com%2Ff%2F2a860bb0-1d61-4ac2-b998-cc9196e003be%2Fd9f83mi-01051827-b100-48e0-98a7-529af72f4bfb.jpg%3Ftoken%3DeyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7InBhdGgiOiJcL2ZcLzJhODYwYmIwLTFkNjEtNGFjMi1iOTk4LWNjOTE5NmUwMDNiZVwvZDlmODNtaS0wMTA1MTgyNy1iMTAwLTQ4ZTAtOThhNy01MjlhZjcyZjRiZmIuanBnIn1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmZpbGUuZG93bmxvYWQiXX0.6vwd2ajlxHCOSTAKp4dxyd8P4eYZ9SfwXx39WTfzgpo&tbnid=MunSQVqAnfMm2M&vet=12ahUKEwi42_O2yfuMAxVGakEAHSRxNS4QxiAoB3oECAAQJw..i&imgrefurl=https%3A%2F%2Fwww.deviantart.com%2Farkeis-pokemon%2Fart%2FEvening-at-the-Beach-569767770&docid=CpkmNdkSjXd5yM&w=708&h=962&itg=1&q=pokemon%20beach%20portrait&ved=2ahUKEwi42_O2yfuMAxVGakEAHSRxNS4QxiAoB3oECAAQJw

@@ -213,18 +213,24 @@ h1 {
 }
 
 /* Media Queries */
-@media (min-width: 992px) {
+@media (min-width: 768px) {
     .page-title {
         display: none;
     }       /* when navbar links are visible this makes the page title hidden */
 }
 
-@media (max-width: 991px) {
+@media (max-width: 768px) {
     .main-page-title {
         display: none;
     }
-
+    
     .hero-bubble {
         padding: 20px;
+    }
+}
+
+.disappear-tablet {
+    @media (max-width: 768px) {
+        display: none;
     }
 }
