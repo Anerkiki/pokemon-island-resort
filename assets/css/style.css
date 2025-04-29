@@ -46,7 +46,7 @@ main {
     background-size: cover;
     position: relative; /* burger icon doesn't show without this */
     width: 100%;
-    margin-top: 170.94px; /* this is the height of the navbar */;
+    margin-top: 170.94px; /* this needs changing to media queries for the different navbar breakpoints to combine with header height */
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -163,6 +163,8 @@ h1 {
 
 .hero img {
     width: 100%;
+    height: 100%;
+    object-fit: cover;
 }
 
 .hero-bubble {
@@ -219,6 +221,7 @@ h1 {
     .page-title {
         display: none;
     }       /* when navbar links are visible this makes the page title hidden */
+    /* change this to a bootstrap media query */
 }
 
 @media (max-width: 425px) {
@@ -234,10 +237,6 @@ h1 {
 @media (max-width: 768px) {
     .hero-bubble {
         padding: 20px;
-    }
-
-    .disappear-tablet {
-        display: none;
     }
 }
 
