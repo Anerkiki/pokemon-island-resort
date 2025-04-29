@@ -31,7 +31,8 @@
                         <!-- fs-4 makes the icon slightly larger -->
                     </button>
                     <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                        <ul class="navbar-nav me-auto mb-2">
+                        <!-- left navbar buttons -->
+                        <div class="navbar-nav me-auto mb-2 gap-2">
                             <!-- need to change this so no divs in uls? doesn't work without -->
 
                             <div class="btn-group px-1">
@@ -101,14 +102,14 @@
                                     </li>
                                 </ul>
                             </div>
-                        </ul>
+                        </div>
 
-                        <!-- Start of right navbar items -->
-                        <ul class="navbar-nav me-auto me-2 me-md-0">
+                        <!-- right navbar items -->
+                        <div class="navbar-nav me-auto me-2 me-md-0 gap-2">
                             <!-- do I need this? Works without -->
 
                             <!-- split button - book a room -->
-                            <div class="btn-group px-1 disappear-tablet">
+                            <div class="btn-group px-1 d-none d-md-block">
                                 <a href="rooms.html" class="btn bg-transparent main-links active" aria-current="page">
                                     Book a Room</a>
                                 <button type="button" class="btn bg-transparent dropdown-toggle-split no-border"
@@ -134,7 +135,7 @@
                             </div>
 
                             <!-- split button - book a class -->
-                            <div class="btn-group px-1 disappear-tablet">
+                            <div class="btn-group px-1">
                                 <!-- adds padding around sides of buttons -->
                                 <a href="classes.html" class="btn bg-transparent main-links">
                                     Book a Class</a>
@@ -168,7 +169,7 @@
                                     </li>
                                 </ul>
                             </div>
-                        </ul>
+                        </div>
                     </div>
                 </div>
             </nav>
