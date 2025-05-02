@@ -6,9 +6,9 @@
     --text-color-dark: #84644b; /* rgb(132, 100, 75); */
     --background-color: #ffd8b7; /* rgb(255, 216, 183); -- matches main colour of background image */
 
-    --background-color-light: #FFDFC3; /* rgb(255, 223, 195); */
+    --background-color-light: #ffdfc3; /* rgb(255, 223, 195); */
 
-    --highlight-navbar: #FFE3CA; /* rgb(255, 227, 202); */
+    --highlight-navbar: #ffe3ca; /* rgb(255, 227, 202); */
 
     --highlight-color: #feeddc; /* rgb(254, 237, 220); */
     --highlight-color-opaque: rgba(254, 237, 220, 0.9);
