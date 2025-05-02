@@ -229,14 +229,6 @@ h1 {
     border-color: var(--border-color);
 }
 
-/* Media Queries */
-@media (min-width: 768px) {
-    .page-title {
-        display: none;
-    }       /* when navbar links are visible this makes the page title hidden */
-    /* change this to a bootstrap media query */
-}
-
 @media (max-width: 425px) {
     .hero-bubble {
         padding: 20px;
@@ -252,7 +244,6 @@ h1 {
         padding: 20px;
     }
 }
-
 
 @media (max-width: 1024px) {
     .hero-bubble {
