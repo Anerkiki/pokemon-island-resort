@@ -19,11 +19,11 @@
     <header class="edge-background head-nav">
         <div class="layer">
             <h1 class="display-3 head-title">Pokémon Island Resort</h1>
-            <nav class="navbar navbar-dark navbar-expand-md">
+            <nav class="navbar navbar-dark navbar-expand-lg">
                 <div class="container-fluid">
                     <div class="navbar-brand mx-auto">
-                        <h2 class="page-title mb-0 mx-auto d-md-none">Classes</h2>
-                        <!-- d-md-none makes the page title hidden when all navbar links are visible (not in burger icon) -->
+                        <h2 class="page-title mb-0 mx-auto d-lg-none">Classes</h2>
+                        <!-- d-lg-none makes the page title hidden when all navbar links are visible (not in burger icon) -->
                     </div>
                     <button class="navbar-toggler me-3 px-3 py-2 mb-3 icon-border" type="button" data-bs-toggle="collapse"
                         data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
@@ -36,6 +36,7 @@
                         <div class="navbar-nav me-auto mb-2 gap-2">
                             <!-- need to change this so no divs in uls? doesn't work without -->
 
+                            <!-- navbar split button - About Us -->
                             <div class="btn-group px-1">
                                 <!-- adds padding around sides of buttons -->
                                 <a href="index.html" class="btn bg-transparent main-links">About Us</a>
@@ -70,6 +71,7 @@
                                 </ul>
                             </div>
 
+                            <!-- navbar split button - Our Trainers -->
                             <div class="btn-group px-1">
                                 <!-- adds padding around sides of buttons -->
                                 <a href="index.html#our-trainers" class="btn bg-transparent main-links">
@@ -103,10 +105,44 @@
                                     </li>
                                 </ul>
                             </div>
+
+                            <!-- navbar split button - Contact Us -->
+                            <div class="btn-group px-1">
+                                <a href="index.html#contact-us" class="btn bg-transparent main-links">
+                                    Contact Us</a>
+                                <button type="button" class="btn bg-transparent dropdown-toggle-split no-border"
+                                    data-bs-toggle="dropdown" aria-expanded="false">
+                                    <i class="fa-solid fa-caret-down"></i>
+                                    <span class="visually-hidden">Toggle Dropdown</span>
+                                </button>
+                                <ul class="dropdown-menu dropdown-menu-right">
+                                    <li>
+                                        <a class="dropdown-item" href="index.html#contact-us">Option 1</a>
+                                    </li>
+                                    <li>
+                                        <hr class="dropdown-divider">
+                                    </li>
+                                    <li>
+                                        <a class="dropdown-item" href="index.html#contact-us">Option 2</a>
+                                    </li>
+                                    <li>
+                                        <hr class="dropdown-divider">
+                                    </li>
+                                    <li>
+                                        <a class="dropdown-item" href="index.html#contact-us">Option 3</a>
+                                    </li>
+                                    <li>
+                                        <hr class="dropdown-divider">
+                                    </li>
+                                    <li>
+                                        <a class="dropdown-item" href="index.html#contact-us">Option 4</a>
+                                    </li>
+                                </ul>
+                            </div>
                         </div>
 
                         <!-- right navbar items -->
-                        <div class="navbar-nav me-auto me-2 me-md-0 gap-2">
+                        <div class="navbar-nav me-auto me-2 me-lg-0 gap-2">
                             <!-- do I need this? Works without -->
 
                             <!-- split button - book a room -->
@@ -136,7 +172,7 @@
                             </div>
 
                             <!-- split button - book a class -->
-                            <div class="btn-group px-1 d-none d-md-block">
+                            <div class="btn-group px-1 d-none d-lg-block">
                                 <!-- adds padding around sides of buttons -->
                                 <a href="classes.html" class="btn bg-transparent main-links active" aria-current="page">
                                     Book a Class</a>
@@ -183,7 +219,7 @@
             <div class="row justify-content-center">
 
                 <!-- Classes -->
-                <div class="col-12 text-center main-page-title title-bubble d-none d-md-block">
+                <div class="col-12 text-center main-page-title title-bubble d-none d-lg-block">
                     <h2 class="display-4 floating-section title-bubble-text">Classes</h2>
                 </div>
 

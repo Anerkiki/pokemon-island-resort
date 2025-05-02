@@ -55,11 +55,6 @@ h1, h2, h3, h4, h5, h6 {
     color: var(--leaf-color);
 }
 
-.form-label {
-    font-family: var(--font-heading);
-    color: var(--leaf-color);
-}
-
 h1 {
     font-weight: 400;
     color: var(--background-color);
@@ -74,10 +69,6 @@ h1 {
 }
 
 .row {
-    gap: 20px;
-}
-
-.form {
     gap: 20px;
 }
 
@@ -208,11 +199,7 @@ h1 {
     gap: 10px;
 }
 
-/* .floating-section-secondary {
-    background-color: var(--highlight-color-opaque);
-    border: solid 5px var(--blue-color);
-} */
-
+/* Forms */
 .button-primary {
     background-color: var(--leaf-color);
     color: var(--background-color-light);
@@ -229,6 +216,17 @@ h1 {
     border-color: var(--border-color);
 }
 
+/* Forms */
+.form {
+    gap: 20px;
+}
+
+.form-label {
+    font-family: var(--font-heading);
+    color: var(--leaf-color);
+}
+
+/* Media Queries */
 @media (max-width: 425px) {
     .hero-bubble {
         padding: 20px;
