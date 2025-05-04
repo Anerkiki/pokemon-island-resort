@@ -272,50 +272,48 @@
                 </article>
 
                 <div class="col-12 text-center floating-section p-4 my-5" id="contact-us">
-                    <h2 class="display-4">Send Us a Message</h2>
+                    <h2 class="display-4">Book a Class</h2>
                     <p>
-                        If you have any questions, please fill out the form below and we
-                        will get back to you as soon as possible.
+                        Please let us know which class you would like to book and we will get back to you as soon as
+                        possible.
                     </p>
                     <!-- Booking inquiry form section -->
-                    <section id="booking-form">
-                        <div class="col-12">
-                            <!-- had class col-md-8 but justify-content-center wasn't working and was showing on left instead -->
-                            <form action="success.html" method="GET">
-                                <div class="row justify-content-center">
-                                    <div class="col-12 col-lg-5">
-                                        <label for="name" class="form-label h3">
-                                            Name
-                                        </label>
-                                        <input class="form-control" id="name" name="name" type="text" required>
-                                    </div>
-                                    <div class="col-12 col-lg-6 mb-3">
-                                        <label for="email" class="form-label h3">
-                                            Email
-                                        </label>
-                                        <input class="form-control" id="email" name="email" type="email" required>
-                                    </div>
-                                    <label for="pokemon-name" class="form-label h3 col-12 col-lg-5 mb-3">
-                                        Name of Pokémon
-                                    </label>
-                                    <input class="form-control" id="pokemon-name" name="pokemon-name" type="text" required>
-                                    <div class="col-12 col-lg-6 mb-3">
-                                        <select class="form-select" aria-label="Class select list">
-                                            <option selected>Select a Class</option>
-                                            <option value="1">Class One</option>
-                                            <option value="2">Class Two</option>
-                                            <option value="3">Class Three</option>
-                                            <option value="4">Class Four</option>
-                                        </select>
-                                    </div>
-                                </div>
-                                <button type="button" class="btn btn-lg button-primary">
-                                    Submit
-                                </button>
-                            </form>
-                        </div>
-                    </section>
+                    <form action="success.html" method="GET" class="col-12 col-lg-8 mx-auto">
+                        <div class="row justify-content-center">
+                            <div class="col-12 col-lg-5">
+                                <label for="name" class="form-label h3">
+                                    Name
+                                </label>
+                                <input class="form-control" id="name" name="name" type="text" required>
+                            </div>
+                            <div class="col-12 col-lg-6 mb-3">
+                                <label for="email" class="form-label h3">
+                                    Email
+                                </label>
+                                <input class="form-control" id="email" name="email" type="email" required>
+                            </div>
+                            <div class="col-12 col-lg-5 mb-3">
+                                <label for="class-name" class="form-label h3">Choose a Class</label>
+                                <select id="class-name" class="form-select" aria-label="Class select list">
+                                    <option selected>Select</option>
+                                    <option value="1">Class One</option>
+                                    <option value="2">Class Two</option>
+                                    <option value="3">Class Three</option>
+                                    <option value="4">Class Four</option>
+                                </select>
+                            </div>
+                            <div class="col-12 col-lg-6 mb-3">
+                                <label for="pokemon-name" class="form-label h3">
+                                    Pokémon Joining
+                                </label>
+                                <input class="form-control" id="pokemon-name" name="pokemon-name" type="text" required>
+                            </div>
 
+                            <button type="button" class="btn btn-lg button-primary col-6 col-md-6">
+                                Apply to Book
+                            </button>
+                        </div>
+                    </form>
                 </div>
 
             </div>
