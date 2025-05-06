@@ -52,7 +52,8 @@ section {
     background-size: cover;
     width: 100%;
     border-radius: 30px;
-    margin: 20px;
+    /* margin: 20px; - there is an issue with this - no margin appearing on right side */
+
 }
 
 h1, h2, h3, h4, h5, h6 {
