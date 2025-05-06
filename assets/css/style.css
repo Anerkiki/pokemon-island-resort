@@ -52,6 +52,7 @@ section {
     background-size: cover;
     width: 100%;
     border-radius: 30px;
+    margin: 20px;
 }
 
 h1, h2, h3, h4, h5, h6 {
