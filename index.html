@@ -43,7 +43,7 @@
                                     <i class="fa-solid fa-caret-down"></i>
                                     <span class="visually-hidden">Toggle Dropdown</span>
                                 </button>
-                                <ul class="dropdown-menu dropdown-menu-right">
+                                <ul class="dropdown-menu dropdown-menu-end">
                                     <li>
                                         <a class="dropdown-item" href="index.html">Home</a>
                                     </li>
@@ -79,7 +79,7 @@
                                     <i class="fa-solid fa-caret-down"></i>
                                     <span class="visually-hidden">Toggle Dropdown</span>
                                 </button>
-                                <ul class="dropdown-menu dropdown-menu-right">
+                                <ul class="dropdown-menu dropdown-menu-end">
                                     <li>
                                         <a class="dropdown-item" href="index.html#trainer1">Trainer 1</a>
                                     </li>
@@ -113,7 +113,7 @@
                                     <i class="fa-solid fa-caret-down"></i>
                                     <span class="visually-hidden">Toggle Dropdown</span>
                                 </button>
-                                <ul class="dropdown-menu dropdown-menu-right">
+                                <ul class="dropdown-menu dropdown-menu-end">
                                     <li>
                                         <a class="dropdown-item" href="index.html#contact-us">Send Us a Message</a>
                                     </li>
@@ -225,11 +225,13 @@
     <!-- End of Navigation and Title Section -->
 
     <main class="mx-auto">
+        
+        <!-- Hero Image Section -->
         <section class="hero">
             <picture>
                 <source srcset="assets/images/hero-mobile.jpg" media="(max-width: 425px)">
                 <source srcset="assets/images/hero-tablet.jpg" media="(max-width: 768px)">
-                <img src="assets/images/island.jpeg" alt="Lots of trainers and pokemon enjoying the island">
+                <img src="assets/images/island.jpeg" alt="Various trainers and pokemon enjoying the island">
             </picture>
 
             <article class="hero-bubble text-center floating-section">
@@ -238,170 +240,192 @@
                 <p class="my-4">Where luxury meets learning</p>
             </article>
         </section>
+        <!-- End of Hero Image Section -->
 
-        <section class="container m-4 mx-auto">
-            <div class="row justify-content-center">
+        <!-- Our Island & Features Section -->
+        <section id="our-island">
+            <div class="container m-4 mx-auto">
+                <div class="row justify-content-center">
 
-                <!-- Island Features -->
-                <div class="col-12 text-center title-bubble" id="our-island">
-                    <h2 class="display-4 floating-section title-bubble-text">Our Island</h2>
-                </div>
+                    <div class="col-12 text-center title-bubble">
+                        <h2 class="display-4 floating-section title-bubble-text">Our Island</h2>
+                    </div>
 
-                <article class="col-12 col-lg-5 text-center floating-section p-4">
-                    <h2 class="display-6">Island Feature</h2>
-                    <p class="lead">Our resort is nice!</p>
-                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ullam maxime laboriosam,
-                        quae dolores voluptate nisi sed cumque cupiditate tenetur veniam beatae magnam iure. Quo, nam?
-                        Fugit, laboriosam aperiam. Accusantium,&nbsp;debitis.</p>
-                </article>
-                <div class="col-12 col-lg-6">
-                    <p>Image or something</p>
-                </div>
-
-                <div class="col-12 col-lg-6">
-                    <p>Image or something</p>
-                </div>
-
-                <article class="col-12 col-lg-5 text-center floating-section p-4">
-                    <h2 class="display-6">Island Feature</h2>
-                    <p class="lead">Our resort is nice!</p>
-                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ullam maxime laboriosam,
-                        quae dolores voluptate nisi sed cumque cupiditate tenetur veniam beatae magnam iure. Quo, nam?
-                        Fugit, laboriosam aperiam. Accusantium,&nbsp;debitis.</p>
-                </article>
-
-                <article class="col-12 col-lg-5 text-center floating-section p-4">
-                    <h2 class="display-6">Island Feature</h2>
-                    <p class="lead">Our resort is nice!</p>
-                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ullam maxime
-                        laboriosam,
-                        quae dolores voluptate nisi sed cumque cupiditate tenetur veniam beatae magnam iure.
-                        Quo, nam?
-                        Fugit, laboriosam aperiam. Accusantium,&nbsp;debitis.</p>
-                </article>
-
-                <div class="col-12 col-lg-6">
-                    <p>Image or something</p>
-                </div>
-
-                <div class="col-12 col-lg-6">
-                    <p>Image or something</p>
-                </div>
-
-                <article class="col-12 col-lg-5 text-center floating-section p-4">
-                    <h2 class="display-6">Island Feature</h2>
-                    <p class="lead">Our resort is nice!</p>
-                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ullam maxime
-                        laboriosam,
-                        quae dolores voluptate nisi sed cumque cupiditate tenetur veniam beatae magnam iure.
-                        Quo, nam?
-                        Fugit, laboriosam aperiam. Accusantium,&nbsp;debitis.</p>
-                </article>
-
-                <!-- Trainer Section -->
-                <div class="col-12 text-center title-bubble" id="our-trainers">
-                    <h2 class="display-4 floating-section title-bubble-text">Our Trainers and Pokemon</h2>
-                </div>
-
-                <article class="col-12 col-lg-5 text-center floating-section p-4" id="trainer1">
-                    <h2 class="display-6">Trainer & Charizard</h2>
-                    <p class="lead">Flying & Fire-Breathing</p>
-                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ullam maxime laboriosam,
-                        quae dolores voluptate nisi sed cumque cupiditate tenetur veniam beatae magnam iure. Quo, nam?
-                        Fugit, laboriosam aperiam. Accusantium,&nbsp;debitis.</p>
-                    <a href="classes.html" class="btn btn-light btn-lg button-primary">Book Fire-Breathing Class</a>
-                    <!-- make this link to correct class -->
-                    <a href="classes.html" class="btn btn-light btn-lg button-primary">Book Flying Class</a>
-                    <!-- make this link to correct class -->
-                </article>
-                <div class="col-12 col-lg-6">
-                    <div>
+                    <article class="col-12 col-lg-5 text-center floating-section p-4">
+                        <h2 class="display-6">Island Feature</h2>
+                        <p class="lead">Our resort is nice!</p>
+                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ullam maxime laboriosam,
+                            quae dolores voluptate nisi sed cumque cupiditate tenetur veniam beatae magnam iure. Quo, nam?
+                            Fugit, laboriosam aperiam. Accusantium,&nbsp;debitis.</p>
+                    </article>
+                    <div class="col-12 col-lg-6">
                         <p>Image or something</p>
                     </div>
-                </div>
 
-                <div class="col-12 col-lg-6">
-                    <div>
+                    <div class="col-12 col-lg-6">
                         <p>Image or something</p>
                     </div>
-                </div>
-                <article class="col-12 col-lg-5 text-center floating-section p-4" id="trainer2">
-                    <h2 class="display-6">Trainer & Lapras</h2>
-                    <p class="lead">Ocean Riding</p>
-                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ullam maxime laboriosam,
-                        quae dolores voluptate nisi sed cumque cupiditate tenetur veniam beatae magnam iure. Quo, nam?
-                        Fugit, laboriosam aperiam. Accusantium,&nbsp;debitis.</p>
-                    <a href="classes.html" class="btn btn-light btn-lg button-primary">Book Class</a>
-                    <!-- make this link to correct class -->
-                </article>
-                <article class="col-12 col-lg-5 text-center floating-section p-4" id="trainer3">
-                    <h2 class="display-6">Trainer & Rhyhorn</h2>
-                    <p class="lead">Safari Adventure/Ride</p>
-                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ullam maxime laboriosam,
-                        quae dolores voluptate nisi sed cumque cupiditate tenetur veniam beatae magnam iure. Quo, nam?
-                        Fugit, laboriosam aperiam. Accusantium,&nbsp;debitis.</p>
-                    <a href="classes.html" class="btn btn-light btn-lg button-primary">Book Class</a>
-                    <!-- make this link to correct class -->
-                </article>
 
-                <div class="col-12 col-lg-6">
-                    <p>Image or something</p>
-                </div>
+                    <article class="col-12 col-lg-5 text-center floating-section p-4">
+                        <h2 class="display-6">Island Feature</h2>
+                        <p class="lead">Our resort is nice!</p>
+                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ullam maxime laboriosam,
+                            quae dolores voluptate nisi sed cumque cupiditate tenetur veniam beatae magnam iure. Quo, nam?
+                            Fugit, laboriosam aperiam. Accusantium,&nbsp;debitis.</p>
+                    </article>
 
-                <div class="col-12 col-lg-6">
-                    <p>Image or something</p>
-                </div>
+                    <article class="col-12 col-lg-5 text-center floating-section p-4">
+                        <h2 class="display-6">Island Feature</h2>
+                        <p class="lead">Our resort is nice!</p>
+                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ullam maxime
+                            laboriosam,
+                            quae dolores voluptate nisi sed cumque cupiditate tenetur veniam beatae magnam iure.
+                            Quo, nam?
+                            Fugit, laboriosam aperiam. Accusantium,&nbsp;debitis.</p>
+                    </article>
 
-                <article class="col-12 col-lg-5 text-center floating-section p-4" id="trainer4">
-                    <h2 class="display-6">Trainer & Pokemon</h2>
-                    <p class="lead">Flying & Fire-Breathing</p>
-                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ullam maxime laboriosam,
-                        quae dolores voluptate nisi sed cumque cupiditate tenetur veniam beatae magnam iure. Quo, nam?
-                        Fugit, laboriosam aperiam. Accusantium,&nbsp;debitis.</p>
-                    <a href="classes.html" class="btn btn-light btn-lg button-primary">Book Class</a>
-                    <!-- make this link to correct class -->
-                </article>
-                <!-- End of Section -->
+                    <div class="col-12 col-lg-6">
+                        <p>Image or something</p>
+                    </div>
 
-                <!-- Contact Us Form -->
-                <div class="col-12 text-center floating-section p-4 my-5" id="contact-us">
-                    <h2 class="display-4">Send Us a Message</h2>
-                    <p>
-                        If you have any questions, please fill out the form below and we
-                        will get back to you as soon as&nbsp;possible.
-                    </p>
+                    <div class="col-12 col-lg-6">
+                        <p>Image or something</p>
+                    </div>
 
-                    <form action="success.html" method="GET" class="col-12 col-lg-8 mx-auto">
-                        <div class="row justify-content-center">
-                            <div class="col-12 col-lg-5">
-                                <label for="name" class="form-label h3">
-                                    Name
-                                </label>
-                                <input class="form-control" id="name" name="name" type="text" required>
-                            </div>
-                            <div class="col-12 col-lg-6 mb-3">
-                                <label for="email" class="form-label h3">
-                                    Email
-                                </label>
-                                <input class="form-control" id="email" name="email" type="email" required>
-                            </div>
-                            <div class="col-12 mb-3">
-                                <label for="message" class="form-label h3">
-                                    Message
-                                </label>
-                                <textarea class="form-control" rows="6" id="message" name="message" required></textarea>
-                            </div>
-                        </div>
-                        <button type="submit" class="btn btn-lg button-primary">
-                            Submit
-                        </button>
-                    </form>
+                    <article class="col-12 col-lg-5 text-center floating-section p-4">
+                        <h2 class="display-6">Island Feature</h2>
+                        <p class="lead">Our resort is nice!</p>
+                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ullam maxime
+                            laboriosam,
+                            quae dolores voluptate nisi sed cumque cupiditate tenetur veniam beatae magnam iure.
+                            Quo, nam?
+                            Fugit, laboriosam aperiam. Accusantium,&nbsp;debitis.</p>
+                    </article>
+
                 </div>
             </div>
         </section>
+        <!-- End of Our Island & Features Section -->
+
+        <!-- Trainer Section -->
+        <section id="our-trainers">
+            <div class="container m-4 mx-auto">
+                <div class="row justify-content-center">
+
+                    <div class="col-12 text-center title-bubble">
+                        <h2 class="display-4 floating-section title-bubble-text">Our Trainers and Pokemon</h2>
+                    </div>
+
+                    <article class="col-12 col-lg-5 text-center floating-section p-4" id="trainer1">
+                        <h2 class="display-6">Trainer & Charizard</h2>
+                        <p class="lead">Flying & Fire-Breathing</p>
+                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ullam maxime laboriosam,
+                            quae dolores voluptate nisi sed cumque cupiditate tenetur veniam beatae magnam iure. Quo, nam?
+                            Fugit, laboriosam aperiam. Accusantium,&nbsp;debitis.</p>
+                        <a href="classes.html" class="btn btn-light btn-lg button-primary">Book Fire-Breathing Class</a>
+                        <!-- make this link to correct class -->
+                        <a href="classes.html" class="btn btn-light btn-lg button-primary">Book Flying Class</a>
+                        <!-- make this link to correct class -->
+                    </article>
+                    <div class="col-12 col-lg-6">
+                        <div>
+                            <p>Image or something</p>
+                        </div>
+                    </div>
+
+                    <div class="col-12 col-lg-6">
+                        <div>
+                            <p>Image or something</p>
+                        </div>
+                    </div>
+                    <article class="col-12 col-lg-5 text-center floating-section p-4" id="trainer2">
+                        <h2 class="display-6">Trainer & Lapras</h2>
+                        <p class="lead">Ocean Riding</p>
+                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ullam maxime laboriosam,
+                            quae dolores voluptate nisi sed cumque cupiditate tenetur veniam beatae magnam iure. Quo, nam?
+                            Fugit, laboriosam aperiam. Accusantium,&nbsp;debitis.</p>
+                        <a href="classes.html" class="btn btn-light btn-lg button-primary">Book Class</a>
+                        <!-- make this link to correct class -->
+                    </article>
+                    <article class="col-12 col-lg-5 text-center floating-section p-4" id="trainer3">
+                        <h2 class="display-6">Trainer & Rhyhorn</h2>
+                        <p class="lead">Safari Adventure/Ride</p>
+                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ullam maxime laboriosam,
+                            quae dolores voluptate nisi sed cumque cupiditate tenetur veniam beatae magnam iure. Quo, nam?
+                            Fugit, laboriosam aperiam. Accusantium,&nbsp;debitis.</p>
+                        <a href="classes.html" class="btn btn-light btn-lg button-primary">Book Class</a>
+                        <!-- make this link to correct class -->
+                    </article>
+
+                    <div class="col-12 col-lg-6">
+                        <p>Image or something</p>
+                    </div>
+
+                    <div class="col-12 col-lg-6">
+                        <p>Image or something</p>
+                    </div>
+
+                    <article class="col-12 col-lg-5 text-center floating-section p-4" id="trainer4">
+                        <h2 class="display-6">Trainer & Pokemon</h2>
+                        <p class="lead">Flying & Fire-Breathing</p>
+                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ullam maxime laboriosam,
+                            quae dolores voluptate nisi sed cumque cupiditate tenetur veniam beatae magnam iure. Quo, nam?
+                            Fugit, laboriosam aperiam. Accusantium,&nbsp;debitis.</p>
+                        <a href="classes.html" class="btn btn-light btn-lg button-primary">Book Class</a>
+                        <!-- make this link to correct class -->
+                    </article>
+
+                </div>
+            </div>
+        </section>
+        <!-- End of Trainer Section -->
+
+        <!-- Contact Us Form Section -->
+        <section id="contact-us">
+            <div class="container m-4 mx-auto">
+                <div class="row justify-content-center">
+                    <div class="col-12 text-center floating-section p-4 my-5">
+                        <h2 class="display-4">Send Us a Message</h2>
+                        <p>
+                            If you have any questions, please fill out the form below and we
+                            will get back to you as soon as&nbsp;possible.
+                        </p>
+
+                        <form action="success.html" method="GET" class="col-12 col-lg-10 col-xl-9 mx-auto">
+                            <div class="row justify-content-center">
+                                <div class="col-12 col-lg-5">
+                                    <label for="name" class="form-label h3">
+                                        Name
+                                    </label>
+                                    <input class="form-control" id="name" name="name" type="text" required>
+                                </div>
+                                <div class="col-12 col-lg-6 mb-3">
+                                    <label for="email" class="form-label h3">
+                                        Email
+                                    </label>
+                                    <input class="form-control" id="email" name="email" type="email" required>
+                                </div>
+                                <div class="col-12 mb-3">
+                                    <label for="message" class="form-label h3">
+                                        Message
+                                    </label>
+                                    <textarea class="form-control" rows="6" id="message" name="message" required></textarea>
+                                </div>
+                            </div>
+                            <button type="submit" class="btn btn-lg button-primary">
+                                Submit
+                            </button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- End of Contact Us Form -->
+
     </main>
 
     <footer class="edge-background" id="social-media">
+        <!-- double check if same, but only 1 on all pages, whether ID needs to be class -->
         <div class="layer">Footer</div>
     </footer>
 

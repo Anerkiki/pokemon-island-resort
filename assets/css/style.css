@@ -31,7 +31,7 @@
 body {
     text-align: center;
     font-family: var(--font-paragraph);
-    background-color: var(--background-color);
+    background-color: var(--border-color);
     font-size: 1.2rem;
     color: var(--text-color-dark);
     display: flex;
@@ -40,14 +40,18 @@ body {
 }
 
 main {
-    background-color: var(--font-paragraph);
+    position: relative; /* burger icon doesn't show without this */
+    width: 100vw;
+    gap: 20px;
+    margin-top: 170.94px; /* this needs changing to media queries for the different navbar breakpoints to combine with header height */
+}
+
+section {
     background-image: url(../images/beach-background.jpg);
     background-repeat: no-repeat;
     background-size: cover;
-    position: relative; /* burger icon doesn't show without this */
     width: 100%;
-    gap: 20px;
-    margin-top: 170.94px; /* this needs changing to media queries for the different navbar breakpoints to combine with header height */
+    border-radius: 30px;
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -85,7 +89,7 @@ h1 {
 /* Navbar */
 .head-nav {
     position: fixed;
-    border-bottom: solid 10px var(--border-color);
+    border-bottom: solid 4px var(--border-color);
     z-index: 2;
 }
 
@@ -163,6 +167,7 @@ h1 {
     width: 100%;
     height: 100%;
     overflow: hidden;
+    border-radius: 0;
 }   
 
 .hero img {
