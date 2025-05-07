@@ -52,7 +52,9 @@ section {
     background-size: cover;
     width: 100%;
     border-radius: 30px;
-    /* margin: 20px; - there is an issue with this - no margin appearing on right side */
+    margin: 20px;
+    padding: 20px 0;
+     /* - there is an issue with this - no margin appearing on right side */
 
 }
 
