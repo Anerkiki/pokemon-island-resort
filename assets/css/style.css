@@ -110,6 +110,7 @@ h1 {
 
 /* Navbar Links */
 .navbar .btn.main-links {
+    background-color: transparent;
     color: var(--background-color);
     font-family: var(--font-heading);
     font-weight: 100;
@@ -119,10 +120,9 @@ h1 {
 }
 
 .navbar .btn.main-links:hover {
-    background-color: var(--shell-color);
-    color: var(--highlight-navbar);
-    font-family: var(--font-heading);
-    border: solid 4px var(--highlight-navbar);
+    background-color: var(--highlight-navbar);
+    color: var(--text-color-dark);
+    border: solid 4px var(--text-color-dark);
 }
 
 .navbar .btn.active {
@@ -131,13 +131,17 @@ h1 {
     text-underline-position: under;
 }
 
+.navbar-hover:hover i {
+    color: var(--text-color-dark);
+}
+
 /* Navbar Arrows and Icon */
 .navbar i {
     color: var(--background-color);
 }
 
 .navbar i:hover {
-    color: var(--highlight-navbar);
+    color: var(--text-color-dark);
 }
 
 .icon-border {
