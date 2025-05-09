@@ -59,7 +59,17 @@ section {
     width: 99%;
 }
 
-navbar-scroll-fix {
+section div.container {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.row {
+    gap: 10px;
+}
+
+.navbar-scroll-fix {
     scroll-margin-top: 160px;
 }
 
@@ -79,10 +89,6 @@ h1 {
 
 .lead {
     font-size: 1.5rem;
-}
-
-.row {
-    gap: 20px;
 }
 
 /* Header and Footer */

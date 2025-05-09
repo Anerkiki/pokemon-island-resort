@@ -4,7 +4,7 @@
 
 ## Introduction
 
-I am looking to create this website to showcase an island resort for pokemon and trainers and allow customers to book rooms and excursions.
+I am looking to create this website to showcase an island resort for pokemon and trainers and allow customers to book rooms and classes for their pokemon.
 
 # Credits
 
