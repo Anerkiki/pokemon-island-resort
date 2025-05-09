@@ -16,7 +16,7 @@ https://www.freepik.com/free-photo/bamboo-patterned-curtain-textured-backdrop_15
 
 Favicon:
 https://www.iconarchive.com/show/noto-emoji-animals-nature-icons-by-google/22331-palm-tree-icon.html
-apache open <source>
+apache open source
 
 Hero Image:
 https://www.redbull.com/au-en/new-game-releases-november-2016

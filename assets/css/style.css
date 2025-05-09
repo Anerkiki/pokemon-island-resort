@@ -36,13 +36,17 @@ body {
     color: var(--text-color-dark);
     display: flex;
     flex-direction: column;
-    gap: 10px;
+    gap: 12px;
+    width: 100%;
 }
 
 main {
     position: relative; /* burger icon doesn't show without this */
-    width: 100vw;
-    gap: 20px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 12px;
     margin-top: 170.94px; /* this needs changing to media queries for the different navbar breakpoints to combine with header height */
 }
 
@@ -50,12 +54,9 @@ section {
     background-image: url(../images/beach-background.jpg);
     background-repeat: no-repeat;
     background-size: cover;
-    width: 100%;
     border-radius: 30px;
-    margin: 20px;
-    padding: 20px 0;
-     /* - there is an issue with this - no margin appearing on right side */
-
+    margin: 0 20px;
+    width: 98vw;
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -120,9 +121,9 @@ h1 {
 }
 
 .navbar .btn.main-links:hover {
-    background-color: var(--highlight-navbar);
-    color: var(--text-color-dark);
-    border: solid 4px var(--text-color-dark);
+    background-color: var(--leaf-color);
+    color: var(--highlight-navbar);
+    border: solid 4px var(--highlight-navbar);
 }
 
 .navbar .btn.active {
@@ -132,7 +133,7 @@ h1 {
 }
 
 .navbar-hover:hover i {
-    color: var(--text-color-dark);
+    color: var(--highlight-navbar);
 }
 
 /* Navbar Arrows and Icon */
@@ -141,7 +142,7 @@ h1 {
 }
 
 .navbar i:hover {
-    color: var(--text-color-dark);
+    color: var(--highlight-navbar);
 }
 
 .icon-border {
