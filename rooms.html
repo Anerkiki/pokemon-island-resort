@@ -337,7 +337,6 @@
                     </form>
                 </div>
 
-
             </div>
         </div>
     </section>
@@ -356,15 +355,14 @@
     <!-- Bootstrap's navbar closing fix code for internal page links -->
     <script>
         document
-            .querySelectorAll(".navbar-collapse .nav-link")
+            .querySelectorAll(".navbar-collapse a:not(.dropdown-toggle)")
             .forEach((link) => {
                 link.addEventListener("click", function (e) {
-                    let section = document.querySelector(e.target.getAttribute("href"));
+                    let section = document.querySelector(e.target.getAttribute("href").replace("rooms.html#", "#"));
                     if (section) {
                         e.preventDefault(); // Prevent default anchor click behavior
-                        let navbarHeight = document.querySelector(".navbar-toggler").offsetHeight;
                         window.scroll({
-                            top: section.offsetTop - navbarHeight, // Adjust for navbar height
+                            top: section.offsetTop + 15,
                             behavior: "smooth",
                         });
                         document
