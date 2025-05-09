@@ -59,6 +59,10 @@ section {
     width: 99%;
 }
 
+navbar-scroll-fix {
+    scroll-margin-top: 160px;
+}
+
 h1, h2, h3, h4, h5, h6 {
     font-family: var(--font-heading);
     color: var(--leaf-color);
@@ -93,7 +97,6 @@ h1 {
 
 /* Navbar */
 .head-nav {
-    position: fixed;
     border-bottom: solid 4px var(--border-color);
     z-index: 2;
 }
@@ -250,13 +253,28 @@ h1 {
     }
 }
 
+@media (max-width: 991px) {
+    main {
+        margin-top: 145px; /* this needs changing to media queries for the different navbar breakpoints to combine with header height */
+        gap: 5px;
+    }
+
+    navbar-scroll-fix {
+        scroll-margin-top: 145px;
+    }
+}
+
 @media (max-width: 768px) {
     .hero-bubble {
         padding: 20px;
     }
 
     main {
-        gap: 5px;
+        margin-top: 136px;
+    }
+
+    navbar-scroll-fix {
+        scroll-margin-top: 136px;
     }
 }
 
