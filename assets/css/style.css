@@ -62,7 +62,8 @@ section {
 section div.container {
     display: flex;
     flex-direction: column;
-    gap: 10px;
+    gap: 20px;
+    margin: 10px 0;
 }
 
 .row {
@@ -206,6 +207,7 @@ h1 {
 /* Main */
 .title-bubble {
     margin-top: 0;
+    padding: 0;
 }
 
 .title-bubble-text {
