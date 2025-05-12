@@ -205,12 +205,11 @@ h1 {
 
 .hero-bubble {
     position: absolute;
-    top: 30%;
+    top: 40%;
     left: 5%;
     padding: 50px;
     z-index: 1;
 }
-/* needs work */
 
 /* Main */
 .title-bubble {
@@ -259,6 +258,25 @@ h1 {
 }
 
 /* Media Queries */
+
+
+/* @media (max-width: 2000px) {
+    .hero-bubble {
+        padding: 30px;
+    }
+} */
+
+@media (max-width: 1600px) {
+    .hero-bubble {
+        padding: 40px;
+    }
+}
+
+@media (max-width: 1200px) {
+    .hero-bubble {
+        padding: 30px;
+    }
+}
 
 @media (max-width: 1024px) {
     .hero-bubble {
@@ -326,11 +344,16 @@ h1 {
         scroll-margin-top: 100px;
     }
 
+    .hero-bubble {
+        padding: 10px;
+    }
+
 }
 
 @media (max-width: 425px) {
     .hero-bubble {
-        padding: 20px;
+        padding: 10px;
+        left: 1%;
     }
 
     .head-title {
