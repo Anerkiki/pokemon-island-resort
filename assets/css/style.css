@@ -120,6 +120,14 @@ h1 {
 }
 
 /* Navbar Links */
+/* Small screen navbar links */
+.navbar a {
+    color: var(--background-color);
+    font-family: var(--font-heading);
+    font-weight: 100;
+}
+
+/* Laptop or larger navbar buttons */
 .navbar .btn.main-links {
     background-color: transparent;
     color: var(--background-color);
