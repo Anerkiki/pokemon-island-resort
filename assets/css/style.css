@@ -274,25 +274,25 @@ h1 {
     }
 }
 
-@media (max-width: 991px) {
+@media (max-width: 992px) {
     main {
-        margin-top: 137px; /* this needs changing as the navbar height changes at different screen sizes, and matching with below */
+        margin-top: 126px; /* this needs changing as the navbar height changes at different screen sizes, and matching with below */
         gap: 5px;
     }
 
     .navbar-scroll-fix {
-        scroll-margin-top: 137px;
+        scroll-margin-top: 1126px;
     }
 }
 
 @media (max-width: 918px) {
     main {
-        margin-top: 130px; /* this needs changing as the navbar height changes at different screen sizes, and matching with below */
+        margin-top: 118px; /* this needs changing as the navbar height changes at different screen sizes, and matching with below */
         gap: 5px;
     }
 
     .navbar-scroll-fix {
-        scroll-margin-top: 130px;
+        scroll-margin-top: 118px;
     }
 }
 
@@ -310,17 +310,23 @@ h1 {
     }
 }
 
+@media (max-width: 650px) {
+    main {
+        margin-top: 112px;
+    }
+}
+
 @media (max-width: 570px) {
     button .navbar-toggler {
         margin-right: 1rem;
     }
 
     main {
-        margin-top: 110px;
+        margin-top: 100px;
     }
 
     .navbar-scroll-fix {
-        scroll-margin-top: 110px;
+        scroll-margin-top: 100px;
     }
 
 }
@@ -350,10 +356,10 @@ h1 {
     }
 
     main {
-        margin-top: 102px;
+        margin-top: 83px;
     }
 
     .navbar-scroll-fix {
-        scroll-margin-top: 102px;
+        scroll-margin-top: 83px;
     }
 }
