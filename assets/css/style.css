@@ -90,6 +90,7 @@ h1 {
 
 .lead {
     font-size: 1.5rem;
+    font-weight: 500;
 }
 
 /* Header and Footer */
@@ -259,24 +260,40 @@ h1 {
 }
 
 /* Media Queries */
-@media (max-width: 425px) {
+
+@media (max-width: 1024px) {
     .hero-bubble {
         padding: 20px;
     }
 
-    .head-title {
-        font-size: 1.8rem;
+    main {
+        margin-top: 150px; /* this needs changing as the navbar height changes at different screen sizes, and matching with below */
+    }
+
+    .navbar-scroll-fix {
+        scroll-margin-top: 150px;
     }
 }
 
 @media (max-width: 991px) {
     main {
-        margin-top: 145px; /* this needs changing to media queries for the different navbar breakpoints to combine with header height */
+        margin-top: 137px; /* this needs changing as the navbar height changes at different screen sizes, and matching with below */
         gap: 5px;
     }
 
-    navbar-scroll-fix {
-        scroll-margin-top: 145px;
+    .navbar-scroll-fix {
+        scroll-margin-top: 137px;
+    }
+}
+
+@media (max-width: 918px) {
+    main {
+        margin-top: 130px; /* this needs changing as the navbar height changes at different screen sizes, and matching with below */
+        gap: 5px;
+    }
+
+    .navbar-scroll-fix {
+        scroll-margin-top: 130px;
     }
 }
 
@@ -286,16 +303,28 @@ h1 {
     }
 
     main {
-        margin-top: 136px;
+        margin-top: 114px;
     }
 
-    navbar-scroll-fix {
-        scroll-margin-top: 136px;
+    .navbar-scroll-fix {
+        scroll-margin-top: 114px;
     }
 }
 
-@media (max-width: 1024px) {
+@media (max-width: 425px) {
     .hero-bubble {
         padding: 20px;
+    }
+
+    .head-title {
+        font-size: 1.8rem;
+    }
+
+    main {
+        margin-top: 102px;
+    }
+
+    .navbar-scroll-fix {
+        scroll-margin-top: 102px;
     }
 }
