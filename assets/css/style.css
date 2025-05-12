@@ -164,12 +164,11 @@ h1 {
     color: var(--highlight-navbar);
 }
 
-.icon-border {
+/* Navbar Burger Icon */
+.burger-icon {
     border: solid 4px var(--background-color);
-}
-
-.icon-border:hover {
-    border: solid 4px var(--highlight-navbar);
+    margin-bottom: 0.5rem;
+    padding: 0.25rem 0.75rem;
 }
 
 /* Navbar Dropdowns */
@@ -311,6 +310,21 @@ h1 {
     }
 }
 
+@media (max-width: 570px) {
+    button .navbar-toggler {
+        margin-right: 1rem;
+    }
+
+    main {
+        margin-top: 110px;
+    }
+
+    .navbar-scroll-fix {
+        scroll-margin-top: 110px;
+    }
+
+}
+
 @media (max-width: 425px) {
     .hero-bubble {
         padding: 20px;
@@ -318,6 +332,21 @@ h1 {
 
     .head-title {
         font-size: 1.8rem;
+    }
+
+    /* Make burger icon smaller at this screen size */
+    .burger-icon {
+        padding: 0 0.5rem 0.15rem 0.5rem;
+        border: solid 3.5px var(--background-color);
+        margin-bottom: 0.4rem;
+    }
+
+    .burger-icon i {
+        font-size: 1rem;
+    }
+
+    button .navbar-toggler {
+        padding: 0;
     }
 
     main {
