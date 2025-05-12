@@ -122,7 +122,7 @@ h1 {
 
 /* Navbar Links */
 /* Small screen navbar links */
-.navbar a {
+.navbar .burger-links a {
     color: var(--background-color);
     font-family: var(--font-heading);
     font-weight: 100;
