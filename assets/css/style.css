@@ -63,7 +63,7 @@ section div.container {
     display: flex;
     flex-direction: column;
     gap: 20px;
-    margin: 10px 0;
+    margin: 20px auto;
 }
 
 .row {
