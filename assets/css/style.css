@@ -317,9 +317,6 @@ h1 {
 }
 
 @media (max-width: 570px) {
-    button .navbar-toggler {
-        margin-right: 1rem;
-    }
 
     main {
         margin-top: 100px;
