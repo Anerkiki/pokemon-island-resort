@@ -25,17 +25,16 @@
                         <h2 class="page-title mb-0 mx-auto d-lg-none">Classes</h2>
                         <!-- d-lg-none makes the page title hidden when all navbar links are visible (not in burger icon) -->
                     </div>
-                    <button class="navbar-toggler me-3 px-3 py-2 mb-3 icon-border" type="button"
+                    <button class="navbar-toggler me-3 px-3 py-2 mb-2 icon-border" type="button"
                         data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
                         aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                         <i class="fa-solid fa-bars fs-4"></i>
                         <!-- fs-4 makes the icon slightly larger -->
                     </button>
                     <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                        <!-- left navbar items -->
-                        <div class="navbar-nav me-auto mb-2 gap-2">
-                            <!-- need to change this so no divs in uls? doesn't work without -->
 
+                        <!-- left navbar items -->
+                        <div class="navbar-nav me-auto mb-2 gap-2 d-none d-lg-block">
                             <!-- navbar split button - About Us -->
                             <div class="btn-group px-1 navbar-hover">
                                 <!-- adds padding around sides of buttons -->
@@ -142,7 +141,7 @@
                         </div>
 
                         <!-- right navbar items -->
-                        <div class="navbar-nav me-auto me-2 me-lg-0 gap-2">
+                        <div class="navbar-nav me-auto me-2 me-lg-0 gap-2 d-none d-lg-block">
                             <!-- do I need this? Works without -->
 
                             <!-- split button - book a room -->
@@ -178,7 +177,7 @@
                             </div>
 
                             <!-- split button - book a class -->
-                            <div class="btn-group px-1 navbar-hover d-none d-lg-block">
+                            <div class="btn-group px-1 navbar-hover">
                                 <!-- adds padding around sides of buttons -->
                                 <a href="classes.html#classes" class="btn main-links active"
                                     aria-current="page">
@@ -219,7 +218,25 @@
                                     </li>
                                 </ul>
                             </div>
+
                         </div>
+
+                        <!-- all navbar items for tablets and smaller -->
+                        <ul class="navbar-nav me-auto mb-2 mb-lg-0 d-block d-lg-none">
+                            <li class="nav-item">
+                                <a class="nav-link" href="index.html">About Us</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="index.html#our-trainers">Trainers</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="index.html#contact-us">Contact</a>
+                                </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="rooms.html">Rooms</a>
+                            </li>
+                        </ul>
+
                     </div>
                 </div>
             </nav>
