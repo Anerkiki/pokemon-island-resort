@@ -352,7 +352,7 @@ h1 {
 
 @media (max-width: 425px) {
     .hero-bubble {
-        padding: 10px;
+        padding: 8px;
         left: 1%;
     }
 
