@@ -233,7 +233,7 @@ h1 {
 /* Forms */
 .button-primary {
     background-color: var(--leaf-color);
-    color: var(--background-color-light);
+    color: var(--highlight-color);
     font-family: var(--font-heading);
     text-transform: uppercase;
     border: solid 6px rgba(207, 165, 129, 0.9);
