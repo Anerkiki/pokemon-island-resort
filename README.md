@@ -2,11 +2,34 @@
 
 # Pokemon Island Resort
 
-## Introduction
+## Introduction/Site Overview
 
 I am looking to create this website to showcase an island resort for pokemon and trainers and allow customers to book rooms and classes for their pokemon.
 
-# Credits
+View live site [link] Hosted on GitHub pages
+
+# Table of Contents
+## Design and Planning
+### User Stories
+### Wireframes
+### Typography
+### Colour Scheme
+
+## Features
+### Site Wide Features
+### Home Page
+### Rooms Page
+### Classes Page
+
+## Technologies Used
+
+## Testing
+
+## Bugs
+
+## Deployment
+
+## Credits
 
 Background Photo:
 https://www.freepik.com/free-vector/tropical-summer-design_4413927.htm#fromView=search&page=1&position=20&uuid=908ffdb2-32b3-4b07-85ec-33b39605b911&query=beach
