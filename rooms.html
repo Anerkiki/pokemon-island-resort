@@ -254,8 +254,8 @@
 
             </div>
 
-            <div class="row justify-content-center" id="room1">
-                <article class="col-12 col-lg-5 text-center floating-section p-4 scroll-margin-top">
+            <div class="row justify-content-center navbar-scroll-fix" id="room1">
+                <article class="col-12 col-lg-5 text-center floating-section p-4">
                     <h2 class="display-6">Room 1</h2>
                     <p class="lead">Our resort is nice!</p>
                     <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ullam maxime laboriosam,
@@ -267,11 +267,11 @@
                 </div>
             </div>
             
-            <div class="row justify-content-center" id="room2">
+            <div class="row justify-content-center navbar-scroll-fix" id="room2">
                 <div class="col-12 col-lg-6 order-2 order-lg-1">
                     <p>Image or something</p>
                 </div>
-                <article class="col-12 col-lg-5 order-1 order-lg-2 text-center floating-section p-4 scroll-margin-top">
+                <article class="col-12 col-lg-5 order-1 order-lg-2 text-center floating-section p-4">
                     <h2 class="display-6">Room 2</h2>
                     <p class="lead">Our resort is nice!</p>
                     <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ullam maxime laboriosam,
@@ -280,8 +280,8 @@
                 </article>
             </div>
             
-            <div class="row justify-content-center" id="room3">
-                <article class="col-12 col-lg-5 text-center floating-section p-4 scroll-margin-top">
+            <div class="row justify-content-center navbar-scroll-fix" id="room3">
+                <article class="col-12 col-lg-5 text-center floating-section p-4">
                     <h2 class="display-6">Room 3</h2>
                     <p class="lead">Our resort is nice!</p>
                     <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ullam maxime
@@ -295,11 +295,11 @@
                 </div>
             </div>
             
-            <div class="row justify-content-center" id="room4">
+            <div class="row justify-content-center navbar-scroll-fix" id="room4">
                 <div class="col-12 col-lg-6 order-2 order-lg-1">
                     <p>Image or something</p>
                 </div>
-                <article class="col-12 col-lg-5 order-1 order-lg-2 text-center floating-section p-4 scroll-margin-top">
+                <article class="col-12 col-lg-5 order-1 order-lg-2 text-center floating-section p-4">
                     <h2 class="display-6">Room 4</h2>
                     <p class="lead">Our resort is nice!</p>
                     <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ullam maxime
@@ -396,6 +396,22 @@
                     }
                 });
             });
+
+            // Might need onload event to scroll to the correct section when navigating directly to a section from another page
+            window.onload = function() {
+                const hash = window.location.hash;
+                if (hash) {
+                    console.log(`Scrolling to ${hash}`);
+                    const section = document.querySelector(hash);
+                    if (section) {
+                        console.log(`Found section: ${section}`);
+                        window.scrollTo({
+                            top: section.offsetTop + 15,
+                            behavior: "smooth",
+                        });
+                    }
+                }
+            };
     </script>
     <!-- Font Awesome Kit -->
     <script src="https://kit.fontawesome.com/965ed0e330.js" crossorigin="anonymous"></script>
