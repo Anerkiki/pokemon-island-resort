@@ -48,8 +48,8 @@ https://img.redbull.com/images/c_crop,x_0,y_0,h_1498,w_2999/c_fill,w_1700,h_765/
 **ColorZilla - Chrome Extension** - for finding colour codes from colours on websites.
 
 **Color Blender** - I used this website to find a colour between my main and highlight colours using their hex codes:
-![Color Blender](image.png)
-![Color Blender showing the two colours I inputted to find midpoint](image-1.png)
+![Color Blender](assets/images/readme/color-blender-description.png)
+![Color Blender showing the two colours I inputted to find midpoint](assets/images/readme/color-blender.png)
 https://meyerweb.com/eric/tools/color-blend/#:::hex
 https://meyerweb.com/eric/tools/color-blend/#FFD8B7:FEEDDC:5:hex
 

@@ -28,6 +28,11 @@
 }
 
 /* Global Styles */
+html {
+    scroll-padding-top: 160px; /* adjust this to match your fixed header height */
+    scroll-behavior: smooth;   /* enables smooth scrolling for anchor links */
+  }
+
 body {
     text-align: center;
     font-family: var(--font-paragraph);
@@ -299,7 +304,7 @@ h1 {
     }
 
     .navbar-scroll-fix {
-        scroll-margin-top: 1126px;
+        scroll-margin-top: 126px;
     }
 }
 
