@@ -231,11 +231,6 @@ h1 {
     gap: 10px;
 }
 
-/* img {
-    border: solid 10px var(--border-color-opaque);
-    border-radius: 30px;
-} */
-
 /* Forms */
 .button-primary {
     background-color: var(--leaf-color);
