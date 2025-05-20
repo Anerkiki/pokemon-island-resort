@@ -94,6 +94,13 @@ h1 {
     font-weight: 500;
 }
 
+.trainer-link {
+    text-decoration: none;
+    font-weight: 800;
+    color: var(--text-color-dark);
+    
+}
+
 /* Header and Footer */
 .edge-background {
     background-image: url(../images/bamboo-background.jpg);
