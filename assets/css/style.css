@@ -265,19 +265,19 @@ img.floating-section {
 
 /* Media Queries */
 @media (max-width: 1600px) {
-    .hero-bubble {
+    .hero-bubble.floating-section {
         padding: 40px;
     }
 }
 
 @media (max-width: 1200px) {
-    .hero-bubble {
+    .hero-bubble.floating-section {
         padding: 30px;
     }
 }
 
 @media (max-width: 1024px) {
-    .hero-bubble {
+    .hero-bubble.floating-section {
         padding: 20px;
     }
 
@@ -313,7 +313,7 @@ img.floating-section {
 }
 
 @media (max-width: 768px) {
-    .hero-bubble {
+    .hero-bubble.floating-section {
         padding: 20px;
     }
 
@@ -342,13 +342,13 @@ img.floating-section {
         scroll-padding-top: 100px; /* adjusted to match fixed header height */
     }
 
-    .hero-bubble {
+    .hero-bubble.floating-section {
         padding: 10px;
     }
 }
 
 @media (max-width: 425px) {
-    .hero-bubble {
+    .hero-bubble.floating-section {
         padding: 8px;
         left: 1%;
     }
