@@ -442,9 +442,13 @@
                                         required></textarea>
                                 </div>
                             </div>
-                            <button type="submit" class="btn btn-lg button-primary">
+                            <!-- Button trigger modal -->
+                            <button type="button" class="btn btn-lg button-primary" data-bs-toggle="modal" data-bs-target="#sentMessageModal">
                                 Send
                             </button>
+                            <!-- <button type="submit" class="btn btn-lg button-primary">
+                                Send
+                            </button> -->
                         </form>
                     </div>
                 </div>
@@ -458,6 +462,25 @@
         <!-- double check if same, but only 1 on all pages, whether ID needs to be class -->
         <div class="layer">Footer</div>
     </footer>
+
+      <!-- Modal -->
+    <div class="modal fade" id="sentMessageModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+            <h1 class="modal-title fs-5" id="exampleModalLabel">Thanks for Getting in Touch</h1>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+            We will contact you soon
+            </div>
+            <div class="modal-footer">
+            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+            <button type="button" class="btn btn-primary">Save changes</button>
+            </div>
+        </div>
+        </div>
+    </div>
 
     <!--Bootstrap JS Script-->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
