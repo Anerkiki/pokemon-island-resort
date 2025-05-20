@@ -204,7 +204,7 @@ h1 {
     object-fit: cover;
 }
 
-.hero-bubble {
+.hero-bubble.floating-section {
     position: absolute;
     top: 40%;
     left: 5%;
@@ -229,6 +229,11 @@ h1 {
     border: solid 10px var(--border-color-opaque);
     border-radius: 30px;
     gap: 10px;
+    padding: 24px;
+}
+
+img.floating-section {
+    padding: 0;
 }
 
 /* Forms */
