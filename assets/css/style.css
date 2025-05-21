@@ -244,10 +244,6 @@ img.floating-section {
     width: 100%; /* This is so that images are all the same size */
 }
 
-.extra-image {
-    display: none;
-}
-
 /* Forms */
 .button-primary {
     background-color: var(--leaf-color);
