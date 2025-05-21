@@ -43,6 +43,7 @@ body {
     flex-direction: column;
     gap: 10px;
     width: 100%;
+    word-wrap: break-word;
 }
 
 main {
@@ -120,7 +121,6 @@ h1 {
 .head-title {
     margin-bottom: 0;
     padding-top: 10px;
-    /* might remove this when working on universal page spacing */
 }
 
 .page-title {
@@ -241,6 +241,11 @@ h1 {
 
 img.floating-section {
     padding: 0;
+    width: 100%; /* This is so that images are all the same size */
+}
+
+.extra-image {
+    display: none;
 }
 
 /* Forms */
@@ -277,6 +282,12 @@ img.floating-section {
     }
 }
 
+@media (max-width: 1440px) {
+    .extra-image {
+        display: block;
+    }
+}
+
 @media (max-width: 1200px) {
     .hero-bubble.floating-section {
         padding: 30px;
@@ -289,11 +300,11 @@ img.floating-section {
     }
 
     main {
-        margin-top: 150px; /* this needs changing as the navbar height changes at different screen sizes, and matching with below */
+        margin-top: 154px; /* this needs changing as the navbar height changes at different screen sizes, and matching with below */
     }
 
     html {
-        scroll-padding-top: 150px; /* adjusted to match fixed header height */
+        scroll-padding-top: 154px; /* adjusted to match fixed header height */
     }
 }
 
@@ -306,6 +317,10 @@ img.floating-section {
     html {
         scroll-padding-top: 126px; /* adjusted to match fixed header height */
     }
+
+    /* .extra-image {
+        display: none;
+    } */
 }
 
 @media (max-width: 918px) {
