@@ -348,10 +348,13 @@ img.floating-section {
     main {
         margin-top: 112px;
     }
+
+    html {
+        scroll-padding-top: 112px; /* adjusted to match fixed header height */
+    }
 }
 
 @media (max-width: 570px) {
-
     main {
         margin-top: 100px; /* this needs changing as the navbar height changes at different screen sizes, and matching with below */
     }
