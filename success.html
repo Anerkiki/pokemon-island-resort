@@ -1,0 +1,322 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pokémon Island Resort | Classes</title>
+    <!--Bootstrap CSS link-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <!-- Custom CSS Stylesheet -->
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="icon" type="image/x-icon" href="assets/images/palm.ico">
+</head>
+
+<body>
+
+    <!-- Navigation and Title Section -->
+    <header class="edge-background head-nav fixed-top">
+        <div class="layer">
+            <h1 class="display-3 head-title">Pokémon Island Resort</h1>
+            <nav class="navbar navbar-dark navbar-expand-lg py-0 py-lg-2">
+                <div class="container">
+                    <div class="navbar-brand mx-auto">
+                        <h2 class="page-title mb-0 mx-auto d-lg-none">Suites</h2>
+                        <!-- d-lg-none makes the page title hidden when all navbar links are visible (not in burger icon) -->
+                    </div>
+                    <button class="navbar-toggler burger-icon" type="button"
+                        data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+                        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                        <i class="fa-solid fa-bars"></i>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                        <!-- Left navbar items -->
+                        <div class="navbar-nav me-auto mb-2 gap-2 d-none d-lg-block">
+
+                            <!-- navbar split button - About Us -->
+                            <div class="btn-group px-1 navbar-hover">
+                                <!-- adds padding around sides of buttons -->
+                                <a href="index.html" class="btn main-links">About Us</a>
+                                <button type="button" class="btn bg-transparent dropdown-toggle-split no-border"
+                                    data-bs-toggle="dropdown" aria-expanded="false">
+                                    <i class="fa-solid fa-caret-down"></i>
+                                    <span class="visually-hidden">Toggle Dropdown</span>
+                                </button>
+                                <ul class="dropdown-menu dropdown-menu-end">
+                                    <li>
+                                        <a class="dropdown-item" href="index.html">Home</a>
+                                    </li>
+                                    <li>
+                                        <hr class="dropdown-divider">
+                                    </li>
+                                    <li>
+                                        <a class="dropdown-item" href="index.html#our-island">Activities</a>
+                                    </li>
+                                    <li>
+                                        <hr class="dropdown-divider">
+                                    </li>
+                                    <li>
+                                        <a class="dropdown-item" href="index.html#our-trainers">Our
+                                            Trainers</a>
+                                    </li>
+                                    <li>
+                                        <hr class="dropdown-divider">
+                                    </li>
+                                    <li>
+                                        <a class="dropdown-item" href="index.html#contact-us">Contact</a>
+                                    </li>
+                                </ul>
+                            </div>
+
+                            <!-- navbar split button - Our Trainers -->
+                            <div class="btn-group px-1 navbar-hover">
+                                <!-- adds padding around sides of buttons -->
+                                <a href="index.html#our-trainers" class="btn main-links">
+                                    Our Trainers</a>
+                                <button type="button" class="btn bg-transparent dropdown-toggle-split no-border"
+                                    data-bs-toggle="dropdown" aria-expanded="false">
+                                    <i class="fa-solid fa-caret-down"></i>
+                                    <span class="visually-hidden">Toggle Dropdown</span>
+                                </button>
+                                <ul class="dropdown-menu dropdown-menu-end">
+                                    <li>
+                                        <a class="dropdown-item" href="index.html#trainer1">Trainer Kiawe</a>
+                                    </li>
+                                    <li>
+                                        <hr class="dropdown-divider">
+                                    </li>
+                                    <li>
+                                        <a class="dropdown-item" href="index.html#trainer2">Trainer Lana</a>
+                                    </li>
+                                    <li>
+                                        <hr class="dropdown-divider">
+                                    </li>
+                                    <li>
+                                        <a class="dropdown-item" href="index.html#trainer3">Trainer Mallow</a>
+                                    </li>
+                                </ul>
+                            </div>
+
+                            <!-- navbar split button - Contact Us -->
+                            <div class="btn-group px-1 navbar-hover">
+                                <a href="index.html#contact-us" class="btn main-links">
+                                    Contact Us</a>
+                                <button type="button" class="btn bg-transparent dropdown-toggle-split no-border"
+                                    data-bs-toggle="dropdown" aria-expanded="false">
+                                    <i class="fa-solid fa-caret-down"></i>
+                                    <span class="visually-hidden">Toggle Dropdown</span>
+                                </button>
+                                <ul class="dropdown-menu dropdown-menu-end">
+                                    <li>
+                                        <a class="dropdown-item" href="index.html#contact-us">Send Us a Message</a>
+                                    </li>
+                                    <li>
+                                        <hr class="dropdown-divider">
+                                    </li>
+                                    <li>
+                                        <a class="dropdown-item" href="classes.html#book-a-class">Book a Class</a>
+                                    </li>
+                                    <li>
+                                        <hr class="dropdown-divider">
+                                    </li>
+                                    <li>
+                                        <a class="dropdown-item" href="suites.html#book-a-suite">Book a Suite</a>
+                                    </li>
+                                    <li>
+                                        <hr class="dropdown-divider">
+                                    </li>
+                                    <li>
+                                        <a class="dropdown-item" href="index.html#footer">Social Media</a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+
+                        <!-- Right navbar items on laptop and larger -->
+                        <div class="navbar-nav me-auto me-2 me-lg-0 gap-2 d-none d-lg-block">
+
+                            <!-- split button - Book a Suite -->
+                            <div class="btn-group px-1 navbar-hover">
+                                <a href="suites.html" class="btn main-links">
+                                    Book a Suite</a>
+                                <button type="button" class="btn bg-transparent dropdown-toggle-split no-border"
+                                    data-bs-toggle="dropdown" aria-expanded="false">
+                                    <i class="fa-solid fa-caret-down"></i>
+                                    <span class="visually-hidden">Toggle Dropdown</span>
+                                </button>
+                                <ul class="dropdown-menu dropdown-menu-end">
+                                    <li><a class="dropdown-item" href="suites.html#suite1">Luxury Sea View Penthouse</a></li>
+                                    <li>
+                                        <hr class="dropdown-divider">
+                                    </li>
+                                    <li><a class="dropdown-item" href="suites.html#suite2">Mountain View Apartment</a></li>
+                                    <li>
+                                        <hr class="dropdown-divider">
+                                    </li>
+                                    <li><a class="dropdown-item" href="suites.html#suite3">Garden View Chalet</a></li>
+                                    <li>
+                                        <hr class="dropdown-divider">
+                                    </li>
+                                    <li><a class="dropdown-item" href="suites.html#suite4">Arena View Apartment</a></li>
+                                    <li>
+                                        <hr class="dropdown-divider">
+                                    </li>
+                                    <li>
+                                        <a class="dropdown-item" href="suites.html#book-a-suite">Book Now!</a>
+                                    </li>
+                                </ul>
+                            </div>
+
+                            <!-- split button - Book a Class -->
+                            <div class="btn-group px-1 navbar-hover">
+                                <!-- adds padding around sides of buttons -->
+                                <a href="classes.html" class="btn main-links">
+                                    Book a Class</a>
+                                <button type="button" class="btn bg-transparent dropdown-toggle-split no-border"
+                                    data-bs-toggle="dropdown" aria-expanded="false">
+                                    <i class="fa-solid fa-caret-down"></i>
+                                    <span class="visually-hidden">Toggle Dropdown</span>
+                                </button>
+                                <ul class="dropdown-menu dropdown-menu-end">
+                                    <li>
+                                        <a class="dropdown-item" href="classes.html#class1">Flying Skills</a>
+                                    </li>
+                                    <li>
+                                        <hr class="dropdown-divider">
+                                    </li>
+                                    <li>
+                                        <a class="dropdown-item" href="classes.html#class2">Ocean Riding & Water Skills</a>
+                                    </li>
+                                    <li>
+                                        <hr class="dropdown-divider">
+                                    </li>
+                                    <li>
+                                        <a class="dropdown-item" href="classes.html#class3">Beach & Dune Riding</a>
+                                    </li>
+                                    <li>
+                                        <hr class="dropdown-divider">
+                                    </li>
+                                    <li>
+                                        <a class="dropdown-item" href="classes.html#class4">Fire Breathing & Fire Skills</a>
+                                    </li>
+                                    <li>
+                                        <hr class="dropdown-divider">
+                                    </li>
+                                    <li>
+                                        <a class="dropdown-item" href="classes.html#class5">Snorkelling & Deep Sea Diving</a>
+                                    </li>
+                                    <li>
+                                        <hr class="dropdown-divider">
+                                    </li>
+                                    <li>
+                                        <a class="dropdown-item" href="classes.html#book-a-class">Book Now!</a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                        
+                        <!-- All navbar items for tablets and smaller -->
+                        <ul class="navbar-nav me-auto mb-2 mb-lg-0 d-block d-lg-none burger-links">
+                            <li class="nav-item">
+                              <a class="nav-link" href="index.html">About Us</a>
+                            </li>
+                            <li class="nav-item">
+                              <a class="nav-link" href="index.html#our-trainers">Trainers</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="index.html#contact-us">Contact</a>
+                              </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="classes.html">Classes</a>
+                            </li>
+                        </ul>
+
+                    </div>
+                </div>
+            </nav>
+        </div>
+    </header>
+    <!-- End of Navigation and Title Section -->
+
+    <main class="mx-auto">
+
+    <!-- All Suites Section -->
+    <section>
+        <div class="container mt-0 mt-lg-3">
+
+            <div class="row justify-content-around">
+
+                <div class="col-12 text-center main-page-title title-bubble d-none d-lg-block">
+                    <h2 class="display-4 floating-section title-bubble-text">Thank You</h2>
+                </div>
+
+                <div class="floating-section">
+                    <p>
+                        Your message has been successfully received, and our team will get back to you as soon as possible. 
+                        We appreciate your interest in Pokémon Island Resort and look forward to assisting you. 
+                        In the meantime, feel free to explore our website to learn more about our activities, trainers, and accommodations. 
+                        Have a wonderful day!
+                    </p>
+                    <a type="button" href="index.html" class="btn btn-lg button-primary">
+                            Back to Home
+                    </a>
+                </div>
+
+            </div>
+        </div>
+    </section>
+    <!-- End of All Suites Section -->
+
+    
+    </main>
+
+    <footer class="edge-background" id="footer">
+        <div class="layer">Footer</div>
+    </footer>
+
+    <!--Bootstrap JS Script-->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+        crossorigin="anonymous"></script>
+    <!-- Bootstrap's navbar closing fix code for internal page links -->
+    <script>
+        document
+            .querySelectorAll(".navbar-collapse a:not(.dropdown-toggle)")
+            .forEach((link) => {
+                link.addEventListener("click", function (e) {
+                    let section = document.querySelector(e.target.getAttribute("href").replace("success.html#", "#"));
+                    if (section) {
+                        e.preventDefault(); // Prevent default anchor click behavior
+                        window.scroll({
+                            top: section.offsetTop + 15,
+                            behavior: "smooth",
+                        });
+                        document
+                            .querySelector(".navbar-collapse")
+                            .classList.remove("show"); // Collapse navbar
+                    }
+                });
+            });
+
+            // Might need onload event to scroll to the correct section when navigating directly to a section from another page
+            window.onload = function() {
+                const hash = window.location.hash;
+                if (hash) {
+                    console.log(`Scrolling to ${hash}`);
+                    const section = document.querySelector(hash);
+                    if (section) {
+                        console.log(`Found section: ${section}`);
+                        window.scrollTo({
+                            top: section.offsetTop + 15,
+                            behavior: "smooth",
+                        });
+                    }
+                }
+            };
+    </script>
+    <!-- Font Awesome Kit -->
+    <script src="https://kit.fontawesome.com/965ed0e330.js" crossorigin="anonymous"></script>
+</body>
+
+</html>
