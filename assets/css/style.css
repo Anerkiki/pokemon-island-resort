@@ -105,7 +105,7 @@ h1 {
     color: var(--text-color-dark);
 }
 
-/* Header and Footer */
+/* Header and Footer Background */
 .edge-background {
     background-image: url(../images/bamboo-background.jpg);
     width: 100%;
@@ -113,10 +113,6 @@ h1 {
 
 .layer {
     background-color: var(--leaf-color-opaque);
-}
-
-footer {
-  margin-top: auto;
 }
 
 /* Navbar */
@@ -278,6 +274,30 @@ img.floating-section {
     color: var(--leaf-color);
 }
 
+/* Footer */
+
+#footer {
+  margin-top: auto;
+  /* This is also bootstrap classes for some of the footers, remove 1 or the other in the end */
+  color: var(--highlight-navbar);
+  font-family: var(--font-heading);
+}
+
+#footer a {
+    text-decoration: none;
+    color: var(--background-color);
+    margin: 30px 0;
+    font-size: 1.2rem;
+}
+
+#footer i {
+    font-size: 3rem;
+}
+
+#footer a:hover {
+    color: var(--highlight-navbar);
+}
+
 /* Media Queries */
 @media (max-width: 1600px) {
     .hero-bubble.floating-section {
@@ -398,6 +418,10 @@ img.floating-section {
 
     button .navbar-toggler {
         padding: 0;
+    }
+
+    #footer i {
+    font-size: 2rem;
     }
 
     main {
