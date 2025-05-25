@@ -266,7 +266,7 @@
             <div class="container">
                 <div class="row justify-content-center">
                     <div class="col-12 text-center title-bubble">
-                        <h2 class="display-4 floating-section title-bubble-text">Our Island Activities</h2>
+                        <h2 class="display-4 floating-section title-bubble-text">Our Activities</h2>
                     </div>
                 </div>
 
@@ -293,6 +293,7 @@
                             views, making your stay truly magical.
                         </p>
                     </article>
+                    <!-- "Activity: Beach Entertainment" images that only show on laptop + screens, beside the text boxes -->
                     <div class="col-12 col-lg-6 order-3 d-flex flex-column justify-content-evenly">
                         <img src="assets/images/activity-beach.webp" alt="People and Pokémon having fun at the Beach"
                             class="img-fluid floating-section">
@@ -302,15 +303,22 @@
                 </div>
 
                 <div class="row justify-content-center">
+                    <!-- "Activity: Hot Springs" images that only show on laptop + screens, beside the text boxes -->
                     <div class="col-12 col-lg-6 order-2 order-lg-1 d-flex flex-column justify-content-evenly">
                         <img src="assets/images/activity-hot-springs.png"
-                            alt="Trainer Kiawe and Charizard in the hot springs" class="img-fluid floating-section">
+                            alt="Trainer Kiawe and Charizard in the hot springs" class="img-fluid floating-section d-none d-lg-block">
+                        <img src="assets/images/activity-rock-fishing-lana.jpg"
+                            alt="Lana Fishing at one of the rocky pools" class="img-fluid floating-section d-none d-lg-block">
                         <img src="assets/images/activity-fishing.jpg"
-                            alt="Trainer Mallow fishing in one of the fishing pools" class="img-fluid floating-section">
+                            alt="Trainer Mallow fishing in one of the fishing pools" 
+                            class="img-fluid floating-section d-none d-lg-block d-xl-none">
                     </div>
                     <article
                         class="col-12 col-lg-5 order-1 order-lg-2 text-center floating-section d-flex flex-column justify-content-evenly">
                         <h2 class="display-6">Hot Springs and Fishing Pools</h2>
+                        <img src="assets/images/activity-hot-springs.png"
+                            alt="Trainer Kiawe and Charizard in the hot springs"
+                            class="img-fluid floating-section d-block d-lg-none">
                         <p>
                             Immerse yourself in the soothing embrace of our natural hot springs and tranquil fishing
                             pools, surrounded by breathtaking views of the island's lush landscapes and serene
@@ -342,6 +350,9 @@
                     <article
                         class="col-12 col-lg-5 text-center floating-section d-flex flex-column justify-content-evenly">
                         <h2 class="display-6">Berry Picking, Foraging & Cooking</h2>
+                        <img src="assets/images/activity-mallow-berry.webp"
+                            alt="Trainer Mallow and pokémon picking berries"
+                            class="img-fluid floating-section d-block d-lg-none">
                         <p>
                             Immerse yourself in the joy of berry picking within our expansive greenery and vibrant
                             flora. Our trainers will guide you in harvesting a variety of rare and exotic berries, fresh
@@ -360,27 +371,40 @@
                         </p>
                     </article>
                     <div class="col-12 col-lg-6 d-flex flex-column justify-content-evenly">
+                    <!-- "Activity: Berry Picking" images that only show on laptop + screens, beside the text boxes -->
                         <img src="assets/images/activity-mallow-berry.webp"
-                            alt="Trainer Mallow and pokémon picking berries" class="img-fluid floating-section">
-                        <img src="assets/images/activity-mallow-mush.webp" alt="Trainer Mallow harvesting mushrooms"
-                            class="img-fluid floating-section">
+                            alt="Trainer Mallow and pokémon picking berries"
+                            class="img-fluid floating-section d-none d-lg-block">
+                        <img src="assets/images/activity-mallow-mush.webp"
+                            alt="Trainer Mallow smiling whilst harvesting mushrooms"
+                            class="img-fluid floating-section d-none d-lg-block">
                         <img src="assets/images/activity-cooking.jpg"
                             alt="Trainer Mallow cooking with freshly harvested vegetables"
                             class="d-none d-lg-block d-xl-none img-fluid floating-section">
                     </div>
                 </div>
 
+
                 <div class="row justify-content-center">
                     <div class="col-12 col-lg-6 order-2 order-lg-1 d-flex flex-column justify-content-evenly">
+                        <img src="assets/images/activity-battle-mallow-lana-arena.jpeg" alt=""
+                            class="img-fluid floating-section d-none d-lg-block">
                         <img src="assets/images/activity-battles.png" alt="Pokemon Battling in the Pokémon Arena"
-                            class="img-fluid floating-section">
-                        <img src="assets/images/activity-battle-kiawe1.jpg" alt="Kiawe and pokémon preparing for battle"
-                            class="img-fluid floating-section">
-                        <!-- TO DO: Add another image here of battle arena/trainers and pokemon battling -->
+                            class="img-fluid floating-section d-none d-lg-block d-xl-none">
+                        <img src="assets/images/activity-battle-lana-mallow.jpg"
+                            alt="Mallow and Lana high fiving with the arena in the background"
+                            class="img-fluid floating-section d-none d-lg-block">
+
+                        <!-- Spare Image -->
+                        <!-- <img src="assets/images/activity-battle-lana.png" alt=""
+                            class="img-fluid floating-section"> -->
                     </div>
                     <article
                         class="col-12 col-lg-5 order-1 order-lg-2 text-center floating-section d-flex flex-column justify-content-evenly">
                         <h2 class="display-6">Arena Battles</h2>
+                        <!-- Image that only shows on mobile/tablet view inside the text boxes -->
+                        <img src="assets/images/activity-battles.png" alt="Pokemon Battling in the Pokémon Arena"
+                            class="img-fluid floating-section d-block d-lg-none">
                         <p>
                             Experience the thrill of Pokémon battles in our state-of-the-art arena, where trainers and
                             their Pokémon can showcase their skills in friendly competitions.
@@ -411,6 +435,7 @@
                 <div class="row justify-content-center">
                     <div class="col-12 text-center title-bubble">
                         <h2 class="display-4 floating-section title-bubble-text">Our Trainers and Pokémon</h2>
+                        <!-- maybe take away "and Pokemon" as I'm probably not going to add these also -->
                     </div>
                     <div>
                         <img src="assets/images/trainers-group.jpg"
@@ -464,7 +489,9 @@
                         <img src="assets/images/trainer-lana-feeding.webp" alt="Trainer Lana feeding a Pokémon"
                             class="img-fluid floating-section">
                         <img src="assets/images/trainer-lana-lapras-fishing.jpg"
-                            alt="Trainer Lana sitting on a Lapras fishing" class="img-fluid floating-section">
+                            alt="Lana Fishing at one of the rocky pools"
+                            class="img-fluid floating-section d-none d-lg-block d-xl-none">
+                        <img src="assets/images/" alt="Trainer Lana" class="img-fluid floating-section">
                         <!-- <img src="" alt="" class="img-fluid floating-section d-none d-lg-block d-xl-none"> -->
                     </div>
                     <article
