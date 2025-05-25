@@ -112,6 +112,10 @@ h1 {
     background-color: var(--leaf-color-opaque);
 }
 
+footer {
+  margin-top: auto;
+}
+
 /* Navbar */
 .head-nav {
     border-bottom: solid 4px var(--border-color);
