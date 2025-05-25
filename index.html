@@ -275,6 +275,8 @@
                         class="col-12 col-lg-5 text-center floating-section d-flex flex-column justify-content-evenly">
                         <!-- Added d-flex flex-column justify-content-center/justify-content-evenly to all articles and image divs so that the text/images are centered vertically in comparison to the opposing side, so it looks good on all screen sizes-->
                         <h2 class="display-6">Beach Entertainment</h2>
+                        <img src="assets/images/activity-beach.webp" alt="People and Pokémon having fun at the Beach"
+                            class="img-fluid floating-section d-block d-lg-none">
                         <p>
                             Immerse yourself in the vibrant energy of our beach entertainment, where the fun never ends.
                             Join us for lively beach parties featuring music, dancing, and unforgettable moments.
@@ -296,9 +298,9 @@
                     <!-- "Activity: Beach Entertainment" images that only show on laptop + screens, beside the text boxes -->
                     <div class="col-12 col-lg-6 order-3 d-flex flex-column justify-content-evenly">
                         <img src="assets/images/activity-beach.webp" alt="People and Pokémon having fun at the Beach"
-                            class="img-fluid floating-section">
+                            class="img-fluid floating-section d-none d-lg-block">
                         <img src="assets/images/activity-fishing-lana-mallow.jpg"
-                            alt="Trainers fishing off the beach pier" class="img-fluid floating-section">
+                            alt="Trainers fishing off the beach pier" class="img-fluid floating-section d-none d-lg-block">
                     </div>
                 </div>
 
@@ -434,8 +436,7 @@
 
                 <div class="row justify-content-center">
                     <div class="col-12 text-center title-bubble">
-                        <h2 class="display-4 floating-section title-bubble-text">Our Trainers and Pokémon</h2>
-                        <!-- maybe take away "and Pokemon" as I'm probably not going to add these also -->
+                        <h2 class="display-4 floating-section title-bubble-text">Our Trainers</h2>
                     </div>
                     <div>
                         <img src="assets/images/trainers-group.jpg"
@@ -484,19 +485,28 @@
                     </div>
                 </div>
 
+            </div>
+        </section>
+
+        <section>
+            <div class="container">
+
                 <div class="row justify-content-center" id="trainer2">
                     <div class="col-12 col-lg-6 order-2 order-lg-1 d-flex flex-column justify-content-evenly">
                         <img src="assets/images/trainer-lana-feeding.webp" alt="Trainer Lana feeding a Pokémon"
-                            class="img-fluid floating-section">
+                            class="img-fluid floating-section d-none d-lg-block">
                         <img src="assets/images/trainer-lana-lapras-fishing.jpg"
                             alt="Lana Fishing at one of the rocky pools"
-                            class="img-fluid floating-section d-none d-lg-block d-xl-none">
-                        <img src="assets/images/" alt="Trainer Lana" class="img-fluid floating-section">
+                            class="img-fluid floating-section d-none d-lg-block">
+                        <img src="assets/images/trainer-lana-square.jpg" alt="Trainer Lana" 
+                        class="img-fluid floating-section d-none d-lg-block d-xl-none">
                         <!-- <img src="" alt="" class="img-fluid floating-section d-none d-lg-block d-xl-none"> -->
                     </div>
                     <article
                         class="col-12 col-lg-5 order-1 order-lg-2 text-center floating-section d-flex flex-column justify-content-evenly">
                         <h2 class="display-6">Trainer Lana</h2>
+                        <img src="assets/images/trainer-lana-feeding.webp" alt="Trainer Lana"
+                            class="img-fluid floating-section d-block d-lg-none">
                         <p>
                             Lana is a water-type Pokémon expert known for her calm demeanor and exceptional skills in
                             aquatic environments. She specializes in teaching trainers how to bond with their Pokémon
