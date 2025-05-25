@@ -271,8 +271,9 @@
                 </div>
 
                 <div class="row justify-content-center">
-                    <article class="col-12 col-lg-5 text-center floating-section d-flex flex-column justify-content-center">
-                        <!-- Added d-flex flex-column justify-content-center to all articles and image divs so that the text/images are centered vertically in comparison to the opposing side, so it looks good on all screen sizes-->
+                    <article
+                        class="col-12 col-lg-5 text-center floating-section d-flex flex-column justify-content-evenly">
+                        <!-- Added d-flex flex-column justify-content-center/justify-content-evenly to all articles and image divs so that the text/images are centered vertically in comparison to the opposing side, so it looks good on all screen sizes-->
                         <h2 class="display-6">Beach Entertainment</h2>
                         <p>
                             Immerse yourself in the vibrant energy of our beach entertainment, where the fun never ends.
@@ -295,6 +296,8 @@
                     <div class="col-12 col-lg-6 order-3 d-flex flex-column justify-content-center">
                         <img src="assets/images/activity-beach.webp" alt="People and Pokémon having fun at the Beach"
                             class="img-fluid floating-section">
+                        <img src="assets/images/activity-fishing-lana-mallow.jpg"
+                            alt="Trainers fishing off the beach pier" class="img-fluid floating-section">
                     </div>
                 </div>
 
@@ -305,7 +308,8 @@
                         <img src="assets/images/activity-fishing.jpg"
                             alt="Trainer Mallow fishing in one of the fishing pools" class="img-fluid floating-section">
                     </div>
-                    <article class="col-12 col-lg-5 order-1 order-lg-2 text-center floating-section d-flex flex-column justify-content-center">
+                    <article
+                        class="col-12 col-lg-5 order-1 order-lg-2 text-center floating-section d-flex flex-column justify-content-evenly">
                         <h2 class="display-6">Hot Springs and Fishing Pools</h2>
                         <p>
                             Immerse yourself in the soothing embrace of our natural hot springs and tranquil fishing
@@ -327,7 +331,8 @@
                 </div>
 
                 <div class="row justify-content-center">
-                    <article class="col-12 col-lg-5 text-center floating-section d-flex flex-column justify-content-center">
+                    <article
+                        class="col-12 col-lg-5 text-center floating-section d-flex flex-column justify-content-evenly">
                         <h2 class="display-6">Berry Picking, Foraging & Cooking</h2>
                         <p>
                             Immerse yourself in the joy of berry picking within our expansive greenery and vibrant
@@ -363,7 +368,8 @@
                             class="img-fluid floating-section">
 
                     </div>
-                    <article class="col-12 col-lg-5 order-1 order-lg-2 text-center floating-section d-flex flex-column justify-content-center">
+                    <article
+                        class="col-12 col-lg-5 order-1 order-lg-2 text-center floating-section d-flex flex-column justify-content-evenly">
                         <h2 class="display-6">Arena Battles</h2>
                         <p>
                             Experience the thrill of Pokémon battles in our state-of-the-art arena, where trainers and
@@ -406,7 +412,8 @@
 
 
                 <div class="row justify-content-center" id="trainer1">
-                    <article class="col-12 col-lg-5 text-center floating-section d-flex flex-column justify-content-center">
+                    <article
+                        class="col-12 col-lg-5 text-center floating-section d-flex flex-column justify-content-evenly">
                         <h2 class="display-6">Trainer Kiawe</h2>
                         <p>
                             Kiawe is a passionate and energetic trainer specializing in fire, flying and rock Pokémon.
@@ -414,32 +421,40 @@
                             Whether you're soaring through the skies with Charizard or mastering the art of dune riding
                             with Tauros, Kiawe ensures a thrilling and educational experience for all participants.
                         </p>
-                        <h3 class="lead">Book Class with Charizard:</h3>
-                        <a href="classes.html#class1" class="btn btn-light btn-lg button-primary">Flying Class</a>
-                        <a href="classes.html#class4" class="btn btn-light btn-lg button-primary">Fire Breathing
-                            Class</a>
-                        <h3 class="lead mt-2">Book Class with Tauros:</h3>
-                        <a href="classes.html#class3" class="btn btn-light btn-lg button-primary">Beach & Dune Ride</a>
+                        <div>
+                            <h3 class="lead">Book Class with Charizard:</h3>
+                            <a href="classes.html#class1" class="btn btn-light btn-lg button-primary">Flying Class</a>
+                            <a href="classes.html#class4" class="btn btn-light btn-lg button-primary">Fire Breathing
+                                Class</a>
+                        </div>
+                        <div>
+                            <h3 class="lead mt-2">Book Class with Tauros:</h3>
+                            <a href="classes.html#class3" class="btn btn-light btn-lg button-primary">Beach & Dune Ride</a>
+                        </div>
                     </article>
-                    <div class="col-12 col-lg-6 d-flex flex-column justify-content-center">
-                        <img src="assets/images/trainer-kiawe-1.jpg" alt="Trainer Kiawe"
+                    <div class="col-12 col-lg-6 d-flex flex-column justify-content-evenly">
+                        <!-- decide between evenly or center for photos as well as text content -->
+                        <img src="assets/images/trainer-kaiwe-1.jpg" alt="Trainer Kiawe"
                             class="img-fluid floating-section">
-                        <img src="assets/images/trainer-kaiwe-square.jpg" alt="Trainer Kiawe"
-                            class="img-fluid floating-section">
+                        <img src="assets/images/trainer-kiawe-2.jpg" alt="Trainer Kiawe climbing a palm tree"
+                            class="img-fluid floating-section d-none d-lg-block d-xl-none">
+                        <!-- Have this only show when on larger screen - instead of 3 pics, as 2nd pic -->
+                        <img src="assets/images/trainer-kiawe-charizard-delivery.png" alt="Trainer Kiawe delivering food supplies with Charizard" class="img-fluid floating-section">
+
                         <!-- have Image of Kiawe and have more bubbles/cards about his pokemon below which are featured in classes -->
                     </div>
                 </div>
 
                 <div class="row justify-content-center" id="trainer2">
-                    <div class="col-12 col-lg-6 order-2 order-lg-1 d-flex flex-column justify-content-center">
-                        <img src="assets/images/trainer-lana-square.jpg" alt="Trainer Lana"
-                            class="img-fluid floating-section">
+                    <div class="col-12 col-lg-6 order-2 order-lg-1 d-flex flex-column justify-content-evenly">
                         <img src="assets/images/trainer-lana-feeding.webp" alt="Trainer Lana feeding a Pokémon"
                             class="img-fluid floating-section">
                         <img src="assets/images/trainer-lana-lapras-fishing.jpg"
                             alt="Trainer Lana sitting on a Lapras fishing" class="img-fluid floating-section">
+                        <!-- <img src="" alt="" class="img-fluid floating-section d-none d-lg-block d-xl-none"> -->
                     </div>
-                    <article class="col-12 col-lg-5 order-1 order-lg-2 text-center floating-section d-flex flex-column justify-content-center">
+                    <article
+                        class="col-12 col-lg-5 order-1 order-lg-2 text-center floating-section d-flex flex-column justify-content-evenly">
                         <h2 class="display-6">Trainer Lana</h2>
                         <p>
                             Lana is a water-type Pokémon expert known for her calm demeanor and exceptional skills in
@@ -447,17 +462,22 @@
                             through water-based activities. Whether it's riding the waves with Lapras or exploring the
                             depths with Primarina, Lana ensures a safe and enjoyable experience for all participants.
                         </p>
-                        <h3 class="lead">Book Class with Lapras:</h3>
-                        <a href="classes.html#class2" class="btn btn-light btn-lg button-primary">Ocean Riding & Water
-                            Skills</a>
-                        <h3 class="lead mt-2">Book Class with Primarina:</h3>
-                        <a href="classes.html#class5" class="btn btn-light btn-lg button-primary">Snorkeling &
-                            Diving</a>
+                        <div>
+                            <h3 class="lead">Book Class with Lapras:</h3>
+                            <a href="classes.html#class2" class="btn btn-light btn-lg button-primary">Ocean Riding & Water
+                                Skills</a>
+                        </div>
+                        <div>
+                            <h3 class="lead mt-2">Book Class with Primarina:</h3>
+                            <a href="classes.html#class5" class="btn btn-light btn-lg button-primary">
+                                Snorkeling & Diving</a>
+                        </div>
                     </article>
                 </div>
 
                 <div class="row justify-content-center" id="trainer3">
-                    <article class="col-12 col-lg-5 text-center floating-section d-flex flex-column justify-content-center">
+                    <article
+                        class="col-12 col-lg-5 text-center floating-section d-flex flex-column justify-content-evenly">
                         <h2 class="display-6">Trainer Mallow</h2>
                         <p>
                             Mallow is a skilled trainer specializing in grass and ground Pokémon. Her classes are a mix
@@ -465,12 +485,16 @@
                             mastering moves, Mallow ensures every moment is filled with fun, laughter, and unforgettable
                             memories!
                         </p>
-                        <h3 class="lead">Book Class with Flygon:</h3>
-                        <a href="classes.html#class1" class="btn btn-light btn-lg button-primary">Flying Class</a>
-                        <h3 class="lead mt-2">Book Class with Tauros:</h3>
-                        <a href="classes.html#class3" class="btn btn-light btn-lg button-primary">Beach & Dune Ride</a>
+                        <div>
+                            <h3 class="lead">Book Class with Flygon:</h3>
+                            <a href="classes.html#class1" class="btn btn-light btn-lg button-primary">Flying Class</a>
+                        </div>
+                        <div>
+                            <h3 class="lead mt-2">Book Class with Tauros:</h3>
+                            <a href="classes.html#class3" class="btn btn-light btn-lg button-primary">Beach & Dune Ride</a>
+                        </div>
                     </article>
-                    <div class="col-12 col-lg-6 d-flex flex-column justify-content-center">
+                    <div class="col-12 col-lg-6 d-flex flex-column justify-content-evenly">
                         <!-- <img src="assets/images/trainer-mallow-square.jpg" alt="Trainer Mallow" class="img-fluid floating-section"> -->
                         <img src="assets/images/trainer-mallow-1.jpg" alt="Trainer Mallow"
                             class="img-fluid floating-section">
