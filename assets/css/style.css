@@ -3,34 +3,46 @@
 :root {
     --font-heading: 'Skranji', cursive;
     --font-paragraph: 'Roboto', sans-serif;
-    --text-color-dark: #84644b; /* rgb(132, 100, 75); */
-    --background-color: #ffd8b7; /* rgb(255, 216, 183); -- matches main colour of background image */
+    --text-color-dark: #84644b;
+    /* rgb(132, 100, 75); */
+    --background-color: #ffd8b7;
+    /* rgb(255, 216, 183); -- matches main colour of background image */
 
-    --background-color-light: #ffdfc3; /* rgb(255, 223, 195); */
+    --background-color-light: #ffdfc3;
+    /* rgb(255, 223, 195); */
 
-    --highlight-navbar: #ffe3ca; /* rgb(255, 227, 202); */
+    --highlight-navbar: #ffe3ca;
+    /* rgb(255, 227, 202); */
 
-    --highlight-color: #feeddc; /* rgb(254, 237, 220); */
+    --highlight-color: #feeddc;
+    /* rgb(254, 237, 220); */
     --highlight-color-opaque: rgba(254, 237, 220, 0.9);
 
-    --border-color: #cfa581; /* rgb(207, 165, 129); */
+    --border-color: #cfa581;
+    /* rgb(207, 165, 129); */
     --border-color-opaque: rgba(207, 165, 129, 0.9);
 
-    --leaf-color: #008769; /* rgb(0, 135, 105) */
+    --leaf-color: #008769;
+    /* rgb(0, 135, 105) */
     --leaf-color-opaque: rgba(0, 135, 105, 0.7);
 
-    --blue-color: #0096e7; /* rgb(0, 150, 231) */
-    --footprint-color: #f8c09b; /*  rgba(248, 192, 155, 0.9) */
+    --blue-color: #0096e7;
+    /* rgb(0, 150, 231) */
+    --footprint-color: #f8c09b;
+    /*  rgba(248, 192, 155, 0.9) */
 
-    --shell-color: #f3decd; /* rgb(243, 222, 205) */
+    --shell-color: #f3decd;
+    /* rgb(243, 222, 205) */
 
     --other-beige: #deb18c;
 }
 
 /* Global Styles */
 html {
-    scroll-padding-top: 160px; /* adjusted to match fixed header height */
-    scroll-behavior: smooth;   /* enables smooth scrolling for anchor links */
+    scroll-padding-top: 160px;
+    /* adjusted to match fixed header height */
+    scroll-behavior: smooth;
+    /* enables smooth scrolling for anchor links */
 }
 
 body {
@@ -49,13 +61,15 @@ body {
 }
 
 main {
-    position: relative; /* burger icon doesn't show without this */
+    position: relative;
+    /* burger icon doesn't show without this */
     width: 100%;
     display: flex;
     flex-direction: column;
     align-items: center;
     gap: 10px;
-    margin-top: 160px; /* this needs changing to media queries for the different navbar breakpoints to combine with header height */
+    margin-top: 160px;
+    /* this needs changing to media queries for the different navbar breakpoints to combine with header height */
 }
 
 section {
@@ -79,7 +93,12 @@ section div.container {
     gap: 10px;
 }
 
-h1, h2, h3, h4, h5, h6 {
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
     font-family: var(--font-heading);
     color: var(--leaf-color);
 }
@@ -206,7 +225,7 @@ h1 {
     height: 100%;
     overflow: hidden;
     border-radius: 0;
-}   
+}
 
 .hero img {
     width: 100%;
@@ -244,7 +263,8 @@ h1 {
 
 img.floating-section {
     padding: 0;
-    width: 100%; /* This is so that images are all the same size */
+    width: 100%;
+    /* This is so that images are all the same size */
 }
 
 /* Forms */
@@ -277,10 +297,10 @@ img.floating-section {
 /* Footer */
 
 #footer {
-  margin-top: auto;
-  /* This is also bootstrap classes for some of the footers, remove 1 or the other in the end */
-  color: var(--highlight-navbar);
-  font-family: var(--font-heading);
+    margin-top: auto;
+    /* This is also bootstrap classes for some of the footers, remove 1 or the other in the end */
+    color: var(--highlight-navbar);
+    font-family: var(--font-heading);
 }
 
 #footer a {
@@ -323,22 +343,26 @@ img.floating-section {
     }
 
     main {
-        margin-top: 154px; /* this needs changing as the navbar height changes at different screen sizes, and matching with below */
+        margin-top: 154px;
+        /* this needs changing as the navbar height changes at different screen sizes, and matching with below */
     }
 
     html {
-        scroll-padding-top: 154px; /* adjusted to match fixed header height */
+        scroll-padding-top: 154px;
+        /* adjusted to match fixed header height */
     }
 }
 
 @media (max-width: 992px) {
     main {
-        margin-top: 126px; /* this needs changing as the navbar height changes at different screen sizes, and matching with below */
+        margin-top: 126px;
+        /* this needs changing as the navbar height changes at different screen sizes, and matching with below */
         gap: 5px;
     }
 
     html {
-        scroll-padding-top: 126px; /* adjusted to match fixed header height */
+        scroll-padding-top: 126px;
+        /* adjusted to match fixed header height */
     }
 
     /* .extra-image {
@@ -348,12 +372,14 @@ img.floating-section {
 
 @media (max-width: 918px) {
     main {
-        margin-top: 118px; /* this needs changing as the navbar height changes at different screen sizes, and matching with below */
+        margin-top: 118px;
+        /* this needs changing as the navbar height changes at different screen sizes, and matching with below */
         gap: 5px;
     }
 
     html {
-        scroll-padding-top: 118px; /* adjusted to match fixed header height */
+        scroll-padding-top: 118px;
+        /* adjusted to match fixed header height */
     }
 }
 
@@ -363,11 +389,13 @@ img.floating-section {
     }
 
     main {
-        margin-top: 114px; /* this needs changing as the navbar height changes at different screen sizes, and matching with below */
+        margin-top: 114px;
+        /* this needs changing as the navbar height changes at different screen sizes, and matching with below */
     }
 
     html {
-        scroll-padding-top: 114px; /* adjusted to match fixed header height */
+        scroll-padding-top: 114px;
+        /* adjusted to match fixed header height */
     }
 }
 
@@ -377,17 +405,20 @@ img.floating-section {
     }
 
     html {
-        scroll-padding-top: 112px; /* adjusted to match fixed header height */
+        scroll-padding-top: 112px;
+        /* adjusted to match fixed header height */
     }
 }
 
 @media (max-width: 570px) {
     main {
-        margin-top: 100px; /* this needs changing as the navbar height changes at different screen sizes, and matching with below */
+        margin-top: 100px;
+        /* this needs changing as the navbar height changes at different screen sizes, and matching with below */
     }
 
     html {
-        scroll-padding-top: 100px; /* adjusted to match fixed header height */
+        scroll-padding-top: 100px;
+        /* adjusted to match fixed header height */
     }
 
     .hero-bubble.floating-section {
@@ -421,14 +452,16 @@ img.floating-section {
     }
 
     #footer i {
-    font-size: 2rem;
+        font-size: 2rem;
     }
 
     main {
-        margin-top: 83px; /* this needs changing as the navbar height changes at different screen sizes, and matching with below */
+        margin-top: 83px;
+        /* this needs changing as the navbar height changes at different screen sizes, and matching with below */
     }
 
     html {
-        scroll-padding-top: 83px; /* adjusted to match fixed header height */
+        scroll-padding-top: 83px;
+        /* adjusted to match fixed header height */
     }
 }
