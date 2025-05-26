@@ -4,6 +4,10 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description"
+        content="Welcome to Pokémon Island Resort, where trainers and their Pokémon can relax, learn, and have fun in a tropical paradise.">
+    <meta name="keywords"
+        content="Pokémon, Island Resort, Trainers, Classes, Book a Class, Pokémon Training, Tropical Paradise">
     <title>Pokémon Island Resort | Classes</title>
     <!--Bootstrap CSS link-->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
@@ -474,14 +478,14 @@
             <div class="container">
                 <div class="row justify-content-center">
 
-                    <div class="col-12 col-lg-11 text-center floating-section">
+                    <div class="col-12 text-center floating-section">
                         <h1 class="display-4">Book a Class</h1>
                         <p>
                             Please let us know which class you would like to book and we will get back to you as soon
                             as&nbsp;possible.
                         </p>
 
-                        <form action="success.html" method="GET" class="col-12 col-lg-8 mx-auto">
+                        <form action="success.html" method="GET" class="col-12 col-lg-10 mx-auto" id="form">
                             <div class="row justify-content-center">
                                 <div class="col-12 col-lg-5">
                                     <label for="name" class="form-label h3">
@@ -496,25 +500,25 @@
                                     <input class="form-control" id="email" name="email" type="email" required>
                                 </div>
                                 <div class="col-12 col-lg-5 mb-3">
-                                    <label for="requested-class" class="form-label h3">Choose a Class</label>
-                                    <select id="requested-class" class="form-select" aria-label="Class Selection List"
-                                        required>
-                                        <option value="" selected>Pick Here</option>
-                                        <option value="1">Kiawe &nbsp;&nbsp;&nbsp;|&nbsp;&nbsp; Beach & Dune Ride</option>
-                                        <option value="2">Kiawe &nbsp;&nbsp;&nbsp;|&nbsp;&nbsp; Fire Breathing & Skills</option>
-                                        <option value="3">Kiawe &nbsp;&nbsp;&nbsp;|&nbsp;&nbsp; Flying Class</option>
-                                        <option value="4">Mallow &nbsp;|&nbsp;&nbsp; Beach & Dune Ride</option>
-                                        <option value="5">Mallow &nbsp;|&nbsp;&nbsp; Flying Class</option>
-                                        <option value="6">Lana &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp; Ocean Ride & Water Skills</option>
-                                        <option value="7">Lana &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp; Snorkeling & Deep Sea Dive</option>
-                                    </select>
-                                </div>
-                                <div class="col-12 col-lg-6 mb-3">
                                     <label for="pokemon-name" class="form-label h3">
                                         Pokémon Joining
                                     </label>
                                     <input class="form-control" id="pokemon-name" name="pokemon-name" type="text"
                                         required>
+                                </div>
+                                <div class="col-12 col-lg-6 mb-3">
+                                    <label for="requested-class" class="form-label h3">Choose a Class</label>
+                                    <select id="requested-class" class="form-select" aria-label="Class Selection List"
+                                        required>
+                                        <option value="" class="text-center" selected>Pick Here</option>
+                                        <option value="kiawe-beach">Kiawe &nbsp;&nbsp;&nbsp;|&nbsp;&nbsp; Beach & Dune Ride</option>
+                                        <option value="kiawe-fire">Kiawe &nbsp;&nbsp;&nbsp;|&nbsp;&nbsp; Fire Breathing & Skills</option>
+                                        <option value="kiawe-fly">Kiawe &nbsp;&nbsp;&nbsp;|&nbsp;&nbsp; Flying Class</option>
+                                        <option value="mallow-beach">Mallow &nbsp;|&nbsp;&nbsp; Beach & Dune Ride</option>
+                                        <option value="mallow-fly">Mallow &nbsp;|&nbsp;&nbsp; Flying Class</option>
+                                        <option value="lana-ocean">Lana &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp; Ocean Ride & Water Skills</option>
+                                        <option value="lana-snorkel">Lana &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp; Snorkeling & Deep Sea Dive</option>
+                                    </select>
                                 </div>
 
                                 <button type="submit" class="btn btn-lg button-primary col-6 col-md-6">

@@ -18,6 +18,8 @@
     /* rgb(254, 237, 220); */
     --highlight-color-opaque: rgba(254, 237, 220, 0.9);
 
+    --highlight-color-opaque-lighter: rgba(255, 250, 245, 0.9);
+
     --border-color: #cfa581;
     /* rgb(207, 165, 129); */
     --border-color-opaque: rgba(207, 165, 129, 0.9);
@@ -264,24 +266,44 @@ img.floating-section {
     /* This is so that images are all the same size */
 }
 
-/* Forms */
+/* Buttons */
 .button-primary {
     background-color: var(--leaf-color);
     color: var(--highlight-color);
+    /* color: var(--background-color-light); --- Decide between this or above/between --- */
     font-family: var(--font-heading);
     text-transform: uppercase;
     border: solid 6px rgba(207, 165, 129, 0.9);
     border-radius: 15px;
+    font-size: 1.5rem; /* This has to be this size for readability as doesn't pass Wave contrast test without */
 }
 
 .button-primary:hover {
     background-color: var(--highlight-color-opaque);
     color: var(--text-color-dark);
     font-family: var(--font-heading);
-    border-color: var(--border-color);
+    border-color: var(--border-color-opaque);
 }
 
 /* Forms */
+#form input, #form textarea, #form select {
+    border: solid 7px rgba(207, 165, 129, 0.7);
+    border-radius: 15px;
+    padding: 10px;
+    font-family: var(--font-paragraph);
+    color: var(--text-color-dark);
+    background-color: var(--highlight-color-opaque-lighter);
+    font-size: 1.2rem;
+    font-weight: 800;
+    width: 100%;
+    max-width: 100%;
+}
+
+#form input:focus, #form textarea:focus, #form select:focus {
+    border-color: var(--text-color-dark);
+    box-shadow: 0 0 10px rgba(132, 100, 75, 0.5);
+}
+
 .form {
     gap: 20px;
 }
@@ -292,7 +314,6 @@ img.floating-section {
 }
 
 /* Footer */
-
 #footer {
     margin-top: auto;
     /* This is also bootstrap classes for some of the footers, remove 1 or the other in the end */
