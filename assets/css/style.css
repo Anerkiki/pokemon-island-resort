@@ -103,11 +103,6 @@ h6 {
     color: var(--leaf-color);
 }
 
-h1 {
-    font-weight: 400;
-    color: var(--background-color);
-}
-
 .no-border {
     border: none;
 }
@@ -140,7 +135,8 @@ h1 {
     z-index: 2;
 }
 
-.head-title {
+h1.head-title {
+    color: var(--background-color);
     margin-bottom: 0;
     padding-top: 10px;
 }
