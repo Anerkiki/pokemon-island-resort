@@ -287,7 +287,7 @@ img.floating-section {
 
 /* Forms */
 #form input, #form textarea, #form select {
-    border: solid 7px rgba(207, 165, 129, 0.7);
+    border: solid 7px rgba(207, 165, 129, 0.8);
     border-radius: 15px;
     padding: 10px;
     font-family: var(--font-paragraph);
@@ -303,6 +303,17 @@ img.floating-section {
     border-color: var(--text-color-dark);
     box-shadow: 0 0 10px rgba(132, 100, 75, 0.5);
 }
+
+#form input::placeholder, #form textarea::placeholder {
+    color: var(--text-color-dark);
+    font-family: var(--font-paragraph);
+    font-weight: 400;
+}
+
+/* #form input:-internal-autofill-selected {
+    background-color: var(--highlight-color-opaque-lighter);
+} this is to try and fix light blue background appearing when selecting a pre-selected option on forms */
+
 
 .form {
     gap: 20px;
