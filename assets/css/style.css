@@ -235,7 +235,7 @@ h1.head-title {
 .hero-bubble.floating-section {
     position: absolute;
     top: 40%;
-    left: 5%;
+    left: 18%;
     padding: 50px;
     z-index: 1;
 }
@@ -349,28 +349,30 @@ img.floating-section {
 
 /* Media Queries */
 @media (max-width: 1600px) {
+    /* Hero */
     .hero-bubble.floating-section {
         padding: 40px;
+        left: 15%;
     }
 }
 
 @media (max-width: 1440px) {
-    .extra-image {
-        display: block;
+    /* Hero */
+    .hero-bubble.floating-section {
+    padding: 30px;
     }
 }
 
 @media (max-width: 1200px) {
+    /* Hero */
     .hero-bubble.floating-section {
         padding: 30px;
+        left: 12%
     }
 }
 
 @media (max-width: 1024px) {
-    .hero-bubble.floating-section {
-        padding: 20px;
-    }
-
+    /* Scroll Fix */
     main {
         margin-top: 154px;
         /* this needs changing as the navbar height changes at different screen sizes, and matching with below */
@@ -383,6 +385,12 @@ img.floating-section {
 }
 
 @media (max-width: 992px) {
+    /* Hero */
+    .hero-bubble.floating-section {
+        left: 6%;
+    }
+
+    /* Scroll Fix */
     main {
         margin-top: 126px;
         /* this needs changing as the navbar height changes at different screen sizes, and matching with below */
@@ -393,13 +401,10 @@ img.floating-section {
         scroll-padding-top: 126px;
         /* adjusted to match fixed header height */
     }
-
-    /* .extra-image {
-        display: none;
-    } */
 }
 
 @media (max-width: 918px) {
+    /* Scroll Fix */
     main {
         margin-top: 118px;
         /* this needs changing as the navbar height changes at different screen sizes, and matching with below */
@@ -413,10 +418,7 @@ img.floating-section {
 }
 
 @media (max-width: 768px) {
-    .hero-bubble.floating-section {
-        padding: 20px;
-    }
-
+    /* Scroll Fix */
     main {
         margin-top: 114px;
         /* this needs changing as the navbar height changes at different screen sizes, and matching with below */
@@ -429,6 +431,7 @@ img.floating-section {
 }
 
 @media (max-width: 650px) {
+    /* Scroll Fix */
     main {
         margin-top: 112px;
     }
@@ -440,6 +443,7 @@ img.floating-section {
 }
 
 @media (max-width: 570px) {
+    /* Scroll Fix */
     main {
         margin-top: 100px;
         /* this needs changing as the navbar height changes at different screen sizes, and matching with below */
@@ -449,18 +453,10 @@ img.floating-section {
         scroll-padding-top: 100px;
         /* adjusted to match fixed header height */
     }
-
-    .hero-bubble.floating-section {
-        padding: 10px;
-    }
 }
 
-@media (max-width: 425px) {
-    .hero-bubble.floating-section {
-        padding: 8px;
-        left: 1%;
-    }
-
+@media (max-width: 426px) {
+    /* Navbar */
     .head-title {
         font-size: 1.8rem;
     }
@@ -480,10 +476,18 @@ img.floating-section {
         padding: 0;
     }
 
+    /* Hero */
+    .hero-bubble.floating-section {
+        padding: 8px;
+        left: 1%;
+    }
+
+    /* Footer */
     #footer i {
         font-size: 2rem;
     }
 
+    /* Scroll Fix */
     main {
         margin-top: 83px;
         /* this needs changing as the navbar height changes at different screen sizes, and matching with below */
