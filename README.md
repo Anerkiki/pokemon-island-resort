@@ -25,6 +25,7 @@ View live website [here](https://anerkiki.github.io/pokemon-island-resort/) (Hos
   - [Site Wide Features](#site-wide-features)
   - [Pages](#pages)
 - [Design and Planning](#design-and-planning)
+  - [User Experience/User Interface(UX/UI)](#user-experienceuser-interfaceuxui)
   - [Design and Brand Identity](#design-and-brand-identity)
   - [Wireframes](#wireframes)
   - [Typography](#typography)
@@ -51,6 +52,7 @@ View live website [here](https://anerkiki.github.io/pokemon-island-resort/) (Hos
 - **ColorZilla - Chrome Extension** - for finding colour codes from colours on websites.
 
 - **Color Blender** - I used this website to find a colour between my main and highlight colours using their hex codes:
+<!-- add this to the design and planning colour pallet section -->
 ![Color Blender](assets/images/readme/color-blender-description.png)
 ![Color Blender showing the two colours I inputted to find midpoint](assets/images/readme/color-blender.png)
 
@@ -151,6 +153,8 @@ This has links to social media, and is shown at the bottom of each page, althoug
 
 ## Design and Planning
 
+---
+
 **Design and Brand Identity**
 
 The website is designed to have a fun, playful feel, and get potential visitors excited about everything the island has to offer.
@@ -161,12 +165,14 @@ Lots of colour and images
 
 ---
 
-### User Stories
+### User Experience/User Interface(UX/UI)
 
 A typical customer will be:
 - A pokemon owner
 - Someone that likes to travel/try new things
 - Young and up for adventure
+
+#### User Stories
 
 "As a past visitor to the resort I want to be able to show my friends and family an overview of what the resort has to offer, trianers I've met and experiences I've taken."
 
