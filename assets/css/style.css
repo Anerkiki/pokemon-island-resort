@@ -3,13 +3,13 @@
 :root {
     --font-heading: 'Skranji', cursive;
     --font-paragraph: 'Roboto', sans-serif;
-    --text-color-dark: #674A18;
-    --text-colour-dark: #5E4B26;
-    #463009;
-    #5A4115
+    --text-color-dark: #674A18; /* passed contrast checker test */
 
+    /* --text-colour-dark: #5E4B26; passed contrast checker test */
+    /* #463009; */
+    /* #5A4115; */
      /* #554934; */
-    --old-text-colour-dark: #84644b;
+    /* --old-text-colour-dark: #84644b; */
   
     /* rgb(132, 100, 75); */
     --background-color: #ffd8b7;
