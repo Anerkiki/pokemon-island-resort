@@ -3,7 +3,14 @@
 :root {
     --font-heading: 'Skranji', cursive;
     --font-paragraph: 'Roboto', sans-serif;
-    --text-color-dark: #84644b;
+    --text-color-dark: #674A18;
+    --text-colour-dark: #5E4B26;
+    #463009;
+    #5A4115
+
+     /* #554934; */
+    --old-text-colour-dark: #84644b;
+  
     /* rgb(132, 100, 75); */
     --background-color: #ffd8b7;
     /* rgb(255, 216, 183); -- matches main colour of background image */
@@ -28,14 +35,13 @@
     /* rgb(0, 135, 105) */
     --leaf-color-opaque: rgba(0, 135, 105, 0.7);
 
+    /* Unused Colours */
     --blue-color: #0096e7;
     /* rgb(0, 150, 231) */
     --footprint-color: #f8c09b;
     /*  rgba(248, 192, 155, 0.9) */
-
     --shell-color: #f3decd;
     /* rgb(243, 222, 205) */
-
     --other-beige: #deb18c;
 }
 
@@ -313,7 +319,6 @@ img.floating-section {
 /* #form input:-internal-autofill-selected {
     background-color: var(--highlight-color-opaque-lighter);
 } this is to try and fix light blue background appearing when selecting a pre-selected option on forms */
-
 
 .form {
     gap: 20px;
