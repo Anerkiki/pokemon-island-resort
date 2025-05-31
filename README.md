@@ -38,7 +38,7 @@ View live website [here](https://anerkiki.github.io/pokemon-island-resort/) (Hos
 
 ---
 
-## Technologies Used
+# Technologies Used
 
 ---
 
@@ -51,9 +51,13 @@ View live website [here](https://anerkiki.github.io/pokemon-island-resort/) (Hos
 - [VScode](link):
   - I used this as my IDE to code and develop this website and to push to GitHub.
 
-- **ColorZilla - Chrome Extension** - for finding colour codes from colours on websites.
+#### **Color Tools**:
 
-- **Color Blender** - I used this website to find a colour between my main and highlight colours using their hex codes:
+- [ColorZilla - Chrome Extension](https://www.colorzilla.com/)
+  - I used this to pinpoint exact colour codes from images etc on websites.
+
+- [Color Blender](https://meyerweb.com/eric/tools/color-blend/#:::hex)
+  - I used this website to find a colour between my background and highlight colours using their hex codes.
 <!-- add this to the design and planning colour pallet section -->
 ![Color Blender](assets/images/readme/color-blender-description.png)
 ![Color Blender showing the two colours I inputted to find midpoint](assets/images/readme/color-blender.png)
@@ -75,6 +79,9 @@ https://meyerweb.com/eric/tools/color-blend/#FFD8B7:FEEDDC:5:hex
 ---
 
 ### Site Wide Features
+
+#### Favicon
+
 
 #### Navbar:
 This has links to all of the main pages and is always fixed to the top, so is accessible from anywhere in the website. It has links to all of the pages (with exception to the Success/Thank You page - which you access after submitting any of the forms) - [see full list](#full-navbar-button-dropdown-list)
@@ -209,7 +216,11 @@ I liked the idea of having a background image, so decided to start by browsing t
 
 I did this using a Chrome extension called **ColorZilla** (add link to below?), which allowed me to use a dropper tool anywhere on the webpage, and told me the colour code of it. I did this with various colours, and then narrowed the choices down after viewing them on the webpage.
 
-I saved each colour using `var(--colour-name)`.
+I saved each colour using `var(--colour-name)` so that if I decided to I wanted to change any of the colours at a later date, I could just do it from 1 place rather than having to amend each individually. This did come in handy when I tested my secondary (paragraph) font colour against the background colour I chose for the text bubbles [link to contrast testing section]
+
+
+![Colour Pallet](assets/images/readme/colour-pallet.png)
+
 
 **Header (including navbar) and Footer**
 
@@ -231,9 +242,74 @@ I tested the colors using [wave link] [contrast test link], and amended the colo
 
 ## Testing
 
+### Lighthouse Performance
+  - Laptop & Mobile?
+
+### WAVE Test
+
+### WebAIM Contrast Checker
+[WebAIM Contrast Checker](https://webaim.org/resources/contrastchecker/)
+
+Original Colour Pallet:
+![Colour Pallet](assets/images/readme/original-colour-pallet.png)
+
+<!-- Add here screenshot of old pallet not passing AAA test -->
+
+![Checking Contrast of text colour and background](assets/images/readme/webaim-contrast-checker.png)
+
+### W3C Markup Validation Service (HTML and readme?)
+
+### W3C CSS Validation Service
+
+### Manual Testing (Expected Outcome/Did it pass?)
+  - Navigation Links
+  *What I'm testing:*
+  Do all links navigate to the correct page/section?
+  Do all buttons lead to the intended destination?
+  - Forms
+  *What I'm testing:*
+  Does all the validation work, so the form can't be submitted without all required fields filled and with valid/the correct characters?
+  Once submktted does it navigate to the success.html page?
+  - External Links (Social Media Icons)
+  Do they all lead to the intended website?
+  Do they open in a new tab?
+  - Responsive Design
+  Does the website adapt as intended at all screen sizes?
+  Does the burger menu work as it should, including closing when a link has been clicked?
+
+### Manual Testing user stories
+
 ---
 
 ## Bugs
+
+### Issues I Fixed
+
+
+<details>
+<summary>Dropdown Menu being cut off</summary>
+**Issue:**
+When the right dropdown menu is opened, some of the menu text is cut off by the edge of the screen. This happens because the dropdown button is positioned close to the screen edge, and the menu options are too long to fit within the visible area.
+
+![Dropdown Menu being cut off](assets/images/readme/issue-right-align1.png)
+
+**Why:**
+Bootstrap dropdown menus are left-aligned by default. If the dropdown is near the right edge of the screen and the menu options are long, the menu will overflow and appear clipped, making some text not fully visible.
+
+**Solution:**
+By reading the documentation about Bootstrap dropdown menus, I found a fix to change the alignment of a menu to right-aligned instead, by simply adding the class `dropdown-menu-end` to the same element with the `dropdown-menu` class. This right-aligns the dropdown menu, ensuring it stays within the visible area of the screen.
+
+**Outcome:**
+![Dropdown Menu fixed](assets/images/readme/issue-right-align2.png)
+This has fixed the issue. I decided to change only the 2 right navbar dropdown button menus to right alignment, and kept the left side buttons as their default left alignment so that the dropdown menus are visually consistent and it also prevents any potential future overflow issues on the other side.
+
+This solution resolved the problem. I chose to apply right alignment only to the two dropdown menus on the right side of the navbar, while keeping the left-side dropdowns left-aligned. This approach keeps the dropdown menus visually consistent and also helps prevent any future overflow issues on either side of the screen.
+
+Later, I also updated the navbar alignment to better match the rest of the site's layout by changing `container-fluid` to `container` in the navbar, which added more space between the buttons and edges of the screen and helped the navbar appear more consistent with the more centered page content.
+
+</details>
+
+
 
 ---
 
@@ -241,10 +317,29 @@ I tested the colors using [wave link] [contrast test link], and amended the colo
 
 ---
 
-## Credits
+# Credits
+
+---
+
+## Site Wide
+
+Icons from - Font Awesome
+Fonts imported from - Google Fonts
+
+---
+
+## Images Used
+
+
+
+
+### Home Page
+
+
+![alt text](assets/images/readme/battle-arena-licensing.png)
 
 #### **Freepik for page background image and Bamboo background used in Header and Footer**
-#### Background Photo: 
+##### Background Photo: 
 <details>
 <summary>*click here to view image*</summary>
 
@@ -254,7 +349,7 @@ I tested the colors using [wave link] [contrast test link], and amended the colo
 
 [Freepik - Tropical Summer Design](https://www.freepik.com/free-vector/tropical-summer-design_4413927.htm)
 
-#### Bamboo Image Used in Header and Footer:
+##### Bamboo Image Used in Header and Footer:
 <details>
 <summary>*click here to view image*</summary>
 
@@ -264,7 +359,7 @@ I tested the colors using [wave link] [contrast test link], and amended the colo
 [Freepik - Bamboo Patterned Curtain](https://www.freepik.com/free-photo/bamboo-patterned-curtain-textured-backdrop_15653469.htm)
 
 #### **IconArchive for Favicon**
-#### Favicon:
+##### Favicon:
 <details>
 <summary>*click here to view image*</summary>
 
@@ -285,13 +380,13 @@ https://img.redbull.com/images/c_crop,x_0,y_0,h_1498,w_2999/c_fill,w_1700,h_765/
 Hero Image - Mobile:
 https://www.google.com/imgres?imgurl=https%3A%2F%2Fwww.nintendo-difference.com%2Fwp-content%2Fuploads%2F2024%2F06%2FPokemon-GO-Fond-decran-Sous-un-meme-ciel.jpg&tbnid=yPOpOBrJxAe-BM&vet=12ahUKEwiV2IzlzfuMAxUMXkEAHeMkMK4QxiAoB3oECAAQJw..i&imgrefurl=https%3A%2F%2Fwww.nintendo-difference.com%2Fnews%2Fpokemon-go-le-debut-de-la-saison-sous-un-meme-ciel-et-les-evenements-de-juin-2024-detailles%2F&docid=d8prKse_oTl7ZM&w=1080&h=1920&itg=1&q=pokemon%20beach%20portrait&ved=2ahUKEwiV2IzlzfuMAxUMXkEAHeMkMK4QxiAoB3oECAAQJw
 
+- **Garden View Chalet**  
+    [Freepik - 3D Rendering Illustration Botanic Garden](https://www.freepik.com/free-ai-image/3d-rendering-illustration-botanic-garden_196493972.htm#fromView=search&page=2&position=39&uuid=52c17b35-c035-4347-baa9-c40592085e85&query=Garden+Wallpaper+anime)
+
 Garden Suite Image:
 Freepik -
 https://www.freepik.com/free-ai-image/3d-rendering-illustration-botanic-garden_196493972.htm#fromView=search&page=2&position=39&uuid=52c17b35-c035-4347-baa9-c40592085e85&query=Garden+Wallpaper+anime
 
-- #### **Color Tools**:
-  - [ColorZilla - Chrome Extension](https://www.colorzilla.com/)
-  - [Color Blender](https://meyerweb.com/eric/tools/color-blend/#:::hex)
 
 ---
 ---
@@ -347,3 +442,9 @@ https://www.freepik.com/free-ai-image/3d-rendering-illustration-botanic-garden_1
 
 > [!CAUTION]
 > Advises about risks or negative outcomes of certain actions.
+
+<!-- Dropdown Template -->
+<details>
+<summary>Dropdown Template</summary>
+Inner Hidden Content
+</details>
