@@ -243,21 +243,36 @@ I tested the colors using [wave link] [contrast test link], and amended the colo
 
 ## Credits
 
-- #### **Background Photo**: [Freepik - Tropical Summer Design](https://www.freepik.com/free-vector/tropical-summer-design_4413927.htm)
-
+#### **Freepik for page background image and Bamboo background used in Header and Footer**
+#### Background Photo: 
 <details>
 <summary>*click here to view image*</summary>
-![Background image with sand and palm leaves](assets/images/beach-background.jpg)
+
+![Background image with sand and palm leaves](./assets/images/beach-background.jpg)
 
 </details>
-Background Photo
-https://www.freepik.com/free-vector/tropical-summer-design_4413927.htm#fromView=search&page=1&position=20&uuid=908ffdb2-32b3-4b07-85ec-33b39605b911&query=beach
 
-- #### **Bamboo Background Photo**: [Freepik - Bamboo Patterned Curtain](https://www.freepik.com/free-photo/bamboo-patterned-curtain-textured-backdrop_15653469.htm)
-Bamboo background photo:
-https://www.freepik.com/free-photo/bamboo-patterned-curtain-textured-backdrop_15653469.htm#fromView=search&page=3&position=10&uuid=454e2832-7423-4416-8494-fd1cb49161d4&query=bamboo
+[Freepik - Tropical Summer Design](https://www.freepik.com/free-vector/tropical-summer-design_4413927.htm)
 
-- #### **Favicon**: [IconArchive - Palm Tree Icon](https://www.iconarchive.com/show/noto-emoji-animals-nature-icons-by-google/22331-palm-tree-icon.html)
+#### Bamboo Image Used in Header and Footer:
+<details>
+<summary>*click here to view image*</summary>
+
+![Bamboo image from Header and Footer](./assets/images/bamboo-background.jpg)
+
+</details>
+[Freepik - Bamboo Patterned Curtain](https://www.freepik.com/free-photo/bamboo-patterned-curtain-textured-backdrop_15653469.htm)
+
+#### **IconArchive for Favicon**
+#### Favicon:
+<details>
+<summary>*click here to view image*</summary>
+
+![Palm Tree Favicon](./assets/images/palm.ico)
+
+</details>
+
+[IconArchive - Palm Tree Icon](https://www.iconarchive.com/show/noto-emoji-animals-nature-icons-by-google/22331-palm-tree-icon.html)
 Favicon:
 https://www.iconarchive.com/show/noto-emoji-animals-nature-icons-by-google/22331-palm-tree-icon.html
 apache open source
