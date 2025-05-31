@@ -387,6 +387,8 @@ Garden Suite Image:
 Freepik -
 https://www.freepik.com/free-ai-image/3d-rendering-illustration-botanic-garden_196493972.htm#fromView=search&page=2&position=39&uuid=52c17b35-c035-4347-baa9-c40592085e85&query=Garden+Wallpaper+anime
 
+- **Battle Arena Apartments**  
+https://archives.bulbagarden.net/wiki/File:Kiawe_Charizard_Aerial_Ace.png
 
 ---
 ---
