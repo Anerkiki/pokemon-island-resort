@@ -46,25 +46,25 @@ View live website [here](https://anerkiki.github.io/pokemon-island-resort/) (Hos
 
 - [GitHub](link):
   - GitHub has been used to store this project.
+
 - [Google Fonts](link):
   - I used this to find and create an import url so that I could use by 2 chosen fonts in the project.
+
 - [VScode](link):
   - I used this as my IDE to code and develop this website and to push to GitHub.
 
 #### **Color Tools**:
 
+<!-- add this to the design and planning colour pallet section? -->
+
 - [ColorZilla - Chrome Extension](https://www.colorzilla.com/)
   - I used this to pinpoint exact colour codes from images etc on websites.
 
 - [Color Blender](https://meyerweb.com/eric/tools/color-blend/#:::hex)
+- [Color Blender](https://meyerweb.com/eric/tools/color-blend/#FFD8B7:FEEDDC:5:hex)
   - I used this website to find a colour between my background and highlight colours using their hex codes.
-<!-- add this to the design and planning colour pallet section -->
-![Color Blender](assets/images/readme/color-blender-description.png)
+
 ![Color Blender showing the two colours I inputted to find midpoint](assets/images/readme/color-blender.png)
-
-https://meyerweb.com/eric/tools/color-blend/#:::hex
-
-https://meyerweb.com/eric/tools/color-blend/#FFD8B7:FEEDDC:5:hex
 
 ---
 
@@ -309,8 +309,6 @@ Later, I also updated the navbar alignment to better match the rest of the site'
 
 </details>
 
-
-
 ---
 
 ## Deployment
@@ -330,18 +328,14 @@ Fonts imported from - Google Fonts
 
 ## Images Used
 
-
-
-
 ### Home Page
-
 
 ![alt text](assets/images/readme/battle-arena-licensing.png)
 
 #### **Freepik for page background image and Bamboo background used in Header and Footer**
 ##### Background Photo: 
 <details>
-<summary>*click here to view image*</summary>
+<summary>*click to view image*</summary>
 
 ![Background image with sand and palm leaves](./assets/images/beach-background.jpg)
 
@@ -351,7 +345,7 @@ Fonts imported from - Google Fonts
 
 ##### Bamboo Image Used in Header and Footer:
 <details>
-<summary>*click here to view image*</summary>
+<summary>*click to view image*</summary>
 
 ![Bamboo image from Header and Footer](./assets/images/bamboo-background.jpg)
 
@@ -361,7 +355,7 @@ Fonts imported from - Google Fonts
 #### **IconArchive for Favicon**
 ##### Favicon:
 <details>
-<summary>*click here to view image*</summary>
+<summary>*click to view image*</summary>
 
 ![Palm Tree Favicon](./assets/images/palm.ico)
 
@@ -387,8 +381,13 @@ Garden Suite Image:
 Freepik -
 https://www.freepik.com/free-ai-image/3d-rendering-illustration-botanic-garden_196493972.htm#fromView=search&page=2&position=39&uuid=52c17b35-c035-4347-baa9-c40592085e85&query=Garden+Wallpaper+anime
 
-- **Battle Arena Apartments**  
+- **Battle Arena Apartment**
+[Battle Arena Charizard and Pikachu image](https://bulbapedia.bulbagarden.net/wiki/User:BigDocFan/List_of_moves_used_by_major_characters_Pok%C3%A9mon_in_Sun_%26_Moon)
+
 https://archives.bulbagarden.net/wiki/File:Kiawe_Charizard_Aerial_Ace.png
+
+**Mountain View Apartment**
+https://www.google.com/imgres?q=pokemon mountains&imgurl=https%3A%2F%2Fw0.peakpx.com%2Fwallpaper%2F532%2F280%2FHD-wallpaper-pokemon-flygon-waterfall-mountains-trees-anime.jpg&imgrefurl=https%3A%2F%2Fwww.peakpx.com%2Fen%2Fhd-wallpaper-desktop-vqazu&docid=diiFN9gyBwUtKM&tbnid=V_goH3H8_tnxwM&vet=12ahUKEwjSq-n0rM6NAxUuX0EAHR8BLLEQM3oECH8QAA..i&w=800&h=435&hcb=2&ved=2ahUKEwjSq-n0rM6NAxUuX0EAHR8BLLEQM3oECH8QAA
 
 ---
 ---
@@ -399,7 +398,7 @@ https://archives.bulbagarden.net/wiki/File:Kiawe_Charizard_Aerial_Ace.png
 
 ### Full Navbar Button Dropdown List
 
-  - **Home** Button - which links to the home page
+  - **Home** Button - links to the home page
     - Dropdown Option 1 - **Our Activities**
     - Dropdown Option 2 - **Our Trainers**
     - Dropdown Option 3 - **Message Us**

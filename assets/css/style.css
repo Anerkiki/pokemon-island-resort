@@ -333,7 +333,7 @@ img.floating-section {
 #footer {
     margin-top: auto;
     /* This is also bootstrap classes for some of the footers, remove 1 or the other in the end */
-    color: var(--highlight-navbar);
+    color: var(--background-color);
     font-family: var(--font-heading);
 }
 
