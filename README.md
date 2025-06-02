@@ -94,14 +94,12 @@ Below is an interactive feature to show you the buttons in the navbar and dropdo
   - Our Trainers<br>
   - Message Us <br>
 </details>
-<br>
 <details>
 <summary>Trainers</summary>
 - Trainer Kiawe<br>
 - Trainer Mallow<br>
 - Trainer Lana<br>
 </details>
-<br>
 <details>
 <summary>Contact</summary>
 - Send Us a Message<br>
@@ -109,7 +107,6 @@ Below is an interactive feature to show you the buttons in the navbar and dropdo
 - Book a Suite<br>
 - Social Media<br>
 </details>
-<br>
 <details>
 <summary>Book a Suite</summary>
 - Luxury Sea View Penthouse<br>
@@ -118,7 +115,6 @@ Below is an interactive feature to show you the buttons in the navbar and dropdo
 - Arena View Apartment<br>
 - Book Now!<br>
 </details>
-<br>
 <details>
 <summary>Book a Class</summary>
 - Flying Skills<br>

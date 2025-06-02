@@ -6,9 +6,6 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <!-- Add meta description here and to other pages -->
     <title>Pokémon Island Resort | Home</title>
-    <!-- <style>
-        
-    </style> -->
     <!--Bootstrap CSS link-->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
@@ -585,7 +582,7 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
         crossorigin="anonymous"></script>
-<!-- added just now, old unedited code -->
+<!-- Bootstrap's navbar closing/fix code for internal page links -->
     <script>
         document
             .querySelectorAll(".navbar-collapse .nav-link")
@@ -606,26 +603,7 @@
                 });
             });
     </script>
-    <!-- Bootstrap's navbar closing/fix code for internal page links -->
-    <!-- <script>
-        document
-            .querySelectorAll(".navbar-collapse a:not(.dropdown-toggle)")
-            .forEach((link) => {
-                link.addEventListener("click", function (e) {
-                    let section = document.querySelector(e.target.getAttribute("href").replace("index.html#", "#"));
-                    if (section) {
-                        e.preventDefault(); // Prevent default anchor click behavior
-                        window.scroll({
-                            top: section.offsetTop + 15,
-                            behavior: "smooth",
-                        });
-                        document
-                            .querySelector(".navbar-collapse")
-                            .classList.remove("show"); // Collapse navbar
-                    }
-                });
-            });
-    </script> -->
+
     <!-- Font Awesome Kit -->
     <script src="https://kit.fontawesome.com/965ed0e330.js" crossorigin="anonymous"></script>
 </body>
