@@ -80,35 +80,32 @@ View live website [here](https://anerkiki.github.io/pokemon-island-resort/) (Hos
 
 ### Site Wide Features
 
-#### Favicon
-
-
 #### Navbar:
 This has links to all of the main pages and is always fixed to the top, so is accessible from anywhere in the website. It has links to all of the pages (with exception to the Success/Thank You page - which you access after submitting any of the forms) - [see full list](#full-navbar-button-dropdown-list)
 
 Below is an interactive feature to show you the buttons in the navbar and dropdown options of each (tap the arrow to see dropdown options):
 
 <details>
-<summary>Home</summary>
+<summary>Home - (Dropdown arrow only shows when on Home page)</summary>
   - Our Activities<br>
   - Our Trainers<br>
   - Message Us <br>
 </details>
 <details>
-<summary>Trainers</summary>
+<summary>Trainers - (Entire button with dropdown arrow only shows when on Home page)</summary>
 - Trainer Kiawe<br>
 - Trainer Mallow<br>
 - Trainer Lana<br>
 </details>
 <details>
-<summary>Contact</summary>
+<summary>Contact - (Entire button with dropdown arrow only shows when on Home page)</summary>
 - Send Us a Message<br>
 - Book a Class<br>
 - Book a Suite<br>
 - Social Media<br>
 </details>
 <details>
-<summary>Book a Suite</summary>
+<summary>Book a Suite - (Dropdown arrow only shows when on Suites page)</summary>
 - Luxury Sea View Penthouse<br>
 - Mountain View Apartment<br>
 - Garden View Chalet<br>
@@ -116,7 +113,7 @@ Below is an interactive feature to show you the buttons in the navbar and dropdo
 - Book Now!<br>
 </details>
 <details>
-<summary>Book a Class</summary>
+<summary>Book a Class - (Dropdown arrow only shows when on Classes page)</summary>
 - Flying Skills<br>
 - Ocean Riding & Water Skills<br>
 - Beach & Dune Riding<br>
@@ -127,7 +124,7 @@ Below is an interactive feature to show you the buttons in the navbar and dropdo
 
 #### Footer:
 
-This has links to social media, and is shown at the bottom of each page, although not fixed in place like the **Navbar** is
+This has links to social media, and is shown at the bottom of each page, although not fixed in place over the content like the **Navbar** is
 
 ---
 
@@ -217,6 +214,8 @@ I saved each colour using `var(--colour-name)` so that if I decided to I wanted 
 
 ![Colour Pallet](assets/images/readme/colour-pallet.png)
 
+**Favicon**
+
 
 **Header (including navbar) and Footer**
 
@@ -245,6 +244,8 @@ I tested the colors using [wave link] [contrast test link], and amended the colo
 
 ### WebAIM Contrast Checker
 [WebAIM Contrast Checker](https://webaim.org/resources/contrastchecker/)
+
+[WebAIM Contrast Checker showing the 2 colours I compared](https://webaim.org/resources/contrastchecker/?fcolor=674A18&bcolor=FEEDDC)
 
 Original Colour Pallet:
 ![Colour Pallet](assets/images/readme/original-colour-pallet.png)
@@ -281,6 +282,9 @@ Original Colour Pallet:
 
 ### Issues I Fixed
 
+---
+
+---
 
 <details>
 <summary>Dropdown Menu being cut off</summary>
@@ -307,7 +311,30 @@ Later, I also updated the navbar alignment to better match the rest of the site'
 
 ---
 
+---
+
 ## Deployment
+<!-- Maybe make numbered list -->
+- Firstly, I made a new repository in GitHub from the code institute template, with my chosen name for my project, which is `pokemon-island-resort`
+    - I ensured that this was in snake case so it would all be ….
+- Once I had made a new repository, in File Explorer on my local device, I then navigated to the folder I wanted my project to be in, and right clicked to ‘Open in Terminal’
+
+![image](assets/images/readme/deployment-creating.png)
+
+- Then, after making sure I was still in the correct folder, I typed `git clone [link copied from GitHub]`
+
+![image](assets/images/readme/deployment-terminal1.png)
+
+![image](assets/images/readme/deployment-terminal2.png)
+
+- Now a new folder has been added which is linked to the GitHub repository
+
+![image](assets/images/readme/deployment-folder.png)
+
+- I then opened my new folder in VS Code, added some of the starter files such as `index.html` and the `assets` & `css` folders, linked to bootstrap, font awesome, and linked my own custom css sheets, where I also added in my chosen fonts from google fonts, and added colours and fonts to the stylesheet to make sure these were all linked correctly.
+- I then added, committed and pushed the changes to my GitHub repository.
+
+![Image of the commits on Git](assets/images/readme/deployment-commits.png)
 
 ---
 
@@ -370,7 +397,7 @@ https://img.redbull.com/images/c_crop,x_0,y_0,h_1498,w_2999/c_fill,w_1700,h_765/
 Hero Image - Mobile:
 https://www.google.com/imgres?imgurl=https%3A%2F%2Fwww.nintendo-difference.com%2Fwp-content%2Fuploads%2F2024%2F06%2FPokemon-GO-Fond-decran-Sous-un-meme-ciel.jpg&tbnid=yPOpOBrJxAe-BM&vet=12ahUKEwiV2IzlzfuMAxUMXkEAHeMkMK4QxiAoB3oECAAQJw..i&imgrefurl=https%3A%2F%2Fwww.nintendo-difference.com%2Fnews%2Fpokemon-go-le-debut-de-la-saison-sous-un-meme-ciel-et-les-evenements-de-juin-2024-detailles%2F&docid=d8prKse_oTl7ZM&w=1080&h=1920&itg=1&q=pokemon%20beach%20portrait&ved=2ahUKEwiV2IzlzfuMAxUMXkEAHeMkMK4QxiAoB3oECAAQJw
 
-- **Garden View Chalet**  
+- **Garden View Chalet**
     [Freepik - 3D Rendering Illustration Botanic Garden](https://www.freepik.com/free-ai-image/3d-rendering-illustration-botanic-garden_196493972.htm#fromView=search&page=2&position=39&uuid=52c17b35-c035-4347-baa9-c40592085e85&query=Garden+Wallpaper+anime)
 
 Garden Suite Image:
@@ -394,26 +421,26 @@ https://www.google.com/imgres?q=pokemon mountains&imgurl=https%3A%2F%2Fw0.peakpx
 
 ### Full Navbar Button Dropdown List
 
-  - **Home** Button - links to the home page
+  - **Home** Button - (Dropdown arrow only shows when on Home page)
     - Dropdown Option 1 - **Our Activities**
     - Dropdown Option 2 - **Our Trainers**
     - Dropdown Option 3 - **Message Us**
-  - **Trainers**
+  - **Trainers** - (Entire button with dropdown arrow only shows when on Home page)
     - Dropdown Option 1 - **Trainer Kiawe**
     - Dropdown Option 2 - **Trainer Mallow**
     - Dropdown Option 3 - **Trainer Lana**
-  - **Contact**
+  - **Contact** - (Entire button with dropdown arrow only shows when on Home page)
     - Dropdown Option 1 - **Send Us a Message**
     - Dropdown Option 2 - **Book a Class**
     - Dropdown Option 3 - **Book a Suite**
     - Dropdown Option 4 - **Social Media**
-  - **Book a Suite**
+  - **Book a Suite** - (Dropdown arrow only shows when on Suites page)
     - Dropdown Option 1 - **Luxury Sea View Penthouse**
     - Dropdown Option 2 - **Mountain View Apartment**
     - Dropdown Option 3 - **Garden View Chalet**
     - Dropdown Option 4 - **Arena View Apartment**
     - Dropdown Option 5 - **Book Now!**
-  - **Book a Class**
+  - **Book a Class** - (Dropdown arrow only shows when on Classes page)
     - Dropdown Option 1 - **Flying Skills**
     - Dropdown Option 2 - **Ocean Riding & Water Skills**
     - Dropdown Option 3 - **Beach & Dune Riding**
