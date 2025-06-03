@@ -81,6 +81,10 @@ View live website [here](https://anerkiki.github.io/pokemon-island-resort/) (Hos
 
 - **Fully Responsive at any screen size:** This includes a hero image that switches from landscape to portrait at mobile and tablet view, and text 'bubbles' that change order and location trainsitioning from different screen sizes, such as from mobile to laptop, and images which go from being inside the floating text bubbles, to outside, next to the text, in their own "bubbles".
 
+
+![alt text](responsive-images-mobile.png)
+
+
 ---
 
 ### Site Wide Features

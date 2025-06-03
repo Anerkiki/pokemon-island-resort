@@ -20,11 +20,13 @@
     <header class="edge-background head-nav fixed-top">
         <div class="layer">
             <h1 class="display-3 head-title">Pokémon Island Resort</h1>
-            <nav class="navbar navbar-dark navbar-expand-lg py-0 py-lg-2">
+<!-- Change back to navbar-expand-xl not xl after -->
+            <nav class="navbar navbar-dark navbar-expand-xl py-0 py-xl-2">
                 <div class="container">
                     <!-- Navbar Page Title - Shows up on tablet/mobile view, when burger menu is visible -->
-                    <h1 class="page-title mb-0 mx-auto d-lg-none">Home</h1>
-                    <!-- d-lg-none makes the page title hidden when all navbar links are visible (laptop or larger) -->
+<!-- Change back to d-xl-none not xl after -->
+                    <h1 class="page-title mb-0 mx-auto d-xl-none">Home</h1>
+                    <!-- d-xl-none makes the page title hidden when all navbar links are visible (laptop or larger) -->
                     <button class="navbar-toggler burger-icon" type="button" data-bs-toggle="collapse"
                         data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
                         aria-expanded="false" aria-label="Toggle navigation">
@@ -32,7 +34,8 @@
                     </button>
                     <div class="collapse navbar-collapse" id="navbarSupportedContent">
                         <!-- Left navbar items on laptop and larger -->
-                        <div class="navbar-nav me-auto mb-2 gap-2 d-none d-lg-block">
+<!-- Change back to d-xl-block not xl after -->
+                        <div class="navbar-nav me-auto mb-2 gap-2 d-none d-xl-block">
 
                             <!-- Navbar Split Button - Home -->
                             <div class="btn-group px-1 navbar-hover">
@@ -131,7 +134,9 @@
                         </div>
 
                         <!-- Right navbar items on laptop and larger -->
-                        <div class="navbar-nav me-auto me-2 me-lg-0 gap-2 d-none d-lg-block">
+<!-- Change back to d-xl-block not xl after -->
+                        <div class="navbar-nav me-auto me-2 me-xl-0 gap-2 d-none d-xl-block">
+                            
                             <!-- Single Button - Book a Suite -->
                             <div class="btn-group px-2 px-xxl-3 navbar-hover">
                                 <!-- px adds padding around sides of buttons - increased when no dropdown option -->
@@ -154,7 +159,9 @@
                         </div>
 
                         <!-- All navbar items for tablets and smaller -->
-                        <ul class="navbar-nav me-auto mb-2 mb-lg-0 d-block d-lg-none burger-links">
+<!-- Change back to d-xl-none not xl after -->
+                        <ul class="navbar-nav me-auto mb-2 mb-xl-0 d-block d-xl-none burger-links">
+                            
                             <li class="nav-item">
                                 <a class="nav-link" href="index.html#activities">Our Activities</a>
                             </li>
@@ -184,7 +191,12 @@
         <!-- Hero Image Section -->
         <section class="hero m-0 p-0">
             <picture>
-                <source srcset="assets/images/hero-tablet.jpg" media="(max-width: 991px)">
+
+<!-- Change back to top media query after -->
+                <!-- <source srcset="assets/images/hero-tablet.jpg" media="(max-width: 991px)"> -->
+
+<!-- Temporary sizing to get tablet photo for readme mockups looking right -->
+                <source srcset="assets/images/hero-tablet.jpg" media="(max-width: 1200px)">
                 <img src="assets/images/island.jpeg" alt="Various trainers and pokemon enjoying the island">
             </picture>
 
@@ -209,13 +221,13 @@
                 <!-- Activity 1 : Hot Springs -->
                 <div class="row justify-content-center">
                     <article
-                        class="col-12 col-lg-5 text-center floating-section d-flex flex-column justify-content-evenly">
+                        class="col-12 col-xl-5 text-center floating-section d-flex flex-column justify-content-evenly">
                         <!-- Added d-flex flex-column justify-content-evenly/justify-content-center to all articles and image divs so that the text/images are centered vertically in comparison to the opposing side, so it looks good on all screen sizes-->
                         <h2 class="display-6">Hot Springs & Fishing&nbsp;Pools</h2>
                         <!-- Activity 1 : Hot Springs - Single image that only shows on mobile/tablet screens, inside text box -->
                         <img src="assets/images/activity-springs-hot-soak.jpg"
                             alt="Trainer Kiawe and Charizard in the hot springs"
-                            class="img-fluid floating-section d-block d-lg-none">
+                            class="img-fluid floating-section d-block d-xl-none">
                         <p>
                             Immerse yourself in the soothing embrace of our natural hot springs and tranquil fishing
                             pools, surrounded by breathtaking views of the island's lush landscapes and
@@ -234,39 +246,39 @@
                         </p>
                         <p class="lead">View all of our Suites&nbsp<a href="suites.html" class="internal-link">here</a></p>
                     </article>
-                    <div class="col-12 col-lg-6 order-3 d-flex flex-column justify-content-evenly">
+                    <div class="col-12 col-xl-6 order-3 d-flex flex-column justify-content-evenly">
                         <!-- Activity 1 : Hot Springs - Images that only show on laptop + screens, beside the text boxes -->
                         <img src="assets/images/activity-springs-hot-soak.jpg"
                             alt="Trainer Kiawe and Charizard in the hot springs"
-                            class="img-fluid floating-section d-none d-lg-block">
+                            class="img-fluid floating-section d-none d-xl-block">
                         <img src="assets/images/activity-springs-fishing-lana.jpg"
                             alt="Lana Fishing at one of the rocky pools"
-                            class="img-fluid floating-section d-none d-lg-block">
+                            class="img-fluid floating-section d-none d-xl-block">
                         <img src="assets/images/activity-springs-fishing-mallow.jpg"
                             alt="Trainer Mallow fishing in one of the fishing pools"
-                            class="img-fluid floating-section d-none d-lg-block d-xl-none">
+                            class="img-fluid floating-section d-none d-xl-block d-xl-none">
                     </div>
                 </div>
                 <!-- End of Activity 1 : Hot Springs -->
 
                 <!-- Activity 2 : Beach Relaxation -->
                 <div class="row justify-content-center">
-                    <div class="col-12 col-lg-6 order-2 order-lg-1 d-flex flex-column justify-content-evenly">
+                    <div class="col-12 col-xl-6 order-2 order-xl-1 d-flex flex-column justify-content-evenly">
                         <!-- Activity 2 : Beach Relaxation - Images that only show on laptop + screens, beside the text boxes -->
                         <img src="assets/images/activity-beach-calm.jpg" alt="A relaxing day at the Beach"
-                            class="img-fluid floating-section d-none d-lg-block">
+                            class="img-fluid floating-section d-none d-xl-block">
                         <img src="assets/images/activity-beach-fun1.jpg"
                             alt="People and Pokémon having fun at the Beach"
-                            class="img-fluid floating-section d-none d-lg-block d-xxl-none">
+                            class="img-fluid floating-section d-none d-xl-block d-xxl-none">
                         <img src="assets/images/activity-beach-good.jpg" alt="People and Pokémon having fun at the Beach"
-                            class="img-fluid floating-section d-none d-lg-block d-xl-none d-xxl-block">
+                            class="img-fluid floating-section d-none d-xl-block d-xl-none d-xxl-block">
                     </div>
                     <article
-                        class="col-12 col-lg-5 order-1 order-lg-2 text-center floating-section d-flex flex-column justify-content-evenly">
+                        class="col-12 col-xl-5 order-1 order-xl-2 text-center floating-section d-flex flex-column justify-content-evenly">
                         <h2 class="display-6">Beach Relaxation &&nbsp;Entertainment</h2>
                         <!-- Activity 2 : Beach Relaxation - Single image that only shows on mobile/tablet screens, inside text box -->
                         <img src="assets/images/activity-beach-calm.jpg" alt="Pokémon at the beach looking out to sea"
-                            class="img-fluid floating-section d-block d-lg-none">
+                            class="img-fluid floating-section d-block d-xl-none">
                         <p>
                             Immerse yourself in the vibrant energy of our beach entertainment, where the fun never ends.
                             Join us for lively beach parties featuring music, dancing, and unforgettable&nbsp;moments.
@@ -276,7 +288,7 @@
                             their Pokémon, creating a spectacle of light and&nbsp;movement.
                         </p>
                         <p>
-                            Take a refreshing dip in the crystal-clear waters or indulge in luxurious pamper sessions at
+                            Take a refreshing dip in the crystal-clear waters or induxle in luxurious pamper sessions at
                             our beachfront spa, designed to rejuvenate both trainers and&nbsp;Pokémon.
                         </p>
                         <p>
@@ -298,12 +310,12 @@
                 <!-- Activity 3 : Berry Picking -->
                 <div class="row justify-content-center">
                     <article
-                        class="col-12 col-lg-5 text-center floating-section d-flex flex-column justify-content-evenly">
+                        class="col-12 col-xl-5 text-center floating-section d-flex flex-column justify-content-evenly">
                         <h2 class="display-6">Berry Picking & Wild&nbsp;Foraging</h2>
                         <!-- Activity 3 : Berry Picking - Single image that only shows on mobile/tablet screens, inside text box -->
                         <img src="assets/images/activity-berry-mallow.jpg"
                             alt="Trainer Mallow and pokémon picking berries"
-                            class="img-fluid floating-section d-block d-lg-none">
+                            class="img-fluid floating-section d-block d-xl-none">
                         <p>
                             Immerse yourself in the joy of berry picking and wild foraging within our expansive greenery
                             and vibrant
@@ -323,42 +335,42 @@
                         </p>
                         <p class="lead">View all of our Suites&nbsp<a href="suites.html" class="internal-link">here</a></p>
                     </article>
-                    <div class="col-12 col-lg-6 d-flex flex-column justify-content-evenly">
+                    <div class="col-12 col-xl-6 d-flex flex-column justify-content-evenly">
                         <!-- Activity 3 : Berry Picking - Images that only show on laptop + screens, beside the text boxes -->
                         <img src="assets/images/activity-berry-mallow-mush.jpg"
                             alt="Trainer Mallow smiling whilst harvesting mushrooms"
-                            class="img-fluid floating-section d-none d-lg-block order-lg-3 order-xl-2">
+                            class="img-fluid floating-section d-none d-xl-block order-xl-3 order-xl-2">
                         <img src="assets/images/activity-berry-picking.jpg"
                             alt="Various Pokémon picking berries on the beach"
-                            class="img-fluid floating-section d-none d-lg-block order-lg-2 order-xl-1">
+                            class="img-fluid floating-section d-none d-xl-block order-xl-2 order-xl-1">
                         <img src="assets/images/activity-berry-mallow.jpg"
                             alt="Trainer Mallow and pokémon picking berries"
-                            class="img-fluid floating-section d-none d-lg-block d-xl-none order-lg-1">
+                            class="img-fluid floating-section d-none d-xl-block d-xl-none order-xl-1">
                     </div>
                 </div>
                 <!-- End of Activity 3 : Berry Picking -->
 
                 <!-- Activity 4 : Arena Battles -->
                 <div class="row justify-content-center">
-                    <div class="col-12 col-lg-6 order-2 order-lg-1 d-flex flex-column justify-content-evenly">
+                    <div class="col-12 col-xl-6 order-2 order-xl-1 d-flex flex-column justify-content-evenly">
                         <!-- Activity 4 : Arena Battles - Images that only show on laptop + screens, beside the text boxes -->
                         <img src="assets/images/activity-battle-mallow-lana-arena.jpg"
                             alt="Trainer Lana and her pokémon in the Arena ready to battle"
-                            class="img-fluid floating-section d-none d-lg-block d-xl-none">
+                            class="img-fluid floating-section d-none d-xl-block d-xl-none">
                         <!-- <img src="assets/images/activity-battle-lana.jpg" alt="Trainer Lana and her pokémon in the Arena ready to battle"
-                            class="img-fluid floating-section d-none d-lg-block"> -->
+                            class="img-fluid floating-section d-none d-xl-block"> -->
                         <img src="assets/images/activity-battle-pokemon.jpg" alt="Pokemon Battling in the Pokémon Arena"
-                            class="img-fluid floating-section d-none d-lg-block">
+                            class="img-fluid floating-section d-none d-xl-block">
                         <img src="assets/images/activity-battle-lana-mallow.jpg"
                             alt="Mallow and Lana high fiving with the arena in the background"
-                            class="img-fluid floating-section d-none d-lg-block">
+                            class="img-fluid floating-section d-none d-xl-block">
                     </div>
                     <article
-                        class="col-12 col-lg-5 order-1 order-lg-2 text-center floating-section d-flex flex-column justify-content-evenly">
+                        class="col-12 col-xl-5 order-1 order-xl-2 text-center floating-section d-flex flex-column justify-content-evenly">
                         <h2 class="display-6">Arena Battles</h2>
                         <!-- Activity 4 : Arena Battles - Single image that only shows on mobile/tablet screens, inside text box -->
                         <img src="assets/images/activity-battle-pokemon.jpg" alt="Pokemon Battling in the Pokémon Arena"
-                            class="img-fluid floating-section d-block d-lg-none">
+                            class="img-fluid floating-section d-block d-xl-none">
                         <p>
                             Experience the thrill of Pokémon battles in our state-of-the-art arena, where trainers and
                             their Pokémon can showcase their skills in friendly&nbsp;competitions.
@@ -403,11 +415,11 @@
 
                 <div class="row justify-content-center" id="trainer1">
                     <article
-                        class="col-12 col-lg-5 text-center floating-section d-flex flex-column justify-content-evenly">
+                        class="col-12 col-xl-5 text-center floating-section d-flex flex-column justify-content-evenly">
                         <h2 class="display-6">Trainer Kiawe</h2>
                         <!-- Trainer 1 : Kiawe - Single image that only shows on mobile/tablet screens, inside text box -->
                         <img src="assets/images/trainer-kaiwe-1.jpg" alt="Trainer Kiawe"
-                            class="img-fluid floating section d-block d-lg-none">
+                            class="img-fluid floating section d-block d-xl-none">
                         <p>
                             Kiawe is a passionate and energetic trainer specialising in fire, flying and rock Pokémon.
                             Known for his dynamic teaching style, Kiawe brings excitement and intensity to every class.
@@ -419,14 +431,14 @@
                             <h3>Fire Breathing Class</h3>
                         <h3 class="lead">Classes with Tauros:</h3>
                             <h3>Beach & Dune Ride</h3>
-                            <a href="classes.html" class="btn btn-light btn-lg button-primary">Book Now</a>
+                            <a href="classes.html" class="btn btn-light btn-xl button-primary">Book Now</a>
                     </article>
-                    <div class="col-12 col-lg-6 d-flex flex-column justify-content-evenly">
+                    <div class="col-12 col-xl-6 d-flex flex-column justify-content-evenly">
                         <!-- Trainer 1 : Kiawe - Images that only show on laptop + screens, beside the text boxes -->
                         <img src="assets/images/trainer-kaiwe-1.jpg" alt="Trainer Kiawe"
-                            class="img-fluid floating-section d-none d-lg-block">
+                            class="img-fluid floating-section d-none d-xl-block">
                         <img src="assets/images/trainer-kiawe-2.jpg" alt="Trainer Kiawe climbing a palm tree"
-                            class="img-fluid floating-section d-none d-lg-block d-xl-none">
+                            class="img-fluid floating-section d-none d-xl-block d-xl-none">
                         <img src="assets/images/trainer-kiawe-charizard-delivery.jpg"
                             alt="Trainer Kiawe delivering food supplies with Charizard"
                             class="img-fluid floating-section d-none d-xl-block">
@@ -440,21 +452,21 @@
             <div class="container">
 
                 <div class="row justify-content-center" id="trainer2">
-                    <div class="col-12 col-lg-6 order-2 order-lg-1 d-flex flex-column justify-content-evenly">
+                    <div class="col-12 col-xl-6 order-2 order-xl-1 d-flex flex-column justify-content-evenly">
                         <!-- Trainer 2 : Mallow - Images that only show on laptop + screens, beside the text boxes -->
                         <img src="assets/images/trainer-mallow-1.jpg" alt="Trainer Mallow smiling with the sea behind her"
-                            class="img-fluid floating-section d-none d-lg-block">
+                            class="img-fluid floating-section d-none d-xl-block">
                         <img src="assets/images/trainer-mallow-and-flygon2.jpg" alt="Trainer Mallow flying Flygon"
-                            class="d-none d-lg-block d-xl-none img-fluid floating-section">
+                            class="d-none d-xl-block d-xl-none img-fluid floating-section">
                         <img src="assets/images/trainer-mallow-2.jpg" alt="Trainer Mallow with some grass Pokémon"
-                            class="img-fluid floating-section d-none d-lg-block">
+                            class="img-fluid floating-section d-none d-xl-block">
                     </div>
                     <article
-                        class="col-12 col-lg-5 order-1 order-lg-2 text-center floating-section d-flex flex-column justify-content-evenly">
+                        class="col-12 col-xl-5 order-1 order-xl-2 text-center floating-section d-flex flex-column justify-content-evenly">
                         <h2 class="display-6">Trainer Mallow</h2>
                         <!-- Trainer 2 : Mallow - Single image that only shows on mobile/tablet screens, inside text box -->
                         <img src="assets/images/trainer-mallow-1.jpg" alt="Trainer Mallow"
-                            class="img-fluid floating section d-block d-lg-none">
+                            class="img-fluid floating section d-block d-xl-none">
                         <p>
                             Mallow is a skilled trainer specializing in grass and ground Pokémon. Whether you're
                             learning to fly or about foraging to discover the island's natural bounty, Mallow ensures
@@ -466,18 +478,18 @@
                             <h3>Flying Class</h3>
                         <h3 class="lead">Classes with Tauros:</h3>
                             <h3>Beach & Dune Ride</h3>
-                        <a href="classes.html" class="btn btn-light btn-lg button-primary">Book Now</a>
+                        <a href="classes.html" class="btn btn-light btn-xl button-primary">Book Now</a>
                     </article>
                 </div>
 
                 <div class="row justify-content-center" id="trainer3">
                     <article
-                        class="col-12 col-lg-5 text-center floating-section d-flex flex-column justify-content-evenly">
+                        class="col-12 col-xl-5 text-center floating-section d-flex flex-column justify-content-evenly">
                         <h2 class="display-6">Trainer Lana</h2>
                         <!-- Trainer 3 : Lana - Single image that only shows on mobile/tablet screens, inside text box -->
                         <img src="assets/images/trainer-lana-popplio.jpg"
                             alt="Trainer Lana sitting happily with Popplio"
-                            class="img-fluid floating-section d-block d-lg-none">
+                            class="img-fluid floating-section d-block d-xl-none">
                         <p>
                             Lana is a water-type Pokémon expert known for her calm demeanor and exceptional skills in
                             aquatic environments. She specializes in teaching trainers how to bond with their Pokémon
@@ -489,17 +501,17 @@
                             <h3>Ocean Riding &&nbsp;Water&nbsp;Skills</h3>
                         <h3 class="lead mt-2">Classes with Popplio:</h3>
                             <h3>Snorkeling &&nbsp;Diving</h3>
-                        <a href="classes.html" class="btn btn-light btn-lg button-primary">Book Now</a>
+                        <a href="classes.html" class="btn btn-light btn-xl button-primary">Book Now</a>
                     </article>
-                    <div class="col-12 col-lg-6 d-flex flex-column justify-content-evenly">
+                    <div class="col-12 col-xl-6 d-flex flex-column justify-content-evenly">
                         <!-- Trainer 3 : Lana - Images that only show on laptop + screens, beside the text boxes -->
                         <img src="assets/images/trainer-lana-popplio.jpg"
                             alt="Trainer Lana sitting happily with Popplio"
-                            class="img-fluid floating-section d-none d-lg-block">
+                            class="img-fluid floating-section d-none d-xl-block">
                         <img src="assets/images/trainer-lana-feeding.webp" alt="Trainer Lana feeding a Pokémon"
-                            class="img-fluid floating-section d-none d-lg-block d-xl-none">
+                            class="img-fluid floating-section d-none d-xl-block d-xl-none">
                         <img src="assets/images/trainer-lana-water.jpg" alt="Trainer Lana swimming and smiling"
-                            class="img-fluid floating-section d-none d-lg-block">
+                            class="img-fluid floating-section d-none d-xl-block">
                     </div>
                 </div>
 
@@ -511,7 +523,7 @@
         <section id="contact-us">
             <div class="container">
                 <div class="row justify-content-center">
-                    <div class="col-12 col-lg-11 text-center floating-section">
+                    <div class="col-12 col-xl-11 text-center floating-section">
                         <h1 class="display-4">Send Us a Message</h1>
                         <p class="lead">
                             If you have any questions, please let us know here and we
@@ -520,26 +532,26 @@
 
                         <form action="success.html" method="GET" class="col-12 mx-auto" id="form">
                             <div class="row justify-content-center">
-                                <div class="col-12 col-lg-5">
+                                <div class="col-12 col-xl-5">
                                     <label for="name" class="form-label h3">
                                         Name
                                     </label>
                                     <input id="name" name="name" type="text" required>
                                 </div>
-                                <div class="col-12 col-lg-6 mb-3">
+                                <div class="col-12 col-xl-6 mb-3">
                                     <label for="email" class="form-label h3">
                                         Email
                                     </label>
                                     <input id="email" name="email" type="email" required>
                                 </div>
-                                <div class="col-12 col-lg-11 mb-3">
+                                <div class="col-12 col-xl-11 mb-3">
                                     <label for="message" class="form-label h3">
                                         Message
                                     </label>
                                     <textarea rows="6" id="message" name="message" required></textarea>
                                 </div>
                             </div>
-                            <button type="submit" class="btn btn-lg button-primary">
+                            <button type="submit" class="btn btn-xl button-primary">
                                 Send
                             </button>
                         </form>
@@ -558,7 +570,7 @@
             <div class="container">
                 <div class="row justify-content-center">
 
-                    <div class="col-12 col-lg-8 d-flex justify-content-evenly">
+                    <div class="col-12 col-xl-8 d-flex justify-content-evenly">
                         <a href="https://www.facebook.com" target="_blank" rel="noopener"
                             aria-label="Visit our Facebook page (opens in a new tab)">
                             <i class="fa-brands fa-square-facebook social-media-icon"></i>
@@ -572,7 +584,7 @@
                             <i class="fa-brands fa-x-twitter social-media-icon"></i>
                             <span class="d-none d-md-block">Twitter / X</span></a>
                     </div>
-                    <div class="col-12 col-lg-8 justify-content-center">
+                    <div class="col-12 col-xl-8 justify-content-center">
                         <p class="text-right"><i class="fa-regular fa-copyright"></i> 2025 Pokemon Island Resort</p>
                     </div>
 
