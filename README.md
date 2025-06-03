@@ -3,7 +3,7 @@
 
 # Pokemon Island Resort
 
----
+![Mockups of Home Page on various screen sizes](assets/images/readme/mockups/mockups-home-page.png)
 
 ## Introduction
 
@@ -15,34 +15,7 @@ The goal is to create a visually engaging and appealing platform that captures t
 
 View live website [here](https://anerkiki.github.io/pokemon-island-resort/) (Hosted on GitHub pages)
 
-**Home Page**:
-![Mockups of Home Page on various screen sizes](assets/images/readme/mockups/mockups-home-page.png)
-
-**Home Page Activities Section** showing open 'Our Activities' dropdown menu option selected:
-![Mockups of Home Page Activities Section on various screen sizes](assets/images/readme/mockups/mockups-home-page-activities.png)
-
-**Home Page Trainers Section**:
-![Mockups of Home Page Trainers Section on various screen sizes](assets/images/readme/mockups/mockups-home-page-trainers.png)
- 
-**Home Page Contact Form** showing one of the dropdown menu options that directs there from the Home button:<br>
-*(you can also use the Contact button or 'Send Us a Message' option in the Contact dropdown menu)*
-![Mockups of Home Page Contact Form on various screen sizes](assets/images/readme/mockups/mockups-home-page-form.png)
-
-**Suites Page**:
-![Mockups of Suites Page on various screen sizes](assets/images/readme/mockups/mockups-suites-page.png)
-
-**Suites Page Enquiry Form** showing open dropdown menu with Suites 'Book Now' option selected:
-![Mockups of Suites Page Enquiry Form on various screen sizes](assets/images/readme/mockups/mockups-suites-page-form.png)
-
-**Classes Page**:
-![Mockups of Classes Page on various screen sizes](assets/images/readme/mockups/mockups-classes-page.png)
-
-**Classes Page Enquiry Form** showing open dropdown menu with Classes 'Book Now' option selected:
-![Mockups of Classes Page Enquiry Form on various screen sizes](assets/images/readme/mockups/mockups-classes-page-form.png)
-
-**Success Page**:
-![Mockups of Success Page on various screen sizes](assets/images/readme/mockups/mockups-success-page.png)
-
+---
 
 # Table of Contents
 
@@ -162,23 +135,62 @@ This has links to social media, and is shown at the bottom of each page, althoug
 
 - **Home Page*** featuring:
   - A fun and colourful **Hero Image** with small 'Welcome' text bubble.
+  - Different Navbar options depending on the screen size.
+  - A responsive Hero image that changes orientation at different sizes to fill the screen (portrait for mobile/tablet and landscape for laptop +)
+
+![Mockups of Home Page on various screen sizes](assets/images/readme/mockups/mockups-home-page.png)
+
   - An **Activities** Section* with responsive "floating" text bubbles and images which multiply to up to 3, or appear inside the text boxes/bubbles at different screen sizes.
+    - Image shows open 'Our Activities' dropdown menu option selected.
+
+![Mockups of Home Page Activities Section on various screen sizes](assets/images/readme/mockups/mockups-home-page-activities.png)
+
   - An **Our Trainers** Section* with group image, and then individual images, descriptions, and links to their classes, which are fully responsive, and the images also multiply to up to 3, or appear inside the text boxes/bubbles at different screen sizes.*
+
+  **Home Page Trainers Section** mockups:
+![Mockups of Home Page Trainers Section on various screen sizes](assets/images/readme/mockups/mockups-home-page-trainers.png)
+
   - A **Contact Form*** to get in touch, with an adjustable message box, which links to the **Success/Thank You Page** when correctly submitted.
+
+**Home Page Contact Form** mockups showing one of the dropdown menu options that directs there from the Home button:<br>
+*(you can also use the Contact button or 'Send Us a Message' option in the Contact dropdown menu)*
+![Mockups of Home Page Contact Form on various screen sizes](assets/images/readme/mockups/mockups-home-page-form.png)
 
 - **Suites Page*** featuring:
   - A large bubble **Page Title** which disappears and is instead incorporated into the navbar on smaller (mobile) devices.
   - **4 Suite Options*** with images, descriptions, [[[links to nearby activities??]]] and a 'Book Now' button, which links directly down to the Booking Form at the bottom of the page.
+
+  **Suites Page** mockups:
+![Mockups of Suites Page on various screen sizes](assets/images/readme/mockups/mockups-suites-page.png)
+
   - A Suite **Booking Form*** with dropdown menu to pick a suite to enquire about, which link to the **Success/Thank You Page** when correctly submitted.
+
+  **Suites Page Enquiry Form** mockups showing open dropdown menu with Suites 'Book Now' option selected:
+![Mockups of Suites Page Enquiry Form on various screen sizes](assets/images/readme/mockups/mockups-suites-page-form.png)
 
 - **Classes Page*** featuring:
   - **5 Class Options*** which are all fully responsive, so the image is inside the description box in a mobile/tablet screen, and then on larger screens the images pop out of the text box and appear beside, increasing/decreasing from 1 to 4 depending on the screen size, to match the height of the description bubble. As well as related images, these all have titles, descriptions, which trainer/trainers that will take the class (including a link to the specific trainer on the main home page), and a 'Book Now' button, which links directly down to the Booking Form at the bottom of the page.
+
+  **Classes Page** mockups:
+![Mockups of Classes Page on various screen sizes](assets/images/readme/mockups/mockups-classes-page.png)
+
   - A Class **Booking Form*** with dropdown menu to pick a suite to enquire about, which link to the **Success/Thank You Page** when correctly submitted.
+
+  **Classes Page Enquiry Form** mockups showing open dropdown menu with Classes 'Book Now' option selected:
+![Mockups of Classes Page Enquiry Form on various screen sizes](assets/images/readme/mockups/mockups-classes-page-form.png)
 
 - **Success/Thank You Page** feauturing:
   - A large bubble **Page Title** saying 'Thank You' which disappears and is instead incorporated into the navbar on smaller (mobile) devices.
   - A message of gratitude to the customer, including links to other places on the website that they can look at.
-  - An image of all of the 
+  - An image of all of the Trainers/Team
+
+  **Success Page** mockups:
+![Mockups of Success Page on various screen sizes](assets/images/readme/mockups/mockups-success-page.png)
+
+- **404 Page** featuring:
+  - Links back to different pages in a fun paragraph of text.
+
+![Mockups of 404 Page on various screen sizes](assets/images/readme/mockups/mockups-404-page.png)
 
 ---
 
