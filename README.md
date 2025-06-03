@@ -55,6 +55,9 @@ View live website [here](https://anerkiki.github.io/pokemon-island-resort/) (Hos
 - [VScode](link):
   - I used this as my IDE to code and develop this website and to push to GitHub.
 
+- [Notion](link)
+  - I used this to write up ideas, to do lists/issues that needed fixing, and paste screenshots, images and their links, etc.
+
 #### **Color Tools**:
 
 <!-- add this to the design and planning colour pallet section? -->
@@ -139,6 +142,9 @@ This has links to social media, and is shown at the bottom of each page, althoug
   - A responsive Hero image that changes orientation at different sizes to fill the screen (portrait for mobile/tablet and landscape for laptop +)
 
 ![Mockups of Home Page on various screen sizes](assets/images/readme/mockups/mockups-home-page.png)
+
+  - Responsive so that it doesn't stretch to large on XXL Screens
+![The Home Page on XXL Screens](assets/images/readme/mockups/xxl-screens.png)
 
   - An **Activities** Section* with responsive "floating" text bubbles and images which multiply to up to 3, or appear inside the text boxes/bubbles at different screen sizes.
     - Image shows open 'Our Activities' dropdown menu option selected.
