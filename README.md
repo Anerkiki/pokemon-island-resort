@@ -15,6 +15,35 @@ The goal is to create a visually engaging and appealing platform that captures t
 
 View live website [here](https://anerkiki.github.io/pokemon-island-resort/) (Hosted on GitHub pages)
 
+**Home Page**:
+![Mockups of Home Page on various screen sizes](assets/images/readme/mockups/mockups-home-page.png)
+
+**Home Page Activities Section** showing open 'Our Activities' dropdown menu option selected:
+![Mockups of Home Page Activities Section on various screen sizes](assets/images/readme/mockups/mockups-home-page-activities.png)
+
+**Home Page Trainers Section**:
+![Mockups of Home Page Trainers Section on various screen sizes](assets/images/readme/mockups/mockups-home-page-trainers.png)
+ 
+**Home Page Contact Form** showing one of the dropdown menu options that directs there from the Home button:<br>
+*(you can also use the Contact button or 'Send Us a Message' option in the Contact dropdown menu)*
+![Mockups of Home Page Contact Form on various screen sizes](assets/images/readme/mockups/mockups-home-page-form.png)
+
+**Suites Page**:
+![Mockups of Suites Page on various screen sizes](assets/images/readme/mockups/mockups-suites-page.png)
+
+**Suites Page Enquiry Form** showing open dropdown menu with Suites 'Book Now' option selected:
+![Mockups of Suites Page Enquiry Form on various screen sizes](assets/images/readme/mockups/mockups-suites-page-form.png)
+
+**Classes Page**:
+![Mockups of Classes Page on various screen sizes](assets/images/readme/mockups/mockups-classes-page.png)
+
+**Classes Page Enquiry Form** showing open dropdown menu with Classes 'Book Now' option selected:
+![Mockups of Classes Page Enquiry Form on various screen sizes](assets/images/readme/mockups/mockups-classes-page-form.png)
+
+**Success Page**:
+![Mockups of Success Page on various screen sizes](assets/images/readme/mockups/mockups-success-page.png)
+
+
 # Table of Contents
 
 - [Introduction](#introduction)
