@@ -3,6 +3,8 @@
 
 # Pokemon Island Resort
 
+![alt text](mockups-home-page.png)
+
 ![Mockups of Home Page on various screen sizes](assets/images/readme/mockups/mockups-home-page.png)
 
 ## Introduction
