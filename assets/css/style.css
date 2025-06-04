@@ -374,23 +374,14 @@ img.floating-section {
         padding: 30px;
         left: 12%
     }
-
-        /* Scroll Fix */
-    main {
-        margin-top: 133.5px;
-        /* this needs changing as the navbar height changes at different screen sizes, and matching with below */
-    }
-/* Remove this after */
-
 }
 
 @media (max-width: 1024px) {
     /* Scroll Fix */
     main {
-        margin-top: 133.5px;
+        margin-top: 154px;
         /* this needs changing as the navbar height changes at different screen sizes, and matching with below */
     }
-    /* change back after to match below */
 
     html {
         scroll-padding-top: 154px;
