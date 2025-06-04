@@ -3,8 +3,6 @@
 
 # Pokemon Island Resort
 
-![alt text](mockups-home-page.png)
-
 ![Mockups of Home Page on various screen sizes](assets/images/readme/mockups/mockups-home-page.png)
 
 ## Introduction
@@ -83,9 +81,7 @@ View live website [here](https://anerkiki.github.io/pokemon-island-resort/) (Hos
 
 - **Fully Responsive at any screen size:** This includes a hero image that switches from landscape to portrait at mobile and tablet view, and text 'bubbles' that change order and location trainsitioning from different screen sizes, such as from mobile to laptop, and images which go from being inside the floating text bubbles, to outside, next to the text, in their own "bubbles".
 
-
-![alt text](responsive-images-mobile.png)
-
+![alt text](assets/images/readme/responsiveness-screenshots/responsive-images-mobile.png)
 
 ---
 
@@ -110,7 +106,7 @@ Below is an interactive feature to show you the buttons in the navbar and dropdo
 </details>
 <details>
 <summary>Contact - (Entire button with dropdown arrow only shows when on Home page)</summary>
-- Send Us a Message<br>
+- Message Us<br>
 - Book a Class<br>
 - Book a Suite<br>
 - Social Media<br>
@@ -486,7 +482,7 @@ https://www.google.com/imgres?q=pokemon mountains&imgurl=https%3A%2F%2Fw0.peakpx
     - Dropdown Option 2 - **Trainer Mallow**
     - Dropdown Option 3 - **Trainer Lana**
   - **Contact** - (Entire button with dropdown arrow only shows when on Home page)
-    - Dropdown Option 1 - **Send Us a Message**
+    - Dropdown Option 1 - **Message Us**
     - Dropdown Option 2 - **Book a Class**
     - Dropdown Option 3 - **Book a Suite**
     - Dropdown Option 4 - **Social Media**
@@ -528,3 +524,9 @@ https://www.google.com/imgres?q=pokemon mountains&imgurl=https%3A%2F%2Fw0.peakpx
 <summary>Dropdown Template</summary>
 Inner Hidden Content
 </details>
+
+to change size of markup image - not working though:
+![Alt text](image-url.jpg){width=300 height=200}
+
+Can I link an image to a URL in Markdown?
+Yes, wrap the image syntax in link syntax: [![Alt Text](Image URL)](Link URL)
