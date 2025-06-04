@@ -43,7 +43,8 @@
                             <!-- Navbar Single Button - Back to Home -->
                             <div class="btn-group px-1 navbar-hover">
                                 <!-- adds padding around sides of buttons -->
-                                <a href="index.html" class="btn main-links">Back to Home</a>
+                                <a href="index.html" class="btn main-links" aria-label="Go to the Home page">
+                                    Back to Home</a>
                             </div>
 
                             <!-- Removed Trainer and Contact buttons from pages but the homepage and changed 'Home' to 'Back to Home' -->
@@ -56,7 +57,7 @@
                             <!-- Navbar Single Button - Book a Suite -->
                             <div class="btn-group px-3 px-xxl-4 navbar-hover">
                                 <!-- px adds padding around sides of buttons - increased when no dropdown option - increased as none on Classes button -->
-                                <a href="suites.html" class="btn main-links">
+                                <a href="suites.html" class="btn main-links" aria-label="Go to the Suites page">
                                     Book a Suite</a>
 
                                 <!-- Removed dropdown menus for other pages links until on the specific page -->
@@ -66,7 +67,8 @@
                             <!-- Navbar Split Button - Book a Class - Current Page -->
                             <div class="btn-group px-1 navbar-hover">
                                 <!-- adds padding around sides of buttons -->
-                                <a href="classes.html#classes" class="btn main-links active" aria-current="page">
+                                <a href="classes.html#classes" class="btn main-links active" aria-current="page"
+                                    aria-label="Go to the Classes page">
                                     Book a Class</a>
                                 <button type="button" class="btn bg-transparent dropdown-toggle-split no-border"
                                     data-bs-toggle="dropdown" aria-expanded="false">
@@ -76,40 +78,48 @@
                                 <ul class="dropdown-menu dropdown-menu-end">
                                     <!-- dropdown-menu-end aligns the menu items to the right instead of default left -->
                                     <li>
-                                        <a class="dropdown-item" href="classes.html#class1">Flying Skills</a>
+                                        <a class="dropdown-item" href="classes.html#class1"
+                                            aria-label="Go to the Flying Skills class description">
+                                            Flying Skills</a>
                                     </li>
                                     <li>
                                         <hr class="dropdown-divider">
                                     </li>
                                     <li>
-                                        <a class="dropdown-item" href="classes.html#class2">Surfing & Water
-                                            Skills</a>
+                                        <a class="dropdown-item" href="classes.html#class2"
+                                            aria-label="Go to the Surfing & Water Skills class description">
+                                            Surfing & Water Skills</a>
                                     </li>
                                     <li>
                                         <hr class="dropdown-divider">
                                     </li>
                                     <li>
-                                        <a class="dropdown-item" href="classes.html#class3">Beach & Dune Riding</a>
+                                        <a class="dropdown-item" href="classes.html#class3"
+                                            aria-label="Go to the Beach & Dune Riding class description">
+                                            Beach & Dune Riding</a>
                                     </li>
                                     <li>
                                         <hr class="dropdown-divider">
                                     </li>
                                     <li>
-                                        <a class="dropdown-item" href="classes.html#class4">Fire Breathing & Fire
-                                            Skills</a>
+                                        <a class="dropdown-item" href="classes.html#class4"
+                                            aria-label="Go to the Fire Breathing & Fire Skills class description">
+                                            Fire Breathing & Fire Skills</a>
                                     </li>
                                     <li>
                                         <hr class="dropdown-divider">
                                     </li>
                                     <li>
-                                        <a class="dropdown-item" href="classes.html#class5">Snorkeling & Deep Sea
-                                            Diving</a>
+                                        <a class="dropdown-item" href="classes.html#class5"
+                                            aria-label="Go to the Snorkeling & Deep Sea Diving class description">
+                                            Snorkeling & Deep Sea Diving</a>
                                     </li>
                                     <li>
                                         <hr class="dropdown-divider">
                                     </li>
                                     <li>
-                                        <a class="dropdown-item" href="classes.html#book-a-class">Book Now!</a>
+                                        <a class="dropdown-item" href="classes.html#book-a-class"
+                                            aria-label="Go to the Class booking enquiry form">Book Now!</a>
                                     </li>
                                 </ul>
                             </div>
@@ -119,13 +129,17 @@
                         <!-- All Navbar items for tablets and smaller -->
                         <ul class="navbar-nav me-auto mb-2 mb-lg-0 d-block d-lg-none burger-links">
                             <li class="nav-item">
-                                <a class="nav-link" href="classes.html#book-a-class">Book a Class</a>
+                                <a class="nav-link" href="classes.html#book-a-class"
+                                    aria-label="Go to the Class booking enquiry form">
+                                    Book a Class</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link" href="suites.html">Book a Suite</a>
+                                <a class="nav-link" href="suites.html" aria-label="Go to the Suites page">
+                                    Book a Suite</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link" href="index.html">Back to Home</a>
+                                <a class="nav-link" href="index.html" aria-label="Go to the Home page">
+                                    Back to Home</a>
                             </li>
                         </ul>
 
@@ -158,8 +172,9 @@
                             <p class="lead mb-1">with Trainer&nbsp;Kiawe
                                 <br>or Trainer&nbsp;Mallow
                             </p>
-                            <p>(Learn more about our&nbsp;Trainers&nbsp<a href="index.html#our-trainers"
-                                    class="internal-link">here</a>)</p>
+                            <p>(Learn more about our&nbsp;Trainers&nbsp;<a href="index.html#our-trainers"
+                                    class="internal-link" aria-label="Go to the Trainers section in the Home page">
+                                    here</a>)</p>
                         </div>
                         <!-- Class 1 : Flying Skills - Single image that only shows on mobile/tablet screens, inside text box -->
                         <img src="assets/images/class-flying-kiawe1.jpg"
@@ -181,7 +196,8 @@
                             perfect blend of adventure and learning. Soar through the skies and create unforgettable
                             memories with your&nbsp;Pokémon!
                         </p>
-                        <a href="classes.html#book-a-class" class="btn btn-light btn-lg button-primary">Book Now</a>
+                        <a href="classes.html#book-a-class" class="btn btn-light btn-lg button-primary"
+                            aria-label="Go to the Classes booking enquiry form">Book Now</a>
                     </article>
                     <div class="col-12 col-lg-6 d-flex flex-column justify-content-evenly">
                         <!-- Class 1 : Flying Skills - Images that only show on laptop + screens, beside the text boxes -->
@@ -218,8 +234,9 @@
                         <div>
                             <p class="lead mb-1">with Trainer&nbsp;Lana
                             </p>
-                            <p>(Learn more about our&nbsp;Trainers&nbsp<a href="index.html#our-trainers"
-                                    class="internal-link">here</a>)</p>
+                            <p>(Learn more about our&nbsp;Trainers&nbsp;<a href="index.html#our-trainers"
+                                    class="internal-link" aria-label="Go to the Trainers section in the Home page">
+                                    here</a>)</p>
                         </div>
                         <!-- Class 2 : Surfing & Water Skills - Single image that only shows on mobile/tablet screens, inside text box -->
                         <img src="assets/images/class-surfing-lana.jpg" alt="Trainer Lana Surfing atop a Pokémon"
@@ -242,7 +259,8 @@
                             offers a perfect blend of fun and skill-building. Don't miss the chance to create
                             unforgettable memories while exploring the wonders of the&nbsp;ocean!
                         </p>
-                        <a href="classes.html#book-a-class" class="btn btn-light btn-lg button-primary">Book Now</a>
+                        <a href="classes.html#book-a-class" class="btn btn-light btn-lg button-primary"
+                            aria-label="Go to the Classes booking enquiry form">Book Now</a>
                     </article>
                 </div>
                 <!-- End of Class 2 : Surfing & Water Skills -->
@@ -260,8 +278,9 @@
                             <p class="lead mb-1">with Trainer&nbsp;Kiawe
                                 <br>or Trainer&nbsp;Mallow
                             </p>
-                            <p>(Learn more about our&nbsp;Trainers&nbsp<a href="index.html#our-trainers"
-                                    class="internal-link">here</a>)</p>
+                            <p>(Learn more about our&nbsp;Trainers&nbsp;<a href="index.html#our-trainers"
+                                    class="internal-link" aria-label="Go to the Trainers section in the Home page">
+                                    here</a>)</p>
                         </div>
                         <!-- Class 3 : Beach & Dune Riding - Single image that only shows on mobile/tablet screens, inside text box -->
                         <img src="assets/images/class-tauros-mallow.jpg" alt="Trainer Mallow riding on Tauros"
@@ -281,7 +300,8 @@
                             this class offers a perfect blend of fun and learning. Get ready to explore the scenic
                             beaches, dunes, and ocean while building a stronger bond with your&nbsp;Pokémon!
                         </p>
-                        <a href="classes.html#book-a-class" class="btn btn-light btn-lg button-primary">Book Now</a>
+                        <a href="classes.html#book-a-class" class="btn btn-light btn-lg button-primary"
+                            aria-label="Go to the Classes booking enquiry form">Book Now</a>
                     </article>
                     <div class="col-12 col-lg-6 d-flex flex-column justify-content-evenly">
                         <!-- Class 3 : Beach & Dune Riding - Images that only show on laptop + screens, beside the text boxes -->
@@ -320,8 +340,9 @@
                         <h2 class="display-6">Fire&nbsp;Breathing & Fire&nbsp;Skills</h2>
                         <div>
                             <p class="lead mb-1">with Trainer&nbsp;Kiawe</p>
-                            <p>(Learn more about our&nbsp;Trainers&nbsp<a href="index.html#our-trainers"
-                                    class="internal-link">here</a>)</p>
+                            <p>(Learn more about our&nbsp;Trainers&nbsp;<a href="index.html#our-trainers"
+                                    class="internal-link" aria-label="Go to the Trainers section in the Home page">
+                                    here</a>)</p>
                         </div>
                         <!-- Class 4 : Fire Breathing & Fire Skills - Single image that only shows on mobile/tablet screens, inside text box -->
                         <img src="assets/images/class-fire-charizard.jpg"
@@ -344,7 +365,8 @@
                             aiming to refine your fire-based abilities, this class offers a unique opportunity to learn
                             from the best. Unleash your inner fire and take your skills to the next&nbsp;level!
                         </p>
-                        <a href="classes.html#book-a-class" class="btn btn-light btn-lg button-primary">Book Now</a>
+                        <a href="classes.html#book-a-class" class="btn btn-light btn-lg button-primary"
+                            aria-label="Go to the Classes booking enquiry form">Book Now</a>
                     </article>
                 </div>
                 <!-- End of Class 4 : Fire Breathing & Fire Skills -->
@@ -356,8 +378,9 @@
                         <h2 class="display-6">Snorkeling & Deep&nbsp;Sea&nbsp;Diving</h2>
                         <div>
                             <p class="lead mb-1">with Trainer&nbsp;Lana</p>
-                            <p>(Learn more about our&nbsp;Trainers&nbsp<a href="index.html#our-trainers"
-                                    class="internal-link">here</a>)</p>
+                            <p>(Learn more about our&nbsp;Trainers&nbsp;<a href="index.html#our-trainers"
+                                    class="internal-link" aria-label="Go to the Trainers section in the Home page">
+                                    here</a>)</p>
                         </div>
                         <!-- Class 5 : Snorkeling & Deep Sea Diving - Single image that only shows on mobile/tablet screens, inside text box -->
                         <img src="assets/images/class-diving-lana.jpg" alt="Snorkeling with Trainer Lana"
@@ -370,7 +393,8 @@
                             Perfect for beginners or experienced divers, this class ensures a
                             fascinating&nbsp;experience!
                         </p>
-                        <a href="classes.html#book-a-class" class="btn btn-light btn-lg button-primary">Book Now</a>
+                        <a href="classes.html#book-a-class" class="btn btn-light btn-lg button-primary"
+                            aria-label="Go to the Classes booking enquiry form">Book Now</a>
                     </article>
                     <div class="col-12 col-lg-6 d-flex flex-column justify-content-evenly">
                         <!-- Class 5 : Snorkeling & Deep Sea Diving - Images that only show on laptop + screens, beside the text boxes -->
