@@ -164,6 +164,7 @@ This has links to social media, and is shown at the bottom of each page, althoug
 
   - A **Contact Form*** to get in touch, with an adjustable message box, which links to the **Success/Thank You Page** when correctly submitted.
 
+![alt text](image.png)
 **Home Page Contact Form** mockups showing one of the dropdown menu options that directs there from the Home button:<br>
 *(you can also use the Contact button or 'Send Us a Message' option in the Contact dropdown menu)*
 ![Mockups of Home Page Contact Form on various screen sizes](assets/images/readme/mockups/mockups-home-page-form.png)
