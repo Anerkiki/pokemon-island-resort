@@ -160,11 +160,12 @@ This has links to social media, and is shown at the bottom of each page, althoug
   - An **Our Trainers** Section* with group image, and then individual images, descriptions, and links to their classes, which are fully responsive, and the images also multiply to up to 3, or appear inside the text boxes/bubbles at different screen sizes.*
 
   **Home Page Trainers Section** mockups:
+  You can get to this section of the Home Page by clicking the 'Trainers' button, or selecting the 'Our Trainers' option in the Home dropdown menu.
+  - As you can see, when the 'Trainers' button is hovered over, there is a hover effect that changes the colouring/background, like in the dropdown menus.
 ![Mockups of Home Page Trainers Section on various screen sizes](assets/images/readme/mockups/mockups-home-page-trainers.png)
 
   - A **Contact Form*** to get in touch, with an adjustable message box, which links to the **Success/Thank You Page** when correctly submitted.
 
-![alt text](image.png)
 **Home Page Contact Form** mockups showing one of the dropdown menu options that directs there from the Home button:<br>
 *(you can also use the Contact button or 'Send Us a Message' option in the Contact dropdown menu)*
 ![Mockups of Home Page Contact Form on various screen sizes](assets/images/readme/mockups/mockups-home-page-form.png)
@@ -174,6 +175,7 @@ This has links to social media, and is shown at the bottom of each page, althoug
   - **4 Suite Options*** with images, descriptions, [[[links to nearby activities??]]] and a 'Book Now' button, which links directly down to the Booking Form at the bottom of the page.
 
   **Suites Page** mockups:
+  - As you can see the selected page (Suites) is underlined on the navbar button to show that this is the current page, and the dropdown menu arrow has appeared beside it
 ![Mockups of Suites Page on various screen sizes](assets/images/readme/mockups/mockups-suites-page.png)
 
   - A Suite **Booking Form*** with dropdown menu to pick a suite to enquire about, which link to the **Success/Thank You Page** when correctly submitted.
