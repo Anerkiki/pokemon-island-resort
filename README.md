@@ -313,7 +313,25 @@ I tested the colors using [wave link] [contrast test link], and amended the colo
 ## Testing
 
 ### Lighthouse Performance
-  - Laptop & Mobile?
+
+When testing my website with Lighthouse, I encountered an issue which affected the 'Best Practices' score, as shown below
+![Issue Description](assets/images/readme/lighthouse/lighthouse-best-practices-issue.png)
+This was due to `h1` elements being used within a `section` element, so by changing all the `h2`s to `h3`s and `h1`s in my `section`s to `h2`s, this fixed the issue, giving me the scores below for each of the pages:
+
+Home Page:
+![Home Page Lighthouse](assets/images/readme/lighthouse/lighthouse-home-page.png)
+
+Suites Page:
+![Suites Page Lighthouse](assets/images/readme/lighthouse/lighthouse-suites-page.png)
+
+Classes Page:
+![Classes Page Lighthouse](assets/images/readme/lighthouse/lighthouse-classes-page.png)
+
+Success Page:
+![Success Page Lighthouse](assets/images/readme/lighthouse/lighthouse-success-page.png)
+
+404 Page:
+![404 Page Lighthouse](assets/images/readme/lighthouse/lighthouse-404-page.png)
 
 ### WAVE Test
 
