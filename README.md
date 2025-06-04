@@ -75,13 +75,36 @@ View live website [here](https://anerkiki.github.io/pokemon-island-resort/) (Hos
 
 ## Features
 
----
-
 ### Key Features
 
 - **Fully Responsive at any screen size:** This includes a hero image that switches from landscape to portrait at mobile and tablet view, and text 'bubbles' that change order and location trainsitioning from different screen sizes, such as from mobile to laptop, and images which go from being inside the floating text bubbles, to outside, next to the text, in their own "bubbles".
 
-![alt text](assets/images/readme/responsiveness-screenshots/responsive-images-mobile.png)
+
+<details>
+<summary>Example at small screen sizes (tablet & mobile) - showing the image inside the text box</summary>
+
+![Responsive Images on Small Screens](assets/images/readme/responsiveness-screenshots/responsive-images-small.png)
+</details>
+
+<details>
+<summary>Example at medium screen sizes (small laptop) - showing 4 images to match the text height, now to the side of the text box</summary>
+
+![Responsive Images on Medium Screens](assets/images/readme/responsiveness-screenshots/responsive-images-medium.png)
+</details>
+
+<details>
+<summary>Example at large screen sizes (laptop) - showing 3 images to match the text height, to the side of the text box</summary>
+
+![Responsive Images on Medium Screens](assets/images/readme/responsiveness-screenshots/responsive-images-large.png)
+</details>
+
+<details>
+<summary>Example at XL screen sizes (monitor/TV) - showing 2 images to match the text height, to the side of the text box</summary>
+
+![Responsive Images on Medium Screens](assets/images/readme/responsiveness-screenshots/responsive-images-xl.png)
+</details>
+
+The paragraphs inside the text box and images are all inside a Bootstrap flexbox, which will adjust to the screen size accordingly, and if gaps are needed, they will be evenly distributed between so there are never any large unsightly gaps, no matter the viewing dimensions.
 
 ---
 
@@ -93,26 +116,26 @@ This has links to all of the main pages and is always fixed to the top, so is ac
 Below is an interactive feature to show you the buttons in the navbar and dropdown options of each (tap the arrow to see dropdown options):
 
 <details>
-<summary>Home - (Dropdown arrow only shows when on Home page)</summary>
+<summary>Home - (Dropdown arrow only shows when on Home Page, on Classes and Suites Pages, the button changes to 'Back to Home')</summary>
   - Our Activities<br>
   - Our Trainers<br>
   - Message Us <br>
 </details>
 <details>
-<summary>Trainers - (Entire button with dropdown arrow only shows when on Home page)</summary>
+<summary>Trainers - (Entire button with dropdown arrow only shows when on Home Page)</summary>
 - Trainer Kiawe<br>
 - Trainer Mallow<br>
 - Trainer Lana<br>
 </details>
 <details>
-<summary>Contact - (Entire button with dropdown arrow only shows when on Home page)</summary>
+<summary>Contact - (Entire button with dropdown arrow only shows when on Home Page)</summary>
 - Message Us<br>
 - Book a Class<br>
 - Book a Suite<br>
 - Social Media<br>
 </details>
 <details>
-<summary>Book a Suite - (Dropdown arrow only shows when on Suites page)</summary>
+<summary>Book a Suite - (Dropdown arrow only shows when on Suites Page)</summary>
 - Luxury Sea View Penthouse<br>
 - Mountain View Apartment<br>
 - Garden View Chalet<br>
@@ -120,9 +143,9 @@ Below is an interactive feature to show you the buttons in the navbar and dropdo
 - Book Now!<br>
 </details>
 <details>
-<summary>Book a Class - (Dropdown arrow only shows when on Classes page)</summary>
+<summary>Book a Class - (Dropdown arrow only shows when on Classes Page)</summary>
 - Flying Skills<br>
-- Ocean Riding & Water Skills<br>
+- Surfing & Water Skills<br>
 - Beach & Dune Riding<br>
 - Fire Breathing & Fire Skills<br>
 - Snorkeling & Deep Sea Diving<br>
@@ -473,7 +496,7 @@ https://www.google.com/imgres?q=pokemon mountains&imgurl=https%3A%2F%2Fw0.peakpx
 
 ### Full Navbar Button Dropdown List
 
-  - **Home** Button - (Dropdown arrow only shows when on Home page)
+  - **Home** Button - (Dropdown arrow only shows when on Home page, on Classes and Suites pages, the button changes to **Back to Home**)
     - Dropdown Option 1 - **Our Activities**
     - Dropdown Option 2 - **Our Trainers**
     - Dropdown Option 3 - **Message Us**
@@ -494,7 +517,7 @@ https://www.google.com/imgres?q=pokemon mountains&imgurl=https%3A%2F%2Fw0.peakpx
     - Dropdown Option 5 - **Book Now!**
   - **Book a Class** - (Dropdown arrow only shows when on Classes page)
     - Dropdown Option 1 - **Flying Skills**
-    - Dropdown Option 2 - **Ocean Riding & Water Skills**
+    - Dropdown Option 2 - **Surfing & Water Skills**
     - Dropdown Option 3 - **Beach & Dune Riding**
     - Dropdown Option 4 - **Fire Breathing & Fire Skills**
     - Dropdown Option 5 - **Snorkeling & Deep Sea Diving**
