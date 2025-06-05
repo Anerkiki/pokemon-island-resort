@@ -15,6 +15,8 @@ The goal is to create a visually engaging and appealing platform that captures t
 
 View live website [here](https://anerkiki.github.io/pokemon-island-resort/) (Hosted on GitHub pages)
 
+
+
 ---
 
 # Table of Contents
@@ -49,11 +51,17 @@ View live website [here](https://anerkiki.github.io/pokemon-island-resort/) (Hos
 - [GitHub](link):
   - GitHub has been used to store this project.
 
+- [VScode](link):
+  - I used this as my IDE to code and develop this website and to push to GitHub.
+
 - [Google Fonts](link):
   - I used this to find and create an import url so that I could use by 2 chosen fonts in the project.
 
-- [VScode](link):
-  - I used this as my IDE to code and develop this website and to push to GitHub.
+- [Font Awesome](link):
+  - I used this to add icons to the website so that they could be coloured to match my design, specifically in the navbar (for the burger icon and dropdown menu arrows) and for the social media links in the footer.
+
+- [Bootstrap](link):
+  - I used this to design my navbar and as a flexbox/grid in my navbar, main content and forms.
 
 - [Notion](link)
   - I used this to write up ideas, to do lists/issues that needed fixing, and paste screenshots, images and their links, etc.
@@ -78,7 +86,6 @@ View live website [here](https://anerkiki.github.io/pokemon-island-resort/) (Hos
 ### Key Features
 
 - **Fully Responsive at any screen size:** This includes a hero image that switches from landscape to portrait at mobile and tablet view, and text 'bubbles' that change order and location trainsitioning from different screen sizes, such as from mobile to laptop, and images which go from being inside the floating text bubbles, to outside, next to the text, in their own "bubbles".
-
 
 <details>
 <summary>Example at small screen sizes (tablet & mobile) - showing the image inside the text box</summary>
@@ -230,38 +237,67 @@ This has links to social media, and is shown at the bottom of each page, althoug
 
 ## Design and Planning
 
+**Website Objectives**
+
+The main objectives of the Pokemon Island Resort website are:
+
+- **Showcase the Resort:** Present a vibrant, engaging overview of the fictional island resort, highlighting its unique features, activities, and accommodations for both Pokémon and their trainers.
+- **Enhance User Engagement:** Create an interactive and visually appealing experience that encourages users to explore the site, learn about the trainers, and discover the variety of classes and suites available.
+- **Facilitate Booking Requests and Inquiries:** Provide clear, accessible forms for users to enquire to book suites, enroll Pokémon in classes, or contact the resort, ensuring a smooth and user-friendly process.
+- **Promote Accessibility and Responsiveness:** Ensure the website is fully responsive and accessible across all devices and screen sizes, offering an optimal experience for every visitor.
+- **Build Trust and Credibility:** Use professional design, clear navigation, and transparent information to build user confidence in the resort and its offerings.
+
+These objectives should guide the design, content, and functionality of the website to deliver a memorable and effective user experience.
+
 ---
 
 **Design and Brand Identity**
 
-The website is designed to have a fun, playful feel, and get potential visitors excited about everything the island has to offer.
+The website is designed to have a fun, playful feel, aiming to get potential visitors excited about everything the island has to offer. The overall aesthetic draws inspiration from tropical resorts and the vibrant world of Pokémon, using bright, cheerful colours and whimsical design elements throughout.
 
-Text bubbles, partially transparent with curved coloured chunky borders, and (at larger screen sizes) images with large chunky borders. These jump from left to right as you go down the page, a playful and quirky feel.
+A key part of the design is the use of text bubbles - these are partially transparent with curved, chunky colored borders that help them stand out against the background. On larger screens, images are also framed with thick, colorful borders, creating a cohesive and lively look. The layout is intentionally dynamic: as you scroll down the page, the text bubbles and images alternate from left to right, giving the site a playful, quirky, and engaging flow that encourages exploration.
 
-Lots of colour and images 
+To further enhance the playful atmosphere, I incorporated a variety of colorful images. These visuals not only make the site more visually appealing but also help communicate the resort's unique offerings and the sense of adventure awaiting visitors. The combination of bold typography, vibrant color palette, and interactive elements (like dropdown menus and responsive layouts) ensures that the site feels welcoming and accessible to users of all ages, especially Pokémon fans and trainers looking for a fun getaway with their Pokémon.
+
+Overall, every design choice - from the fonts and colours to the arrangement of content was made to capture the essence of a tropical Pokémon paradise, making the website both inviting and memorable.
 
 ---
 
 ### User Experience/User Interface(UX/UI)
 
-A typical customer will be:
-- A pokemon owner
-- Someone that likes to travel/try new things
-- Young and up for adventure
+#### Typical Customer Profile
+
+A typical customer for the Pokémon Island Resort is:
+
+- A Pokémon owner or trainer
+- Young and free spirited/eager for adventure
+- Someone who enjoys traveling and exploring new destinations
+- Enthusiastic about trying new and unique experiences and activities
 
 #### User Stories
 
-"As a past visitor to the resort I want to be able to show my friends and family an overview of what the resort has to offer, trianers I've met and experiences I've taken."
+#### User Stories
 
-"As a new visitor to the site I want to see if the island will have everything I'm looking for and feel comfortable that I will enjoy my stay."
+- **As a new visitor:**
+  - I want to quickly find out if the island has the activities and amenities I'm interested in, and feel assured that my stay will give me everything I'm looking for.
 
-"As a new visitor to the site I want an easily navigatable site layout."
+- **As a first-time user:**
+  - I want the website to be easy to navigate, with a clear layout and intuitive links between pages, so I can move seamlessly through the site and find what I need without confusion.
+  
+- **As a Pokémon trainer:**
+  - I want to easily discover classes tailored to my Pokémon’s type and abilities, and find trainers with the right expertise to help them master their moves, develop new skills and reach their full potential.
 
-"As a vistor the site looking to contact the resort/book a class or suite, I need to feel confident that my message/request has been received."
+- **As a guest or potential guest looking to contact or request to book:**
+  - I want to feel assured that my message or booking request has been received and will be responded to.
+
+- **As a past visitor:**
+  - I want to easily share everything I have experienced at the resort with friends and family, including trainers I've met and activities/classes my Pokémon and I have taken part in.
 
 ---
 
 ### Wireframes
+
+TO DO
 
 ---
 
@@ -269,9 +305,9 @@ A typical customer will be:
 
 **Fonts**
 
-I wanted to pick a seaside-y/tropical/playful font for my headings etc, and I used **Google Fonts** to find one. I used their tool where you can write a specific phrase - in my case it was 'Pokémon Island Resort', as I knew this would be the main writing at the top of the page, so would be the most important to look right. I compared this title in many different fonts, especially what the (é) looks like, as it did look strange on a few of them, but I decided on 'Skranji' - as I feel exactly it has the exact exotic, tropical and beachy feel I wanted, and even reminded me slightly of bamboo used on island huts etc.
+I wanted to pick a playful and tropical font with a seaside feel for my headings, so I used **Google Fonts** to explore options. Using their preview tool, I tested the phrase "Pokémon Island Resort" - the main site title - to ensure it looked just right, especially the (é) character, which appeared odd in some fonts. I ultimately chose 'Skranji' because it perfectly captures the exotic, tropical, and beachy vibe I wanted, and even has a hint of bamboo reminiscent of island shacks.
 
-To pair with this, for a paragraph font, I wanted a simple, clear and unfussy font, that would compliment the heading font 'Skranji' without competing for attention, and again used **Google Fonts** to look through their sans-serif options and see what would work nicely. I chose 'Roboto', as it is a versatile and widely used sans-serif font designed for readability and legibility across different devices and screen sizes, balancing geometric shapes with open curves.
+For paragraph text, I wanted a simple, clear, and unfussy font that would complement 'Skranji' without competing for attention. Again using **Google Fonts**, I browsed sans-serif options and selected 'Roboto' for its versatility and readability across devices. Its straightforward design and spacious lettering make it easy to read, even in longer paragraphs.
 
 ---
 
@@ -290,6 +326,8 @@ I saved each colour using `var(--colour-name)` so that if I decided to I wanted 
 ![Colour Pallet](assets/images/readme/colour-pallet.png)
 
 **Favicon**
+
+The favicon for this site is a small palm tree icon, chosen to reflect the tropical island theme of the resort. It appears in the browser tab and bookmarks, helping users quickly identify the site. The favicon was sourced from IconArchive and is free to use under an open source license. Its playful design complements the overall branding and adds a professional touch to the website.
 
 
 **Header (including navbar) and Footer**
