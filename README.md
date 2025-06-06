@@ -310,9 +310,21 @@ I wanted to pick a playful and tropical font with a seaside feel for my headings
 For paragraph text, I wanted a simple, clear, and unfussy font that would complement 'Skranji' without competing for attention. Again using **Google Fonts**, I browsed sans-serif options and selected 'Roboto' for its versatility and readability across devices. Its straightforward design and spacious lettering make it easy to read, even in longer paragraphs.
 
 ---
-
 ### Colour Scheme
 
+The colour scheme for the website is inspired by the relaxing, tropical atmosphere of a sandy island resort. To achieve this, I wanted a palette that evoked the feeling of sand, sea, and lush greenery.
+
+I began by searching for a suitable background image that would set the tone for the site on some of the free image websites. After browsing through a few options, I found a [background image](#background-photo) on [link to credit for Freepik(?)](link) that felt like it perfectly matched the tropical aesthetic I envisioned. The colours in this image - from the golden sand background colour, the vibrant green of the palm leaves, and the range of other colours in the smaller details such as the shells and footprints - gave me the inspiration for a colour palette for the website.
+
+To extract and use each of these colours so they perfectly matched, I used the **ColorZilla** Chrome extension, which allowed me to pinpoint the exact colour codes directly from exact spots/areas (?) in the image. I sampled various shades, then refined my choices by previewing them on the site to ensure they complemented each other and provided good contrast.
+
+For future maintainability, I defined each colour as a CSS variable (e.g., `var(--colour-name)`). This approach made it easy to update the palette later if needed - changing a single variable would update the colour everywhere it was used. This was especially helpful when testing text contrast for accessibility, as I could quickly adjust colours to meet contrast requirements and did end up changing the colour I had selected for the paragraph text, so that it would pass all of the tests in the ... contrast test.
+
+The final palette brings together the warmth of sand, the freshness of tropical foliage, and the calm of the sea, creating a cohesive and inviting visual identity for the website.
+
+![Colour Pallet](assets/images/readme/colour-pallet.png)
+
+<!-- extra/old? -->
 **Background**
 I wanted a sandy/beach/island feel for the website, so was thinking of a background in either a sand colour or a blue sea colour.
 
