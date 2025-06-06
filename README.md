@@ -118,7 +118,12 @@ The paragraphs inside the text box and images are all inside a Bootstrap flexbox
 ### Site Wide Features
 
 #### Navbar:
+
 This has links to all of the main pages and is always fixed to the top, so is accessible from anywhere in the website. It has links to all of the pages (with exception to the Success/Thank You page - which you access after submitting any of the forms) - [see full list](#full-navbar-button-dropdown-list)
+
+Larger Screen (Full Sized) Navbar:
+
+![Full Sized Navbar](assets/images/readme/navbar-full-size.png)
 
 Below is an interactive feature to show you the buttons in the navbar and dropdown options of each (tap the arrow to see dropdown options):
 
@@ -157,11 +162,27 @@ Below is an interactive feature to show you the buttons in the navbar and dropdo
 - Fire Breathing & Fire Skills<br>
 - Snorkeling & Deep Sea Diving<br>
 - Book Now!<br>
-</details>
+</details><br>
+
+Smaller Screen (Collapsed) Navbar:
+
+![Collapsed Navbar](assets/images/readme/navbar-collapsed.png)
+
+Open Smaller Screen (Collapsed) Navbar:
+
+![Collapsed Navbar](assets/images/readme/navbar-collapsed-open.png)
 
 #### Footer:
 
 This has links to social media, and is shown at the bottom of each page, although not fixed in place over the content like the **Navbar** is
+
+Larger Screen Footer:
+
+![Full Sized Footer](assets/images/readme/footer-full-size.png)
+
+Smaller Screen Footer:
+
+![Collapsed Footer](assets/images/readme/footer-collapsed.png)
 
 ---
 
@@ -237,7 +258,7 @@ This has links to social media, and is shown at the bottom of each page, althoug
 
 ## Design and Planning
 
-**Website Objectives**
+**Objectives**
 
 The main objectives of the Pokemon Island Resort website are:
 
@@ -312,35 +333,25 @@ For paragraph text, I wanted a simple, clear, and unfussy font that would comple
 ---
 ### Colour Scheme
 
-The colour scheme for the website is inspired by the relaxing, tropical atmosphere of a sandy island resort. To achieve this, I wanted a palette that evoked the feeling of sand, sea, and lush greenery.
-
-I began by searching for a suitable background image that would set the tone for the site on some of the free image websites. After browsing through a few options, I found a [background image](#background-photo) on [link to credit for Freepik(?)](link) that felt like it perfectly matched the tropical aesthetic I envisioned. The colours in this image - from the golden sand background colour, the vibrant green of the palm leaves, and the range of other colours in the smaller details such as the shells and footprints - gave me the inspiration for a colour palette for the website.
-
-To extract and use each of these colours so they perfectly matched, I used the **ColorZilla** Chrome extension, which allowed me to pinpoint the exact colour codes directly from exact spots/areas (?) in the image. I sampled various shades, then refined my choices by previewing them on the site to ensure they complemented each other and provided good contrast.
-
-For future maintainability, I defined each colour as a CSS variable (e.g., `var(--colour-name)`). This approach made it easy to update the palette later if needed - changing a single variable would update the colour everywhere it was used. This was especially helpful when testing text contrast for accessibility, as I could quickly adjust colours to meet contrast requirements and did end up changing the colour I had selected for the paragraph text, so that it would pass all of the tests in the ... contrast test.
-
-The final palette brings together the warmth of sand, the freshness of tropical foliage, and the calm of the sea, creating a cohesive and inviting visual identity for the website.
-
-![Colour Pallet](assets/images/readme/colour-pallet.png)
-
-<!-- extra/old? -->
 **Background**
-I wanted a sandy/beach/island feel for the website, so was thinking of a background in either a sand colour or a blue sea colour.
 
-I liked the idea of having a background image, so decided to start by browsing through [link] to see if there was anything that could work. I decided this [background image](#background-photo) was right fit for my project and aesthetic as soon as I saw it. I instantly loved the colours from it and decided to pick the colours for the rest of the website from different parts of the image, as the colours were lovely and worked well together.
+I wanted the website’s colour scheme to evoke a welcoming and relaxing island holiday feeling, so I decided on a background in either a sandy tone or a blue sea colour.
 
-I did this using a Chrome extension called **ColorZilla** (add link to below?), which allowed me to use a dropper tool anywhere on the webpage, and told me the colour code of it. I did this with various colours, and then narrowed the choices down after viewing them on the webpage.
+I also liked the idea of having a background image, so I began by searching on some of the free image websites for a suitable image that would set the tone for the site. After browsing through a few options, I found a [background image](#background-photo) on [Freepik (add link)](link) that felt like it perfectly matched the tropical vibe I envisioned. I instantly loved the colours in this image (and how well they worked together) - from the golden sand background colour, the vibrant green of the palm leaves, and the range of other colours in the smaller details such as the shells and footprints - and decided to make a colour palette from these to use throughout the website for consistency.
 
-I saved each colour using `var(--colour-name)` so that if I decided to I wanted to change any of the colours at a later date, I could just do it from 1 place rather than having to amend each individually. This did come in handy when I tested my secondary (paragraph) font colour against the background colour I chose for the text bubbles [link to contrast testing section]
+To be able to use each of these specific colours from the image throughout the website, I used the **ColorZilla** Chrome extension, which allowed me to pinpoint and save <!-- extract -->exact colour codes directly from any online image. I added many different colours, then refined my choices by previewing them on the site to ensure they complemented each other and provided good contrast.
 
+The only colour (in the Colour Pallet) not from the background image is the dark brown, which I used for paragraphs of text. For improved readability I added a darker colour that still matched the aesthetic, as the colours in the image were all a little too pale (except the leaf green colour) but I decided this would be better to use for just headers, to help them stand out.
+
+For future maintainability, I defined each colour as a CSS variable (e.g., `var(--colour-name)`). This approach made it easy to update the palette later if needed - changing a single variable would update the colour everywhere it was used. This was especially helpful when testing text contrast for accessibility, as did end up changing the colour I had selected for the paragraph text when testing against the background colour of the text 'bubbles', so that it would pass all of the tests in the [add link] contrast test as it didn't originally.
+
+**Colour Pallet**
 
 ![Colour Pallet](assets/images/readme/colour-pallet.png)
 
 **Favicon**
 
 The favicon for this site is a small palm tree icon, chosen to reflect the tropical island theme of the resort. It appears in the browser tab and bookmarks, helping users quickly identify the site. The favicon was sourced from IconArchive and is free to use under an open source license. Its playful design complements the overall branding and adds a professional touch to the website.
-
 
 **Header (including navbar) and Footer**
 
