@@ -3,11 +3,13 @@
 
 # Pokemon Island Resort
 
+Apple Devices:
+
 ![Mockups of Home Page on various screen sizes](assets/images/readme/mockups/mockups-home-page.png)
 
-## Introduction
+Am I responsive/Other Devices:
 
----
+![Am I Responsive ](assets/images/readme/mockups/am-i-responsive-home-page.png)
 
 I am looking to create this website to showcase a fictional tropical island resort designed for Pokémon and their trainers.
 
@@ -15,75 +17,178 @@ The goal is to create a visually engaging and appealing platform that captures t
 
 View live website [here](https://anerkiki.github.io/pokemon-island-resort/) (Hosted on GitHub pages)
 
-
-
 ---
 
 # Table of Contents
 
-- [Introduction](#introduction)
-- [Technologies Used](#technologies-used)
-  - [Frameworks, Programs, and Libraries](#frameworks-programs-and-libraries)
+- [Design and Planning](#design-and-planning)
+  - [Objectives](#objectives)
+  - [Design and Brand Identity](#design-and-brand-identity)
+  - [User Experience/User Interface(UX/UI)](#user-experienceuser-interfaceuxui)
+    - [Typical Customer Profile](#typical-customer-profile)
+    - [User Stories](#user-stories)
+  - [Wireframes](#wireframes)
+  - [Typography/Fonts](#typographyfonts)
+  - [Colour Scheme/Design](#colour-schemedesign)
+    - [Background](#background)
+    - [Colour Pallet](#colour-pallet)
+    - [Font Colouring](#font-colouring)
+    - [Favicon](#favicon)
+    - [Header/Navbar and Footer](#headernavbar-and-footer)
+
 - [Features](#features)
   - [Key Features](#key-features)
   - [Site Wide Features](#site-wide-features)
   - [Pages](#pages)
-- [Design and Planning](#design-and-planning)
-  - [User Experience/User Interface(UX/UI)](#user-experienceuser-interfaceuxui)
-  - [Design and Brand Identity](#design-and-brand-identity)
-  - [Wireframes](#wireframes)
-  - [Typography](#typography)
-  - [Colour Scheme](#colour-scheme)
+
 - [Testing](#testing)
-- [Bugs](#bugs)
+  - [Lighthouse Performance](#lighthouse-performance)
+  - [WAVE Test](#wave-test)
+  - [WebAIM Contrast Checker Test](#webaim-contrast-checker-test)
+  - [W3C Markup/HTML Validation Service](#w3c-markuphtml-validation-service)
+  - [W3C CSS Validation Service](#w3c-css-validation-service)
+  - [Manual Testing](#manual-testing)
+
+- [Fixed Issues](#fixed-issues)
+
 - [Deployment](#deployment)
+
 - [Credits](#credits)
+  - [Technologies Used](#technologies-used)
+  - [Images Used](#images-used)
+
 - [Other](#other)
+  - [Full Navbar Button Dropdown List](#full-navbar-button-dropdown-list)
 
 ---
 
-# Technologies Used
+# Design and Planning
+
+## Objectives
+
+The main objectives of the Pokemon Island Resort website are:
+
+- **Showcase the Resort:** Present a vibrant, engaging overview of the fictional island resort, highlighting its unique features, activities, and accommodations for both Pokémon and their trainers.
+- **Enhance User Engagement:** Create an interactive and visually appealing experience that encourages users to explore the site, learn about the trainers, and discover the variety of classes and suites available.
+- **Facilitate Booking Requests and Inquiries:** Provide clear, accessible forms for users to enquire to book suites, enroll Pokémon in classes, or contact the resort, ensuring a smooth and user-friendly process.
+- **Promote Accessibility and Responsiveness:** Ensure the website is fully responsive and accessible across all devices and screen sizes, offering an optimal experience for every visitor.
+- **Build Trust and Credibility:** Use professional design, clear navigation, and transparent information to build user confidence in the resort and its offerings.
+
+These objectives should guide the design, content, and functionality of the website to deliver a memorable and effective user experience.
 
 ---
 
-### Frameworks, Programs, and Libraries
+## Design and Brand Identity
 
-- [GitHub](link):
-  - GitHub has been used to store this project.
+The website is designed to have a fun, playful feel, aiming to get potential visitors excited about everything the island has to offer. The overall aesthetic draws inspiration from tropical resorts and the vibrant world of Pokémon, using bright, cheerful colours and whimsical design elements throughout.
 
-- [VScode](link):
-  - I used this as my IDE to code and develop this website and to push to GitHub.
+A key part of the design is the use of text bubbles - these are partially transparent with curved, chunky colored borders that help them stand out against the background. On larger screens, images are also framed with thick, colorful borders, creating a cohesive and lively look. The layout is intentionally dynamic: as you scroll down the page, the text bubbles and images alternate from left to right, giving the site a playful, quirky, and engaging flow that encourages exploration.
 
-- [Google Fonts](link):
-  - I used this to find and create an import url so that I could use by 2 chosen fonts in the project.
+To further enhance the playful atmosphere, I incorporated a variety of colorful images. These visuals not only make the site more visually appealing but also help communicate the resort's unique offerings and the sense of adventure awaiting visitors. The combination of bold typography, vibrant color palette, and interactive elements (like dropdown menus and responsive layouts) ensures that the site feels welcoming and accessible to users of all ages, especially Pokémon fans and trainers looking for a fun getaway with their Pokémon.
 
-- [Font Awesome](link):
-  - I used this to add icons to the website so that they could be coloured to match my design, specifically in the navbar (for the burger icon and dropdown menu arrows) and for the social media links in the footer.
-
-- [Bootstrap](link):
-  - I used this to design my navbar and as a flexbox/grid in my navbar, main content and forms.
-
-- [Notion](link)
-  - I used this to write up ideas, to do lists/issues that needed fixing, and paste screenshots, images and their links, etc.
-
-#### **Color Tools**:
-
-<!-- add this to the design and planning colour pallet section? -->
-
-- [ColorZilla - Chrome Extension](https://www.colorzilla.com/)
-  - I used this to pinpoint exact colour codes from images etc on websites.
-
-- [Color Blender](https://meyerweb.com/eric/tools/color-blend/#:::hex)
-- [Color Blender](https://meyerweb.com/eric/tools/color-blend/#FFD8B7:FEEDDC:5:hex)
-  - I used this website to find a colour between my background and highlight colours using their hex codes.
-
-![Color Blender showing the two colours I inputted to find midpoint](assets/images/readme/color-blender.png)
+Overall, every design choice - from the fonts and colours to the arrangement of content was made to capture the essence of a tropical Pokémon paradise, making the website both inviting and memorable.
 
 ---
 
-## Features
+## User Experience/User Interface(UX/UI)
 
-### Key Features
+### Typical Customer Profile
+
+A typical customer for the Pokémon Island Resort is:
+
+- A Pokémon owner or trainer
+- Young and free spirited/eager for adventure
+- Someone who enjoys traveling and exploring new destinations
+- Enthusiastic about trying new and unique experiences and activities
+
+### User Stories
+
+- **As a new visitor:**
+  - I want to quickly find out if the island has the activities and amenities I'm interested in, and feel assured that my stay will give me everything I'm looking for.
+
+- **As a first-time user:**
+  - I want the website to be easy to navigate, with a clear layout and intuitive links between pages, so I can move seamlessly through the site and find what I need without confusion.
+  
+- **As a Pokémon trainer:**
+  - I want to easily discover classes tailored to my Pokémon’s type and abilities, and find trainers with the right expertise to help them master their moves, develop new skills and reach their full potential.
+
+- **As a guest or potential guest looking to contact or request to book:**
+  - I want to feel assured that my message or booking request has been received and will be responded to.
+
+- **As a past visitor:**
+  - I want to easily share everything I have experienced at the resort with friends and family, including trainers I've met and activities/classes my Pokémon and I have taken part in.
+
+---
+
+## Wireframes
+
+TO DO
+
+---
+
+## Typography/Fonts
+
+I wanted to pick a playful and tropical font with a seaside feel for my headings, so I used **Google Fonts** to explore options. Using their preview tool, I tested the phrase "Pokémon Island Resort" - the main site title - to ensure it looked just right, especially the (é) character, which appeared odd in some fonts. I ultimately chose 'Skranji' because it perfectly captures the exotic, tropical, and beachy vibe I wanted, and even has a hint of bamboo reminiscent of island shacks.
+
+For paragraph text, I wanted a simple, clear, and unfussy font that would complement 'Skranji' without competing for attention. Again using **Google Fonts**, I browsed sans-serif options and selected 'Roboto' for its versatility and readability across devices. Its straightforward design and spacious lettering make it easy to read, even in longer paragraphs.
+
+---
+
+## Colour Scheme/Design
+
+### Background
+
+I wanted the website's colour scheme to evoke a welcoming and relaxing island holiday feeling, so I decided on a background in either a sandy tone or a blue sea colour.
+
+I also liked the idea of having a background image, so I began by searching on some of the free image websites for a suitable image that would set the tone for the site. After browsing through a few options, I found a [background image](#background-photo) on [Freepik (add link)](link) that felt like it perfectly matched the tropical vibe I envisioned. I instantly loved the colours in this image (and how well they worked together) - from the golden sand background colour, the vibrant green of the palm leaves, and the range of other colours in the smaller details such as the shells and footprints - and decided to make a colour palette from these to use throughout the website for consistency.
+
+To be able to use each of these specific colours from the image throughout the website, I used the [ColorZilla Chrome Extension](https://www.colorzilla.com/), which allowed me to pinpoint and save <!-- extract -->exact colour codes directly from any online image. I added many different colours, then refined my choices by previewing them on the site to ensure they complemented each other and provided good contrast.
+
+### Colour Pallet
+
+![Colour Pallet](assets/images/readme/colour-pallet.png)
+
+I also used a few colours outside of this colour pallet, which were shades in between a couple of the colours from my colour pallet - in places where the original colours didn't look quite right (either too light or too dark). I did this by inputting the 2 hex codes I wanted to find the middle tone of into a [Color Blender tool](https://meyerweb.com/eric/tools/color-blend/#FFD8B7:FEEDDC:5:hex), which producted a new hex code which was a merge of the 2.
+<!-- I used this website to find a colour between my background and highlight colours using their hex codes. -->
+
+<details>
+<summary>Click for Image of Color Blender showing the two colours I inputted to find midpoint colour</summary>
+
+![Color Blender showing the two colours I inputted to find midpoint colour](assets/images/readme/color-blender.png)
+</details><br>
+
+For future maintainability, I defined each colour as a CSS variable (e.g., `var(--colour-name)`). This approach made it easy to update the palette later if needed - changing a single variable would update the colour everywhere it was used. This was especially helpful when testing text contrast for accessibility, as did end up changing the colour I had selected for the paragraph text when testing against the background colour of the text 'bubbles', so that it would pass all of the tests in the [add link] contrast test as it didn't originally.
+
+### Font Colouring
+
+The only colour (in the Colour Pallet) not from the background image is the dark brown, which I used for paragraphs of text. For improved readability I added a darker colour that still matched the aesthetic, as the colours in the image were all a little too pale (except the leaf green colour) but I decided this would be better to use for just headers, to help them stand out.
+<!-- pick one of these - above and below -->
+The only colour in the Colour Pallet that wasn't from the background was the dark brown I chose for the paragraph text, as the rest of the colours were a bit light against the pale background (apart from the leaf colour, but I was already planning to use this only on the header/footer, and some of the headings to make them pop, so it wasn't an option for the main bodies of text/description text colour).
+
+I chose a dark brown, so that it doesn't clash or compete for attention from any of the more important headers, that I want the attention to initially be drawn to.
+
+For this reason I kept the headings (Skranji) as more colourful, in a brighter green/golden sandy colour depending on the background shade, e.g. the bolder leaf colour on a paler background and the lighter sand colour on a darker background, so that the contrast is enough to be read easily.
+
+I tested the colors using [WebAIM Contrast Checker Test][https://webaim.org/resources/contrastchecker/], and amended the colours slightly later on so that I would pass tests that I'd failed with the previous colour. [This is where I show the Contrast Test Outcomes][#webaim-contrast-checker-test] in the [Testing](#testing) section.
+
+---
+<!-- Another Title? -->
+
+### Favicon
+
+The favicon for this site is a small palm tree icon, chosen to reflect the tropical island theme of the resort. It appears in the browser tab and bookmarks, helping users quickly identify the site. The favicon was sourced from IconArchive and is free to use under an open source license. Its playful design complements the overall branding and adds a professional touch to the website.
+
+### Header/Navbar and Footer
+
+For the Header and Footer of the site, I decided I wanted it to have a bit of a bamboo shack feel, so started looking for images with horizontally lined up bamboo. Eventually found an image (link to bamboo image) I was happy with, but the colouring was wrong, so I decided to use an an partly overlay of one of the colours I'd decided on using before from the leaves the background image.
+
+I decided to use this too for the footer, as it gave the site a bit more of a 'beach shack' type feel, and looked nice and dark enough for lighter content to show up well. 
+
+---
+
+# Features
+
+## Key Features
 
 - **Fully Responsive at any screen size:** This includes a hero image that switches from landscape to portrait at mobile and tablet view, and text 'bubbles' that change order and location trainsitioning from different screen sizes, such as from mobile to laptop, and images which go from being inside the floating text bubbles, to outside, next to the text, in their own "bubbles".
 
@@ -115,9 +220,9 @@ The paragraphs inside the text box and images are all inside a Bootstrap flexbox
 
 ---
 
-### Site Wide Features
+## Site Wide Features
 
-#### Navbar:
+### Navbar:
 
 This has links to all of the main pages and is always fixed to the top, so is accessible from anywhere in the website. It has links to all of the pages (with exception to the Success/Thank You page - which you access after submitting any of the forms) - [see full list](#full-navbar-button-dropdown-list)
 
@@ -172,7 +277,7 @@ Open Smaller Screen (Collapsed) Navbar:
 
 ![Collapsed Navbar](assets/images/readme/navbar-collapsed-open.png)
 
-#### Footer:
+### Footer:
 
 This has links to social media, and is shown at the bottom of each page, although not fixed in place over the content like the **Navbar** is
 
@@ -186,8 +291,10 @@ Smaller Screen Footer:
 
 ---
 
-### Pages
+## Pages
 ***Note:*** *Pages/sections marked with **\*** can be accessed through the navbar buttons or their dropdown menu options*
+
+---
 
 - **Home Page*** featuring:
   - A fun and colourful **Hero Image** with small 'Welcome' text bubble.
@@ -197,6 +304,7 @@ Smaller Screen Footer:
 ![Mockups of Home Page on various screen sizes](assets/images/readme/mockups/mockups-home-page.png)
 
   - Responsive so that it doesn't stretch to large on XXL Screens
+
 ![The Home Page on XXL Screens](assets/images/readme/mockups/xxl-screens.png)
 
   - An **Activities** Section* with responsive "floating" text bubbles and images which multiply to up to 3, or appear inside the text boxes/bubbles at different screen sizes.
@@ -217,6 +325,8 @@ Smaller Screen Footer:
 *(you can also use the Contact button or 'Send Us a Message' option in the Contact dropdown menu)*
 ![Mockups of Home Page Contact Form on various screen sizes](assets/images/readme/mockups/mockups-home-page-form.png)
 
+---
+
 - **Suites Page*** featuring:
   - A large bubble **Page Title** which disappears and is instead incorporated into the navbar on smaller (mobile) devices.
   - **4 Suite Options*** with images, descriptions, [[[links to nearby activities??]]] and a 'Book Now' button, which links directly down to the Booking Form at the bottom of the page.
@@ -230,6 +340,8 @@ Smaller Screen Footer:
   **Suites Page Enquiry Form** mockups showing open dropdown menu with Suites 'Book Now' option selected:
 ![Mockups of Suites Page Enquiry Form on various screen sizes](assets/images/readme/mockups/mockups-suites-page-form.png)
 
+---
+
 - **Classes Page*** featuring:
   - **5 Class Options*** which are all fully responsive, so the image is inside the description box in a mobile/tablet screen, and then on larger screens the images pop out of the text box and appear beside, increasing/decreasing from 1 to 4 depending on the screen size, to match the height of the description bubble. As well as related images, these all have titles, descriptions, which trainer/trainers that will take the class (including a link to the specific trainer on the main home page), and a 'Book Now' button, which links directly down to the Booking Form at the bottom of the page.
 
@@ -241,6 +353,8 @@ Smaller Screen Footer:
   **Classes Page Enquiry Form** mockups showing open dropdown menu with Classes 'Book Now' option selected:
 ![Mockups of Classes Page Enquiry Form on various screen sizes](assets/images/readme/mockups/mockups-classes-page-form.png)
 
+---
+
 - **Success/Thank You Page** feauturing:
   - A large bubble **Page Title** saying 'Thank You' which disappears and is instead incorporated into the navbar on smaller (mobile) devices.
   - A message of gratitude to the customer, including links to other places on the website that they can look at.
@@ -249,6 +363,8 @@ Smaller Screen Footer:
   **Success Page** mockups:
 ![Mockups of Success Page on various screen sizes](assets/images/readme/mockups/mockups-success-page.png)
 
+---
+
 - **404 Page** featuring:
   - Links back to different pages in a fun paragraph of text.
 
@@ -256,163 +372,87 @@ Smaller Screen Footer:
 
 ---
 
-## Design and Planning
+# Testing
 
-**Objectives**
+## Lighthouse Performance
 
-The main objectives of the Pokemon Island Resort website are:
+When testing my website with Lighthouse, I encountered an issue, which I fixed (fixed scores below) which affected the 'Best Practices' score, as shown below:
 
-- **Showcase the Resort:** Present a vibrant, engaging overview of the fictional island resort, highlighting its unique features, activities, and accommodations for both Pokémon and their trainers.
-- **Enhance User Engagement:** Create an interactive and visually appealing experience that encourages users to explore the site, learn about the trainers, and discover the variety of classes and suites available.
-- **Facilitate Booking Requests and Inquiries:** Provide clear, accessible forms for users to enquire to book suites, enroll Pokémon in classes, or contact the resort, ensuring a smooth and user-friendly process.
-- **Promote Accessibility and Responsiveness:** Ensure the website is fully responsive and accessible across all devices and screen sizes, offering an optimal experience for every visitor.
-- **Build Trust and Credibility:** Use professional design, clear navigation, and transparent information to build user confidence in the resort and its offerings.
+<details>
+<summary>Click for old test results</summary>
 
-These objectives should guide the design, content, and functionality of the website to deliver a memorable and effective user experience.
+![Issue Description](assets/images/readme/testing/lighthouse/lighthouse-best-practices-issue.png)
+</details><br>
 
----
-
-**Design and Brand Identity**
-
-The website is designed to have a fun, playful feel, aiming to get potential visitors excited about everything the island has to offer. The overall aesthetic draws inspiration from tropical resorts and the vibrant world of Pokémon, using bright, cheerful colours and whimsical design elements throughout.
-
-A key part of the design is the use of text bubbles - these are partially transparent with curved, chunky colored borders that help them stand out against the background. On larger screens, images are also framed with thick, colorful borders, creating a cohesive and lively look. The layout is intentionally dynamic: as you scroll down the page, the text bubbles and images alternate from left to right, giving the site a playful, quirky, and engaging flow that encourages exploration.
-
-To further enhance the playful atmosphere, I incorporated a variety of colorful images. These visuals not only make the site more visually appealing but also help communicate the resort's unique offerings and the sense of adventure awaiting visitors. The combination of bold typography, vibrant color palette, and interactive elements (like dropdown menus and responsive layouts) ensures that the site feels welcoming and accessible to users of all ages, especially Pokémon fans and trainers looking for a fun getaway with their Pokémon.
-
-Overall, every design choice - from the fonts and colours to the arrangement of content was made to capture the essence of a tropical Pokémon paradise, making the website both inviting and memorable.
-
----
-
-### User Experience/User Interface(UX/UI)
-
-#### Typical Customer Profile
-
-A typical customer for the Pokémon Island Resort is:
-
-- A Pokémon owner or trainer
-- Young and free spirited/eager for adventure
-- Someone who enjoys traveling and exploring new destinations
-- Enthusiastic about trying new and unique experiences and activities
-
-#### User Stories
-
-#### User Stories
-
-- **As a new visitor:**
-  - I want to quickly find out if the island has the activities and amenities I'm interested in, and feel assured that my stay will give me everything I'm looking for.
-
-- **As a first-time user:**
-  - I want the website to be easy to navigate, with a clear layout and intuitive links between pages, so I can move seamlessly through the site and find what I need without confusion.
-  
-- **As a Pokémon trainer:**
-  - I want to easily discover classes tailored to my Pokémon’s type and abilities, and find trainers with the right expertise to help them master their moves, develop new skills and reach their full potential.
-
-- **As a guest or potential guest looking to contact or request to book:**
-  - I want to feel assured that my message or booking request has been received and will be responded to.
-
-- **As a past visitor:**
-  - I want to easily share everything I have experienced at the resort with friends and family, including trainers I've met and activities/classes my Pokémon and I have taken part in.
-
----
-
-### Wireframes
-
-TO DO
-
----
-
-### Typography
-
-**Fonts**
-
-I wanted to pick a playful and tropical font with a seaside feel for my headings, so I used **Google Fonts** to explore options. Using their preview tool, I tested the phrase "Pokémon Island Resort" - the main site title - to ensure it looked just right, especially the (é) character, which appeared odd in some fonts. I ultimately chose 'Skranji' because it perfectly captures the exotic, tropical, and beachy vibe I wanted, and even has a hint of bamboo reminiscent of island shacks.
-
-For paragraph text, I wanted a simple, clear, and unfussy font that would complement 'Skranji' without competing for attention. Again using **Google Fonts**, I browsed sans-serif options and selected 'Roboto' for its versatility and readability across devices. Its straightforward design and spacious lettering make it easy to read, even in longer paragraphs.
-
----
-### Colour Scheme
-
-**Background**
-
-I wanted the website’s colour scheme to evoke a welcoming and relaxing island holiday feeling, so I decided on a background in either a sandy tone or a blue sea colour.
-
-I also liked the idea of having a background image, so I began by searching on some of the free image websites for a suitable image that would set the tone for the site. After browsing through a few options, I found a [background image](#background-photo) on [Freepik (add link)](link) that felt like it perfectly matched the tropical vibe I envisioned. I instantly loved the colours in this image (and how well they worked together) - from the golden sand background colour, the vibrant green of the palm leaves, and the range of other colours in the smaller details such as the shells and footprints - and decided to make a colour palette from these to use throughout the website for consistency.
-
-To be able to use each of these specific colours from the image throughout the website, I used the **ColorZilla** Chrome extension, which allowed me to pinpoint and save <!-- extract -->exact colour codes directly from any online image. I added many different colours, then refined my choices by previewing them on the site to ensure they complemented each other and provided good contrast.
-
-The only colour (in the Colour Pallet) not from the background image is the dark brown, which I used for paragraphs of text. For improved readability I added a darker colour that still matched the aesthetic, as the colours in the image were all a little too pale (except the leaf green colour) but I decided this would be better to use for just headers, to help them stand out.
-
-For future maintainability, I defined each colour as a CSS variable (e.g., `var(--colour-name)`). This approach made it easy to update the palette later if needed - changing a single variable would update the colour everywhere it was used. This was especially helpful when testing text contrast for accessibility, as did end up changing the colour I had selected for the paragraph text when testing against the background colour of the text 'bubbles', so that it would pass all of the tests in the [add link] contrast test as it didn't originally.
-
-**Colour Pallet**
-
-![Colour Pallet](assets/images/readme/colour-pallet.png)
-
-**Favicon**
-
-The favicon for this site is a small palm tree icon, chosen to reflect the tropical island theme of the resort. It appears in the browser tab and bookmarks, helping users quickly identify the site. The favicon was sourced from IconArchive and is free to use under an open source license. Its playful design complements the overall branding and adds a professional touch to the website.
-
-**Header (including navbar) and Footer**
-
-For the Header and Footer of the site, I decided I wanted it to have a bit of a bamboo shack feel, so started looking for images with horizontally lined up bamboo. Eventually found an image (link to bamboo image) I was happy with, but the colouring was wrong, so I decided to use an an partly overlay of one of the colours I'd decided on using before from the leaves the background image.
-
-I decided to use this too for the footer, as it gave the site a bit more of a 'beach shack' type feel, and looked nice and dark enough for lighter content to show up well. 
-
-**Font Colouring**
-
-The only colour that wasn't from the background was the dark brown I chose for the paragraph text, as the rest of the colours were a bit light against the pale background apart from the leaf colour, but I was already planning to use this only on the header/footer, and some of the headings to make them pop, so it wasn't an option for the main bodies of text/description text colour.
-
-I chose a dark brown, so that it doesn't clash or compete for attention from any of the more important headers, that I want the attention to initially be drawn to.
-
-For this reason I kept the headings (Skranji) as more colourful, in a brighter green/golden sandy colour depending on the background shade, e.g. the bolder leaf colour on a paler background and the lighter sand colour on a darker background, so that the contrast is enough to be read easily.
-
-I tested the colors using [wave link] [contrast test link], and amended the colours slightly later on so that I would pass tests that I'd failed with the previous colour. [this is mentioned here](link to #testing / #contrast#test)
-
----
-
-## Testing
-
-### Lighthouse Performance
-
-When testing my website with Lighthouse, I encountered an issue which affected the 'Best Practices' score, as shown below
-![Issue Description](assets/images/readme/lighthouse/lighthouse-best-practices-issue.png)
 This was due to `h1` elements being used within a `section` element, so by changing all the `h2`s to `h3`s and `h1`s in my `section`s to `h2`s, this fixed the issue, giving me the scores below for each of the pages:
 
+---
+
 Home Page:
-![Home Page Lighthouse](assets/images/readme/lighthouse/lighthouse-home-page.png)
+
+![Home Page Lighthouse](assets/images/readme/testing/lighthouse/lighthouse-home-page.png)
 
 Suites Page:
-![Suites Page Lighthouse](assets/images/readme/lighthouse/lighthouse-suites-page.png)
+
+![Suites Page Lighthouse](assets/images/readme/testing/lighthouse/lighthouse-suites-page.png)
 
 Classes Page:
-![Classes Page Lighthouse](assets/images/readme/lighthouse/lighthouse-classes-page.png)
+
+![Classes Page Lighthouse](assets/images/readme/testing/lighthouse/lighthouse-classes-page.png)
 
 Success Page:
-![Success Page Lighthouse](assets/images/readme/lighthouse/lighthouse-success-page.png)
+
+![Success Page Lighthouse](assets/images/readme/testing/lighthouse/lighthouse-success-page.png)
 
 404 Page:
-![404 Page Lighthouse](assets/images/readme/lighthouse/lighthouse-404-page.png)
 
-### WAVE Test
+![404 Page Lighthouse](assets/images/readme/testing/lighthouse/lighthouse-404-page.png)
 
-### WebAIM Contrast Checker
+---
+
+## WAVE Test
+
+---
+
+## WebAIM Contrast Checker Test
+
 [WebAIM Contrast Checker](https://webaim.org/resources/contrastchecker/)
 
 [WebAIM Contrast Checker showing the 2 colours I compared](https://webaim.org/resources/contrastchecker/?fcolor=674A18&bcolor=FEEDDC)
 
-Original Colour Pallet:
+<details>
+<summary>Original Colour Pallet which didn't pass the AAA test:</summary>
+
 ![Colour Pallet](assets/images/readme/original-colour-pallet.png)
+</details><br>
 
-<!-- Add here screenshot of old pallet not passing AAA test -->
+<details>
+<summary>Original dark brown text colour which didn't pass the AAA test:</summary>
 
-![Checking Contrast of text colour and background](assets/images/readme/webaim-contrast-checker.png)
+![Checking Contrast of text colour and background](assets/images/readme/testing/webaim-contrast-checker-fail.png)
+</details><br>
 
-### W3C Markup Validation Service (HTML and readme?)
+<details>
+<summary>New dark brown text colour which now which now passes the AAA test:</summary>
 
-### W3C CSS Validation Service
+![Checking Contrast of text colour and background](assets/images/readme/testing/webaim-contrast-checker-pass.png)
+</details>
 
-### Manual Testing (Expected Outcome/Did it pass?)
+---
+
+## W3C Markup/HTML Validation Service
+<!-- (HTML and readme?) -->
+
+---
+
+## W3C CSS Validation Service
+
+---
+
+## Manual Testing
+
+**(Expected Outcome/Did it pass?)**
+
   - Navigation Links
   *What I'm testing:*
   Do all links navigate to the correct page/section?
@@ -428,13 +468,12 @@ Original Colour Pallet:
   Does the website adapt as intended at all screen sizes?
   Does the burger menu work as it should, including closing when a link has been clicked?
 
-### Manual Testing user stories
+**User Stories** (?)
 
 ---
 
-## Bugs
-
-### Issues I Fixed
+# Fixed Issues
+<!-- Problems/Challenges/Bugs -->
 
 ---
 
@@ -467,11 +506,11 @@ Later, I also updated the navbar alignment to better match the rest of the site'
 
 ---
 
-## Deployment
+# Deployment
 <!-- Maybe make numbered list -->
 - Firstly, I made a new repository in GitHub from the code institute template, with my chosen name for my project, which is `pokemon-island-resort`
-    - I ensured that this was in snake case so it would all be ….
-- Once I had made a new repository, in File Explorer on my local device, I then navigated to the folder I wanted my project to be in, and right clicked to ‘Open in Terminal’
+    - I ensured that this was in snake case so it would all be coordinated.
+- Once I had made a new repository, in *File Explorer* on my local device, I then navigated to the folder I wanted my project to be in, and right clicked to ‘Open in Terminal’
 
 ![image](assets/images/readme/deployment-creating.png)
 
@@ -492,49 +531,77 @@ Later, I also updated the navbar alignment to better match the rest of the site'
 
 ---
 
-# Credits
+# **Credits**
+
+
+# Technologies Used
+
+- [GitHub](https://github.com/):
+  - GitHub has been used to store this project.
+
+- [VScode](link):
+  - I used this as my IDE to code and develop this website and to push to GitHub.
+
+- [Google Fonts](link):
+  - I used this to find and create an import url so that I could use by 2 chosen fonts in the project.
+
+- [Font Awesome](link):
+  - I used this to add icons to the website so that they could be coloured to match my design, specifically in the navbar (for the burger icon and dropdown menu arrows) and for the social media links in the footer.
+
+- [Bootstrap](link):
+  - I used this to design my navbar and as a flexbox/grid in my navbar, main content and forms.
+
+- [Notion](link)
+  - I used this to write up ideas, to do lists/issues that needed fixing, and paste screenshots, images and their links, etc.
+
+- [ColorZilla (Chrome Extension)](https://www.colorzilla.com/)
+  - I used this to pinpoint exact colour codes from images etc on websites.
+
+- [Color Blender](https://meyerweb.com/eric/tools/color-blend/#:::hex)
+  - I used this website to find a colour between my background and highlight colours using their hex codes.
+
+<!-- Should I also add testing applications such as WebAIM Contrast Checker(?) -->
 
 ---
+
+# Images Used
 
 ## Site Wide
 
-Icons from - Font Awesome
-Fonts imported from - Google Fonts
+### **Freepik for page background image and Bamboo background used in Header and Footer**
 
 ---
 
-## Images Used
-
-### Home Page
-
-![alt text](assets/images/readme/battle-arena-licensing.png)
-
-#### **Freepik for page background image and Bamboo background used in Header and Footer**
-##### Background Photo: 
+#### **Background Image for main sections**: 
 <details>
 <summary>*click to view image*</summary>
 
-![Background image with sand and palm leaves](./assets/images/beach-background.jpg)
+![Background image with sand and palm leaves](./assets/images/site-wide/beach-background.jpg)
 
 </details>
 
 [Freepik - Tropical Summer Design](https://www.freepik.com/free-vector/tropical-summer-design_4413927.htm)
 
-##### Bamboo Image Used in Header and Footer:
+#### **Bamboo Image used as Header and Footer background**:
 <details>
 <summary>*click to view image*</summary>
 
-![Bamboo image from Header and Footer](./assets/images/bamboo-background.jpg)
+![Bamboo image from Header and Footer](assets/images/site-wide/bamboo-background.jpg)
 
 </details>
 [Freepik - Bamboo Patterned Curtain](https://www.freepik.com/free-photo/bamboo-patterned-curtain-textured-backdrop_15653469.htm)
 
-#### **IconArchive for Favicon**
-##### Favicon:
+---
+
+### **IconArchive for Favicon**
+
+---
+
+#### **Favicon**:
 <details>
 <summary>*click to view image*</summary>
 
-![Palm Tree Favicon](./assets/images/palm.ico)
+![Palm Tree Favicon](./assets/images/site-wide/palm.ico)
 
 </details>
 
@@ -543,33 +610,84 @@ Favicon:
 https://www.iconarchive.com/show/noto-emoji-animals-nature-icons-by-google/22331-palm-tree-icon.html
 apache open source
 
-- #### **Hero Image**: [RedBull - Pokemon Sun and Moon Game](https://www.redbull.com/au-en/new-game-releases-november-2016)
-Hero Image:
+---
+
+## Home Page
+
+### **Hero Images**: [RedBull - Pokemon Sun and Moon Game](https://www.redbull.com/au-en/new-game-releases-november-2016)
+Landscape Image - (Laptop and larger screens):
 https://www.redbull.com/au-en/new-game-releases-november-2016
 https://img.redbull.com/images/c_crop,x_0,y_0,h_1498,w_2999/c_fill,w_1700,h_765/q_auto,f_jpg/redbullcom/2016/10/31/1331826758607_2/scene-from-the-new-pok%C3%A9mon-sun-and-moon-game-for-nintendo-ds3
 
-Hero Image - Mobile:
+Portrait Image - (Mobile and Tablet screens):
 https://www.google.com/imgres?imgurl=https%3A%2F%2Fwww.nintendo-difference.com%2Fwp-content%2Fuploads%2F2024%2F06%2FPokemon-GO-Fond-decran-Sous-un-meme-ciel.jpg&tbnid=yPOpOBrJxAe-BM&vet=12ahUKEwiV2IzlzfuMAxUMXkEAHeMkMK4QxiAoB3oECAAQJw..i&imgrefurl=https%3A%2F%2Fwww.nintendo-difference.com%2Fnews%2Fpokemon-go-le-debut-de-la-saison-sous-un-meme-ciel-et-les-evenements-de-juin-2024-detailles%2F&docid=d8prKse_oTl7ZM&w=1080&h=1920&itg=1&q=pokemon%20beach%20portrait&ved=2ahUKEwiV2IzlzfuMAxUMXkEAHeMkMK4QxiAoB3oECAAQJw
 
-- **Garden View Chalet**
-    [Freepik - 3D Rendering Illustration Botanic Garden](https://www.freepik.com/free-ai-image/3d-rendering-illustration-botanic-garden_196493972.htm#fromView=search&page=2&position=39&uuid=52c17b35-c035-4347-baa9-c40592085e85&query=Garden+Wallpaper+anime)
+---
 
-Garden Suite Image:
-Freepik -
-https://www.freepik.com/free-ai-image/3d-rendering-illustration-botanic-garden_196493972.htm#fromView=search&page=2&position=39&uuid=52c17b35-c035-4347-baa9-c40592085e85&query=Garden+Wallpaper+anime
+## Suites Page
 
-- **Battle Arena Apartment**
-[Battle Arena Charizard and Pikachu image](https://bulbapedia.bulbagarden.net/wiki/User:BigDocFan/List_of_moves_used_by_major_characters_Pok%C3%A9mon_in_Sun_%26_Moon)
+**Sea View Penthouse**
+
+[](link)
+
+**Mountain View Apartment**
+
+https://www.google.com/imgres?q=pokemonmountains&imgurl=https%3A%2F%2Fw0.peakpx.com%2Fwallpaper%2F532%2F280%2FHD-wallpaper-pokemon-flygon-waterfall-mountains-trees-anime.jpg&imgrefurl=https%3A%2F%2Fwww.peakpx.com%2Fen%2Fhd-wallpaper-desktop-vqazu&docid=diiFN9gyBwUtKM&tbnid=V_goH3H8_tnxwM&vet=12ahUKEwjSq-n0rM6NAxUuX0EAHR8BLLEQM3oECH8QAA..i&w=800&h=435&hcb=2&ved=2ahUKEwjSq-n0rM6NAxUuX0EAHR8BLLEQM3oECH8QAA
+
+<!-- Tidied up - check is working before replacing link above -->
+<!-- [Flygon Waterfall Mountains](https://www.peakpx.com/en/hd-wallpaper-desktop-vqazu) -->
+
+**Garden View Chalet**
+
+[](link)
+
+**Battle Arena Apartment**
+
+[Battle Arena Charizard and Pikachu image/Bulbapedia - Kiawe's Charizard using Aerial Ace](https://bulbapedia.bulbagarden.net/wiki/User:BigDocFan/List_of_moves_used_by_major_characters_Pok%C3%A9mon_in_Sun_%26_Moon)
 
 https://archives.bulbagarden.net/wiki/File:Kiawe_Charizard_Aerial_Ace.png
 
-**Mountain View Apartment**
-https://www.google.com/imgres?q=pokemon mountains&imgurl=https%3A%2F%2Fw0.peakpx.com%2Fwallpaper%2F532%2F280%2FHD-wallpaper-pokemon-flygon-waterfall-mountains-trees-anime.jpg&imgrefurl=https%3A%2F%2Fwww.peakpx.com%2Fen%2Fhd-wallpaper-desktop-vqazu&docid=diiFN9gyBwUtKM&tbnid=V_goH3H8_tnxwM&vet=12ahUKEwjSq-n0rM6NAxUuX0EAHR8BLLEQM3oECH8QAA..i&w=800&h=435&hcb=2&ved=2ahUKEwjSq-n0rM6NAxUuX0EAHR8BLLEQM3oECH8QAA
+![Photo Licensing](assets/images/readme/battle-arena-licensing.png)
 
 ---
+
+## Classes Page
+
+**Flying Skills Class**
+
+[](link)
+[](link)
+[](link)
+
+**Surfing & Water Skills Class**
+
+[](link)
+[](link)
+[](link)
+
+**Beach & Dune Riding Class**
+
+[](link)
+[](link)
+[](link)
+
+**Fire Breathing & Fire Skills Class**
+
+[](link)
+[](link)
+[](link)
+[](link)
+
+**Snorkeling & Deep Sea Diving Class**
+
+[](link)
+[](link)
+[](link)
+[](link)
+
 ---
 
-## Other
+# Other
 
 ---
 
@@ -622,13 +740,13 @@ https://www.google.com/imgres?q=pokemon mountains&imgurl=https%3A%2F%2Fw0.peakpx
 > Advises about risks or negative outcomes of certain actions.
 
 <!-- Dropdown Template -->
-<details>
+<!-- <details>
 <summary>Dropdown Template</summary>
 Inner Hidden Content
 </details>
 
-to change size of markup image - not working though:
+To change size of markup image - not working though:
 ![Alt text](image-url.jpg){width=300 height=200}
 
 Can I link an image to a URL in Markdown?
-Yes, wrap the image syntax in link syntax: [![Alt Text](Image URL)](Link URL)
+Yes, wrap the image syntax in link syntax: [![Alt Text](Image URL)](Link URL) -->
