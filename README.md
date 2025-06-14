@@ -154,7 +154,7 @@ I also used a few colours outside of this colour pallet, which were shades in be
 <details>
 <summary>Click for Image of Color Blender showing the two colours I inputted to find midpoint colour</summary>
 
-![Color Blender showing the two colours I inputted to find midpoint colour](assets/images/readme/color-blender.png)
+![Color Blender showing the two colours I inputted to find midpoint colour](assets/images/readme/tools/color-blender.png)
 </details><br>
 
 For future maintainability, I defined each colour as a CSS variable (e.g., `var(--colour-name)`). This approach made it easy to update the palette later if needed - changing a single variable would update the colour everywhere it was used. This was especially helpful when testing text contrast for accessibility, as did end up changing the colour I had selected for the paragraph text when testing against the background colour of the text 'bubbles', so that it would pass all of the tests in the [add link] contrast test as it didn't originally.

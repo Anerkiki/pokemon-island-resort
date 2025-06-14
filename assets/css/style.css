@@ -1,51 +1,47 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&family=Skranji:wght@400;700&display=swap');
 
 :root {
-    --font-heading: 'Skranji', cursive;
-    --font-paragraph: 'Roboto', sans-serif;
-    --text-color-dark: #674A18; /* passed contrast checker test */
+    /* Fonts */
 
-    /* --text-colour-dark: #5E4B26; passed contrast checker test */
-    /* #463009; */
-    /* #5A4115; */
-     /* #554934; */
-    /* --old-text-colour-dark: #84644b; */
-  
-    /* rgb(132, 100, 75); */
-    --background-color: #ffd8b7;
-    /* rgb(255, 216, 183); -- matches main colour of background image */
+        --font-heading: 'Skranji', cursive;
+        --font-paragraph: 'Roboto', sans-serif;
 
-    --background-color-light: #ffdfc3;
-    /* rgb(255, 223, 195); */
+    /* Colour Pallet Colours */
 
-    --highlight-navbar: #ffe3ca;
-    /* rgb(255, 227, 202); */
+        --primary-text-colour: #674A18;
+        /* passed contrast checker test */
 
-    --highlight-color: #feeddc;
-    /* rgb(254, 237, 220); */
-    --highlight-color-opaque: rgba(254, 237, 220, 0.9);
+        --primary-leaf: #008769;
+        /* rgb(0, 135, 105) */
+        --primary-leaf-opaque: rgba(0, 135, 105, 0.7);
 
-    --highlight-color-opaque-lighter: rgba(255, 250, 245, 0.9);
+        --primary-sand: #ffd8b7;
+        /* rgb(255, 216, 183); -- matches main colour of background image */
 
-    --border-color: #cfa581;
-    /* rgb(207, 165, 129); */
-    --border-color-opaque: rgba(207, 165, 129, 0.9);
+        --secondary-sand: #feeddc;
+        /* rgb(254, 237, 220); */
+        --secondary-sand-opaque: rgba(254, 237, 220, 0.9);
 
-    --leaf-color: #008769;
-    /* rgb(0, 135, 105) */
-    --leaf-color-opaque: rgba(0, 135, 105, 0.7);
+        --border-color: #cfa581;
+        /* rgb(207, 165, 129); */
+        --border-color-opaque: rgba(207, 165, 129, 0.9);
+
+    /* Extra Colours (Not in Colour Pallet) */
+
+        /* midpoint between primary and secondary sand colours - used for navbar hover button colours etc */
+        --tertiary-sand: #ffe3ca;
+        /* rgb(255, 227, 202); */
+
+        --form-textbox-background: rgba(255, 250, 245, 0.9);
 
     /* Unused Colours */
-    --blue-color: #0096e7;
-    /* rgb(0, 150, 231) */
-    --footprint-color: #f8c09b;
-    /*  rgba(248, 192, 155, 0.9) */
-    --shell-color: #f3decd;
-    /* rgb(243, 222, 205) */
-    --other-beige: #deb18c;
+
+        --possible-button-text: #ffdfc3;
+        /* rgb(255, 223, 195); */
 }
 
 /* Global Styles */
+
 html {
     scroll-padding-top: 160px;
     /* adjusted to match fixed header height */
@@ -58,7 +54,7 @@ body {
     font-family: var(--font-paragraph);
     background-color: var(--border-color);
     font-size: 1.2rem;
-    color: var(--text-color-dark);
+    color: var(--primary-text-colour);
     display: flex;
     flex-direction: column;
     min-height: 100vh;
@@ -88,7 +84,7 @@ section {
     margin: 0 20px;
     padding: 10px 0;
     width: 99%;
-    /* min-height: 99vh; */
+    /* min-height: 99vh; - maybe look at adding this so that on large/tall screens the section image still fills the screen? */
 }
 
 section div.container {
@@ -109,7 +105,7 @@ h4,
 h5,
 h6 {
     font-family: var(--font-heading);
-    color: var(--leaf-color);
+    color: var(--primary-leaf);
 }
 
 .no-border {
@@ -119,46 +115,49 @@ h6 {
 .lead {
     font-size: 1.4rem;
     font-weight: 500;
-    color: var(--text-color-dark);
+    color: var(--primary-text-colour);
 }
 
 .internal-link {
     text-decoration: none;
     font-weight: 800;
-    color: var(--text-color-dark);
+    color: var(--primary-text-colour);
 }
 
 /* Header and Footer Background */
+
 .edge-background {
     background-image: url(../images/site-wide/background-bamboo.jpg);
     width: 100%;
 }
 
 .layer {
-    background-color: var(--leaf-color-opaque);
+    background-color: var(--primary-leaf-opaque);
 }
 
 /* Navbar */
+
 .head-nav {
     border-bottom: solid 4px var(--border-color);
     z-index: 2;
 }
 
 h1.head-title {
-    color: var(--background-color);
+    color: var(--primary-sand);
     margin-bottom: 0;
     padding-top: 10px;
 }
 
 .page-title {
     padding-left: 27.8px;
-    color: var(--background-color);
+    color: var(--primary-sand);
 }
 
-/* Navbar Links */
+/* Navbar */
+
 /* Small screen navbar links */
 .navbar .burger-links a {
-    color: var(--background-color);
+    color: var(--primary-sand);
     font-family: var(--font-heading);
     font-weight: 100;
 }
@@ -166,18 +165,18 @@ h1.head-title {
 /* Laptop or larger navbar buttons */
 .navbar .btn.main-links {
     background-color: transparent;
-    color: var(--background-color);
+    color: var(--primary-sand);
     font-family: var(--font-heading);
     font-weight: 100;
     text-transform: uppercase;
-    border: solid 4px var(--background-color);
+    border: solid 4px var(--primary-sand);
     font-size: 1.1rem;
 }
 
 .navbar .btn.main-links:hover {
-    background-color: var(--leaf-color);
-    color: var(--highlight-navbar);
-    border: solid 4px var(--highlight-navbar);
+    background-color: var(--primary-leaf);
+    color: var(--tertiary-sand);
+    border: solid 4px var(--tertiary-sand);
 }
 
 .navbar .btn.active {
@@ -187,43 +186,44 @@ h1.head-title {
 }
 
 .navbar-hover:hover i {
-    color: var(--highlight-navbar);
+    color: var(--tertiary-sand);
 }
 
 /* Navbar Arrows and Icon */
 .navbar i {
-    color: var(--background-color);
+    color: var(--primary-sand);
 }
 
 .navbar i:hover {
-    color: var(--highlight-navbar);
+    color: var(--tertiary-sand);
 }
 
 /* Navbar Burger Icon */
 .burger-icon {
-    border: solid 4px var(--background-color);
+    border: solid 4px var(--primary-sand);
     margin-bottom: 0.5rem;
     padding: 0.25rem 0.75rem;
 }
 
 /* Navbar Dropdowns */
 .dropdown-menu {
-    background-color: var(--highlight-navbar);
-    border: solid 5px var(--leaf-color);
+    background-color: var(--tertiary-sand);
+    border: solid 5px var(--primary-leaf);
     font-family: var(--font-heading);
     border-radius: 10px;
 }
 
 .dropdown-item {
-    color: var(--leaf-color);
+    color: var(--primary-leaf);
 }
 
 .dropdown-item:hover {
-    background-color: var(--leaf-color);
-    color: var(--highlight-navbar);
+    background-color: var(--primary-leaf);
+    color: var(--tertiary-sand);
 }
 
 /* Hero Image */
+
 .hero {
     position: relative;
     width: 100%;
@@ -247,6 +247,7 @@ h1.head-title {
 }
 
 /* Main */
+
 .title-bubble {
     margin-top: 0;
     padding: 0;
@@ -259,7 +260,7 @@ h1.head-title {
 .floating-section {
     display: flex;
     flex-direction: column;
-    background-color: var(--highlight-color-opaque);
+    background-color: var(--secondary-sand-opaque);
     border: solid 10px var(--border-color-opaque);
     border-radius: 30px;
     gap: 10px;
@@ -273,51 +274,59 @@ img.floating-section {
 }
 
 /* Buttons */
+
 .button-primary {
-    background-color: var(--leaf-color);
-    color: var(--highlight-color);
-    /* color: var(--background-color-light); --- Decide between this or above/between --- */
+    background-color: var(--primary-leaf);
+    color: var(--secondary-sand);
+    /* color: var(--possible-button-text); --- Decide between this or above/between --- */
     font-family: var(--font-heading);
     text-transform: uppercase;
     border: solid 6px rgba(207, 165, 129, 0.9);
     border-radius: 15px;
-    font-size: 1.5rem; /* This has to be this size for readability as doesn't pass Wave contrast test without */
+    font-size: 1.5rem;
+    /* This has to be this size for readability as doesn't pass Wave contrast test without */
 }
 
 .button-primary:hover {
-    background-color: var(--highlight-color-opaque);
-    color: var(--text-color-dark);
+    background-color: var(--secondary-sand-opaque);
+    color: var(--primary-text-colour);
     font-family: var(--font-heading);
     border-color: var(--border-color-opaque);
 }
 
 /* Forms */
-#form input, #form textarea, #form select {
+
+#form input,
+#form textarea,
+#form select {
     border: solid 7px rgba(207, 165, 129, 0.8);
     border-radius: 15px;
     padding: 10px;
     font-family: var(--font-paragraph);
-    color: var(--text-color-dark);
-    background-color: var(--highlight-color-opaque-lighter);
+    color: var(--primary-text-colour);
+    background-color: var(--form-textbox-background);
     font-size: 1.2rem;
     font-weight: 800;
     width: 100%;
     max-width: 100%;
 }
 
-#form input:focus, #form textarea:focus, #form select:focus {
-    border-color: var(--text-color-dark);
+#form input:focus,
+#form textarea:focus,
+#form select:focus {
+    border-color: var(--primary-text-colour);
     box-shadow: 0 0 10px rgba(132, 100, 75, 0.5);
 }
 
-#form input::placeholder, #form textarea::placeholder {
-    color: var(--text-color-dark);
+#form input::placeholder,
+#form textarea::placeholder {
+    color: var(--primary-text-colour);
     font-family: var(--font-paragraph);
     font-weight: 400;
 }
 
 /* #form input:-internal-autofill-selected {
-    background-color: var(--highlight-color-opaque-lighter);
+    background-color: var(--form-textbox-background);
 } this is to try and fix light blue background appearing when selecting a pre-selected option on forms */
 
 .form {
@@ -326,20 +335,21 @@ img.floating-section {
 
 .form-label {
     font-family: var(--font-heading);
-    color: var(--leaf-color);
+    color: var(--primary-leaf);
 }
 
 /* Footer */
+
 #footer {
     margin-top: auto;
     /* This is also bootstrap classes for some of the footers, remove 1 or the other in the end */
-    color: var(--background-color);
+    color: var(--primary-sand);
     font-family: var(--font-heading);
 }
 
 #footer a {
     text-decoration: none;
-    color: var(--background-color);
+    color: var(--primary-sand);
     margin: 30px 0;
     font-size: 1.2rem;
 }
@@ -349,11 +359,13 @@ img.floating-section {
 }
 
 #footer a:hover {
-    color: var(--highlight-navbar);
+    color: var(--tertiary-sand);
 }
 
 /* Media Queries */
+
 @media (max-width: 1600px) {
+
     /* Hero */
     .hero-bubble.floating-section {
         padding: 40px;
@@ -362,13 +374,15 @@ img.floating-section {
 }
 
 @media (max-width: 1440px) {
+
     /* Hero */
     .hero-bubble.floating-section {
-    padding: 30px;
+        padding: 30px;
     }
 }
 
 @media (max-width: 1200px) {
+
     /* Hero */
     .hero-bubble.floating-section {
         padding: 30px;
@@ -377,6 +391,7 @@ img.floating-section {
 }
 
 @media (max-width: 1024px) {
+
     /* Scroll Fix */
     main {
         margin-top: 154px;
@@ -390,6 +405,7 @@ img.floating-section {
 }
 
 @media (max-width: 992px) {
+
     /* Hero */
     .hero-bubble.floating-section {
         left: 6%;
@@ -409,6 +425,7 @@ img.floating-section {
 }
 
 @media (max-width: 918px) {
+
     /* Scroll Fix */
     main {
         margin-top: 118px;
@@ -423,6 +440,7 @@ img.floating-section {
 }
 
 @media (max-width: 768px) {
+
     /* Scroll Fix */
     main {
         margin-top: 114px;
@@ -436,6 +454,7 @@ img.floating-section {
 }
 
 @media (max-width: 650px) {
+
     /* Scroll Fix */
     main {
         margin-top: 112px;
@@ -448,6 +467,7 @@ img.floating-section {
 }
 
 @media (max-width: 570px) {
+
     /* Scroll Fix */
     main {
         margin-top: 100px;
@@ -461,15 +481,16 @@ img.floating-section {
 }
 
 @media (max-width: 426px) {
-    /* Navbar */
+
+    /* Navbar Title (makes smaller) */
     .head-title {
         font-size: 1.8rem;
     }
 
-    /* Make burger icon smaller at this screen size */
+    /* Burger Icon (makes smaller) */
     .burger-icon {
         padding: 0 0.5rem 0.15rem 0.5rem;
-        border: solid 3.5px var(--background-color);
+        border: solid 3.5px var(--primary-sand);
         margin-bottom: 0.4rem;
     }
 
