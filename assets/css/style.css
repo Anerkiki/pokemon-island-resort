@@ -81,7 +81,7 @@ main {
 }
 
 section {
-    background-image: url(../images/beach-background.jpg);
+    background-image: url(../images/site-wide/background-beach.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     border-radius: 30px;
@@ -130,7 +130,7 @@ h6 {
 
 /* Header and Footer Background */
 .edge-background {
-    background-image: url(../images/bamboo-background.jpg);
+    background-image: url(../images/site-wide/background-bamboo.jpg);
     width: 100%;
 }
 
