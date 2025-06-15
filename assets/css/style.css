@@ -28,16 +28,12 @@
 
     /* Extra Colours (Not in Colour Pallet) */
 
-        /* midpoint between primary and secondary sand colours - used for navbar hover button colours etc */
         --tertiary-sand: #ffe3ca;
         /* rgb(255, 227, 202); */
+        /* midpoint between primary and secondary sand colours - used for navbar hover button colours etc */
 
         --form-textbox-background: rgba(255, 250, 245, 0.9);
-
-    /* Unused Colours */
-
-        --possible-button-text: #ffdfc3;
-        /* rgb(255, 223, 195); */
+        /* secondary-sand colour which has been lightened just for form textbox use */
 }
 
 /* Global Styles */
@@ -278,13 +274,12 @@ img.floating-section {
 .button-primary {
     background-color: var(--primary-leaf);
     color: var(--secondary-sand);
-    /* color: var(--possible-button-text); --- Decide between this or above/between --- */
     font-family: var(--font-heading);
     text-transform: uppercase;
     border: solid 6px rgba(207, 165, 129, 0.9);
     border-radius: 15px;
     font-size: 1.5rem;
-    /* This has to be this size for readability as doesn't pass Wave contrast test without */
+    /* Size increased for readability to pass WAVE contrast test */
 }
 
 .button-primary:hover {
