@@ -140,16 +140,21 @@ For paragraph text, I wanted a simple, clear, and unfussy font that would comple
 
 I wanted the website's colour scheme to evoke a welcoming and relaxing island holiday feeling, so I decided on a background in either a sandy tone or a blue sea colour.
 
-I also liked the idea of having a background image, so I began by searching on some of the free image websites for a suitable image that would set the tone for the site. After browsing through a few options, I found a [background image](#background-photo) on [Freepik (add link)](link) that felt like it perfectly matched the tropical vibe I envisioned. I instantly loved the colours in this image (and how well they worked together) - from the golden sand background colour, the vibrant green of the palm leaves, and the range of other colours in the smaller details such as the shells and footprints - and decided to make a colour palette from these to use throughout the website for consistency.
+I also liked the idea of having a background image, so I began by searching on some of the free image websites for a suitable image that would set the tone for the site. After browsing through a few options, I found a [background image](#background-photo) on [Freepik](https://www.freepik.com/) that felt like it perfectly matched the tropical vibe I envisioned. I instantly loved the colours in this image (and how well they worked together) - from the golden sand background colour, the vibrant green of the palm leaves, and the range of other colours in the smaller details such as the shells and footprints - and decided to make a colour palette from these to use throughout the website for consistency.
 
-To be able to use each of these specific colours from the image throughout the website, I used the [ColorZilla Chrome Extension](https://www.colorzilla.com/), which allowed me to pinpoint and save <!-- extract -->exact colour codes directly from any online image. I added many different colours, then refined my choices by previewing them on the site to ensure they complemented each other and provided good contrast.
+To be able to use each of these specific colours from the image throughout the website, I used the [ColorZilla Chrome Extension](https://www.colorzilla.com/), which allowed me to pinpoint and extract exact colour codes directly from any online image. I added many different colours, then refined my choices by previewing them on the site to ensure they complemented each other and provided good contrast.
 
 ### Colour Pallet
 
 ![Colour Pallet](assets/images/readme/colour-pallet.png)
 
-I also used a few colours outside of this colour pallet, which were shades in between a couple of the colours from my colour pallet - in places where the original colours didn't look quite right (either too light or too dark). I did this by inputting the 2 hex codes I wanted to find the middle tone of into a [Color Blender tool](https://meyerweb.com/eric/tools/color-blend/#FFD8B7:FEEDDC:5:hex), which producted a new hex code which was a merge of the 2.
-<!-- I used this website to find a colour between my background and highlight colours using their hex codes. -->
+For future maintainability, I defined each colour as a CSS variable (e.g., `var(--colour-name)`). This approach made it easy to update the palette later if needed - changing a single variable would update the colour everywhere it was used. This was especially helpful when testing text contrast for accessibility, as did end up changing the colour I had selected for the paragraph text when testing against the background colour of the text 'bubbles', so that it would pass all of the tests in the [add link] contrast test as it didn't originally.
+
+I also used a couple of colours outside of this colour pallet, one which was a shade in between 2 of the colours from my colour pallet, and one which is a lighter version of the original - in places where the original colours didn't look quite right (either too light or too dark).
+
+I used a [Color Blender tool](https://meyerweb.com/eric/tools/color-blend/#FFD8B7:FEEDDC:5:hex) to find a colour between my `--primary-sand` and `--secondary-sand` colours by inputting their 2 hex codes - producing the perfect middle tone which I named `--tertiary-sand`.
+
+<!-- add a bit about the colour lightener I used -->
 
 <details>
 <summary>Click for Image of Color Blender showing the two colours I inputted to find midpoint colour</summary>
@@ -157,19 +162,13 @@ I also used a few colours outside of this colour pallet, which were shades in be
 ![Color Blender showing the two colours I inputted to find midpoint colour](assets/images/readme/tools/color-blender.png)
 </details><br>
 
-For future maintainability, I defined each colour as a CSS variable (e.g., `var(--colour-name)`). This approach made it easy to update the palette later if needed - changing a single variable would update the colour everywhere it was used. This was especially helpful when testing text contrast for accessibility, as did end up changing the colour I had selected for the paragraph text when testing against the background colour of the text 'bubbles', so that it would pass all of the tests in the [add link] contrast test as it didn't originally.
-
 ### Font Colouring
 
-The only colour (in the Colour Pallet) not from the background image is the dark brown, which I used for paragraphs of text. For improved readability I added a darker colour that still matched the aesthetic, as the colours in the image were all a little too pale (except the leaf green colour) but I decided this would be better to use for just headers, to help them stand out.
-<!-- pick one of these - above and below -->
-The only colour in the Colour Pallet that wasn't from the background was the dark brown I chose for the paragraph text, as the rest of the colours were a bit light against the pale background (apart from the leaf colour, but I was already planning to use this only on the header/footer, and some of the headings to make them pop, so it wasn't an option for the main bodies of text/description text colour).
-
-I chose a dark brown, so that it doesn't clash or compete for attention from any of the more important headers, that I want the attention to initially be drawn to.
+The only colour (in the Colour Pallet) not from the background image was the dark brown shade `#674A18`, originally `#84644B`, which I chose because all of the other colours (apart from the leaf colour) were too pale to stand out against a pale sandy background (which I used as a background for all blocks of text), and it still matches the aesthetic nicely, but doesn't compete for attention from any of the more important headers, that I want the attention to initially be drawn to.
 
 For this reason I kept the headings (Skranji) as more colourful, in a brighter green/golden sandy colour depending on the background shade, e.g. the bolder leaf colour on a paler background and the lighter sand colour on a darker background, so that the contrast is enough to be read easily.
 
-I tested the colors using [WebAIM Contrast Checker Test][https://webaim.org/resources/contrastchecker/], and amended the colours slightly later on so that I would pass tests that I'd failed with the previous colour. [This is where I show the Contrast Test Outcomes][#webaim-contrast-checker-test] in the [Testing](#testing) section.
+I tested the colors using [WebAIM Contrast Checker Test](https://webaim.org/resources/contrastchecker), and amended the colours slightly later on so that I would pass tests that I'd failed with the previous colour. [This is where I show the Contrast Test Outcomes](#webaim-contrast-checker-test) in the [Testing](#testing) section.
 
 ---
 <!-- Another Title? -->
@@ -226,9 +225,19 @@ The paragraphs inside the text box and images are all inside a Bootstrap flexbox
 
 This has links to all of the main pages and is always fixed to the top, so is accessible from anywhere in the website. It has links to all of the pages (with exception to the Success/Thank You page - which you access after submitting any of the forms) - [see full list](#full-navbar-button-dropdown-list)
 
-Larger Screen (Full Sized) Navbar:
+**Larger Screen (Full Sized) Navbar:**
 
 ![Full Sized Navbar](assets/images/readme/navbar-full-size.png)
+
+**Larger Screen (Full Sized) Navbar: with open Dropdown Menu:**
+
+![Full Sized Navbar with open dropdown menu](assets/images/readme/navbar-full-size-dropdown.png)
+
+<!-- CHOOSE ABOVE OR BELOW -->
+
+| Larger Screen (Full Sized) Navbar: | Larger Screen (Full Sized) Navbar: with open Dropdown Menu: |
+| --- | --- |
+| ![Full Sized Navbar](assets/images/readme/navbar-full-size.png) | ![Full Sized Navbar with open dropdown menu](assets/images/readme/navbar-full-size-dropdown.png) |
 
 Below is an interactive feature to show you the buttons in the navbar and dropdown options of each (tap the arrow to see dropdown options):
 
@@ -269,25 +278,37 @@ Below is an interactive feature to show you the buttons in the navbar and dropdo
 - Book Now!<br>
 </details><br>
 
-Smaller Screen (Collapsed) Navbar:
+**Smaller Screen (Collapsed) Navbar:**
 
 ![Collapsed Navbar](assets/images/readme/navbar-collapsed.png)
 
-Open Smaller Screen (Collapsed) Navbar:
+**Open Smaller Screen (Collapsed) Navbar:**
 
 ![Collapsed Navbar](assets/images/readme/navbar-collapsed-open.png)
+
+<!-- CHOOSE ABOVE OR BELOW -->
+
+| Smaller Screen (Collapsed) Navbar: | Open Smaller Screen (Collapsed) Navbar: |
+| --- | --- |
+| ![Collapsed Navbar](assets/images/readme/navbar-collapsed.png) | ![Collapsed Navbar](assets/images/readme/navbar-collapsed-open.png) |
 
 ### Footer:
 
 This has links to social media, and is shown at the bottom of each page, although not fixed in place over the content like the **Navbar** is
 
-Larger Screen Footer:
+**Larger Screen Footer:**
 
 ![Full Sized Footer](assets/images/readme/footer-full-size.png)
 
-Smaller Screen Footer:
+**Smaller Screen Footer:**
 
 ![Collapsed Footer](assets/images/readme/footer-collapsed.png)
+
+<!-- CHOOSE ABOVE OR BELOW -->
+
+| Larger Screen Footer: | Smaller Screen Footer: |
+| --- | --- |
+| ![Full Sized Footer](assets/images/readme/footer-full-size.png) | ![Collapsed Footer](assets/images/readme/footer-collapsed.png) |
 
 ---
 
@@ -451,6 +472,8 @@ Success Page:
 
 ## Manual Testing
 
+<!-- Look at BrowserStack -->
+
 **(Expected Outcome/Did it pass?)**
 
   - Navigation Links
@@ -475,27 +498,55 @@ Success Page:
 # Fixed Issues
 <!-- Problems/Challenges/Bugs -->
 
----
-
 ## VS Code Extension *'Prettier'* adding unneccessary closing tags
 
 <details>
 <summary>Issue & Solution:</summary>
 
-**Issue:**  As part of the course material, I installed a code refactoring extension called 'Prettier' in VS Code, but had issues with this adding unneccessary closing tags (`/>`) to all of the self-closing elements, such as `meta` and `img`.
+**Issue:** As part of the course material, I installed a code refactoring extension called 'Prettier' in VS Code, but had issues with this adding unneccessary closing tags (`/>`) to all of the self-closing elements, such as `meta` and `img`.
 
 These were added every time I formatted my pages, and resulted in errors in the [W3C Testing](#w3c-markuphtml-validation-service) stage, wasting time with having to remove each time I formatted.
 
-**Solution:**  I uninstalled this extension and opted to use the default formatter, which worked a lot better.
+**Solution:** I uninstalled this extension and opted to use the default formatter, which worked a lot better.
 </details>
 
 ---
 
-## VS Code Extension *'Prettier'* adding unneccessary closing tags
+## Page Title inside Navbar not properly centered
 
-As part of the course material, I installed a code refactoring extension called 'Prettier' in VS Code, but had issues with this adding unneccessary closing tags (`/>`) to all of the self-closing elements, such as `meta` and `img`.
+<details>
+<summary>Issue & Solution:</summary>
 
-These were added every time I formatted my pages, and resulted in errors in the [W3C Testing](#w3c-markuphtml-validation-service) stage, wasting time with having to remove each time I formatted, so I uninstalled this extension and opted to use the default formatter, which worked a lot better.
+**Issue:** Because of the burger icon being to the right of the same navbar section that the page title appears in on smaller screens (mobile and tablet), the title wasn't appearing centralised, and was too far to the left.
+
+**Solution:** I fixed this by adding padding to the left of the page title which matched the width of the burger icon, centralising it correctly to match the title above.
+I added a class to the page title, and added `padding-left` of the same width of the burger icon.
+
+| Page Title too far to the left: | Page title centralised with left-padding added: |
+| --- | --- |
+| ![Page Title with no padding](assets\images\readme\issue\page-title-center\issue-page-title-no-padding.png) | ![Page Title centralised with left padding](assets\images\readme\issue\page-title-center\issue-page-title-left-padding.png) |
+```css
+.page-title {
+    padding-left: 28.4px;
+}
+```
+This also had to be amended to match the burger icon's new width on a larger screen as I added padding to the x-axis at the mobile to tablet breakpoint. I checked the width of the burger icon at each breakpoint using Chrome DevTools (shown below).
+| Smaller burger icon without added padding in the x-axis: | Smaller burger icon with added padding in the x-axis: |
+| --- | --- |
+| ![Smaller burger icon without added padding in the x-axis](assets\images\readme\issue\page-title-center\issue-burger-icon-small.png) | ![Smaller burger icon with added padding in the x-axis](assets\images\readme\issue\page-title-center\issue-burger-icon-large.png) |
+```css
+@media (max-width: 426px) {
+    .page-title {
+    padding-left: 36px;
+    }
+
+    /* Burger Icon (makes smaller) */
+    .burger-icon {
+        padding: 0 0.5rem 0.15rem 0.5rem;
+    }
+}
+```
+</details>
 
 ---
 
@@ -518,19 +569,8 @@ Later, I also updated the navbar alignment to better match the rest of the site'
 
 ---
 
-## Dropdown Menu in navbar being cut off
-
-**Issue:** When the right dropdown menu is opened, some of the menu text is cut off by the edge of the screen. This occurs because the dropdown button is positioned close to the screen edge, and the menu options are too long to fit within the visible area. By default, Bootstrap dropdown menus are left-aligned. If a dropdown is near the right edge and the menu options are lengthy, the menu will overflow and appear clipped, making some text not fully visible.
-
-![Dropdown Menu being cut off](assets/images/readme/issue-right-align1.png)
-
-**Solution:** After consulting the Bootstrap documentation, I discovered that adding the `dropdown-menu-end` class to the same element as `dropdown-menu` changes the alignment of the dropdown menu to the right, instead of the default left alignment. This prevents the menu from being cut off at the edge of the screen. I applied this fix only to the two rightmost navbar dropdown menus, while keeping the left-side dropdowns left-aligned. This approach maintains visual consistency across the navbar and avoids potential overflow issues on either side.
-
-![Dropdown Menu fixed](assets/images/readme/issue-right-align2.png)
-
-Later, I also updated the navbar alignment to better match the rest of the site's layout by changing `container-fluid` to `container` in the navbar, which added more space between the buttons and edges of the screen and helped the navbar appear more consistent with the more centered page content.
-
 ---
+
 ---
 
 # Deployment
@@ -560,34 +600,37 @@ Later, I also updated the navbar alignment to better match the rest of the site'
 
 # **Credits**
 
-
 # Technologies Used
 
-- [GitHub](https://github.com/):
-  - GitHub has been used to store this project.
+### [GitHub](https://github.com/):
+- GitHub has been used to store this project.
 
-- [VScode](link):
-  - I used this as my IDE to code and develop this website and to push to GitHub.
+### [VScode](https://code.visualstudio.com/):
+- I used this as my IDE to code and develop this website and to push to GitHub.
 
-- [Google Fonts](link):
-  - I used this to find and create an import url so that I could use by 2 chosen fonts in the project.
+### [Google Fonts](https://fonts.google.com/):
+- I used this to find and create an import url so that I could use by 2 chosen fonts - [Skranji](https://fonts.google.com/specimen/Skranji) (Designed by Neapolitan) and [Roboto](https://fonts.google.com/specimen/Roboto) (Designed by Christian Robertson, Paratype, & Font Bureau).
 
-- [Font Awesome](link):
-  - I used this to add icons to the website so that they could be coloured to match my design, specifically in the navbar (for the burger icon and dropdown menu arrows) and for the social media links in the footer.
+### [Font Awesome](https://fontawesome.com/):
+- I used this to add icons to the website so that they could be coloured to match my design, specifically in the navbar (for the burger icon and dropdown menu arrows) and for the social media links in the footer.
 
-- [Bootstrap](link):
-  - I used this to design my navbar and as a flexbox/grid in my navbar, main content and forms.
+### [Bootstrap](https://getbootstrap.com/):
+- I used this to design my navbar and as a flexbox/grid in my navbar, main content and forms.
 
-- [Notion](link)
-  - I used this to write up ideas, to do lists/issues that needed fixing, and paste screenshots, images and their links, etc.
+### [Notion](https://www.notion.com/)
+- I used this to write up ideas, to do lists/issues that needed fixing, and paste screenshots, images and their links, etc.
 
-- [ColorZilla (Chrome Extension)](https://www.colorzilla.com/)
-  - I used this to pinpoint exact colour codes from images etc on websites.
+### [ColorZilla (Chrome Extension)](https://www.colorzilla.com/)
+- I used this to pinpoint exact colour codes from images etc on websites.
 
-- [Color Blender](https://meyerweb.com/eric/tools/color-blend/#:::hex)
-  - I used this website to find a colour between my background and highlight colours using their hex codes.
+### [Color Blender](https://meyerweb.com/eric/tools/color-blend/#:::hex)
+- I used this website to find a colour between my background and highlight colours using their hex codes.
 
-<!-- Should I also add testing applications such as WebAIM Contrast Checker(?) -->
+### [Balsamiq](https://balsamiq.com/)
+- I used this to make my wireframes.
+
+<!-- TO ASK MENTOR -->
+<!-- Should I also add testing applications such as WebAIM Contrast Checker here or leave just in Testing(?) -->
 
 ---
 
@@ -595,9 +638,8 @@ Later, I also updated the navbar alignment to better match the rest of the site'
 
 ## Site Wide
 
-### **Freepik for page background image and Bamboo background used in Header and Footer**
-
----
+### [Freepik](https://www.freepik.com/)
+- I used this website for page background image and Bamboo background used in Header and Footer.
 
 #### **Background Image for main sections**: 
 <details>
@@ -620,9 +662,8 @@ Later, I also updated the navbar alignment to better match the rest of the site'
 
 ---
 
-### **IconArchive for Favicon**
-
----
+### [IconArchive](https://www.iconarchive.com/)
+- I used this website to find my favicon.
 
 #### **Favicon**:
 <details>

@@ -145,7 +145,7 @@ h1.head-title {
 }
 
 .page-title {
-    padding-left: 27.8px;
+    padding-left: 28.4px;
     color: var(--primary-sand);
 }
 
@@ -480,6 +480,10 @@ img.floating-section {
     /* Navbar Title (makes smaller) */
     .head-title {
         font-size: 1.8rem;
+    }
+
+    .page-title {
+    padding-left: 36px;
     }
 
     /* Burger Icon (makes smaller) */
