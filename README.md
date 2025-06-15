@@ -479,6 +479,20 @@ Success Page:
 
 ## VS Code Extension *'Prettier'* adding unneccessary closing tags
 
+<details>
+<summary>Issue & Solution:</summary>
+
+**Issue:**  As part of the course material, I installed a code refactoring extension called 'Prettier' in VS Code, but had issues with this adding unneccessary closing tags (`/>`) to all of the self-closing elements, such as `meta` and `img`.
+
+These were added every time I formatted my pages, and resulted in errors in the [W3C Testing](#w3c-markuphtml-validation-service) stage, wasting time with having to remove each time I formatted.
+
+**Solution:**  I uninstalled this extension and opted to use the default formatter, which worked a lot better.
+</details>
+
+---
+
+## VS Code Extension *'Prettier'* adding unneccessary closing tags
+
 As part of the course material, I installed a code refactoring extension called 'Prettier' in VS Code, but had issues with this adding unneccessary closing tags (`/>`) to all of the self-closing elements, such as `meta` and `img`.
 
 These were added every time I formatted my pages, and resulted in errors in the [W3C Testing](#w3c-markuphtml-validation-service) stage, wasting time with having to remove each time I formatted, so I uninstalled this extension and opted to use the default formatter, which worked a lot better.
@@ -488,15 +502,15 @@ These were added every time I formatted my pages, and resulted in errors in the 
 ## Dropdown Menu in navbar being cut off
 
 <details>
-<summary>Issue and Solution:</summary>
+<summary>Issue & Solution:</summary>
 
-| Issue |  |
-| --- | --- |
-| When the right dropdown menu is opened, some of the menu text is cut off by the edge of the screen. This occurs because the dropdown button is positioned close to the screen edge, and the menu options are too long to fit within the visible area. By default, Bootstrap dropdown menus are left-aligned. If a dropdown is near the right edge and the menu options are lengthy, the menu will overflow and appear clipped, making some text not fully visible. | ![Dropdown Menu being cut off](assets/images/readme/issue-right-align1.png) |
+**Issue:**  When the right dropdown menu is opened, some of the menu text is cut off by the edge of the screen. This occurs because the dropdown button is positioned close to the screen edge, and the menu options are too long to fit within the visible area. By default, Bootstrap dropdown menus are left-aligned. If a dropdown is near the right edge and the menu options are lengthy, the menu will overflow and appear clipped, making some text not fully visible.
 
-| Solution |  |
-| --- | --- |
-| After consulting the Bootstrap documentation, I discovered that adding the `dropdown-menu-end` class to the same element as `dropdown-menu` changes the alignment of the dropdown menu to the right, instead of the default left alignment. This prevents the menu from being cut off at the edge of the screen. I applied this fix only to the two rightmost navbar dropdown menus, while keeping the left-side dropdowns left-aligned. This approach maintains visual consistency across the navbar and avoids potential overflow issues on either side. | ![Dropdown Menu fixed](assets/images/readme/issue-right-align2.png) |
+![Dropdown Menu being cut off](assets/images/readme/issue-right-align1.png)
+
+**Solution:**  After consulting the Bootstrap documentation, I discovered that adding the `dropdown-menu-end` class to the same element as `dropdown-menu` changes the alignment of the dropdown menu to the right, instead of the default left alignment. This prevents the menu from being cut off at the edge of the screen. I applied this fix only to the two rightmost navbar dropdown menus, while keeping the left-side dropdowns left-aligned. This approach maintains visual consistency across the navbar and avoids potential overflow issues on either side.
+
+![Dropdown Menu fixed](assets/images/readme/issue-right-align2.png)
 
 Later, I also updated the navbar alignment to better match the rest of the site's layout by changing `container-fluid` to `container` in the navbar, which added more space between the buttons and edges of the screen and helped the navbar appear more consistent with the more centered page content.
 
@@ -506,42 +520,17 @@ Later, I also updated the navbar alignment to better match the rest of the site'
 
 ## Dropdown Menu in navbar being cut off
 
-**Issue**
-
-When the right dropdown menu is opened, some of the menu text is cut off by the edge of the screen. This occurs because the dropdown button is positioned close to the screen edge, and the menu options are too long to fit within the visible area. By default, Bootstrap dropdown menus are left-aligned. If a dropdown is near the right edge and the menu options are lengthy, the menu will overflow and appear clipped, making some text not fully visible.
+**Issue:** When the right dropdown menu is opened, some of the menu text is cut off by the edge of the screen. This occurs because the dropdown button is positioned close to the screen edge, and the menu options are too long to fit within the visible area. By default, Bootstrap dropdown menus are left-aligned. If a dropdown is near the right edge and the menu options are lengthy, the menu will overflow and appear clipped, making some text not fully visible.
 
 ![Dropdown Menu being cut off](assets/images/readme/issue-right-align1.png)
 
-**Solution**
-
-After consulting the Bootstrap documentation, I discovered that adding the `dropdown-menu-end` class to the same element as `dropdown-menu` changes the alignment of the dropdown menu to the right, instead of the default left alignment. This prevents the menu from being cut off at the edge of the screen. I applied this fix only to the two rightmost navbar dropdown menus, while keeping the left-side dropdowns left-aligned. This approach maintains visual consistency across the navbar and avoids potential overflow issues on either side.
+**Solution:** After consulting the Bootstrap documentation, I discovered that adding the `dropdown-menu-end` class to the same element as `dropdown-menu` changes the alignment of the dropdown menu to the right, instead of the default left alignment. This prevents the menu from being cut off at the edge of the screen. I applied this fix only to the two rightmost navbar dropdown menus, while keeping the left-side dropdowns left-aligned. This approach maintains visual consistency across the navbar and avoids potential overflow issues on either side.
 
 ![Dropdown Menu fixed](assets/images/readme/issue-right-align2.png)
 
 Later, I also updated the navbar alignment to better match the rest of the site's layout by changing `container-fluid` to `container` in the navbar, which added more space between the buttons and edges of the screen and helped the navbar appear more consistent with the more centered page content.
-
-
-<details>
-<summary>Dropdown Menu being cut off</summary>
-
-**Issue**
-
-When the right dropdown menu is opened, some of the menu text is cut off by the edge of the screen. This occurs because the dropdown button is positioned close to the screen edge, and the menu options are too long to fit within the visible area. By default, Bootstrap dropdown menus are left-aligned. If a dropdown is near the right edge and the menu options are lengthy, the menu will overflow and appear clipped, making some text not fully visible.
-
-![Dropdown Menu being cut off](assets/images/readme/issue-right-align1.png)
-
-**Solution**
-
-After consulting the Bootstrap documentation, I discovered that adding the `dropdown-menu-end` class to the same element as `dropdown-menu` changes the alignment of the dropdown menu to the right, instead of the default left alignment. This prevents the menu from being cut off at the edge of the screen. I applied this fix only to the two rightmost navbar dropdown menus, while keeping the left-side dropdowns left-aligned. This approach maintains visual consistency across the navbar and avoids potential overflow issues on either side.
-
-![Dropdown Menu fixed](assets/images/readme/issue-right-align2.png)
-
-Later, I also updated the navbar alignment to better match the rest of the site's layout by changing `container-fluid` to `container` in the navbar, which added more space between the buttons and edges of the screen and helped the navbar appear more consistent with the more centered page content.
-
-</details>
 
 ---
-
 ---
 
 # Deployment
