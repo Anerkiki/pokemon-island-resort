@@ -50,6 +50,7 @@ View live website [here](https://anerkiki.github.io/pokemon-island-resort/) (Hos
   - [Manual Testing](#manual-testing)
 
 - [Fixed Issues](#fixed-issues)
+  - [Extra fixes for ease of use](#extra-fixes-for-ease-of-use)
 
 - [Deployment](#deployment)
 
@@ -498,7 +499,7 @@ Success Page:
 # Fixed Issues
 <!-- Problems/Challenges/Bugs -->
 
-## VS Code Extension *'Prettier'* adding unneccessary closing tags
+### VS Code Extension *'Prettier'* adding unneccessary closing tags
 
 <details>
 <summary>Issue & Solution:</summary>
@@ -512,12 +513,26 @@ These were added every time I formatted my pages, and resulted in errors in the 
 
 ---
 
-## Page Title inside Navbar not properly centered
+### Unable to change/remove background of Navbar
+<details>
+<summary>Issue & Solution:</summary>
+
+**Issue:** When I had added the bamboo background image to the header section, I noticed the navbar from Bootstrap I had added within this had it's own white colour background, which stopped the image being shown as a background for the whole thing, even if I tried to change it to transparent using my CSS stylesheet.
+
+![Navbar background being overridden by Bootstrap](assets\images\readme\issue\issue-removing-navbar-background.png)
+
+**Solution:** I checked using Devtools and noticed that the background colour was being set my a bootstrap scss file, and that this was set as `!important;` so would override any background I added. Looking further I spotted it was being added because of the `bg-body-tertiary` class, so once I removed this, the background image covered the whole title & nav section, including the navbar.
+![Code causing the issue](assets\images\readme\issue\issue-removing-navbar-background-code.png)
+</details>
+
+---
+
+### Page Title inside Navbar not appearing centralised
 
 <details>
 <summary>Issue & Solution:</summary>
 
-**Issue:** Because of the burger icon being to the right of the same navbar section that the page title appears in on smaller screens (mobile and tablet), the title wasn't appearing centralised, and was too far to the left.
+**Issue:** Because of the burger icon being to the right of the same navbar section that the page title appears in on smaller screens (mobile and tablet), the title wasn't appearing centralised, it was being pushed too far to the left.
 
 **Solution:** I fixed this by adding padding to the left of the page title which matched the width of the burger icon, centralising it correctly to match the title above.
 I added a class to the page title, and added `padding-left` of the same width of the burger icon.
@@ -550,7 +565,7 @@ This also had to be amended to match the burger icon's new width on a larger scr
 
 ---
 
-## Dropdown Menu in navbar being cut off
+### Dropdown Menu in navbar being cut off
 
 <details>
 <summary>Issue & Solution:</summary>
@@ -563,13 +578,134 @@ This also had to be amended to match the burger icon's new width on a larger scr
 
 ![Dropdown Menu fixed](assets/images/readme/issue-right-align2.png)
 
-Later, I also updated the navbar alignment to better match the rest of the site's layout by changing `container-fluid` to `container` in the navbar, which added more space between the buttons and edges of the screen and helped the navbar appear more consistent with the more centered page content.
+Later, I also updated the navbar alignment to better match the rest of the site's layout by changing `container-fluid` to `container` in the navbar, which added more space between the buttons and edges of the screen and helped the navbar appear more consistent with the more centralised page content.
 
 </details>
 
 ---
 
+### Issue Title
+
+<details>
+<summary>Issue & Solution:</summary>
+
+**Issue:**
+
+**Solution:**
+
+</details>
+
 ---
+
+### Issue Title
+
+<details>
+<summary>Issue & Solution:</summary>
+
+**Issue:**
+
+**Solution:**
+
+</details>
+
+---
+
+### Issue Title
+
+<details>
+<summary>Issue & Solution:</summary>
+
+**Issue:**
+
+**Solution:**
+
+</details>
+
+---
+
+
+### Issue Title
+
+<details>
+<summary>Issue & Solution:</summary>
+
+**Issue:**
+
+**Solution:**
+
+</details>
+
+---
+
+### Text box/bubble height mismatched with height of images
+
+**Issue:** At certain screen sizes, the text box was either too long or too short compared to the adjacent images, causing unwanted gaps, either between images or within the text box.
+
+**Solution:** I solved this problem by setting some of the images to appear/disappear depending on the size of the screen, using bootstrap classes.
+
+```html
+CODE HERE
+```
+
+I also added space between images with [code] so that the gap was dispersed between each image, making it appear less, rather than showing as an obvious gap at the bottom.
+
+I then did the same to the titles, paragraphs and buttons in the text boxes/bubbles by ...
+
+---
+
+## Extra fixes for ease of use
+
+
+### Added Universal margins/padding/gaps instead of to each individual element
+
+<details>
+<summary>Issue & Solution:</summary>
+
+**Issue:**
+
+**Solution:**
+
+</details>
+
+---
+
+### Fix Title
+
+<details>
+<summary>Issue & Solution:</summary>
+
+**Issue:**
+
+**Solution:**
+
+</details>
+
+---
+
+### Fix Title
+
+<details>
+<summary>Issue & Solution:</summary>
+
+**Issue:**
+
+**Solution:**
+
+</details>
+
+---
+
+
+### Fix Title
+
+<details>
+<summary>Issue & Solution:</summary>
+
+**Issue:**
+
+**Solution:**
+
+</details>
 
 ---
 
@@ -756,6 +892,8 @@ https://archives.bulbagarden.net/wiki/File:Kiawe_Charizard_Aerial_Ace.png
 ---
 
 # Other
+
+
 
 ---
 
