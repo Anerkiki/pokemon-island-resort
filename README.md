@@ -118,24 +118,36 @@ A typical customer for the Pokémon Island Resort is:
 ## Wireframes
 
 <details>
-<summary>Home Page Wireframe Images</summary>
+<summary>Click for wireframe image of Home Page on larger screens</summary>
 
-Home Page on large screens (laptops & larger):
+Home Page on larger screens (laptops & larger):
 
 ![Home Page Wireframe - large screens](assets/images/readme/wireframes/wireframe-large-home-page.png)
+
+<!-- Add all images back -->
+
+</details>
+
+<details>
+<summary>Click for wireframe image of Home Page on smaller screens</summary>
 
 Home Page on smaller screens (mobile & tablet):
 
 ![Home Page Wireframe - small screens](assets/images/readme/wireframes/wireframe-small-home-page.png)
 
-| Home Page on large screens (laptops & larger): | Home Page on smaller screens (mobile & tablet): |
+</details>
+
+<details>
+<summary>Click for wireframe images of Home Page</summary>
+
+| Home Page on larger screens (laptops & larger): | Home Page on smaller screens (mobile & tablet): |
 | :---: | :---: |
 |  | *I have removed some of the duplicate text bubbles that will be on the finished website so that the image isn't too long* |
 | ![Home Page Wireframe - large screens](assets/images/readme/wireframes/wireframe-large-home-page.png) | ![Home Page Wireframe - small screens](assets/images/readme/wireframes/wireframe-small-home-page.png) |
 </details>
 
 <details>
-<summary>Rooms Page Wireframe Images</summary>
+<summary>Click for wireframe images of Rooms Page</summary>
 
 | Rooms Page on large screens (laptop & larger): | Rooms Page on smaller screens (mobile & tablet): |
 | :---: | :---: |
@@ -143,7 +155,7 @@ Home Page on smaller screens (mobile & tablet):
 </details>
 
 <details>
-<summary>Classes Page Wireframe Images</summary>
+<summary>Click for wireframe images of Classes Page</summary>
 
 | Classes Page on large screens (laptop & larger): | Classes Page on smaller screens (mobile & tablet): |
 | :---: | :---: |
@@ -151,7 +163,7 @@ Home Page on smaller screens (mobile & tablet):
 </details>
 
 <details>
-<summary>Success Page Wireframe Images</summary>
+<summary>Click for wireframe images of Success Page</summary>
 
 | Success Page on large screens (laptop & larger): | Success Page on smaller screens (mobile & tablet): |
 | :---: | :---: |
@@ -159,13 +171,12 @@ Home Page on smaller screens (mobile & tablet):
 </details>
 
 <details>
-<summary>404 Page Wireframe Images</summary>
+<summary>Click for wireframe images of 404 Page</summary>
 
 | 404 Page on large screens (laptop & larger): | 404 Page on smaller screens (mobile & tablet): |
 | :---: | :---: |
 | ![404 Page Wireframe - large screens](assets/images/readme/wireframes/wireframe-large-404-page.png) | ![404 Page Wireframe - small screens](assets/images/readme/wireframes/wireframe-small-404-page.png) |
 </details>
-
 ---
 
 ## Typography/Fonts
