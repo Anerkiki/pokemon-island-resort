@@ -3,13 +3,7 @@
 
 # Pokemon Island Resort
 
-Apple Devices:
-
 ![Mockups of Home Page on various screen sizes](assets/images/readme/mockups/mockups-home-page.png)
-
-Am I responsive/Other Devices:
-
-![Am I Responsive ](assets/images/readme/mockups/am-i-responsive-home-page.png)
 
 I am looking to create this website to showcase a fictional tropical island resort designed for Pokémon and their trainers.
 
@@ -108,7 +102,7 @@ A typical customer for the Pokémon Island Resort is:
   - I want to quickly find out if the island has the activities and amenities I'm interested in, and feel assured that my stay will give me everything I'm looking for.
 
 - **As a first-time user:**
-  - I want the website to be easy to navigate, with a clear layout and intuitive links between pages, so I can move seamlessly through the site and find what I need without confusion.
+  - I want the website to be easy to navigate, with a clear layout and intuitive links between pages, so I can move seamlessly through the site and find what I need without confusion and plan my trip effectively.
   
 - **As a Pokémon trainer:**
   - I want to easily discover classes tailored to my Pokémon’s type and abilities, and find trainers with the right expertise to help them master their moves, develop new skills and reach their full potential.
@@ -123,7 +117,53 @@ A typical customer for the Pokémon Island Resort is:
 
 ## Wireframes
 
-TO DO
+<details>
+<summary>Home Page Wireframe Images</summary>
+
+| Home Page on large screens (laptop +): | Home Page on smaller screens (mobile & tablet): |
+| --- | --- |
+| ![Home Page Wireframe - large screens](assets\images\readme\wireframe\wireframe-large-home-page.png) | ![Home Page Wireframe - small screens](assets\images\readme\wireframe\wireframe-small-home-page.png) |
+
+<!-- Add mobile version -->
+</details>
+
+<details>
+<summary>Rooms Page Wireframe Images</summary>
+
+| Rooms Page on large screens (laptop +): | Rooms Page on smaller screens (mobile & tablet): |
+| --- | --- |
+| ![Rooms Page Wireframe - large screens](assets\images\readme\wireframe\wireframe-large-rooms-page.png) | ![Rooms Page Wireframe - small screens](assets\images\readme\wireframe\wireframe-small-rooms-page.png) |
+<!-- Add mobile version -->
+</details>
+
+<details>
+<summary>Classes Page Wireframe Images</summary>
+
+| Classes Page on large screens (laptop +): | Classes Page on smaller screens (mobile & tablet): |
+| --- | --- |
+| ![Classes Page Wireframe - large screens](assets\images\readme\wireframe\wireframe-large-classes-page.png) | ![Classes Page Wireframe - small screens](assets\images\readme\wireframe\wireframe-small-classes-page.png) |
+<!-- Add mobile version -->
+</details>
+
+<details>
+<summary>Success Page Wireframe Images</summary>
+
+| Success Page on large screens (laptop +): | Success Page on smaller screens (mobile & tablet): |
+| --- | --- |
+| ![Success Page Wireframe - large screens](assets\images\readme\wireframe\wireframe-large-success-page.png) | ![Success Page Wireframe - small screens](assets\images\readme\wireframe\wireframe-small-success-page.png) |
+
+<!-- Add mobile version -->
+</details>
+
+<details>
+<summary>404 Page Wireframe Images</summary>
+
+| 404 Page on large screens (laptop +): | 404 Page on smaller screens (mobile & tablet): |
+| --- | --- |
+| ![404 Page Wireframe - large screens](assets\images\readme\wireframe\wireframe-large-404-page.png) | ![404 Page Wireframe - small screens](assets\images\readme\wireframe\wireframe-small-404-page.png) |
+
+<!-- Add mobile version -->
+</details>
 
 ---
 
@@ -191,6 +231,9 @@ I decided to use this too for the footer, as it gave the site a bit more of a 'b
 ## Key Features
 
 - **Fully Responsive at any screen size:** This includes a hero image that switches from landscape to portrait at mobile and tablet view, and text 'bubbles' that change order and location trainsitioning from different screen sizes, such as from mobile to laptop, and images which go from being inside the floating text bubbles, to outside, next to the text, in their own "bubbles".
+<!-- - **Responsive Design**: Ensures the website is accessible and visually appealing on all devices, including mobile, tablet, and desktop. -->
+
+[HeroExample]
 
 <details>
 <summary>Example at small screen sizes (tablet & mobile) - showing the image inside the text box</summary>
@@ -317,19 +360,20 @@ This has links to social media, and is shown at the bottom of each page, althoug
 ***Note:*** *Pages/sections marked with **\*** can be accessed through the navbar buttons or their dropdown menu options*
 
 ---
+<!-- - **Homepage**: Highlights the resort's unique offerings and provides a welcoming introduction. -->
 
 - **Home Page*** featuring:
-  - A fun and colourful **Hero Image** with small 'Welcome' text bubble.
+  - A fun and colourful **Hero Image** with small floating 'Welcome' text bubble.
   - Different Navbar options depending on the screen size.
-  - A responsive Hero image that changes orientation at different sizes to fill the screen (portrait for mobile/tablet and landscape for laptop +)
+  - A responsive Hero image that changes orientation at different sizes to fill the screen (portrait for mobile/tablet and landscape for laptop and larger screens)
 
 ![Mockups of Home Page on various screen sizes](assets/images/readme/mockups/mockups-home-page.png)
 
-  - Responsive so that it doesn't stretch to large on XXL Screens
+  - Responsive so that the center content doesn't stretch too large on XXL Screens
 
 ![The Home Page on XXL Screens](assets/images/readme/mockups/xxl-screens.png)
 
-  - An **Activities** Section* with responsive "floating" text bubbles and images which multiply to up to 3, or appear inside the text boxes/bubbles at different screen sizes.
+  - An **Activities** Section* with responsive floating text bubbles and images which multiply to up to 3, or appear inside the text boxes/bubbles at different screen sizes.
     - Image shows open 'Our Activities' dropdown menu option selected.
 
 ![Mockups of Home Page Activities Section on various screen sizes](assets/images/readme/mockups/mockups-home-page-activities.png)
@@ -348,6 +392,7 @@ This has links to social media, and is shown at the bottom of each page, althoug
 ![Mockups of Home Page Contact Form on various screen sizes](assets/images/readme/mockups/mockups-home-page-form.png)
 
 ---
+<!-- - **suites Page**: Displays the available suites for booking, complete with descriptions and images. -->
 
 - **Suites Page*** featuring:
   - A large bubble **Page Title** which disappears and is instead incorporated into the navbar on smaller (mobile) devices.
@@ -363,6 +408,7 @@ This has links to social media, and is shown at the bottom of each page, althoug
 ![Mockups of Suites Page Enquiry Form on various screen sizes](assets/images/readme/mockups/mockups-suites-page-form.png)
 
 ---
+<!-- - **Classes Page**: Lists the classes available for Pokemon, such as training sessions and recreational activities. -->
 
 - **Classes Page*** featuring:
   - **5 Class Options*** which are all fully responsive, so the image is inside the description box in a mobile/tablet screen, and then on larger screens the images pop out of the text box and appear beside, increasing/decreasing from 1 to 4 depending on the screen size, to match the height of the description bubble. As well as related images, these all have titles, descriptions, which trainer/trainers that will take the class (including a link to the specific trainer on the main home page), and a 'Book Now' button, which links directly down to the Booking Form at the bottom of the page.
@@ -794,7 +840,8 @@ I then did the same to the titles, paragraphs and buttons in the text boxes/bubb
 ![Bamboo image from Header and Footer](assets/images/site-wide/bamboo-background.jpg)
 
 </details>
-[Freepik - Bamboo Patterned Curtain](https://www.freepik.com/free-photo/bamboo-patterned-curtain-textured-backdrop_15653469.htm)
+
+[Freepik - Bamboo Backdrop](https://www.freepik.com/free-photo/bamboo-patterned-curtain-textured-backdrop_15653469.htm)
 
 ---
 
@@ -810,22 +857,35 @@ I then did the same to the titles, paragraphs and buttons in the text boxes/bubb
 </details>
 
 [IconArchive - Palm Tree Icon](https://www.iconarchive.com/show/noto-emoji-animals-nature-icons-by-google/22331-palm-tree-icon.html)
-Favicon:
-https://www.iconarchive.com/show/noto-emoji-animals-nature-icons-by-google/22331-palm-tree-icon.html
-apache open source
 
 ---
 
 ## Home Page
 
-### **Hero Images**: [RedBull - Pokemon Sun and Moon Game](https://www.redbull.com/au-en/new-game-releases-november-2016)
+### **Hero Images**:
 Landscape Image - (Laptop and larger screens):
-https://www.redbull.com/au-en/new-game-releases-november-2016
-https://img.redbull.com/images/c_crop,x_0,y_0,h_1498,w_2999/c_fill,w_1700,h_765/q_auto,f_jpg/redbullcom/2016/10/31/1331826758607_2/scene-from-the-new-pok%C3%A9mon-sun-and-moon-game-for-nintendo-ds3
+
+<details>
+<summary>*click to view image*</summary>
+
+![Palm Tree Favicon](./assets/images/hero/hero-landscape.jpeg)
+
+</details>
+
+[Landscape Hero Image from Pokémon Sun and Moon Game (Nintendo)](https://www.redbull.com/au-en/new-game-releases-november-2016)
+
+<!-- [Landscape Hero Image from Pokémon Sun and Moon Game (Nintendo)](https://img.redbull.com/images/c_crop,x_0,y_0,h_1498,w_2999/c_fill,w_1700,h_765/q_auto,f_jpg/redbullcom/2016/10/31/1331826758607_2/scene-from-the-new-pok%C3%A9mon-sun-and-moon-game-for-nintendo-ds3) -->
 
 Portrait Image - (Mobile and Tablet screens):
-https://www.google.com/imgres?imgurl=https%3A%2F%2Fwww.nintendo-difference.com%2Fwp-content%2Fuploads%2F2024%2F06%2FPokemon-GO-Fond-decran-Sous-un-meme-ciel.jpg&tbnid=yPOpOBrJxAe-BM&vet=12ahUKEwiV2IzlzfuMAxUMXkEAHeMkMK4QxiAoB3oECAAQJw..i&imgrefurl=https%3A%2F%2Fwww.nintendo-difference.com%2Fnews%2Fpokemon-go-le-debut-de-la-saison-sous-un-meme-ciel-et-les-evenements-de-juin-2024-detailles%2F&docid=d8prKse_oTl7ZM&w=1080&h=1920&itg=1&q=pokemon%20beach%20portrait&ved=2ahUKEwiV2IzlzfuMAxUMXkEAHeMkMK4QxiAoB3oECAAQJw
 
+<details>
+<summary>*click to view image*</summary>
+
+![Palm Tree Favicon](./assets/images/hero/hero-portrait.jpg)
+
+</details>
+
+[Portrait Image illustrated by [Saro Orfali](https://x.com/saro__black)](https://www.nintendo-difference.com/news/pokemon-go-le-debut-de-la-saison-sous-un-meme-ciel-et-les-evenements-de-juin-2024-detailles/)
 ---
 
 ## Suites Page
@@ -893,7 +953,10 @@ https://archives.bulbagarden.net/wiki/File:Kiawe_Charizard_Aerial_Ace.png
 
 # Other
 
+## Future Enhancements
 
+- Implement interactive maps to help users navigate the resort.
+- Include a gallery page to showcase more images of the resort and its amenities.
 
 ---
 
