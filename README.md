@@ -123,7 +123,7 @@ A typical customer for the Pokémon Island Resort is:
 | Home Page on large screens (laptops & larger): | Home Page on smaller screens (mobile & tablet): |
 | :---: | :---: |
 |  | *I have removed some of the duplicate text bubbles that will be on the finished website so that the image isn't too long* |
-| ![Home Page Wireframe - large screens](assets/images/readme/wireframes/wireframe-large-home-page.jpg) | ![Home Page Wireframe - small screens](assets/images/readme/wireframes/wireframe-small-home-page.jpg) |
+| ![Home Page Wireframe - large screens](assets/images/readme/wireframes/wireframe-large-home-page.png) | ![Home Page Wireframe - small screens](assets/images/readme/wireframes/wireframe-small-home-page.png) |
 </details>
 
 <details>
@@ -131,7 +131,7 @@ A typical customer for the Pokémon Island Resort is:
 
 | Rooms Page on large screens (laptop & larger): | Rooms Page on smaller screens (mobile & tablet): |
 | :---: | :---: |
-| ![Rooms Page Wireframe - large screens](assets/images/readme/wireframes/wireframe-large-rooms-page.jpg) | ![Rooms Page Wireframe - small screens](assets/images/readme/wireframes/wireframe-small-rooms-page.jpg) |
+| ![Rooms Page Wireframe - large screens](assets/images/readme/wireframes/wireframe-large-rooms-page.png) | ![Rooms Page Wireframe - small screens](assets/images/readme/wireframes/wireframe-small-rooms-page.png) |
 </details>
 
 <details>
@@ -139,7 +139,7 @@ A typical customer for the Pokémon Island Resort is:
 
 | Classes Page on large screens (laptop & larger): | Classes Page on smaller screens (mobile & tablet): |
 | :---: | :---: |
-| ![Classes Page Wireframe - large screens](assets/images/readme/wireframes/wireframe-large-classes-page.jpg) | ![Classes Page Wireframe - small screens](assets/images/readme/wireframes/wireframe-small-classes-page.jpg) |
+| ![Classes Page Wireframe - large screens](assets/images/readme/wireframes/wireframe-large-classes-page.png) | ![Classes Page Wireframe - small screens](assets/images/readme/wireframes/wireframe-small-classes-page.png) |
 </details>
 
 <details>
@@ -147,7 +147,7 @@ A typical customer for the Pokémon Island Resort is:
 
 | Success Page on large screens (laptop & larger): | Success Page on smaller screens (mobile & tablet): |
 | :---: | :---: |
-| ![Success Page Wireframe - large screens](assets/images/readme/wireframes/wireframe-large-success-page.jpg) | ![Success Page Wireframe - small screens](assets/images/readme/wireframes/wireframe-small-success-page.jpg) |
+| ![Success Page Wireframe - large screens](assets/images/readme/wireframes/wireframe-large-success-page.png) | ![Success Page Wireframe - small screens](assets/images/readme/wireframes/wireframe-small-success-page.png) |
 </details>
 
 <details>
@@ -155,7 +155,7 @@ A typical customer for the Pokémon Island Resort is:
 
 | 404 Page on large screens (laptop & larger): | 404 Page on smaller screens (mobile & tablet): |
 | :---: | :---: |
-| ![404 Page Wireframe - large screens](assets/images/readme/wireframes/wireframe-large-404-page.jpg) | ![404 Page Wireframe - small screens](assets/images/readme/wireframes/wireframe-small-404-page.jpg) |
+| ![404 Page Wireframe - large screens](assets/images/readme/wireframes/wireframe-large-404-page.png) | ![404 Page Wireframe - small screens](assets/images/readme/wireframes/wireframe-small-404-page.png) |
 </details>
 
 ---
@@ -451,8 +451,6 @@ Success Page:
 
 ## WebAIM Contrast Checker Test
 
-
-
 I changed the original dark brown colour I had chosen for my paragraph text colour after testing from `#84644B` to `#674A18` due to the original colour not passing all of the contrast checker tests on the [WebAIM Contrast Checker](https://webaim.org/resources/contrastchecker/) website, and I wanted my website to be as accessible as possible for all users.
 
 Below is an image of the new, slightly darker brown colour passing all of the tests on this website:
@@ -461,6 +459,7 @@ Below is an image of the new, slightly darker brown colour passing all of the te
 
 [WebAIM Contrast Checker link showing the 2 colours I compared](https://webaim.org/resources/contrastchecker/?fcolor=674A18&bcolor=FEEDDC)
 
+<!-- maybe put these in hidden dropdown? -->
 | Original text colour which didn't pass the AAA test: | Original Colour Pallet before testing: |
 | :---: | :---: |
 | ![Checking Contrast of text colour and background](assets/images/readme/testing/webaim-contrast-checker-fail.png) | ![Old Colour Pallet](assets/images/readme/colour-pallet-original.jpg) |
