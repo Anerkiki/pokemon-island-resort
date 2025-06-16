@@ -122,7 +122,7 @@ A typical customer for the Pokémon Island Resort is:
 
 | Home Page on large screens (laptops & larger): | Home Page on smaller screens (mobile & tablet): |
 | :---: | :---: |
-|  | I have removed some of the text bubbles so that the image isn't too long |
+|  | *I have removed some of the duplicate text bubbles that will be on the finished website so that the image isn't too long* |
 | ![Home Page Wireframe - large screens](assets/images/readme/wireframes/wireframe-large-home-page.jpg) | ![Home Page Wireframe - small screens](assets/images/readme/wireframes/wireframe-small-home-page.jpg) |
 </details>
 
@@ -451,17 +451,19 @@ Success Page:
 
 ## WebAIM Contrast Checker Test
 
-[WebAIM Contrast Checker](https://webaim.org/resources/contrastchecker/)
 
-| Original text colour which didn't pass the AAA test: | Original Colour Pallet before testing: |
-| :---: | :---: |
-| ![Checking Contrast of text colour and background](assets/images/readme/testing/webaim-contrast-checker-fail.png) | ![Old Colour Pallet](assets/images/readme/colour-pallet-original.jpg) |
 
-### New text colour which now which now passes the AAA test:
+I changed the original dark brown colour I had chosen for my paragraph text colour after testing from `#84644B` to `#674A18` due to the original colour not passing all of the contrast checker tests on the [WebAIM Contrast Checker](https://webaim.org/resources/contrastchecker/) website, and I wanted my website to be as accessible as possible for all users.
+
+Below is an image of the new, slightly darker brown colour passing all of the tests on this website:
 
 ![Checking Contrast of text colour and background](assets/images/readme/testing/webaim-contrast-checker-pass.png)
 
 [WebAIM Contrast Checker link showing the 2 colours I compared](https://webaim.org/resources/contrastchecker/?fcolor=674A18&bcolor=FEEDDC)
+
+| Original text colour which didn't pass the AAA test: | Original Colour Pallet before testing: |
+| :---: | :---: |
+| ![Checking Contrast of text colour and background](assets/images/readme/testing/webaim-contrast-checker-fail.png) | ![Old Colour Pallet](assets/images/readme/colour-pallet-original.jpg) |
 
 ---
 
@@ -476,7 +478,7 @@ Success Page:
 
 ## Manual Testing
 
-<!-- Look at BrowserStack -->
+<!-- Look at BrowserStack(?) -->
 
 **(Expected Outcome/Did it pass?)**
 
