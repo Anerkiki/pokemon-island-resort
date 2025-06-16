@@ -142,7 +142,7 @@ Home Page on smaller screens (mobile & tablet):
 
 | Home Page on larger screens (laptops & larger): | Home Page on smaller screens (mobile & tablet): |
 | :---: | :---: |
-|  | *I have removed some of the duplicate text bubbles that will be on the finished website so that the image isn't too long* |
+|  | *I have removed some of the extra text bubbles that will be <br>on the finished website so that the image isn't too long* |
 | ![Home Page Wireframe - large screens](assets/images/readme/wireframes/wireframe-large-home-page.png) | ![Home Page Wireframe - small screens](assets/images/readme/wireframes/wireframe-small-home-page.png) |
 </details>
 
