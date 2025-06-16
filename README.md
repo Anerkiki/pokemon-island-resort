@@ -123,7 +123,7 @@ A typical customer for the Pokémon Island Resort is:
 | Home Page on large screens (laptops & larger): | Home Page on smaller screens (mobile & tablet): |
 | --- | --- |
 |  | I have removed some of the text bubbles so that the image isn't too long |
-| ![Home Page Wireframe - large screens](assets\images\readme\wireframes\wireframe-large-home-page.jpg) | ![Home Page Wireframe - small screens](assets\images\readme\wireframes\wireframe-small-home-page.jpg) |
+| ![Home Page Wireframe - large screens](assets/images/readme/wireframes/wireframe-large-home-page.jpg) | ![Home Page Wireframe - small screens](assets/images/readme/wireframes/wireframe-small-home-page.jpg) |
 </details>
 
 <details>
@@ -131,7 +131,7 @@ A typical customer for the Pokémon Island Resort is:
 
 | Rooms Page on large screens (laptop & larger): | Rooms Page on smaller screens (mobile & tablet): |
 | --- | --- |
-| ![Rooms Page Wireframe - large screens](assets\images\readme\wireframes\wireframe-large-rooms-page.jpg) | ![Rooms Page Wireframe - small screens](assets\images\readme\wireframes\wireframe-small-rooms-page.jpg) |
+| ![Rooms Page Wireframe - large screens](assets/images/readme/wireframes/wireframe-large-rooms-page.jpg) | ![Rooms Page Wireframe - small screens](assets/images/readme/wireframes/wireframe-small-rooms-page.jpg) |
 </details>
 
 <details>
@@ -139,7 +139,7 @@ A typical customer for the Pokémon Island Resort is:
 
 | Classes Page on large screens (laptop & larger): | Classes Page on smaller screens (mobile & tablet): |
 | --- | --- |
-| ![Classes Page Wireframe - large screens](assets\images\readme\wireframes\wireframe-large-classes-page.jpg) | ![Classes Page Wireframe - small screens](assets\images\readme\wireframes\wireframe-small-classes-page.jpg) |
+| ![Classes Page Wireframe - large screens](assets/images/readme/wireframes/wireframe-large-classes-page.jpg) | ![Classes Page Wireframe - small screens](assets/images/readme/wireframes/wireframe-small-classes-page.jpg) |
 </details>
 
 <details>
@@ -147,7 +147,7 @@ A typical customer for the Pokémon Island Resort is:
 
 | Success Page on large screens (laptop & larger): | Success Page on smaller screens (mobile & tablet): |
 | --- | --- |
-| ![Success Page Wireframe - large screens](assets\images\readme\wireframes\wireframe-large-success-page.jpg) | ![Success Page Wireframe - small screens](assets\images\readme\wireframes\wireframe-small-success-page.jpg) |
+| ![Success Page Wireframe - large screens](assets/images/readme/wireframes/wireframe-large-success-page.jpg) | ![Success Page Wireframe - small screens](assets/images/readme/wireframes/wireframe-small-success-page.jpg) |
 </details>
 
 <details>
@@ -155,7 +155,7 @@ A typical customer for the Pokémon Island Resort is:
 
 | 404 Page on large screens (laptop & larger): | 404 Page on smaller screens (mobile & tablet): |
 | --- | --- |
-| ![404 Page Wireframe - large screens](assets\images\readme\wireframes\wireframe-large-404-page.jpg) | ![404 Page Wireframe - small screens](assets\images\readme\wireframes\wireframe-small-404-page.jpg) |
+| ![404 Page Wireframe - large screens](assets/images/readme/wireframes/wireframe-large-404-page.jpg) | ![404 Page Wireframe - small screens](assets/images/readme/wireframes/wireframe-small-404-page.jpg) |
 </details>
 
 ---
@@ -558,10 +558,10 @@ These were added every time I formatted my pages, and resulted in errors in the 
 
 **Issue:** When I had added the bamboo background image to the header section, I noticed the navbar from Bootstrap I had added within this had it's own white colour background, which stopped the image being shown as a background for the whole thing, even if I tried to change it to transparent using my CSS stylesheet.
 
-![Navbar background being overridden by Bootstrap](assets\images\readme\issue\issue-removing-navbar-background.png)
+![Navbar background being overridden by Bootstrap](assets/images/readme/issue/issue-removing-navbar-background.png)
 
 **Solution:** I checked using Devtools and noticed that the background colour was being set my a bootstrap scss file, and that this was set as `!important;` so would override any background I added. Looking further I spotted it was being added because of the `bg-body-tertiary` class, so once I removed this, the background image covered the whole title & nav section, including the navbar.
-![Code causing the issue](assets\images\readme\issue\issue-removing-navbar-background-code.png)
+![Code causing the issue](assets/images/readme/issue/issue-removing-navbar-background-code.png)
 </details>
 
 ---
@@ -578,7 +578,7 @@ I added a class to the page title, and added `padding-left` of the same width of
 
 | Page Title too far to the left: | Page title centralised with left-padding added: |
 | --- | --- |
-| ![Page Title with no padding](assets\images\readme\issue\page-title-center\issue-page-title-no-padding.png) | ![Page Title centralised with left padding](assets\images\readme\issue\page-title-center\issue-page-title-left-padding.png) |
+| ![Page Title with no padding](assets/images/readme/issue/page-title-center/issue-page-title-no-padding.png) | ![Page Title centralised with left padding](assets/images/readme/issue/page-title-center/issue-page-title-left-padding.png) |
 ```css
 .page-title {
     padding-left: 28.4px;
@@ -587,7 +587,7 @@ I added a class to the page title, and added `padding-left` of the same width of
 This also had to be amended to match the burger icon's new width on a larger screen as I added padding to the x-axis at the mobile to tablet breakpoint. I checked the width of the burger icon at each breakpoint using Chrome DevTools (shown below).
 | Smaller burger icon without added padding in the x-axis: | Smaller burger icon with added padding in the x-axis: |
 | --- | --- |
-| ![Smaller burger icon without added padding in the x-axis](assets\images\readme\issue\page-title-center\issue-burger-icon-small.png) | ![Smaller burger icon with added padding in the x-axis](assets\images\readme\issue\page-title-center\issue-burger-icon-large.png) |
+| ![Smaller burger icon without added padding in the x-axis](assets/images/readme/issue/page-title-center/issue-burger-icon-small.png) | ![Smaller burger icon with added padding in the x-axis](assets/images/readme/issue/page-title-center/issue-burger-icon-large.png) |
 ```css
 @media (max-width: 426px) {
     .page-title {
