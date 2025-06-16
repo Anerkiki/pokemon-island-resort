@@ -120,11 +120,20 @@ A typical customer for the Pokémon Island Resort is:
 <details>
 <summary>Home Page Wireframe Images</summary>
 
-| Home Page on large screens (laptops & larger): | Home Page on smaller screens (mobile & tablet): |
+Home Page on large screens (laptops & larger):
+
+![Home Page Wireframe - large screens](assets/images/readme/wireframes/wireframe-large-home-page.png)
+
+Home Page on smaller screens (mobile & tablet):
+
+![Home Page Wireframe - small screens](assets/images/readme/wireframes/wireframe-small-home-page.png)
+
+<!-- | Home Page on large screens (laptops & larger): | Home Page on smaller screens (mobile & tablet): |
 | :---: | :---: |
 |  | *I have removed some of the duplicate text bubbles that will be on the finished website so that the image isn't too long* |
-| ![Home Page Wireframe - large screens](assets/images/readme/wireframes/wireframe-large-home-page.png) | ![Home Page Wireframe - small screens](assets/images/readme/wireframes/wireframe-small-home-page.png) |
+| ![Home Page Wireframe - large screens](assets/images/readme/wireframes/wireframe-large-home-page.png) | ![Home Page Wireframe - small screens](assets/images/readme/wireframes/wireframe-small-home-page.png) | -->
 </details>
+![alt text](image.png)
 
 <details>
 <summary>Rooms Page Wireframe Images</summary>
