@@ -122,9 +122,8 @@ A typical customer for the Pokémon Island Resort is:
 
 | Home Page on large screens (laptop +): | Home Page on smaller screens (mobile & tablet): |
 | --- | --- |
+|  | I have removed some of the text bubbles so that the image isn't too long |
 | ![Home Page Wireframe - large screens](assets\images\readme\wireframe\wireframe-large-home-page.png) | ![Home Page Wireframe - small screens](assets\images\readme\wireframe\wireframe-small-home-page.png) |
-
-<!-- Add mobile version -->
 </details>
 
 <details>
@@ -133,7 +132,6 @@ A typical customer for the Pokémon Island Resort is:
 | Rooms Page on large screens (laptop +): | Rooms Page on smaller screens (mobile & tablet): |
 | --- | --- |
 | ![Rooms Page Wireframe - large screens](assets\images\readme\wireframe\wireframe-large-rooms-page.png) | ![Rooms Page Wireframe - small screens](assets\images\readme\wireframe\wireframe-small-rooms-page.png) |
-<!-- Add mobile version -->
 </details>
 
 <details>
@@ -142,7 +140,6 @@ A typical customer for the Pokémon Island Resort is:
 | Classes Page on large screens (laptop +): | Classes Page on smaller screens (mobile & tablet): |
 | --- | --- |
 | ![Classes Page Wireframe - large screens](assets\images\readme\wireframe\wireframe-large-classes-page.png) | ![Classes Page Wireframe - small screens](assets\images\readme\wireframe\wireframe-small-classes-page.png) |
-<!-- Add mobile version -->
 </details>
 
 <details>
@@ -151,8 +148,6 @@ A typical customer for the Pokémon Island Resort is:
 | Success Page on large screens (laptop +): | Success Page on smaller screens (mobile & tablet): |
 | --- | --- |
 | ![Success Page Wireframe - large screens](assets\images\readme\wireframe\wireframe-large-success-page.png) | ![Success Page Wireframe - small screens](assets\images\readme\wireframe\wireframe-small-success-page.png) |
-
-<!-- Add mobile version -->
 </details>
 
 <details>
@@ -161,8 +156,6 @@ A typical customer for the Pokémon Island Resort is:
 | 404 Page on large screens (laptop +): | 404 Page on smaller screens (mobile & tablet): |
 | --- | --- |
 | ![404 Page Wireframe - large screens](assets\images\readme\wireframe\wireframe-large-404-page.png) | ![404 Page Wireframe - small screens](assets\images\readme\wireframe\wireframe-small-404-page.png) |
-
-<!-- Add mobile version -->
 </details>
 
 ---
