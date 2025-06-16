@@ -121,7 +121,7 @@ A typical customer for the Pokémon Island Resort is:
 <summary>Home Page Wireframe Images</summary>
 
 | Home Page on large screens (laptops & larger): | Home Page on smaller screens (mobile & tablet): |
-| --- | --- |
+| :---: | :---: |
 |  | I have removed some of the text bubbles so that the image isn't too long |
 | ![Home Page Wireframe - large screens](assets/images/readme/wireframes/wireframe-large-home-page.jpg) | ![Home Page Wireframe - small screens](assets/images/readme/wireframes/wireframe-small-home-page.jpg) |
 </details>
@@ -130,7 +130,7 @@ A typical customer for the Pokémon Island Resort is:
 <summary>Rooms Page Wireframe Images</summary>
 
 | Rooms Page on large screens (laptop & larger): | Rooms Page on smaller screens (mobile & tablet): |
-| --- | --- |
+| :---: | :---: |
 | ![Rooms Page Wireframe - large screens](assets/images/readme/wireframes/wireframe-large-rooms-page.jpg) | ![Rooms Page Wireframe - small screens](assets/images/readme/wireframes/wireframe-small-rooms-page.jpg) |
 </details>
 
@@ -138,7 +138,7 @@ A typical customer for the Pokémon Island Resort is:
 <summary>Classes Page Wireframe Images</summary>
 
 | Classes Page on large screens (laptop & larger): | Classes Page on smaller screens (mobile & tablet): |
-| --- | --- |
+| :---: | :---: |
 | ![Classes Page Wireframe - large screens](assets/images/readme/wireframes/wireframe-large-classes-page.jpg) | ![Classes Page Wireframe - small screens](assets/images/readme/wireframes/wireframe-small-classes-page.jpg) |
 </details>
 
@@ -146,7 +146,7 @@ A typical customer for the Pokémon Island Resort is:
 <summary>Success Page Wireframe Images</summary>
 
 | Success Page on large screens (laptop & larger): | Success Page on smaller screens (mobile & tablet): |
-| --- | --- |
+| :---: | :---: |
 | ![Success Page Wireframe - large screens](assets/images/readme/wireframes/wireframe-large-success-page.jpg) | ![Success Page Wireframe - small screens](assets/images/readme/wireframes/wireframe-small-success-page.jpg) |
 </details>
 
@@ -154,7 +154,7 @@ A typical customer for the Pokémon Island Resort is:
 <summary>404 Page Wireframe Images</summary>
 
 | 404 Page on large screens (laptop & larger): | 404 Page on smaller screens (mobile & tablet): |
-| --- | --- |
+| :---: | :---: |
 | ![404 Page Wireframe - large screens](assets/images/readme/wireframes/wireframe-large-404-page.jpg) | ![404 Page Wireframe - small screens](assets/images/readme/wireframes/wireframe-small-404-page.jpg) |
 </details>
 
@@ -180,7 +180,7 @@ To be able to use each of these specific colours from the image throughout the w
 
 ### Colour Pallet
 
-![Colour Pallet](assets/images/readme/colour-pallet.png)
+![Colour Pallet](assets/images/readme/colour-pallet.jpg)
 
 For future maintainability, I defined each colour as a CSS variable (e.g., `var(--colour-name)`). This approach made it easy to update the palette later if needed - changing a single variable would update the colour everywhere it was used. This was especially helpful when testing text contrast for accessibility, as did end up changing the colour I had selected for the paragraph text when testing against the background colour of the text 'bubbles', so that it would pass all of the tests in the [add link] contrast test as it didn't originally.
 
@@ -270,16 +270,10 @@ This has links to all of the main pages and is always fixed to the top, so is ac
 
 ![Full Sized Navbar with open dropdown menu](assets/images/readme/navbar-full-size-dropdown.png)
 
-<!-- CHOOSE ABOVE OR BELOW -->
-
-| Larger Screen (Full Sized) Navbar: | Larger Screen (Full Sized) Navbar: with open Dropdown Menu: |
-| --- | --- |
-| ![Full Sized Navbar](assets/images/readme/navbar-full-size.png) | ![Full Sized Navbar with open dropdown menu](assets/images/readme/navbar-full-size-dropdown.png) |
-
 Below is an interactive feature to show you the buttons in the navbar and dropdown options of each (tap the arrow to see dropdown options):
 
 <details>
-<summary>Home - (Dropdown arrow only shows when on Home Page, on Classes and Suites Pages, the button changes to 'Back to Home')</summary>
+<summary>Home - (Dropdown arrow only shows when on Home Page, on other pages the button changes to 'Back to Home')</summary>
   - Our Activities<br>
   - Our Trainers<br>
   - Message Us <br>
@@ -315,36 +309,16 @@ Below is an interactive feature to show you the buttons in the navbar and dropdo
 - Book Now!<br>
 </details><br>
 
-**Smaller Screen (Collapsed) Navbar:**
-
-![Collapsed Navbar](assets/images/readme/navbar-collapsed.png)
-
-**Open Smaller Screen (Collapsed) Navbar:**
-
-![Collapsed Navbar](assets/images/readme/navbar-collapsed-open.png)
-
-<!-- CHOOSE ABOVE OR BELOW -->
-
 | Smaller Screen (Collapsed) Navbar: | Open Smaller Screen (Collapsed) Navbar: |
-| --- | --- |
+| :---: | :---: |
 | ![Collapsed Navbar](assets/images/readme/navbar-collapsed.png) | ![Collapsed Navbar](assets/images/readme/navbar-collapsed-open.png) |
 
 ### Footer:
 
 This has links to social media, and is shown at the bottom of each page, although not fixed in place over the content like the **Navbar** is
 
-**Larger Screen Footer:**
-
-![Full Sized Footer](assets/images/readme/footer-full-size.png)
-
-**Smaller Screen Footer:**
-
-![Collapsed Footer](assets/images/readme/footer-collapsed.png)
-
-<!-- CHOOSE ABOVE OR BELOW -->
-
 | Larger Screen Footer: | Smaller Screen Footer: |
-| --- | --- |
+| :---: | :---: |
 | ![Full Sized Footer](assets/images/readme/footer-full-size.png) | ![Collapsed Footer](assets/images/readme/footer-collapsed.png) |
 
 ---
@@ -479,25 +453,15 @@ Success Page:
 
 [WebAIM Contrast Checker](https://webaim.org/resources/contrastchecker/)
 
-[WebAIM Contrast Checker showing the 2 colours I compared](https://webaim.org/resources/contrastchecker/?fcolor=674A18&bcolor=FEEDDC)
+| Original text colour which didn't pass the AAA test: | Original Colour Pallet before testing: |
+| :---: | :---: |
+| ![Checking Contrast of text colour and background](assets/images/readme/testing/webaim-contrast-checker-fail.png) | ![Old Colour Pallet](assets/images/readme/colour-pallet-original.jpg) |
 
-<details>
-<summary>Original Colour Pallet which didn't pass the AAA test:</summary>
-
-![Colour Pallet](assets/images/readme/original-colour-pallet.png)
-</details><br>
-
-<details>
-<summary>Original dark brown text colour which didn't pass the AAA test:</summary>
-
-![Checking Contrast of text colour and background](assets/images/readme/testing/webaim-contrast-checker-fail.png)
-</details><br>
-
-<details>
-<summary>New dark brown text colour which now which now passes the AAA test:</summary>
+### New text colour which now which now passes the AAA test:
 
 ![Checking Contrast of text colour and background](assets/images/readme/testing/webaim-contrast-checker-pass.png)
-</details>
+
+[WebAIM Contrast Checker link showing the 2 colours I compared](https://webaim.org/resources/contrastchecker/?fcolor=674A18&bcolor=FEEDDC)
 
 ---
 
@@ -577,7 +541,7 @@ These were added every time I formatted my pages, and resulted in errors in the 
 I added a class to the page title, and added `padding-left` of the same width of the burger icon.
 
 | Page Title too far to the left: | Page title centralised with left-padding added: |
-| --- | --- |
+| :---: | :---: |
 | ![Page Title with no padding](assets/images/readme/issue/page-title-center/issue-page-title-no-padding.png) | ![Page Title centralised with left padding](assets/images/readme/issue/page-title-center/issue-page-title-left-padding.png) |
 ```css
 .page-title {
@@ -586,7 +550,7 @@ I added a class to the page title, and added `padding-left` of the same width of
 ```
 This also had to be amended to match the burger icon's new width on a larger screen as I added padding to the x-axis at the mobile to tablet breakpoint. I checked the width of the burger icon at each breakpoint using Chrome DevTools (shown below).
 | Smaller burger icon without added padding in the x-axis: | Smaller burger icon with added padding in the x-axis: |
-| --- | --- |
+| :---: | :---: |
 | ![Smaller burger icon without added padding in the x-axis](assets/images/readme/issue/page-title-center/issue-burger-icon-small.png) | ![Smaller burger icon with added padding in the x-axis](assets/images/readme/issue/page-title-center/issue-burger-icon-large.png) |
 ```css
 @media (max-width: 426px) {
