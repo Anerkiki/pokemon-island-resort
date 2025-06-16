@@ -59,6 +59,8 @@ View live website [here](https://anerkiki.github.io/pokemon-island-resort/) (Hos
 
 # Design and Planning
 
+---
+
 ## Objectives
 
 The main objectives of the Pokemon Island Resort website are:
@@ -122,8 +124,8 @@ A typical customer for the Pokémon Island Resort is:
 
 | Home Page on larger screens (laptops & larger): | Home Page on smaller screens (mobile & tablet): |
 | :---: | :---: |
-|  | *I removed some of the extra text bubbles that will be on <br>the finished website so that the image isn't too long* |
 | ![Home Page Wireframe - large screens](assets/images/readme/wireframes/wireframe-large-home-page.png) | ![Home Page Wireframe - small screens](assets/images/readme/wireframes/wireframe-small-home-page.png) |
+|  | *I removed some of the extra text bubbles that will be on <br>the finished website so that the image isn't too long* |
 </details>
 
 <details>
@@ -157,6 +159,7 @@ A typical customer for the Pokémon Island Resort is:
 | :---: | :---: |
 | ![404 Page Wireframe - large screens](assets/images/readme/wireframes/wireframe-large-404-page.png) | ![404 Page Wireframe - small screens](assets/images/readme/wireframes/wireframe-small-404-page.png) |
 </details>
+
 ---
 
 ## Typography/Fonts
@@ -193,7 +196,7 @@ I used a [Color Blender tool](https://meyerweb.com/eric/tools/color-blend/#FFD8B
 <summary>Click for Image of Color Blender showing the two colours I inputted to find midpoint colour</summary>
 
 ![Color Blender showing the two colours I inputted to find midpoint colour](assets/images/readme/tools/color-blender.png)
-</details><br>
+</details>
 
 ### Font Colouring
 
@@ -202,9 +205,6 @@ The only colour (in the Colour Pallet) not from the background image was the dar
 For this reason I kept the headings (Skranji) as more colourful, in a brighter green/golden sandy colour depending on the background shade, e.g. the bolder leaf colour on a paler background and the lighter sand colour on a darker background, so that the contrast is enough to be read easily.
 
 I tested the colors using [WebAIM Contrast Checker Test](https://webaim.org/resources/contrastchecker), and amended the colours slightly later on so that I would pass tests that I'd failed with the previous colour. [This is where I show the Contrast Test Outcomes](#webaim-contrast-checker-test) in the [Testing](#testing) section.
-
----
-<!-- Another Title? -->
 
 ### Favicon
 
@@ -219,6 +219,8 @@ I decided to use this too for the footer, as it gave the site a bit more of a 'b
 ---
 
 # Features
+
+---
 
 ## Key Features
 
@@ -325,13 +327,12 @@ This has links to social media, and is shown at the bottom of each page, althoug
 ## Pages
 ***Note:*** *Pages/sections marked with **\*** can be accessed through the navbar buttons or their dropdown menu options*
 
----
-<!-- - **Homepage**: Highlights the resort's unique offerings and provides a welcoming introduction. -->
+**Home Page*** - Highlights the resort's unique offerings and provides a welcoming introduction.
 
-- **Home Page*** featuring:
-  - A fun and colourful **Hero Image** with small floating 'Welcome' text bubble.
-  - Different Navbar options depending on the screen size.
-  - A responsive Hero image that changes orientation at different sizes to fill the screen (portrait for mobile/tablet and landscape for laptop and larger screens)
+Featuring:
+- A fun and colourful **Hero Image** with small floating 'Welcome' text bubble.
+- Different Navbar options depending on the screen size.
+- A responsive Hero image that changes orientation at different sizes to fill the screen (portrait for mobile/tablet and landscape for laptop and larger screens)
 
 ![Mockups of Home Page on various screen sizes](assets/images/readme/mockups/mockups-home-page.png)
 
@@ -358,11 +359,12 @@ This has links to social media, and is shown at the bottom of each page, althoug
 ![Mockups of Home Page Contact Form on various screen sizes](assets/images/readme/mockups/mockups-home-page-form.png)
 
 ---
-<!-- - **suites Page**: Displays the available suites for booking, complete with descriptions and images. -->
 
-- **Suites Page*** featuring:
-  - A large bubble **Page Title** which disappears and is instead incorporated into the navbar on smaller (mobile) devices.
-  - **4 Suite Options*** with images, descriptions, [[[links to nearby activities??]]] and a 'Book Now' button, which links directly down to the Booking Form at the bottom of the page.
+**Suites Page*** - Lists the suites, complete with descriptions and images and has a booking request form.
+
+Featuring:
+- A large bubble **Page Title** which disappears and is instead incorporated into the navbar on smaller (mobile) devices.
+- **4 Suite Options*** with images, descriptions, [[[links to nearby activities??]]] and a 'Book Now' button, which links directly down to the Booking Form at the bottom of the page.
 
   **Suites Page** mockups:
   - As you can see the selected page (Suites) is underlined on the navbar button to show that this is the current page, and the dropdown menu arrow has appeared beside it
@@ -374,10 +376,11 @@ This has links to social media, and is shown at the bottom of each page, althoug
 ![Mockups of Suites Page Enquiry Form on various screen sizes](assets/images/readme/mockups/mockups-suites-page-form.png)
 
 ---
-<!-- - **Classes Page**: Lists the classes available for Pokemon, such as training sessions and recreational activities. -->
 
-- **Classes Page*** featuring:
-  - **5 Class Options*** which are all fully responsive, so the image is inside the description box in a mobile/tablet screen, and then on larger screens the images pop out of the text box and appear beside, increasing/decreasing from 1 to 4 depending on the screen size, to match the height of the description bubble. As well as related images, these all have titles, descriptions, which trainer/trainers that will take the class (including a link to the specific trainer on the main home page), and a 'Book Now' button, which links directly down to the Booking Form at the bottom of the page.
+**Classes Page*** - Lists the classes, complete with descriptions, images and trainers teaching the classes and has a booking request form.
+
+Featuring:
+- **5 Class Options*** which are all fully responsive, so the image is inside the description box in a mobile/tablet screen, and then on larger screens the images pop out of the text box and appear beside, increasing/decreasing from 1 to 4 depending on the screen size, to match the height of the description bubble. As well as related images, these all have titles, descriptions, which trainer/trainers that will take the class (including a link to the specific trainer on the main home page), and a 'Book Now' button, which links directly down to the Booking Form at the bottom of the page.
 
   **Classes Page** mockups:
 ![Mockups of Classes Page on various screen sizes](assets/images/readme/mockups/mockups-classes-page.png)
@@ -389,18 +392,22 @@ This has links to social media, and is shown at the bottom of each page, althoug
 
 ---
 
-- **Success/Thank You Page** feauturing:
-  - A large bubble **Page Title** saying 'Thank You' which disappears and is instead incorporated into the navbar on smaller (mobile) devices.
-  - A message of gratitude to the customer, including links to other places on the website that they can look at.
-  - An image of all of the Trainers/Team
+**Success/Thank You Page** – Confirms successful form submission with a friendly thank you message and offers links to explore more of the site.
+
+Feauturing:
+- A large bubble **Page Title** saying 'Thank You' which disappears and is instead incorporated into the navbar on smaller (mobile) devices.
+- A message of gratitude to the customer, including links to other places on the website that they can look at.
+- An image of all of the Trainers/Team
 
   **Success Page** mockups:
 ![Mockups of Success Page on various screen sizes](assets/images/readme/mockups/mockups-success-page.png)
 
 ---
 
-- **404 Page** featuring:
-  - Links back to different pages in a fun paragraph of text.
+**404 Page** - A custom error page with a playful message and links to help users return to the main sections of the site.
+
+Featuring:
+- Links back to different pages in a fun paragraph of text.
 
 ![Mockups of 404 Page on various screen sizes](assets/images/readme/mockups/mockups-404-page.png)
 
@@ -945,34 +952,3 @@ https://archives.bulbagarden.net/wiki/File:Kiawe_Charizard_Aerial_Ace.png
     - Dropdown Option 4 - **Fire Breathing & Fire Skills**
     - Dropdown Option 5 - **Snorkeling & Deep Sea Diving**
     - Dropdown Option 6 - **Book Now!**
-
----
-
----
-
-> [!NOTE]
-> Useful information that users should know, even when skimming content.
-
-> [!TIP]
-> Helpful advice for doing things better or more easily.
-
-> [!IMPORTANT]
-> Key information users need to know to achieve their goal.
-
-> [!WARNING]
-> Urgent info that needs immediate user attention to avoid problems.
-
-> [!CAUTION]
-> Advises about risks or negative outcomes of certain actions.
-
-<!-- Dropdown Template -->
-<!-- <details>
-<summary>Dropdown Template</summary>
-Inner Hidden Content
-</details>
-
-To change size of markup image - not working though:
-![Alt text](image-url.jpg){width=300 height=200}
-
-Can I link an image to a URL in Markdown?
-Yes, wrap the image syntax in link syntax: [![Alt Text](Image URL)](Link URL) -->
