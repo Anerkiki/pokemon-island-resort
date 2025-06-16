@@ -120,42 +120,42 @@ A typical customer for the Pokémon Island Resort is:
 <details>
 <summary>Home Page Wireframe Images</summary>
 
-| Home Page on large screens (laptop +): | Home Page on smaller screens (mobile & tablet): |
+| Home Page on large screens (laptops & larger): | Home Page on smaller screens (mobile & tablet): |
 | --- | --- |
 |  | I have removed some of the text bubbles so that the image isn't too long |
-| ![Home Page Wireframe - large screens](assets\images\readme\wireframe\wireframe-large-home-page.png) | ![Home Page Wireframe - small screens](assets\images\readme\wireframe\wireframe-small-home-page.png) |
+| ![Home Page Wireframe - large screens](assets\images\readme\wireframes\wireframe-large-home-page.jpg) | ![Home Page Wireframe - small screens](assets\images\readme\wireframes\wireframe-small-home-page.jpg) |
 </details>
 
 <details>
 <summary>Rooms Page Wireframe Images</summary>
 
-| Rooms Page on large screens (laptop +): | Rooms Page on smaller screens (mobile & tablet): |
+| Rooms Page on large screens (laptop & larger): | Rooms Page on smaller screens (mobile & tablet): |
 | --- | --- |
-| ![Rooms Page Wireframe - large screens](assets\images\readme\wireframe\wireframe-large-rooms-page.png) | ![Rooms Page Wireframe - small screens](assets\images\readme\wireframe\wireframe-small-rooms-page.png) |
+| ![Rooms Page Wireframe - large screens](assets\images\readme\wireframes\wireframe-large-rooms-page.jpg) | ![Rooms Page Wireframe - small screens](assets\images\readme\wireframes\wireframe-small-rooms-page.jpg) |
 </details>
 
 <details>
 <summary>Classes Page Wireframe Images</summary>
 
-| Classes Page on large screens (laptop +): | Classes Page on smaller screens (mobile & tablet): |
+| Classes Page on large screens (laptop & larger): | Classes Page on smaller screens (mobile & tablet): |
 | --- | --- |
-| ![Classes Page Wireframe - large screens](assets\images\readme\wireframe\wireframe-large-classes-page.png) | ![Classes Page Wireframe - small screens](assets\images\readme\wireframe\wireframe-small-classes-page.png) |
+| ![Classes Page Wireframe - large screens](assets\images\readme\wireframes\wireframe-large-classes-page.jpg) | ![Classes Page Wireframe - small screens](assets\images\readme\wireframes\wireframe-small-classes-page.jpg) |
 </details>
 
 <details>
 <summary>Success Page Wireframe Images</summary>
 
-| Success Page on large screens (laptop +): | Success Page on smaller screens (mobile & tablet): |
+| Success Page on large screens (laptop & larger): | Success Page on smaller screens (mobile & tablet): |
 | --- | --- |
-| ![Success Page Wireframe - large screens](assets\images\readme\wireframe\wireframe-large-success-page.png) | ![Success Page Wireframe - small screens](assets\images\readme\wireframe\wireframe-small-success-page.png) |
+| ![Success Page Wireframe - large screens](assets\images\readme\wireframes\wireframe-large-success-page.jpg) | ![Success Page Wireframe - small screens](assets\images\readme\wireframes\wireframe-small-success-page.jpg) |
 </details>
 
 <details>
 <summary>404 Page Wireframe Images</summary>
 
-| 404 Page on large screens (laptop +): | 404 Page on smaller screens (mobile & tablet): |
+| 404 Page on large screens (laptop & larger): | 404 Page on smaller screens (mobile & tablet): |
 | --- | --- |
-| ![404 Page Wireframe - large screens](assets\images\readme\wireframe\wireframe-large-404-page.png) | ![404 Page Wireframe - small screens](assets\images\readme\wireframe\wireframe-small-404-page.png) |
+| ![404 Page Wireframe - large screens](assets\images\readme\wireframes\wireframe-large-404-page.jpg) | ![404 Page Wireframe - small screens](assets\images\readme\wireframes\wireframe-small-404-page.jpg) |
 </details>
 
 ---
