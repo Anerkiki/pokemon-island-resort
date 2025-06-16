@@ -118,31 +118,11 @@ A typical customer for the Pokémon Island Resort is:
 ## Wireframes
 
 <details>
-<summary>Click for wireframe image of Home Page on larger screens</summary>
-
-Home Page on larger screens (laptops & larger):
-
-![Home Page Wireframe - large screens](assets/images/readme/wireframes/wireframe-large-home-page.png)
-
-<!-- Add all images back -->
-
-</details>
-
-<details>
-<summary>Click for wireframe image of Home Page on smaller screens</summary>
-
-Home Page on smaller screens (mobile & tablet):
-
-![Home Page Wireframe - small screens](assets/images/readme/wireframes/wireframe-small-home-page.png)
-
-</details>
-
-<details>
 <summary>Click for wireframe images of Home Page</summary>
 
 | Home Page on larger screens (laptops & larger): | Home Page on smaller screens (mobile & tablet): |
 | :---: | :---: |
-|  | *I have removed some of the extra text bubbles that will be <br>on the finished website so that the image isn't too long* |
+|  | *I removed some of the extra text bubbles that will be on <br>the finished website so that the image isn't too long* |
 | ![Home Page Wireframe - large screens](assets/images/readme/wireframes/wireframe-large-home-page.png) | ![Home Page Wireframe - small screens](assets/images/readme/wireframes/wireframe-small-home-page.png) |
 </details>
 
