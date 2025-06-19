@@ -7,7 +7,7 @@
 
 I am looking to create this website to showcase a fictional tropical island resort designed for Pokémon and their trainers.
 
-The goal is to create a visually engaging and appealing platform that captures the essence of a tropical getaway for Pokemon and Pokémon enthusiasts, which allows customers to get a feel for the resort, viewing the various activities the island has to offer, seeing and learning about the trainers, and booking suites/enrolling their Pokémon in classes.
+The goal is to create a visually engaging and appealing platform that captures the essence of a tropical getaway for Pokémon and Pokémon enthusiasts, which allows customers to get a feel for the resort, viewing the various activities the island has to offer, seeing and learning about the trainers, and booking suites/enrolling their Pokémon in classes.
 
 View live website [here](https://anerkiki.github.io/pokemon-island-resort/) (Hosted on GitHub pages)
 
@@ -63,11 +63,11 @@ View live website [here](https://anerkiki.github.io/pokemon-island-resort/) (Hos
 
 ## Objectives
 
-The main objectives of the Pokemon Island Resort website are:
+The main objectives of the Pokémon Island Resort website are:
 
 - **Showcase the Resort:** Present a vibrant, engaging overview of the fictional island resort, highlighting its unique features, activities, and accommodations for both Pokémon and their trainers.
 - **Enhance User Engagement:** Create an interactive and visually appealing experience that encourages users to explore the site, learn about the trainers, and discover the variety of classes and suites available.
-- **Facilitate Booking Requests and Inquiries:** Provide clear, accessible forms for users to enquire to book suites, enroll Pokémon in classes, or contact the resort, ensuring a smooth and user-friendly process.
+- **Facilitate Booking Requests and Enquiries:** Provide clear, accessible forms for users to enquire to book suites, enroll Pokémon in classes, or contact the resort, ensuring a smooth and user-friendly process.
 - **Promote Accessibility and Responsiveness:** Ensure the website is fully responsive and accessible across all devices and screen sizes, offering an optimal experience for every visitor.
 - **Build Trust and Credibility:** Use professional design, clear navigation, and transparent information to build user confidence in the resort and its offerings.
 
@@ -79,9 +79,9 @@ These objectives should guide the design, content, and functionality of the webs
 
 The website is designed to have a fun, playful feel, aiming to get potential visitors excited about everything the island has to offer. The overall aesthetic draws inspiration from tropical resorts and the vibrant world of Pokémon, using bright, cheerful colours and whimsical design elements throughout.
 
-A key part of the design is the use of text bubbles - these are partially transparent with curved, chunky colored borders that help them stand out against the background. On larger screens, images are also framed with thick, colorful borders, creating a cohesive and lively look. The layout is intentionally dynamic: as you scroll down the page, the text bubbles and images alternate from left to right, giving the site a playful, quirky, and engaging flow that encourages exploration.
+A key part of the design is the use of text bubbles - these are partially transparent with curved, chunky coloured borders that help them stand out against the background. On larger screens, images are also framed with thick, colourful borders, creating a cohesive and lively look. The layout is intentionally dynamic: as you scroll down the page, the text bubbles and images alternate from left to right, giving the site a playful, quirky, and engaging flow that encourages exploration.
 
-To further enhance the playful atmosphere, I incorporated a variety of colorful images. These visuals not only make the site more visually appealing but also help communicate the resort's unique offerings and the sense of adventure awaiting visitors. The combination of bold typography, vibrant color palette, and interactive elements (like dropdown menus and responsive layouts) ensures that the site feels welcoming and accessible to users of all ages, especially Pokémon fans and trainers looking for a fun getaway with their Pokémon.
+To further enhance the playful atmosphere, I incorporated a variety of colourful images. These visuals not only make the site more visually appealing but also help communicate the resort's unique offerings and the sense of adventure awaiting visitors. The combination of bold typography, vibrant colour palette, and interactive elements (like dropdown menus and responsive layouts) ensures that the site feels welcoming and accessible to users of all ages, especially Pokémon fans and trainers looking for a fun getaway with their Pokémon.
 
 Overall, every design choice - from the fonts and colours to the arrangement of content was made to capture the essence of a tropical Pokémon paradise, making the website both inviting and memorable.
 
@@ -129,6 +129,14 @@ A typical customer for the Pokémon Island Resort is:
 |  | *I removed some of the extra text bubbles that will be on <br>the finished website so that the image isn't too long* |
 </details>
 
+**Changes I made to this page**
+
+I decided to change the 'Island Features' title to 'Our Activities' instead to be more exciting and engaging for potential customers. The term 'Island Features' felt a bit generic and didn't fully capture the fun, adventurous spirit I wanted to convey. By renaming it to 'Our Activities', the section immediately communicates that there are a variety of things to do at the resort, inviting visitors to imagine themselves taking part in these experiences.
+
+I also changed the section title from 'Our Trainers and Pokémon' to just 'Our Trainers' to streamline the layout and make it more concise. Instead of listing both trainers and Pokémon together, I opted to highlight the trainers in the main section, and then specify which Pokémon are involved in each class within the relevant text bubbles.
+
+I also decided to add a 'Contact Us' button to the left of the navbar menu, as thought this would be better to be more immediately visible for users of the website, and then decided to change the navbar menu button names so they were shorter and more concise (from 'About Us' to 'Home', 'Our Trainers' to 'Trainers' and 'Contact Us' to 'Contact'), taking less room and balancing better with the longer buttons on the right side 'Book a Room' and 'Book a Class'.
+
 ### Rooms (/Suites) Page
 <details>
 <summary>Click for wireframe images of Rooms Page</summary>
@@ -147,6 +155,8 @@ I also decided to simplify this page to keep the images inside the boxes at both
 **Changes to both this page and the Classes Page**
 
 I decided to change the titles in the Rooms and Classes pages, instead of having both a page title in the navbar and on the main page to the navbar page title only showing at smaller screens, and switching to a larger title bubble at larger screens, so that the titles weren't duplicated and made best use of the available screen space.
+
+I also changed the navbar button options in these pages to reduce the 2/3 dropdown buttons on the left side of the navbar (was 'About Us' & 'Our Trainers', then 'Home', 'Trainers' and 'Contact') to just 1 normal 'Back to Home' button, and also changed the other page button on the right side to be a normal button instead of a dropdown button, leaving only dropdown buttons for the active page, which made navigating simpler and cleaner.
 
 ### Classes Page
 
@@ -202,7 +212,7 @@ To be able to use each of these specific colours from the image throughout the w
 
 ![Colour Pallet](assets/images/readme/colour-pallet.jpg)
 
-For future maintainability, I defined each colour as a CSS variable (e.g., `var(--colour-name)`). This approach made it easy to update the palette later if needed - changing a single variable would update the colour everywhere it was used. This was especially helpful when testing text contrast for accessibility, as did end up changing the colour I had selected for the paragraph text when testing against the background colour of the text 'bubbles', so that it would pass all of the tests in the [add link] contrast test as it didn't originally.
+For future maintainability, I defined each colour as a CSS variable (e.g., `var(--colour-name)`). This approach made it easy to update the palette later if needed - changing a single variable would update the colour everywhere it was used. This was especially helpful when testing text contrast for accessibility, as I did end up changing the colour I had selected for the paragraph text when testing against the background colour of the text 'bubbles', so that it would pass all of the tests in the [add link] contrast test as it didn't originally.
 
 I also used a couple of colours outside of this colour pallet, one which was a shade in between 2 of the colours from my colour pallet, and one which is a lighter version of the original - in places where the original colours didn't look quite right (either too light or too dark).
 
@@ -222,7 +232,7 @@ The only colour (in the Colour Pallet) not from the background image was the dar
 
 For this reason I kept the headings (Skranji) as more colourful, in a brighter green/golden sandy colour depending on the background shade, e.g. the bolder leaf colour on a paler background and the lighter sand colour on a darker background, so that the contrast is enough to be read easily.
 
-I tested the colors using [WebAIM Contrast Checker Test](https://webaim.org/resources/contrastchecker), and amended the colours slightly later on so that I would pass tests that I'd failed with the previous colour. [This is where I show the Contrast Test Outcomes](#webaim-contrast-checker-test) in the [Testing](#testing) section.
+I tested the colours using [WebAIM Contrast Checker Test](https://webaim.org/resources/contrastchecker), and amended the colours slightly later on so that I would pass tests that I'd failed with the previous colour. [This is where I show the Contrast Test Outcomes](#webaim-contrast-checker-test) in the [Testing](#testing) section.
 
 ### Favicon
 
@@ -230,7 +240,11 @@ The favicon for this site is a small palm tree icon, chosen to reflect the tropi
 
 ### Header/Navbar and Footer
 
-For the Header and Footer of the site, I decided I wanted it to have a bit of a bamboo shack feel, so started looking for images with horizontally lined up bamboo. Eventually found an image (link to bamboo image) I was happy with, but the colouring was wrong, so I decided to use an an partly overlay of one of the colours I'd decided on using before from the leaves the background image.
+For the Header and Footer of the site, I decided I wanted it to have a bit of a bamboo shack feel, so started looking for images with horizontally lined up bamboo. Eventually found an image (link to bamboo image) I was happy with, but the colouring was wrong, so I decided to use an image and add a coloured overlay of one of the colours I'd decided on using before from the leaves the background image.
+
+[edit this and add images]
+
+
 
 I decided to use this too for the footer, as it gave the site a bit more of a 'beach shack' type feel, and looked nice and dark enough for lighter content to show up well. 
 
@@ -378,11 +392,11 @@ Featuring:
 
 ---
 
-**Suites Page*** - Lists the suites, complete with descriptions and images and has a booking request form.
+**Suites Page*** - Lists the suites, complete with descriptions and images, and also has a booking request form.
 
 Featuring:
 - A large bubble **Page Title** which disappears and is instead incorporated into the navbar on smaller (mobile) devices.
-- **4 Suite Options*** with images, descriptions, [[[links to nearby activities??]]] and a 'Book Now' button, which links directly down to the Booking Form at the bottom of the page.
+- **4 Suite Options*** with images, descriptions, [[[-----links to nearby activities??----]]] and a 'Book Now' button, which links directly down to the Booking Form at the bottom of the page.
 
   **Suites Page** mockups:
   - As you can see the selected page (Suites) is underlined on the navbar button to show that this is the current page, and the dropdown menu arrow has appeared beside it
@@ -434,6 +448,8 @@ Featuring:
 
 # Testing
 
+---
+
 ## Lighthouse Performance
 
 When testing my website with Lighthouse, I encountered an issue, which I fixed (fixed scores below) which affected the 'Best Practices' score, as shown below:
@@ -445,8 +461,6 @@ When testing my website with Lighthouse, I encountered an issue, which I fixed (
 </details><br>
 
 This was due to `h1` elements being used within a `section` element, so by changing all the `h2`s to `h3`s and `h1`s in my `section`s to `h2`s, this fixed the issue, giving me the scores below for each of the pages:
-
----
 
 Home Page:
 
@@ -513,7 +527,7 @@ Below is an image of the new, slightly darker brown colour passing all of the te
   - Forms
   *What I'm testing:*
   Does all the validation work, so the form can't be submitted without all required fields filled and with valid/the correct characters?
-  Once submktted does it navigate to the success.html page?
+  Once submitted does it navigate to the success.html page?
   - External Links (Social Media Icons)
   Do they all lead to the intended website?
   Do they open in a new tab?
@@ -552,6 +566,21 @@ These were added every time I formatted my pages, and resulted in errors in the 
 
 **Solution:** I checked using Devtools and noticed that the background colour was being set my a bootstrap scss file, and that this was set as `!important;` so would override any background I added. Looking further I spotted it was being added because of the `bg-body-tertiary` class, so once I removed this, the background image covered the whole title & nav section, including the navbar.
 ![Code causing the issue](assets/images/readme/issue/issue-removing-navbar-background-code.png)
+</details>
+
+---
+
+### Bootstrap's Active page not visible
+
+<details>
+<summary>Issue & Solution:</summary>
+
+**Issue:** When customising the navbar from bootstrap, I changed the font/button border/hover colours, which meant the active page colour wasn't visible anymore, but I still wanted users to be able to see clearly from a glance which page they were on just from looking at the navbar.
+
+**Solution:** I decided to add in my own effect, by adding an underline to the button text of the current page.
+
+I did this by ...
+
 </details>
 
 ---
@@ -613,28 +642,97 @@ Later, I also updated the navbar alignment to better match the rest of the site'
 
 ---
 
-### Issue Title
+### Background Image too zoomed on pages with more content (especially on mobile view)
 
 <details>
 <summary>Issue & Solution:</summary>
 
 **Issue:**
+When deploying the website, I noticed that the background image whilst on main was far too zoomed in when on mobile/tablet view and looked pixelated
 
-**Solution:**
+I fixed this by applying the background image as a background to each section instead
 
+This results in multiple images for each section, but none too high so that it ends up too zoomed in
+
+
+
+The background image I used as a background was being stretched too much for pages where there was a lot of content, especially on mobile screens where boxes being stacked on top of each other made the page longer still, which resulted in the background image being very zoomed in, making it look pixelated, which didn't look good.
+
+|  |  |
+| :---: | :---: |
+| ![Image showing background image appearing too zoomed in and pixelated](assets/images/readme/issue/background-too-zoomed/issue-background-too-zoomed-before.png) | ![Image showing background image appearing too zoomed in and pixelated](assets/images/readme/issue/background-too-zoomed/issue-background-too-zoomed-before-two.png) |
+
+**Solution:** I resolved this issue by splitting the content into seperate sections, and adding the background image to each section, instead of having all of the content in one huge section. I found that having around 2 of the text boxes in each worked well on all screen sizes, eliminating the need to change the amount of sections depending on screen sizes, which I did consider, but would have added a lot more code and been more complex than necessary.
+
+**New Issue**
+
+When doing this I encountered an issue, in which the image didn’t spread all the way to the edges of the screen, and we were left with quite a large gap around the edges at certain screen sizes
+
+![Background image not stretched to edges of screen](assets/images/readme/issue/background-too-zoomed/issue-background-not-covering.png)
+
+**Solution**
+
+I used Chrome DevTools to inspect this, and by removing the container class realised this took away the gap around the edges.
+
+I attempted to fix this by changing the section with the container attribute to a div, and wrapping this div inside a section.
+
+I also moved the id from one of the divs further down to this new section tag, so that it was clearer which section was which
+
+Before:
+
+```html
+ <!-- Island Features -->
+        <section class="container m-4 mx-auto">
+            <div class="row justify-content-center">
+            
+                <div class="col-12 text-center title-bubble" id="our-island">
+                    <h2 class="display-4 floating-section title-bubble-text">Our Island</h2>
+                </div>
+
+                <article class="col-12 col-lg-5 text-center floating-section p-4">
+                    <h2 class="display-6">Island Feature</h2>
+                    <p class="lead">Our resort is nice!</p>
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ullam maxime laboriosam,
+                        quae dolores voluptate nisi sed cumque cupiditate tenetur veniam beatae magnam iure. Quo, nam?
+                        Fugit, laboriosam aperiam. Accusantium,&nbsp;debitis.</p>
+                </article>
+```
+
+After:
+
+```html
+<!-- Our Island & Features Section -->
+    <section id="our-island">
+        <div class="container m-4 mx-auto">
+            <div class="row justify-content-center">
+
+                <div class="col-12 text-center title-bubble">
+                    <h2 class="display-4 floating-section title-bubble-text">Our Island</h2>
+                </div>
+
+                <article class="col-12 col-lg-5 text-center floating-section p-4">
+                    <h2 class="display-6">Island Feature</h2>
+                    <p class="lead">Our resort is nice!</p>
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ullam maxime laboriosam,
+                        quae dolores voluptate nisi sed cumque cupiditate tenetur veniam beatae magnam iure. Quo, nam?
+                        Fugit, laboriosam aperiam. Accusantium,&nbsp;debitis.</p>
+                </article>
+```
+<!-- remove this from notion -->
 </details>
 
 ---
 
-### Issue Title
+### Added gaps interfering with Bootstrap flexbox spacing
 
 <details>
 <summary>Issue & Solution:</summary>
 
-**Issue:**
+**Issue:** After I decided to add universal gaps and spacing between all items in my text bubbles (I added `gap: 20px;` to the `.row` class), I noticed that some of the bootstrap flexbox items weren't appearing correctly, for example. the input boxes in my forms didn't appear side by side anymore, even though the column sizes didn't add up to more than 12.
 
-**Solution:**
+![Image showing 2 col-6 text boxes not appearing in line](assets/images/readme/issue/added-gaps-interfering-with-flex/columns-appearing-wrong.png)
 
+**Solution:** To fix this issue I changed the column size numbers (eg. `col-6`) to numbers that added up to 11 instead of 12 per row, to account for the added gap, so instead of 2 `col-6`s in a row I changed it to `col-6` and `col-5` or 2 `col-5`s. This fixed the issue, and after altering the other text boxes to match these new sizes, the forms looked great again.
 </details>
 
 ---
@@ -678,7 +776,23 @@ CODE HERE
 
 I also added space between images with [code] so that the gap was dispersed between each image, making it appear less, rather than showing as an obvious gap at the bottom.
 
-I then did the same to the titles, paragraphs and buttons in the text boxes/bubbles by ...
+I then did the same to the titles, paragraphs and buttons in the text boxes/bubbles by adding `d-flex flex-column justify-content-evenly` to all article elements which contain the headers and paragraphs so that the content is aligned correctly vertically, with even gaps at the top and bottom, rather than just squashed to the top if the box is too big.
+
+| | |
+| :---: | :---: |
+| ![Text box gaps before](assets/images/readme/issue/textbox-and-images-gaps/text-gaps-before.png) | [Text box gaps after](assets/images/readme/issue/textbox-and-images-gaps/text-gaps-after.png) |
+
+I chose `justify-content-evenly` instead of `center`, as it worked better to spread the items better, leaving less gaps, and then by adding/removing images at certain screen sizes I made it so that there were never any noticeable gaps, no matter the screen size.
+
+[Justify Content explanation on Bootstrap](assets/images/readme/issue/textbox-and-images-gaps/justify-content.png)
+
+**New Issue**
+
+After I had done this, I noticed that the buttons and text above didn't look as good spread out, so I added a div around these 2 so that the gap wouldn't affect inbetween these.
+
+[Text box gaps before](assets/images/readme/issue/textbox-and-images-gaps/added-jc-evenly-before-divs.png)
+
+<!-- add after image and put in table -->
 
 ---
 
@@ -690,9 +804,9 @@ I then did the same to the titles, paragraphs and buttons in the text boxes/bubb
 <details>
 <summary>Issue & Solution:</summary>
 
-**Issue:**
+**Issue:** [add]
 
-**Solution:**
+**Solution:** [add]
 
 </details>
 
