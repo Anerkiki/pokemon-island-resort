@@ -119,6 +119,7 @@ A typical customer for the Pokémon Island Resort is:
 
 ## Wireframes
 
+### Home Page
 <details>
 <summary>Click for wireframe images of Home Page</summary>
 
@@ -128,6 +129,7 @@ A typical customer for the Pokémon Island Resort is:
 |  | *I removed some of the extra text bubbles that will be on <br>the finished website so that the image isn't too long* |
 </details>
 
+### Rooms (/Suites) Page
 <details>
 <summary>Click for wireframe images of Rooms Page</summary>
 
@@ -135,6 +137,18 @@ A typical customer for the Pokémon Island Resort is:
 | :---: | :---: |
 | ![Rooms Page Wireframe - large screens](assets/images/readme/wireframes/wireframe-large-rooms-page.png) | ![Rooms Page Wireframe - small screens](assets/images/readme/wireframes/wireframe-small-rooms-page.png) |
 </details>
+
+**Changes I made to this page**
+
+Later, I decided to change the name of this page from 'Rooms' to 'Suites', as I felt having apartments and chalets, etc. would give a more luxurious feel than simply having rooms to book.
+
+I also decided to simplify this page to keep the images inside the boxes at both screen sizes, instead of popping out to be at the side, like I have in my Home and Classes pages, as I was only using 1 image per room, so it worked better at all screen sizes.
+
+**Changes to both this page and the Classes Page**
+
+I decided to change the titles in the Rooms and Classes pages, instead of having both a page title in the navbar and on the main page to the navbar page title only showing at smaller screens, and switching to a larger title bubble at larger screens, so that the titles weren't duplicated and made best use of the available screen space.
+
+### Classes Page
 
 <details>
 <summary>Click for wireframe images of Classes Page</summary>
@@ -144,6 +158,8 @@ A typical customer for the Pokémon Island Resort is:
 | ![Classes Page Wireframe - large screens](assets/images/readme/wireframes/wireframe-large-classes-page.png) | ![Classes Page Wireframe - small screens](assets/images/readme/wireframes/wireframe-small-classes-page.png) |
 </details>
 
+### Success Page
+
 <details>
 <summary>Click for wireframe images of Success Page</summary>
 
@@ -151,6 +167,8 @@ A typical customer for the Pokémon Island Resort is:
 | :---: | :---: |
 | ![Success Page Wireframe - large screens](assets/images/readme/wireframes/wireframe-large-success-page.png) | ![Success Page Wireframe - small screens](assets/images/readme/wireframes/wireframe-small-success-page.png) |
 </details>
+
+### 404 Page
 
 <details>
 <summary>Click for wireframe images of 404 Page</summary>
@@ -354,7 +372,7 @@ Featuring:
 
   - A **Contact Form*** to get in touch, with an adjustable message box, which links to the **Success/Thank You Page** when correctly submitted.
 
-**Home Page Contact Form** mockups showing one of the dropdown menu options that directs there from the Home button:<br>
+  **Home Page Contact Form** mockups showing one of the dropdown menu options that directs there from the Home button:<br>
 *(you can also use the Contact button or 'Send Us a Message' option in the Contact dropdown menu)*
 ![Mockups of Home Page Contact Form on various screen sizes](assets/images/readme/mockups/mockups-home-page-form.png)
 
@@ -388,6 +406,7 @@ Featuring:
   - A Class **Booking Form*** with dropdown menu to pick a suite to enquire about, which link to the **Success/Thank You Page** when correctly submitted.
 
   **Classes Page Enquiry Form** mockups showing open dropdown menu with Classes 'Book Now' option selected:
+  <!-- remove this and all others like it - combine with bulletpoints/text above -->
 ![Mockups of Classes Page Enquiry Form on various screen sizes](assets/images/readme/mockups/mockups-classes-page-form.png)
 
 ---
