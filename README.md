@@ -24,7 +24,7 @@ View live website [here](https://anerkiki.github.io/pokemon-island-resort/) (Hos
   - [Wireframes](#wireframes)
   - [Typography/Fonts](#typographyfonts)
   - [Colour Scheme/Design](#colour-schemedesign)
-    - [Background](#background)
+    - [Background Images](#background-images)
     - [Colour Pallet](#colour-pallet)
     - [Font Colouring](#font-colouring)
     - [Favicon](#favicon)
@@ -203,13 +203,19 @@ For paragraph text, I wanted a simple, clear, and unfussy font that would comple
 
 ## Colour Scheme/Design
 
-### Background
+### Background Images
 
 I wanted the website's colour scheme to evoke a welcoming and relaxing island holiday feeling, so I decided on a background in either a sandy tone or a blue sea colour.
 
-I also liked the idea of having a background image, so I began by searching on some of the free image websites for a suitable image that would set the tone for the site. After browsing through a few options, I found a [background image](#background-photo) on [Freepik](https://www.freepik.com/) that felt like it perfectly matched the tropical vibe I envisioned. I instantly loved the colours in this image (and how well they worked together) - from the golden sand background colour, the vibrant green of the palm leaves, and the range of other colours in the smaller details such as the shells and footprints - and decided to make a colour palette from these to use throughout the website for consistency.
+I also liked the idea of having a background image, so I began by searching on some of the free image websites for a suitable image that would set the tone for the site. After browsing through a few options, I found a [background image](#background-image-for-main-sections) on [Freepik](https://www.freepik.com/) that felt like it perfectly matched the tropical vibe I envisioned. I instantly loved the colours in this image (and how well they worked together) - from the golden sand background colour, the vibrant green of the palm leaves, and the range of other colours in the smaller details such as the shells and footprints - and decided to make a colour palette from these to use throughout the website for consistency.
 
 To be able to use each of these specific colours from the image throughout the website, I used the [ColorZilla Chrome Extension](https://www.colorzilla.com/), which allowed me to pinpoint and extract exact colour codes directly from any online image. I added many different colours, then refined my choices by previewing them on the site to ensure they complemented each other and provided good contrast.
+
+### Header/Navbar and Footer
+
+For the Header and Footer of the site, I decided I wanted it to have a bit of a bamboo shack feel, so started looking for images with horizontally lined up bamboo. Eventually found an [image](#bamboo-image-used-as-header-and-footer-background) I was happy with, but the colouring was wrong, so I decided to use an image and add a coloured overlay of one of the colours I'd decided on using before from the leaves the background image.
+
+I decided to use this too for the footer, as it gave the site a bit more of a 'beach shack' type feel, and looked nice and dark enough for lighter content to show up well.
 
 ### Colour Pallet
 
@@ -240,16 +246,6 @@ I tested the colours using [WebAIM Contrast Checker Test](https://webaim.org/res
 ### Favicon
 
 The favicon for this site is a small palm tree icon, chosen to reflect the tropical island theme of the resort. It appears in the browser tab and bookmarks, helping users quickly identify the site. The favicon was sourced from IconArchive and is free to use under an open source license. Its playful design complements the overall branding and adds a professional touch to the website.
-
-### Header/Navbar and Footer
-
-For the Header and Footer of the site, I decided I wanted it to have a bit of a bamboo shack feel, so started looking for images with horizontally lined up bamboo. Eventually found an image (link to bamboo image) I was happy with, but the colouring was wrong, so I decided to use an image and add a coloured overlay of one of the colours I'd decided on using before from the leaves the background image.
-
-[edit this and add images]
-
-
-
-I decided to use this too for the footer, as it gave the site a bit more of a 'beach shack' type feel, and looked nice and dark enough for lighter content to show up well. 
 
 ---
 
