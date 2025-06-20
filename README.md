@@ -33,6 +33,9 @@ View live website [here](https://anerkiki.github.io/pokemon-island-resort/) (Hos
 - [Features](#features)
   - [Key Features](#key-features)
   - [Site Wide Features](#site-wide-features)
+    - [Navbar](#navbar)
+    - [Footer](#footer)
+    - [No Break Spaces](#no-break-spaces)
   - [Pages](#pages)
 
 - [Testing](#testing)
@@ -354,6 +357,10 @@ This has links to social media, and is shown at the bottom of each page, althoug
 | :---: | :---: |
 | ![Full Sized Footer](assets/images/readme/footer-full-size.png) | ![Collapsed Footer](assets/images/readme/footer-collapsed.png) |
 
+### No Break Spaces
+
+
+
 ---
 
 ## Pages
@@ -527,6 +534,8 @@ https://accessibleweb.com/website-accessibility-checker/?page_url=https%3A%2F%2F
 
 ## WAVE Test
 
+<!-- Put all wave images into wave folder and rename all -->
+
 <details>
 <summary>False Contrast Errors</summary>
 
@@ -547,27 +556,69 @@ https://accessibleweb.com/website-accessibility-checker/?page_url=https%3A%2F%2F
 After I added the code to 'fix' these errors, these were my test results:
 
 ### Home Page
+
+There were **no Errors** or **Contrast Errors** in the Home Page.
+
 |  |  |
 | :---: | :---: |
-| ![alt text](image-4.png) | ![alt text](image-5.png)  |
-
-There were **no Errors** or **Contrast Errors** on the Home Page.
+| ![Home Page Summary](assets/images/readme/testing/wave/home-page-summary.png) | ![Home Page Details](assets/images/readme/testing/wave/home-page-details.png) |
 
 The Alerts above are due to the links to the Suites page at the bottom of the Activity text bubbles, as the link is on the word "here", which the testing tool isn't sure if will be clear to users. However, I believe this is clear enough as is clearly specified in the words before the link.
 
 The other Alerts were due to the links being to the same place at the bottom of each text box, which was also intentional and doesn't cause a problem.
 
-![alt text](image.png)
+![Alerts from Home Page Wave Tests](assets/images/readme/testing/wave/home-page-alerts.png)
 
 ### Suites Page
 
-![alt text](image-3.png)
+There were **no Errors** or **Contrast Errors** in the Suites Page.
+
+The alerts in this page were again only caused by 'redundant'/duplicate links from the 'Book Now' buttons at the bottom of each Suite description, which takes you to the booking enquiry form at the bottom of the page, which I am happy with and will leave as it is.
+
+|  |  |
+| :---: | :---: |
+| ![Suites Page Summary](assets/images/readme/testing/wave/suites-page-summary.png) | ![Suites Page Details](assets/images/readme/testing/wave/suites-page-details.png) |
 
 ### Classes Page
 
+There were **no Errors** or **Contrast Errors** in the Classes Page.
+
+<details>
+<summary>Fixed 'Possible Heading' alerts</summary>
+
+![Classes Page Summary](assets/images/readme/testing/wave/classes-page-summary-before.png)
+
+There were some 'possible heading' alerts on this page, which I amended by changing some of the paragraphs (`p` tags) with the `.lead` class to `h3` size headers with the `.lead` class instead.
+
+Before:
+```html
+<p class="lead mb-1">with Trainer&nbsp;Lana</p>
+```
+After:
+```html
+<h4 class="lead mb-1">with Trainer&nbsp;Lana</h4>
+```
+</details><br>
+
+There were also 'suspicious link text' alerts from the links on the word "here" again, but it is explained in the words before, so I am happy to leave that as it is.
+
+The redundant link alert again is only caused by duplicate links from the 'Book Now' buttons at the bottom of each Suite description, which takes you to the booking enquiry form at the bottom of the page, which again, I am happy with and will leave as it is.
+
+|  |  |
+| :---: | :---: |
+| ![Classes Page Summary](assets/images/readme/testing/wave/classes-page-summary.png) | ![Classes Page Details](assets/images/readme/testing/wave/classes-page-details.png) |
+
 ### Success Page
 
+There were **no Errors**, **Contrast Errors** or **Alerts** in the Success Page.
+
+![Success Page Summary](assets/images/readme/testing/wave/success-page-summary.png)
+
 ### 404 Page
+
+There were **no Errors**, **Contrast Errors** or **Alerts** in the 404 Page.
+
+![404 Page Summary](assets/images/readme/testing/wave/404-page-summary.png)
 
 ---
 
@@ -1132,7 +1183,7 @@ https://archives.bulbagarden.net/wiki/File:Kiawe_Charizard_Aerial_Ace.png
 ---
 
 ### Full Navbar Button Dropdown List
-
+<!-- maybe get rid of this? -->
   - **Home** Button - (Dropdown arrow only shows when on Home page, on Classes and Suites pages, the button changes to **Back to Home**)
     - Dropdown Option 1 - **Our Activities**
     - Dropdown Option 2 - **Our Trainers**
