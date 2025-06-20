@@ -1045,7 +1045,7 @@ After I had done this, I noticed that the buttons and text above didn't look as 
 <details>
 <summary>*click to view image*</summary>
 
-![Background image with sand and palm leaves](./assets/images/site-wide/beach-background.jpg)
+![Background image with sand and palm leaves](assets/images/site-wide/background-beach.jpg)
 
 </details>
 
@@ -1055,7 +1055,7 @@ After I had done this, I noticed that the buttons and text above didn't look as 
 <details>
 <summary>*click to view image*</summary>
 
-![Bamboo image from Header and Footer](assets/images/site-wide/bamboo-background.jpg)
+![Bamboo image from Header and Footer](assets/images/site-wide/background-bamboo.jpg)
 
 </details>
 
@@ -1070,7 +1070,7 @@ After I had done this, I noticed that the buttons and text above didn't look as 
 <details>
 <summary>*click to view image*</summary>
 
-![Palm Tree Favicon](./assets/images/site-wide/palm.ico)
+![Palm Tree Favicon](assets/images/site-wide/palm.ico)
 
 </details>
 
@@ -1086,7 +1086,7 @@ Landscape Image - (Laptop and larger screens):
 <details>
 <summary>*click to view image*</summary>
 
-![Palm Tree Favicon](./assets/images/hero/hero-landscape.jpeg)
+![Landscape Hero Image](assets/images/hero/hero-landscape.jpeg)
 
 </details>
 
@@ -1099,7 +1099,7 @@ Portrait Image - (Mobile and Tablet screens):
 <details>
 <summary>*click to view image*</summary>
 
-![Palm Tree Favicon](./assets/images/hero/hero-portrait.jpg)
+![Portrait Hero Image](assets/images/hero/hero-portrait.jpg)
 
 </details>
 
