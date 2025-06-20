@@ -24,11 +24,10 @@ View live website [here](https://anerkiki.github.io/pokemon-island-resort/) (Hos
   - [Wireframes](#wireframes)
   - [Typography/Fonts](#typographyfonts)
   - [Colour Scheme/Design](#colour-schemedesign)
-    - [Background Images](#background-images)
+    - [Background Images and Colours](#background-images-and-colours)
     - [Colour Pallet](#colour-pallet)
     - [Font Colouring](#font-colouring)
     - [Favicon](#favicon)
-    - [Header/Navbar and Footer](#headernavbar-and-footer)
 
 - [Features](#features)
   - [Key Features](#key-features)
@@ -203,7 +202,7 @@ For paragraph text, I wanted a simple, clear, and unfussy font that would comple
 
 ## Colour Scheme/Design
 
-### Background Images
+**Images and Colours**
 
 I wanted the website's colour scheme to evoke a welcoming and relaxing island holiday feeling, so I decided on a background in either a sandy tone or a blue sea colour.
 
@@ -211,11 +210,24 @@ I also liked the idea of having a background image, so I began by searching on s
 
 To be able to use each of these specific colours from the image throughout the website, I used the [ColorZilla Chrome Extension](https://www.colorzilla.com/), which allowed me to pinpoint and extract exact colour codes directly from any online image. I added many different colours, then refined my choices by previewing them on the site to ensure they complemented each other and provided good contrast.
 
-### Header/Navbar and Footer
+For the Header and Footer, I wanted to evoke the feel of a 'bamboo beach shack', so I searched for images featuring horizontally aligned bamboo. I eventually found a [bamboo image](#bamboo-image-used-as-header-and-footer-background) that fit the look I wanted, but its original colors didn’t quite match my chosen palette, so I added a semi-transparent colored overlay using one of the palette colors extracted from the background image over the top of the bamboo background image. This approach allowed the bamboo texture to remain visible while ensuring the overall color scheme stayed consistent. The overlay also improves the readability of button text and titles against the background.
 
-For the Header and Footer of the site, I decided I wanted it to have a bit of a bamboo shack feel, so started looking for images with horizontally lined up bamboo. Eventually found an [image](#bamboo-image-used-as-header-and-footer-background) I was happy with, but the colouring was wrong, so I decided to use an image and add a coloured overlay of one of the colours I'd decided on using before from the leaves the background image.
+<details>
+<summary>*click to view Navbar before and after adding semi-transparent coloured overlay*</summary>
 
-I decided to use this too for the footer, as it gave the site a bit more of a 'beach shack' type feel, and looked nice and dark enough for lighter content to show up well.
+**Navbar image without overlay**
+
+![Navbar background image without coloured overlay](assets/images/readme/navbar-without-leaf-overlay.png)
+
+**Navbar with coloured semi-transparent overlay**
+
+![Navbar background image with coloured overlay](assets/images/readme/navbar-with-leaf-overlay.png)
+
+</details><br>
+
+**Favicon**
+
+The favicon for this site is a small palm tree icon, chosen to reflect the tropical island theme of the resort. It appears in the browser tab and bookmarks, helping users quickly identify the site. The favicon was sourced from IconArchive and is free to use under an open source license. Its playful design complements the overall branding and adds a professional touch to the website.
 
 ### Colour Pallet
 
@@ -242,10 +254,6 @@ The only colour (in the Colour Pallet) not from the background image was the dar
 For this reason I kept the headings (Skranji) as more colourful, in a brighter green/golden sandy colour depending on the background shade, e.g. the bolder leaf colour on a paler background and the lighter sand colour on a darker background, so that the contrast is enough to be read easily.
 
 I tested the colours using [WebAIM Contrast Checker Test](https://webaim.org/resources/contrastchecker), and amended the colours slightly later on so that I would pass tests that I'd failed with the previous colour. [This is where I show the Contrast Test Outcomes](#webaim-contrast-checker-test) in the [Testing](#testing) section.
-
-### Favicon
-
-The favicon for this site is a small palm tree icon, chosen to reflect the tropical island theme of the resort. It appears in the browser tab and bookmarks, helping users quickly identify the site. The favicon was sourced from IconArchive and is free to use under an open source license. Its playful design complements the overall branding and adds a professional touch to the website.
 
 ---
 
@@ -355,7 +363,7 @@ This has links to social media, and is shown at the bottom of each page, althoug
 
 ### No Break Spaces
 
-
+<!-- ADD -->
 
 ---
 
@@ -549,7 +557,7 @@ https://accessibleweb.com/website-accessibility-checker/?page_url=https%3A%2F%2F
 ```
 </details><br>
 
-After I added the code to 'fix' these errors, these were my test results:
+After I added the code to fix these 'errors', these were my test results:
 
 ### Home Page
 
@@ -559,7 +567,7 @@ There were **no Errors** or **Contrast Errors** in the Home Page.
 | :---: | :---: |
 | ![Home Page Summary](assets/images/readme/testing/wave/home-page-summary.png) | ![Home Page Details](assets/images/readme/testing/wave/home-page-details.png) |
 
-The Alerts above are due to the links to the Suites page at the bottom of the Activity text bubbles, as the link is on the word "here", which the testing tool isn't sure if will be clear to users. However, I believe this is clear enough as is clearly specified in the words before the link.
+The Alerts above are due to the links to the Suites page at the bottom of the Activity text bubbles, as the link is on the word "here", which the testing tool isn't sure if will be clear to users. However, I believe this is clear enough as it is clearly specified in the words before the link.
 
 The other Alerts were due to the links being to the same place at the bottom of each text box, which was also intentional and doesn't cause a problem.
 
@@ -569,7 +577,7 @@ The other Alerts were due to the links being to the same place at the bottom of 
 
 There were **no Errors** or **Contrast Errors** in the Suites Page.
 
-The alerts in this page were again only caused by 'redundant'/duplicate links from the 'Book Now' buttons at the bottom of each Suite description, which takes you to the booking enquiry form at the bottom of the page, which I am happy with and will leave as it is.
+The Alerts in this page were again only caused by 'redundant'/duplicate links from the 'Book Now' buttons at the bottom of each Suite description, which takes you to the booking enquiry form at the bottom of the page, which I am happy with and will leave as it is.
 
 |  |  |
 | :---: | :---: |
@@ -580,11 +588,11 @@ The alerts in this page were again only caused by 'redundant'/duplicate links fr
 There were **no Errors** or **Contrast Errors** in the Classes Page.
 
 <details>
-<summary>Fixed 'Possible Heading' alerts</summary>
+<summary>Fixed 'Possible Heading' Alerts</summary>
 
 ![Classes Page Summary](assets/images/readme/testing/wave/classes-page-summary-before.png)
 
-There were some 'possible heading' alerts on this page, which I amended by changing some of the paragraphs (`p` tags) with the `.lead` class to `h3` size headers with the `.lead` class instead.
+There were some 'Possible Heading' Alerts on this page, which I amended by changing some of the paragraphs (`p` tags) with the `.lead` class to `h3` size headers with the `.lead` class instead.
 
 Before:
 ```html
@@ -596,9 +604,9 @@ After:
 ```
 </details><br>
 
-There were also 'suspicious link text' alerts from the links on the word "here" again, but it is explained in the words before, so I am happy to leave that as it is.
+There were also 'Suspicious Link Text' Alerts from the links on the word "here" again, but it is explained in the words before, so I am happy to leave that as it is.
 
-The redundant link alert again is only caused by duplicate links from the 'Book Now' buttons at the bottom of each Suite description, which takes you to the booking enquiry form at the bottom of the page, which again, I am happy with and will leave as it is.
+The 'Redundant Link' Alert again is only caused by duplicate links from the 'Book Now' buttons at the bottom of each Suite description, which takes you to the booking enquiry form at the bottom of the page, which again, I am happy with and will leave as it is.
 
 |  |  |
 | :---: | :---: |
@@ -751,11 +759,11 @@ This also had to be amended to match the burger icon's new width on a larger scr
 
 **Issue:**  When the right dropdown menu is opened, some of the menu text is cut off by the edge of the screen. This occurs because the dropdown button is positioned close to the screen edge, and the menu options are too long to fit within the visible area. By default, Bootstrap dropdown menus are left-aligned. If a dropdown is near the right edge and the menu options are lengthy, the menu will overflow and appear clipped, making some text not fully visible.
 
-![Dropdown Menu being cut off](assets/images/readme/issue-right-align1.png)
+![Dropdown Menu being cut off](assets/images/readme/issue/issue-right-align1.png)
 
 **Solution:**  After consulting the Bootstrap documentation, I discovered that adding the `dropdown-menu-end` class to the same element as `dropdown-menu` changes the alignment of the dropdown menu to the right, instead of the default left alignment. This prevents the menu from being cut off at the edge of the screen. I applied this fix only to the two rightmost navbar dropdown menus, while keeping the left-side dropdowns left-aligned. This approach maintains visual consistency across the navbar and avoids potential overflow issues on either side.
 
-![Dropdown Menu fixed](assets/images/readme/issue-right-align2.png)
+![Dropdown Menu fixed](assets/images/readme/issue/issue-right-align2.png)
 
 Later, I also updated the navbar alignment to better match the rest of the site's layout by changing `container-fluid` to `container` in the navbar, which added more space between the buttons and edges of the screen and helped the navbar appear more consistent with the more centralised page content.
 
