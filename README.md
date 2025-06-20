@@ -414,7 +414,7 @@ Featuring:
 Featuring:
 - **5 Class Options*** which are all fully responsive, so the image is inside the description box in a mobile/tablet screen, and then on larger screens the images pop out of the text box and appear beside, increasing/decreasing from 1 to 4 depending on the screen size, to match the height of the description bubble. As well as related images, these all have titles, descriptions, which trainer/trainers that will take the class (including a link to the specific trainer on the main home page), and a 'Book Now' button, which links directly down to the Booking Form at the bottom of the page.
 
-  **Classes Page** mockups:
+**Classes Page** mockups:
 ![Mockups of Classes Page on various screen sizes](assets/images/readme/mockups/mockups-classes-page.png)
 
   - A Class **Booking Form*** with dropdown menu to pick a suite to enquire about, which link to the **Success/Thank You Page** when correctly submitted.
@@ -532,7 +532,7 @@ https://accessibleweb.com/website-accessibility-checker/?page_url=https%3A%2F%2F
 
 ![Wave Test False Fail Summary](assets/images/readme/testing/wave/wave-test-false-fail-summary.png)
 
-**Issue** The only contrast errors were caused by the visually hidden headers I had added to fix errors from the W3C HTML Validation test just above, which I discovered when inspecting the code shown below:
+**Issue** The only contrast errors were caused by the visually hidden headers I had added during the W3C HTML Validation test just above, which I discovered when inspecting the code shown below:
 
 ![False Contrast Errors](assets/images/readme/testing/wave/wave-test-false-fail.png)
 
@@ -544,9 +544,30 @@ https://accessibleweb.com/website-accessibility-checker/?page_url=https%3A%2F%2F
 ```
 </details><br>
 
-After I added this code to 'fix' these errors, these were my test results:
+After I added the code to 'fix' these errors, these were my test results:
 
-<!-- ADD HERE -->
+### Home Page
+|  |  |
+| :---: | :---: |
+| ![alt text](image-4.png) | ![alt text](image-5.png)  |
+
+There were **no Errors** or **Contrast Errors** on the Home Page.
+
+The Alerts above are due to the links to the Suites page at the bottom of the Activity text bubbles, as the link is on the word "here", which the testing tool isn't sure if will be clear to users. However, I believe this is clear enough as is clearly specified in the words before the link.
+
+The other Alerts were due to the links being to the same place at the bottom of each text box, which was also intentional and doesn't cause a problem.
+
+![alt text](image.png)
+
+### Suites Page
+
+![alt text](image-3.png)
+
+### Classes Page
+
+### Success Page
+
+### 404 Page
 
 ---
 
@@ -1138,3 +1159,13 @@ https://archives.bulbagarden.net/wiki/File:Kiawe_Charizard_Aerial_Ace.png
     - Dropdown Option 4 - **Fire Breathing & Fire Skills**
     - Dropdown Option 5 - **Snorkeling & Deep Sea Diving**
     - Dropdown Option 6 - **Book Now!**
+
+<!-- ### Home Page
+
+### Suites Page
+
+### Classes Page
+
+### Success Page
+
+### 404 Page -->
