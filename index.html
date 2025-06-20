@@ -202,7 +202,8 @@
 
         <!-- Hero Image Section -->
         <section class="hero m-0 p-0">
-            <h2 class="visually-hidden">Hero Image</h2>
+            <h2 class="visually-hidden" style="color: black;">Hero Image</h2>
+            <!-- I have coloured this black, despite it being hidden, otherwise it fails the WAVE contrast test -->
             <picture>
                 <!-- A portrait hero image that will show on mobile and tablet to fill the size of the screen -->
                 <source srcset="assets/images/hero/hero-portrait.jpg" media="(max-width: 991px)">
@@ -274,7 +275,6 @@
 
                 <!-- Activity 2 : Beach Relaxation -->
                 <div class="row justify-content-center">
-                    <h2 class="visually-hidden">Our Activities</h2>
                     <div class="col-12 col-lg-6 order-2 order-lg-1 d-flex flex-column justify-content-evenly">
                         <!-- Activity 2 : Beach Relaxation - Images that only show on laptop + screens, beside the text boxes -->
                         <img src="assets/images/suite/suite-activity-beach-calm.jpg" alt="A relaxing day at the Beach"
@@ -319,11 +319,12 @@
             </div>
         </section>
 
-        <section>
+        <!-- Our Activities Section continued -->
+        <section id="activities-continued">
+            <!-- This section continues from the previous section, so it has no visible title -->
+            <h2 class="visually-hidden" style="color: black;">Our Activities</h2>
+            <!-- I have coloured this black, despite it being hidden, otherwise it fails the WAVE contrast test -->
             <div class="container">
-                <h2 class="visually-hidden">Our Activities</h2>
-                <!-- Our Activities Section continued -->
-                <!-- This section continues from the previous section, so it has no title -->
                 <!-- Activity 3 : Berry Picking -->
                 <div class="row justify-content-center">
                     <article
@@ -416,7 +417,7 @@
         </section>
         <!-- End of Our Activities Section -->
 
-        <!-- Trainer Section -->
+        <!-- Trainers Section -->
         <section id="our-trainers">
             <div class="container">
 
@@ -467,12 +468,13 @@
 
             </div>
         </section>
-
-        <section>
+        
+        <!-- Trainers Section continued -->
+        <section id="our-trainers-continued">
+            <!-- This section continues from the previous section, so it has no visible title -->
+            <h2 class="visually-hidden" style="color: black;">Our Trainers</h2>
+            <!-- I have coloured this black, despite it being hidden, otherwise it fails the WAVE contrast test -->
             <div class="container">
-                <h2 class="visually-hidden">Our Trainers</h2>
-                <!-- Our Trainers Section continued -->
-                <!-- This section continues from the previous section, so it has no title -->
                 <div class="row justify-content-center" id="trainer2">
                     <div class="col-12 col-lg-6 order-2 order-lg-1 d-flex flex-column justify-content-evenly">
                         <!-- Trainer 2 : Mallow - Images that only show on laptop + screens, beside the text boxes -->

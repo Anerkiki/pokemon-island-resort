@@ -450,6 +450,17 @@ Featuring:
 
 ---
 
+## W3C Markup/HTML Validation Service
+
+
+<!-- (Do I want to add readme too?) -->
+
+---
+
+## W3C CSS Validation Service
+
+---
+
 ## Lighthouse Performance
 
 When testing my website with Lighthouse, I encountered an issue, which I fixed (fixed scores below) which affected the 'Best Practices' score, as shown below:
@@ -484,7 +495,22 @@ Success Page:
 
 ---
 
+## Accessible Web Test
+
+https://accessibleweb.com/website-accessibility-checker/?page_url=https%3A%2F%2Fanerkiki.github.io%2Fpokemon-island-resort%2F
+
+![Accessible Web Test Result showing no errors](assets/images/readme/testing/test-accessibleweb.png)
+
+---
+
 ## WAVE Test
+
+
+
+
+![False Contrast Errors](image.png)
+
+The only contrast errors were caused by the visually hidden headers I had added to fix errors from the W3C test just above. These clearly don't count as contrast errors, as will never be visible, so the summary of all pages has no errors or contrast errors.
 
 ---
 
@@ -502,15 +528,6 @@ Below is an image of the new, slightly darker brown colour passing all of the te
 | Original text colour which didn't pass the AAA test: | Original Colour Pallet before testing: |
 | :---: | :---: |
 | ![Checking Contrast of text colour and background](assets/images/readme/testing/webaim-contrast-checker-fail.png) | ![Old Colour Pallet](assets/images/readme/colour-pallet-original.jpg) |
-
----
-
-## W3C Markup/HTML Validation Service
-<!-- (HTML and readme?) -->
-
----
-
-## W3C CSS Validation Service
 
 ---
 
