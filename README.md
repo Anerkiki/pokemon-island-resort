@@ -452,9 +452,31 @@ Featuring:
 
 ## W3C Markup/HTML Validation Service
 
+<details>
+<summary>Warning Message that I fixed</summary>
+
+![Section lacks Heading Warning](assets/images/readme/testing/w3c/w3c-html-header-warning.png)
+
+I had 3 of these warnings, for the 2 continued sections that I needed to split due to the background image being too zoomed in otherwise ('Our Activities' and 'Our Trainers'). I added an `id` to each section to make it clear for screen readers and accessibility, and also added a hidden header for extra clarity and so there were no errors or warnings in the tests.
+
+```html
+<!-- Our Activities Section continued -->
+<section id="activities-continued">
+    <!-- This section continues from the previous section, so it has no visible title -->
+    <h2 class="visually-hidden">Our Activities Continued</h2>
+```
+
+```html
+<section id="hero" class="hero m-0 p-0">
+    <h2 class="visually-hidden">Hero Image</h2>
+```
+
+</details>
+
+After correcting the above Warning message, these are the test results from my W3C HTML Validator Tests:
+
 
 <!-- (Do I want to add readme too?) -->
-
 ---
 
 ## W3C CSS Validation Service
@@ -505,12 +527,26 @@ https://accessibleweb.com/website-accessibility-checker/?page_url=https%3A%2F%2F
 
 ## WAVE Test
 
+<details>
+<summary>False Contrast Errors</summary>
 
+![Wave Test False Fail Summary](assets/images/readme/testing/wave/wave-test-false-fail-summary.png)
 
+**Issue** The only contrast errors were caused by the visually hidden headers I had added to fix errors from the W3C HTML Validation test just above, which I discovered when inspecting the code shown below:
 
-![False Contrast Errors](image.png)
+![False Contrast Errors](assets/images/readme/testing/wave/wave-test-false-fail.png)
 
-The only contrast errors were caused by the visually hidden headers I had added to fix errors from the W3C test just above. These clearly don't count as contrast errors, as will never be visible, so the summary of all pages has no errors or contrast errors.
+**Solution** I got around these errors by adding a colour to these headers by adding a colour to the headings in the HTML using the `style` attribute.
+
+```html
+<section id="hero" class="hero m-0 p-0">
+    <h2 class="visually-hidden" style="color: black;">Hero Image</h2>
+```
+</details><br>
+
+After I added this code to 'fix' these errors, these were my test results:
+
+<!-- ADD HERE -->
 
 ---
 
