@@ -298,11 +298,11 @@ On a 4K or larger screen, the section didn't stretch the full height of the page
 
 | Success Page Before | Success Page After |
 | :---: | :---: |
-| ![Success Page Before](xxl-success-before.png) | ![Success Page After](xxl-success-after.png) |
+| ![Success Page Before](assets/images/readme/xxl-success-before.png) | ![Success Page After](assets/images/readme/xxl-success-after.png) |
 
 | 404 Page Before | 404 Page After |
 | :---: | :---: |
-| ![404 Page Before](xxl-404-before.png) | ![404 Page After](xxl-404-after.png) |
+| ![404 Page Before](assets/images/readme/xxl-404-before.png) | ![404 Page After](assets/images/readme/xxl-404-after.png) |
 
 ---
 
