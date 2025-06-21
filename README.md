@@ -5,7 +5,7 @@
 
 ![Mockups of Home Page on various screen sizes](assets/images/readme/mockups/mockups-home-page.png)
 
-I am looking to create this website to showcase a fictional tropical island resort designed for Pokémon and their trainers.
+I am looking to create this website to showcase a fictional tropical island resort with classes and activities designed for Pokémon and their trainers.
 
 The goal is to create a visually engaging and appealing platform that captures the essence of a tropical getaway for Pokémon and Pokémon enthusiasts, which allows customers to get a feel for the resort, viewing the various activities the island has to offer, seeing and learning about the trainers, and booking suites/enrolling their Pokémon in classes.
 
@@ -81,9 +81,9 @@ These objectives should guide the design, content, and functionality of the webs
 
 The website is designed to have a fun, playful feel, aiming to get potential visitors excited about everything the island has to offer. The overall aesthetic draws inspiration from tropical resorts and the vibrant world of Pokémon, using bright, cheerful colours and whimsical design elements throughout.
 
-A key part of the design is the use of text bubbles - these are partially transparent with curved, chunky coloured borders that help them stand out against the background. On larger screens, images are also framed with thick, colourful borders, creating a cohesive and lively look. The layout is intentionally dynamic: as you scroll down the page, the text bubbles and images alternate from left to right, giving the site a playful, quirky, and engaging flow that encourages exploration.
+A key part of the design is the use of text bubbles - these are partially transparent with curved, chunky coloured borders that help them stand out against the background. On larger screens, images are also framed with the same thick, coloured borders, creating a cohesive look. The layout is intentionally dynamic: as you scroll down the page, the text bubbles and images alternate from left to right, giving the site a playful, quirky, and engaging flow that encourages exploration.
 
-To further enhance the playful atmosphere, I incorporated a variety of colourful images. These visuals not only make the site more visually appealing but also help communicate the resort's unique offerings and the sense of adventure awaiting visitors. The combination of bold typography, vibrant colour palette, and interactive elements (like dropdown menus and responsive layouts) ensures that the site feels welcoming and accessible to users of all ages, especially Pokémon fans and trainers looking for a fun getaway with their Pokémon.
+To further enhance the lively and playful atmosphere, I incorporated a variety of colourful images. These visuals not only make the site more visually appealing but also help communicate the resort's unique offerings and the sense of adventure awaiting visitors. The combination of bold typography, vibrant colour palette, and interactive elements (like dropdown menus and responsive layouts) ensures that the site feels welcoming and accessible to users of all ages, especially Pokémon fans and trainers looking for a fun getaway with their Pokémon.
 
 Overall, every design choice - from the fonts and colours to the arrangement of content was made to capture the essence of a tropical Pokémon paradise, making the website both inviting and memorable.
 
@@ -97,7 +97,7 @@ A typical customer for the Pokémon Island Resort is:
 
 - A Pokémon owner or trainer
 - Young and free spirited/eager for adventure
-- Someone who enjoys traveling and exploring new destinations
+- Someone who enjoys travelling and exploring new destinations
 - Enthusiastic about trying new and unique experiences and activities
 
 ### User Stories
@@ -194,9 +194,14 @@ I also changed the navbar button options in these pages to reduce the 2/3 dropdo
 
 ## Typography/Fonts
 
-I wanted to pick a playful and tropical font with a seaside feel for my headings, so I used **Google Fonts** to explore options. Using their preview tool, I tested the phrase "Pokémon Island Resort" - the main site title - to ensure it looked just right, especially the (é) character, which appeared odd in some fonts. I ultimately chose 'Skranji' because it perfectly captures the exotic, tropical, and beachy vibe I wanted, and even has a hint of bamboo reminiscent of island shacks.
+I wanted to pick a playful and tropical font with a seaside feel for my headings, so I used **Google Fonts** to explore options. Using their preview tool, I tested the phrase "Pokémon Island Resort" - the main site title - to ensure it looked just right, especially the (é) character, which appeared odd in some fonts. I ultimately chose **Skranji** because it perfectly captures the exotic, tropical, and beachy vibe I wanted, and even has a hint of bamboo reminiscent of island shacks.
 
-For paragraph text, I wanted a simple, clear, and unfussy font that would complement 'Skranji' without competing for attention. Again using **Google Fonts**, I browsed sans-serif options and selected 'Roboto' for its versatility and readability across devices. Its straightforward design and spacious lettering make it easy to read, even in longer paragraphs.
+
+For paragraph text, I wanted a simple, clear, and unfussy font that would complement 'Skranji' without competing for attention. Again using **Google Fonts**, I browsed sans-serif options and selected **Roboto** for its versatility and readability across devices. Its straightforward design and spacious lettering make it easy to read, even in longer paragraphs.
+
+|  |  |
+| :---: | :---: |
+| ![Skranji Font](assets/images/readme/font-skranji.png) | ![Roboto Font](assets/images/readme/font-roboto.png) |
 
 ---
 
@@ -286,6 +291,18 @@ This includes:
 | ![Responsive Images on Medium Screens](assets/images/readme/responsiveness-screenshots/responsive-images-large.png) | ![Responsive Images on Medium Screens](assets/images/readme/responsiveness-screenshots/responsive-images-xl.png) |
 
 The paragraphs inside the text box and images are all inside a Bootstrap flexbox, which will adjust to the screen size accordingly, and if gaps are needed, they will be evenly distributed between so there are never any large unsightly gaps, no matter the viewing dimensions.
+
+**XXL/4K Screens**
+
+On a 4K or larger screen, the section didn't stretch the full height of the page in the success and 404 pages, so I added another image below the 'Back to Home' button on both of these pages to only appear at 4K/XXL screens.
+
+| Success Page Before | Success Page After |
+| :---: | :---: |
+| ![Success Page Before](xxl-success-before.png) | ![Success Page After](xxl-success-after.png) |
+
+| 404 Page Before | 404 Page After |
+| :---: | :---: |
+| ![404 Page Before](xxl-404-before.png) | ![404 Page After](xxl-404-after.png) |
 
 ---
 
@@ -691,10 +708,10 @@ These were added every time I formatted my pages, and resulted in errors in the 
 
 **Issue:** When I had added the bamboo background image to the header section, I noticed the navbar from Bootstrap I had added within this had it's own white colour background, which stopped the image being shown as a background for the whole thing, even if I tried to change it to transparent using my CSS stylesheet.
 
-![Navbar background being overridden by Bootstrap](assets/images/readme/issue/issue-removing-navbar-background.png)
+![Navbar background being overridden by Bootstrap](assets/images/readme/issues/removing-navbar-background.png)
 
 **Solution:** I checked using Devtools and noticed that the background colour was being set my a bootstrap scss file, and that this was set as `!important;` so would override any background I added. Looking further I spotted it was being added because of the `bg-body-tertiary` class, so once I removed this, the background image covered the whole title & nav section, including the navbar.
-![Code causing the issue](assets/images/readme/issue/issue-removing-navbar-background-code.png)
+![Code causing the issue](assets/images/readme/issues/removing-navbar-background-code.png)
 </details>
 
 ---
@@ -726,7 +743,7 @@ I added a class to the page title, and added `padding-left` of the same width of
 
 | Page Title too far to the left: | Page title centralised with left-padding added: |
 | :---: | :---: |
-| ![Page Title with no padding](assets/images/readme/issue/page-title-center/issue-page-title-no-padding.png) | ![Page Title centralised with left padding](assets/images/readme/issue/page-title-center/issue-page-title-left-padding.png) |
+| ![Page Title with no padding](assets/images/readme/issues/page-title-center/issue-page-title-no-padding.png) | ![Page Title centralised with left padding](assets/images/readme/issues/page-title-center/issue-page-title-left-padding.png) |
 ```css
 .page-title {
     padding-left: 28.4px;
@@ -735,7 +752,7 @@ I added a class to the page title, and added `padding-left` of the same width of
 This also had to be amended to match the burger icon's new width on a larger screen as I added padding to the x-axis at the mobile to tablet breakpoint. I checked the width of the burger icon at each breakpoint using Chrome DevTools (shown below).
 | Smaller burger icon without added padding in the x-axis: | Smaller burger icon with added padding in the x-axis: |
 | :---: | :---: |
-| ![Smaller burger icon without added padding in the x-axis](assets/images/readme/issue/page-title-center/issue-burger-icon-small.png) | ![Smaller burger icon with added padding in the x-axis](assets/images/readme/issue/page-title-center/issue-burger-icon-large.png) |
+| ![Smaller burger icon without added padding in the x-axis](assets/images/readme/issues/page-title-center/issue-burger-icon-small.png) | ![Smaller burger icon with added padding in the x-axis](assets/images/readme/issues/page-title-center/issue-burger-icon-large.png) |
 ```css
 @media (max-width: 426px) {
     .page-title {
@@ -759,11 +776,11 @@ This also had to be amended to match the burger icon's new width on a larger scr
 
 **Issue:**  When the right dropdown menu is opened, some of the menu text is cut off by the edge of the screen. This occurs because the dropdown button is positioned close to the screen edge, and the menu options are too long to fit within the visible area. By default, Bootstrap dropdown menus are left-aligned. If a dropdown is near the right edge and the menu options are lengthy, the menu will overflow and appear clipped, making some text not fully visible.
 
-![Dropdown Menu being cut off](assets/images/readme/issue/issue-right-align1.png)
+![Dropdown Menu being cut off](assets/images/readme/issues/right-align-before.png)
 
 **Solution:**  After consulting the Bootstrap documentation, I discovered that adding the `dropdown-menu-end` class to the same element as `dropdown-menu` changes the alignment of the dropdown menu to the right, instead of the default left alignment. This prevents the menu from being cut off at the edge of the screen. I applied this fix only to the two rightmost navbar dropdown menus, while keeping the left-side dropdowns left-aligned. This approach maintains visual consistency across the navbar and avoids potential overflow issues on either side.
 
-![Dropdown Menu fixed](assets/images/readme/issue/issue-right-align2.png)
+![Dropdown Menu fixed](assets/images/readme/issues/right-align-after.png)
 
 Later, I also updated the navbar alignment to better match the rest of the site's layout by changing `container-fluid` to `container` in the navbar, which added more space between the buttons and edges of the screen and helped the navbar appear more consistent with the more centralised page content.
 
@@ -789,7 +806,7 @@ The background image I used as a background was being stretched too much for pag
 
 |  |  |
 | :---: | :---: |
-| ![Image showing background image appearing too zoomed in and pixelated](assets/images/readme/issue/background-too-zoomed/issue-background-too-zoomed-before.png) | ![Image showing background image appearing too zoomed in and pixelated](assets/images/readme/issue/background-too-zoomed/issue-background-too-zoomed-before-two.png) |
+| ![Image showing background image appearing too zoomed in and pixelated](assets/images/readme/issues/background-too-zoomed/issue-background-too-zoomed-before.png) | ![Image showing background image appearing too zoomed in and pixelated](assets/images/readme/issues/background-too-zoomed/issue-background-too-zoomed-before-two.png) |
 
 **Solution:** I resolved this issue by splitting the content into seperate sections, and adding the background image to each section, instead of having all of the content in one huge section. I found that having around 2 of the text boxes in each worked well on all screen sizes, eliminating the need to change the amount of sections depending on screen sizes, which I did consider, but would have added a lot more code and been more complex than necessary.
 
@@ -797,7 +814,7 @@ The background image I used as a background was being stretched too much for pag
 
 When doing this I encountered an issue, in which the image didn’t spread all the way to the edges of the screen, and we were left with quite a large gap around the edges at certain screen sizes
 
-![Background image not stretched to edges of screen](assets/images/readme/issue/background-too-zoomed/issue-background-not-covering.png)
+![Background image not stretched to edges of screen](assets/images/readme/issues/background-too-zoomed/issue-background-not-covering.png)
 
 **Solution**
 
@@ -859,7 +876,7 @@ After:
 
 **Issue:** After I decided to add universal gaps and spacing between all items in my text bubbles (I added `gap: 20px;` to the `.row` class), I noticed that some of the bootstrap flexbox items weren't appearing correctly, for example. the input boxes in my forms didn't appear side by side anymore, even though the column sizes didn't add up to more than 12.
 
-![Image showing 2 col-6 text boxes not appearing in line](assets/images/readme/issue/added-gaps-interfering-with-flex/columns-appearing-wrong.png)
+![Image showing 2 col-6 text boxes not appearing in line](assets/images/readme/issues/added-gaps-interfering-with-flex/columns-appearing-wrong.png)
 
 **Solution:** To fix this issue I changed the column size numbers (eg. `col-6`) to numbers that added up to 11 instead of 12 per row, to account for the added gap, so instead of 2 `col-6`s in a row I changed it to `col-6` and `col-5` or 2 `col-5`s. This fixed the issue, and after altering the other text boxes to match these new sizes, the forms looked great again.
 </details>
@@ -909,17 +926,17 @@ I then did the same to the titles, paragraphs and buttons in the text boxes/bubb
 
 | | |
 | :---: | :---: |
-| ![Text box gaps before](assets/images/readme/issue/textbox-and-images-gaps/text-gaps-before.png) | [Text box gaps after](assets/images/readme/issue/textbox-and-images-gaps/text-gaps-after.png) |
+| ![Text box gaps before](assets/images/readme/issues/textbox-and-images-gaps/text-gaps-before.png) | [Text box gaps after](assets/images/readme/issues/textbox-and-images-gaps/text-gaps-after.png) |
 
 I chose `justify-content-evenly` instead of `center`, as it worked better to spread the items better, leaving less gaps, and then by adding/removing images at certain screen sizes I made it so that there were never any noticeable gaps, no matter the screen size.
 
-[Justify Content explanation on Bootstrap](assets/images/readme/issue/textbox-and-images-gaps/justify-content.png)
+[Justify Content explanation on Bootstrap](assets/images/readme/issues/textbox-and-images-gaps/justify-content.png)
 
 **New Issue**
 
 After I had done this, I noticed that the buttons and text above didn't look as good spread out, so I added a div around these 2 so that the gap wouldn't affect inbetween these.
 
-[Text box gaps before](assets/images/readme/issue/textbox-and-images-gaps/added-jc-evenly-before-divs.png)
+[Text box gaps before](assets/images/readme/issues/textbox-and-images-gaps/added-jc-evenly-before-divs.png)
 
 <!-- add after image and put in table -->
 
@@ -987,22 +1004,22 @@ After I had done this, I noticed that the buttons and text above didn't look as 
     - I ensured that this was in snake case so it would all be coordinated.
 - Once I had made a new repository, in *File Explorer* on my local device, I then navigated to the folder I wanted my project to be in, and right clicked to ‘Open in Terminal’
 
-![image](assets/images/readme/deployment-creating.png)
+![image](assets/images/readme/deployment/creating.png)
 
 - Then, after making sure I was still in the correct folder, I typed `git clone [link copied from GitHub]`
 
-![image](assets/images/readme/deployment-terminal1.png)
+![image](assets/images/readme/deployment/terminal1.png)
 
-![image](assets/images/readme/deployment-terminal2.png)
+![image](assets/images/readme/deployment/terminal2.png)
 
 - Now a new folder has been added which is linked to the GitHub repository
 
-![image](assets/images/readme/deployment-folder.png)
+![image](assets/images/readme/deployment/folder.png)
 
 - I then opened my new folder in VS Code, added some of the starter files such as `index.html` and the `assets` & `css` folders, linked to bootstrap, font awesome, and linked my own custom css sheets, where I also added in my chosen fonts from google fonts, and added colours and fonts to the stylesheet to make sure these were all linked correctly.
 - I then added, committed and pushed the changes to my GitHub repository.
 
-![Image of the commits on Git](assets/images/readme/deployment-commits.png)
+![Image of the commits on Git](assets/images/readme/deployment/commits.png)
 
 ---
 
