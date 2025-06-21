@@ -210,20 +210,20 @@ I also liked the idea of having a background image, so I began by searching on s
 
 To be able to use each of these specific colours from the image throughout the website, I used the [ColorZilla Chrome Extension](https://www.colorzilla.com/), which allowed me to pinpoint and extract exact colour codes directly from any online image. I added many different colours, then refined my choices by previewing them on the site to ensure they complemented each other and provided good contrast.
 
-For the Header and Footer, I wanted to evoke the feel of a 'bamboo beach shack', so I searched for images featuring horizontally aligned bamboo. I eventually found a [bamboo image](#bamboo-image-used-as-header-and-footer-background) that fit the look I wanted, but its original colors didn’t quite match my chosen palette, so I added a semi-transparent colored overlay using one of the palette colors extracted from the background image over the top of the bamboo background image. This approach allowed the bamboo texture to remain visible while ensuring the overall color scheme stayed consistent. The overlay also improves the readability of button text and titles against the background.
+For the Header and Footer, I wanted to evoke the feel of a 'bamboo beach shack', so I searched for images featuring horizontally aligned bamboo. 
+
+I eventually found a [bamboo image](#bamboo-image-used-as-header-and-footer-background) that fit the look I wanted, but its original colors didn’t quite match my chosen palette, so I added a semi-transparent colored overlay using one of the palette colors extracted from the background image over the top of the bamboo background image. This allowed the bamboo texture to remain visible while ensuring the overall color scheme stayed consistent. The overlay also improves the readability of button text and titles against the background.
+
+
+**Images of Navbar before and after adding the coloured semi-transparent overlay**
 
 <details>
-<summary>*click to view Navbar before and after adding semi-transparent coloured overlay*</summary>
-
-**Navbar image without overlay**
+<summary>*click to view*</summary>
 
 ![Navbar background image without coloured overlay](assets/images/readme/navbar-without-leaf-overlay.png)
-
-**Navbar with coloured semi-transparent overlay**
-
 ![Navbar background image with coloured overlay](assets/images/readme/navbar-with-leaf-overlay.png)
 
-</details><br>
+</details>
 
 **Favicon**
 
@@ -263,34 +263,27 @@ I tested the colours using [WebAIM Contrast Checker Test](https://webaim.org/res
 
 ## Key Features
 
-- **Fully Responsive at any screen size:** This includes a hero image that switches from landscape to portrait at mobile and tablet view, and text 'bubbles' that change order and location trainsitioning from different screen sizes, such as from mobile to laptop, and images which go from being inside the floating text bubbles, to outside, next to the text, in their own "bubbles".
-<!-- - **Responsive Design**: Ensures the website is accessible and visually appealing on all devices, including mobile, tablet, and desktop. -->
+### Fully Responsive at any screen size:
+Ensures the website is accessible and visually appealing on all devices, including mobile, tablet, and desktop.
 
-[HeroExample]
+This includes:
+- A hero image that switches from landscape to portrait when shrinking to mobile/tablet screen size
+- Text 'bubbles' that change order and location trainsitioning from different screen sizes, such as from mobile to laptop
+<!-- work on this -->
+- Images which go from being inside the floating text bubbles, to outside, next to the text, in their own "bubbles" and  change order and visibility depending in the screen size
 
-<details>
-<summary>Example at small screen sizes (tablet & mobile) - showing the image inside the text box</summary>
+| Hero Image on smaller screens (mobile & tablet): | Hero Image on large screens (laptop & larger): |
+| :---: | :---: |
+| ![Hero Image on smaller screens](assets/images/readme/hero-small.png) | ![Hero Image on large screens](assets/images/readme/hero-large.png) |
 
-![Responsive Images on Small Screens](assets/images/readme/responsiveness-screenshots/responsive-images-small.png)
-</details>
+**Examples of how images change depending on screen size to match the text box height**:
 
-<details>
-<summary>Example at medium screen sizes (small laptop) - showing 4 images to match the text height, now to the side of the text box</summary>
-
-![Responsive Images on Medium Screens](assets/images/readme/responsiveness-screenshots/responsive-images-medium.png)
-</details>
-
-<details>
-<summary>Example at large screen sizes (laptop) - showing 3 images to match the text height, to the side of the text box</summary>
-
-![Responsive Images on Medium Screens](assets/images/readme/responsiveness-screenshots/responsive-images-large.png)
-</details>
-
-<details>
-<summary>Example at XL screen sizes (monitor/TV) - showing 2 images to match the text height, to the side of the text box</summary>
-
-![Responsive Images on Medium Screens](assets/images/readme/responsiveness-screenshots/responsive-images-xl.png)
-</details>
+|  |  |
+| :---: | :---: |
+| Small screen sizes (tablet & mobile) - showing 1 image inside the text box | Medium screen sizes (small laptop) - now with 4 images to the side of the text box |
+| ![Responsive Images on Small Screens](assets/images/readme/responsiveness-screenshots/responsive-images-small.png) | ![Responsive Images on Medium Screens](assets/images/readme/responsiveness-screenshots/responsive-images-medium.png) |
+| Large screen sizes (laptop) - now with 3 images to the side of the text box | XL screen sizes (monitor/TV) - now with 2 images to the side of the text box |
+| ![Responsive Images on Medium Screens](assets/images/readme/responsiveness-screenshots/responsive-images-large.png) | ![Responsive Images on Medium Screens](assets/images/readme/responsiveness-screenshots/responsive-images-xl.png) |
 
 The paragraphs inside the text box and images are all inside a Bootstrap flexbox, which will adjust to the screen size accordingly, and if gaps are needed, they will be evenly distributed between so there are never any large unsightly gaps, no matter the viewing dimensions.
 
@@ -300,7 +293,7 @@ The paragraphs inside the text box and images are all inside a Bootstrap flexbox
 
 ### Navbar:
 
-This has links to all of the main pages and is always fixed to the top, so is accessible from anywhere in the website. It has links to all of the pages (with exception to the Success/Thank You page - which you access after submitting any of the forms) - [see full list](#full-navbar-button-dropdown-list)
+This has links to all of the main pages and is always fixed to the top, so is accessible from anywhere in the website. It has links to all of the pages (with exception to the Success and 404 pages) - [see full list](#full-navbar-button-dropdown-list)
 
 **Larger Screen (Full Sized) Navbar:**
 
@@ -363,7 +356,14 @@ This has links to social media, and is shown at the bottom of each page, althoug
 
 ### No Break Spaces
 
-<!-- ADD -->
+I added no break spaces (`&nbsp;`) to the end of all paragraphs between the last 2 (sometimes 3 if short) words so there aren’t ever any 'orphan' words, no matter the screen size - which makes blocks of text look a lot better always.
+
+![No Break Spaces in HTML code](assets/images/readme/nbsp-in-html.png)
+
+|  |  |
+| :---: | :---: |
+| Before | After |
+| ![Before adding No Break Spaces](assets/images/readme/nbsp-before.png) | ![After adding No Break Spaces](assets/images/readme/nbsp-after.png) |
 
 ---
 
