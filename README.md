@@ -1139,10 +1139,7 @@ Portrait Image - (Mobile and Tablet screens):
 
 **Mountain View Apartment**
 
-https://www.google.com/imgres?q=pokemonmountains&imgurl=https%3A%2F%2Fw0.peakpx.com%2Fwallpaper%2F532%2F280%2FHD-wallpaper-pokemon-flygon-waterfall-mountains-trees-anime.jpg&imgrefurl=https%3A%2F%2Fwww.peakpx.com%2Fen%2Fhd-wallpaper-desktop-vqazu&docid=diiFN9gyBwUtKM&tbnid=V_goH3H8_tnxwM&vet=12ahUKEwjSq-n0rM6NAxUuX0EAHR8BLLEQM3oECH8QAA..i&w=800&h=435&hcb=2&ved=2ahUKEwjSq-n0rM6NAxUuX0EAHR8BLLEQM3oECH8QAA
-
-<!-- Tidied up - check is working before replacing link above -->
-<!-- [Flygon Waterfall Mountains](https://www.peakpx.com/en/hd-wallpaper-desktop-vqazu) -->
+[Flygon Waterfall Mountains](https://www.peakpx.com/en/hd-wallpaper-desktop-vqazu)
 
 **Garden View Chalet**
 
@@ -1151,8 +1148,6 @@ https://www.google.com/imgres?q=pokemonmountains&imgurl=https%3A%2F%2Fw0.peakpx.
 **Battle Arena Apartment**
 
 [Battle Arena Charizard and Pikachu image/Bulbapedia - Kiawe's Charizard using Aerial Ace](https://bulbapedia.bulbagarden.net/wiki/User:BigDocFan/List_of_moves_used_by_major_characters_Pok%C3%A9mon_in_Sun_%26_Moon)
-
-https://archives.bulbagarden.net/wiki/File:Kiawe_Charizard_Aerial_Ace.png
 
 ![Photo Licensing](assets/images/readme/battle-arena-licensing.png)
 
