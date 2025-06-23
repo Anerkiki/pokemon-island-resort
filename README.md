@@ -864,7 +864,7 @@ After:
                         Fugit, laboriosam aperiam. Accusantium,&nbsp;debitis.</p>
                 </article>
 ```
-<!-- remove this from notion -->
+
 </details>
 
 ---
@@ -912,6 +912,9 @@ After:
 
 ### Text box/bubble height mismatched with height of images
 
+<details>
+<summary>Issue & Solution:</summary>
+
 **Issue:** At certain screen sizes, the text box was either too long or too short compared to the adjacent images, causing unwanted gaps, either between images or within the text box.
 
 **Solution:** I solved this problem by setting some of the images to appear/disappear depending on the size of the screen, using bootstrap classes.
@@ -932,13 +935,7 @@ I chose `justify-content-evenly` instead of `center`, as it worked better to spr
 
 [Justify Content explanation on Bootstrap](assets/images/readme/issues/textbox-and-images-gaps/justify-content.png)
 
-**New Issue**
-
-After I had done this, I noticed that the buttons and text above didn't look as good spread out, so I added a div around these 2 so that the gap wouldn't affect inbetween these.
-
-[Text box gaps before](assets/images/readme/issues/textbox-and-images-gaps/added-jc-evenly-before-divs.png)
-
-<!-- add after image and put in table -->
+</details>
 
 ---
 
@@ -1001,8 +998,8 @@ After I had done this, I noticed that the buttons and text above didn't look as 
 # Deployment
 <!-- Maybe make numbered list -->
 - Firstly, I made a new repository in GitHub from the code institute template, with my chosen name for my project, which is `pokemon-island-resort`
-    - I ensured that this was in snake case so it would all be coordinated.
-- Once I had made a new repository, in *File Explorer* on my local device, I then navigated to the folder I wanted my project to be in, and right clicked to ‘Open in Terminal’
+    - I ensured that this was in *snake case* so it would all be coordinated.
+- Once I had made a new repository, in 'File Explorer' on my local Windows device, I then navigated to the folder I wanted my project to be in, and right clicked to 'Open in Terminal'.
 
 ![image](assets/images/readme/deployment/creating.png)
 
@@ -1101,13 +1098,6 @@ After I had done this, I noticed that the buttons and text above didn't look as 
 
 [IconArchive - Palm Tree Icon](https://www.iconarchive.com/show/noto-emoji-animals-nature-icons-by-google/22331-palm-tree-icon.html)
 
-### All other Pokémon related images:
-
-Some are taken from websites like:
-[Bulbapedia](https://bulbapedia.bulbagarden.net/wiki/Main_Page)
-
-and most are taken from screenshots of the Pokémon Series so all credits for images go to Nintendo
-
 ### Pokémon Images Copyright and Credits
 
 All Pokémon-related images used in this project, including screenshots from the games and anime, are the property of their respective copyright holders. These include:
@@ -1130,8 +1120,8 @@ These images are used here for educational and illustrative purposes only. Full 
 
 ---
 
+<!-- Do I want this? -->
 ### Full Navbar Button Dropdown List
-<!-- maybe get rid of this? -->
   - **Home** Button - (Dropdown arrow only shows when on Home page, on Classes and Suites pages, the button changes to **Back to Home**)
     - Dropdown Option 1 - **Our Activities**
     - Dropdown Option 2 - **Our Trainers**
@@ -1159,7 +1149,9 @@ These images are used here for educational and illustrative purposes only. Full 
     - Dropdown Option 5 - **Snorkeling & Deep Sea Diving**
     - Dropdown Option 6 - **Book Now!**
 
-<!-- ### Home Page
+<!--
+
+### Home Page
 
 ### Suites Page
 
@@ -1167,4 +1159,27 @@ These images are used here for educational and illustrative purposes only. Full 
 
 ### Success Page
 
-### 404 Page -->
+### 404 Page
+
+-->
+
+
+<!--
+
+| First Header  | Second Header |
+| :---: | :---: |
+| Content Cell  | Content Cell  |
+| Content Cell  | Content Cell  |
+
+-->
+
+<!--
+
+<details>
+<summary>*click to view image*</summary>
+
+Content
+
+</details>
+
+-->
