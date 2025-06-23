@@ -1027,19 +1027,19 @@ After I had done this, I noticed that the buttons and text above didn't look as 
 
 # Technologies Used
 
-### [GitHub](https://github.com/):
+### [GitHub](https://github.com/)
 - GitHub has been used to store this project.
 
-### [VScode](https://code.visualstudio.com/):
+### [VScode](https://code.visualstudio.com/)
 - I used this as my IDE to code and develop this website and to push to GitHub.
 
-### [Google Fonts](https://fonts.google.com/):
+### [Google Fonts](https://fonts.google.com/)
 - I used this to find and create an import url so that I could use by 2 chosen fonts - [Skranji](https://fonts.google.com/specimen/Skranji) (Designed by Neapolitan) and [Roboto](https://fonts.google.com/specimen/Roboto) (Designed by Christian Robertson, Paratype, & Font Bureau).
 
-### [Font Awesome](https://fontawesome.com/):
+### [Font Awesome](https://fontawesome.com/)
 - I used this to add icons to the website so that they could be coloured to match my design, specifically in the navbar (for the burger icon and dropdown menu arrows) and for the social media links in the footer.
 
-### [Bootstrap](https://getbootstrap.com/):
+### [Bootstrap](https://getbootstrap.com/)
 - I used this to design my navbar and as a flexbox/grid in my navbar, main content and forms.
 
 ### [Notion](https://www.notion.com/)
@@ -1101,91 +1101,23 @@ After I had done this, I noticed that the buttons and text above didn't look as 
 
 [IconArchive - Palm Tree Icon](https://www.iconarchive.com/show/noto-emoji-animals-nature-icons-by-google/22331-palm-tree-icon.html)
 
----
+### All other Pokémon related images:
 
-## Home Page
+Some are taken from websites like:
+[Bulbapedia](https://bulbapedia.bulbagarden.net/wiki/Main_Page)
 
-### **Hero Images**:
-Landscape Image - (Laptop and larger screens):
+and most are taken from screenshots of the Pokémon Series so all credits for images go to Nintendo
 
-<details>
-<summary>*click to view image*</summary>
+### Pokémon Images Copyright and Credits
 
-![Landscape Hero Image](assets/images/hero/hero-landscape.jpeg)
+All Pokémon-related images used in this project, including screenshots from the games and anime, are the property of their respective copyright holders. These include:
 
-</details>
+- **Game Freak** and **Nintendo** for main series game screenshots.
+- **The Pokémon Company** for overall franchise rights.
+- **OLM, Inc.** (and other relevant animation studios) for anime screenshots and artwork.
+- **Toho** for movie-related images.
 
-[Landscape Hero Image from Pokémon Sun and Moon Game (Nintendo)](https://www.redbull.com/au-en/new-game-releases-november-2016)
-
-<!-- [Landscape Hero Image from Pokémon Sun and Moon Game (Nintendo)](https://img.redbull.com/images/c_crop,x_0,y_0,h_1498,w_2999/c_fill,w_1700,h_765/q_auto,f_jpg/redbullcom/2016/10/31/1331826758607_2/scene-from-the-new-pok%C3%A9mon-sun-and-moon-game-for-nintendo-ds3) -->
-
-Portrait Image - (Mobile and Tablet screens):
-
-<details>
-<summary>*click to view image*</summary>
-
-![Portrait Hero Image](assets/images/hero/hero-portrait.jpg)
-
-</details>
-
-[Portrait Image illustrated by [Saro Orfali](https://x.com/saro__black)](https://www.nintendo-difference.com/news/pokemon-go-le-debut-de-la-saison-sous-un-meme-ciel-et-les-evenements-de-juin-2024-detailles/)
----
-
-## Suites Page
-
-**Sea View Penthouse**
-
-[](link)
-
-**Mountain View Apartment**
-
-[Flygon Waterfall Mountains](https://www.peakpx.com/en/hd-wallpaper-desktop-vqazu)
-
-**Garden View Chalet**
-
-[](link)
-
-**Battle Arena Apartment**
-
-[Battle Arena Charizard and Pikachu image/Bulbapedia - Kiawe's Charizard using Aerial Ace](https://bulbapedia.bulbagarden.net/wiki/User:BigDocFan/List_of_moves_used_by_major_characters_Pok%C3%A9mon_in_Sun_%26_Moon)
-
-![Photo Licensing](assets/images/readme/battle-arena-licensing.png)
-
----
-
-## Classes Page
-
-**Flying Skills Class**
-
-[](link)
-[](link)
-[](link)
-
-**Surfing & Water Skills Class**
-
-[](link)
-[](link)
-[](link)
-
-**Beach & Dune Riding Class**
-
-[](link)
-[](link)
-[](link)
-
-**Fire Breathing & Fire Skills Class**
-
-[](link)
-[](link)
-[](link)
-[](link)
-
-**Snorkeling & Deep Sea Diving Class**
-
-[](link)
-[](link)
-[](link)
-[](link)
+These images are used here for educational and illustrative purposes only. Full credit and copyright remain with the original creators and rights holders.
 
 ---
 
