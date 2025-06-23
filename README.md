@@ -292,18 +292,6 @@ This includes:
 
 The paragraphs inside the text box and images are all inside a Bootstrap flexbox, which will adjust to the screen size accordingly, and if gaps are needed, they will be evenly distributed between so there are never any large unsightly gaps, no matter the viewing dimensions.
 
-**XXL/4K Screens**
-
-On a 4K or larger screen, the section didn't stretch the full height of the page in the success and 404 pages, so I added another image below the 'Back to Home' button on both of these pages to only appear at 4K/XXL screens.
-
-| Success Page Before | Success Page After |
-| :---: | :---: |
-| ![Success Page Before](assets/images/readme/xxl-success-before.png) | ![Success Page After](assets/images/readme/xxl-success-after.png) |
-
-| 404 Page Before | 404 Page After |
-| :---: | :---: |
-| ![404 Page Before](assets/images/readme/xxl-404-before.png) | ![404 Page After](assets/images/readme/xxl-404-after.png) |
-
 ---
 
 ## Site Wide Features
@@ -653,35 +641,30 @@ Below is an image of the new, slightly darker brown colour passing all of the te
 
 [WebAIM Contrast Checker link showing the 2 colours I compared](https://webaim.org/resources/contrastchecker/?fcolor=674A18&bcolor=FEEDDC)
 
-<!-- maybe put these in hidden dropdown? -->
+
+<details>
+<summary>*click to original colour that didn't pass contrast tests*</summary>
+
 | Original text colour which didn't pass the AAA test: | Original Colour Pallet before testing: |
 | :---: | :---: |
 | ![Checking Contrast of text colour and background](assets/images/readme/testing/webaim-contrast-checker-fail.png) | ![Old Colour Pallet](assets/images/readme/colour-pallet-original.jpg) |
+
+</details>
 
 ---
 
 ## Manual Testing
 
-<!-- Look at BrowserStack(?) -->
-
-**(Expected Outcome/Did it pass?)**
-
-  - Navigation Links
-  *What I'm testing:*
-  Do all links navigate to the correct page/section?
-  Do all buttons lead to the intended destination?
-  - Forms
-  *What I'm testing:*
-  Does all the validation work, so the form can't be submitted without all required fields filled and with valid/the correct characters?
-  Once submitted does it navigate to the success.html page?
-  - External Links (Social Media Icons)
-  Do they all lead to the intended website?
-  Do they open in a new tab?
-  - Responsive Design
-  Does the website adapt as intended at all screen sizes?
-  Does the burger menu work as it should, including closing when a link has been clicked?
-
-**User Stories** (?)
+  | Test Area | What I'm Testing | Did it Pass? |
+  | --- | --- |:---:|
+  | Navigation Links | Do all links navigate to the correct page/section? | Yes |
+  | Navigation Links | Do all buttons lead to the intended destination? | Yes |
+  | Forms | Does all the validation work, so the form can't be submitted without all required fields filled and with valid/the correct characters? | Yes |
+  | Forms | Once submitted does it navigate to the `success.html` page? | Yes |
+  | External Links (Social Media Icons) | Do they all lead to the intended website? | Yes |
+  | External Links (Social Media Icons) | Do they open in a new tab? | Yes |
+  | Responsive Design | Does the website adapt as intended at all screen sizes? | Yes |
+  | Responsive Design | Does the burger menu work as it should, including closing when a link has been clicked? | Yes |
 
 ---
 
@@ -788,41 +771,33 @@ Later, I also updated the navbar alignment to better match the rest of the site'
 
 ---
 
-### Background Image too zoomed on pages with more content (especially on mobile view)
+### Background Image pixelated on small screens
+<!-- needs work? -->
 
 <details>
 <summary>Issue & Solution:</summary>
 
-**Issue:**
-When deploying the website, I noticed that the background image whilst on main was far too zoomed in when on mobile/tablet view and looked pixelated
+**Issue:** When deploying the website, I noticed that the background image in the main section was far too zoomed in when on mobile/tablet view, making it appear pixelated.
 
-I fixed this by applying the background image as a background to each section instead
-
-This results in multiple images for each section, but none too high so that it ends up too zoomed in
-
-
-
-The background image I used as a background was being stretched too much for pages where there was a lot of content, especially on mobile screens where boxes being stacked on top of each other made the page longer still, which resulted in the background image being very zoomed in, making it look pixelated, which didn't look good.
+The background image I used as a background was being stretched too much by the height of too much page content - especially on mobile screens where boxes being stacked on top of each other made the page even taller - which resulted in the background image being very zoomed in, making the image look pixelated.
 
 |  |  |
 | :---: | :---: |
 | ![Image showing background image appearing too zoomed in and pixelated](assets/images/readme/issues/background-too-zoomed/issue-background-too-zoomed-before.png) | ![Image showing background image appearing too zoomed in and pixelated](assets/images/readme/issues/background-too-zoomed/issue-background-too-zoomed-before-two.png) |
 
-**Solution:** I resolved this issue by splitting the content into seperate sections, and adding the background image to each section, instead of having all of the content in one huge section. I found that having around 2 of the text boxes in each worked well on all screen sizes, eliminating the need to change the amount of sections depending on screen sizes, which I did consider, but would have added a lot more code and been more complex than necessary.
+**Solution:** I resolved this issue by splitting the content into seperate sections, and adding the background image to each section, instead of having all of the content in one giant section. I found that having around 2 of the text boxes in each worked well on all screen sizes, so none were too tall for the image, eliminating the need to change the amount of sections depending on screen sizes, which I did consider, but would have added a lot more code and been more complex than necessary.
 
-**New Issue**
+---
 
-When doing this I encountered an issue, in which the image didn’t spread all the way to the edges of the screen, and we were left with quite a large gap around the edges at certain screen sizes
+**New Issue:** When doing this I encountered an issue, in which the image didn’t spread all the way to the edges of the screen, and we were left with quite a large gap around the edges at certain screen sizes
 
 ![Background image not stretched to edges of screen](assets/images/readme/issues/background-too-zoomed/issue-background-not-covering.png)
 
-**Solution**
+**New Solution:**I used Chrome DevTools to inspect this, and by removing the container class realised this took away the gap around the edges.
 
-I used Chrome DevTools to inspect this, and by removing the container class realised this took away the gap around the edges.
+I attempted to fix this by changing the section with the container attribute to a `div`, and wrapping this `div` inside a `section`.
 
-I attempted to fix this by changing the section with the container attribute to a div, and wrapping this div inside a section.
-
-I also moved the id from one of the divs further down to this new section tag, so that it was clearer which section was which
+I also moved the `id` from one of the `div`s further down to this new `section` element, so that it was clearer which section was which.
 
 Before:
 
@@ -883,6 +858,57 @@ After:
 
 ---
 
+### On XXL/4K Screens, there is a gap below main content
+
+<details>
+<summary>Issue & Solution:</summary>
+
+**Issue:** On a 4K or larger screen, the section didn't stretch the full height of the page in the success and 404 pages.
+
+**Solution:** I added another image below the 'Back to Home' button on both of these pages to only appear at 4K/XXL screens.
+
+| Success Page on XXL screens before | Success Page on XXL screens after |
+| :---: | :---: |
+| ![Success Page Before](assets/images/readme/xxl-success-before.png) | ![Success Page After](assets/images/readme/xxl-success-after.png) |
+
+| 404 Page on XXL screens before | 404 Page on XXL screens after |
+| :---: | :---: |
+| ![404 Page Before](assets/images/readme/xxl-404-before.png) | ![404 Page After](assets/images/readme/xxl-404-after.png) |
+
+</details>
+
+---
+
+### Navbar Split Buttons don't work visually on smaller screen sizes
+
+<details>
+<summary>Issue & Solution:</summary>
+
+**Issue:** When the burger icon is open, the split buttons within this weren't reacting well, expanding the menu strangely when dropdown menu open. The dropdown menu that opens when clicking the arrow didn't open *over* the other menu options/buttons, it pushed them all down.
+
+**Solution:** I decided to change these buttons to just normal navbar links when the screen is small enough to use the burger icon, as the border on the buttons didn't look as good to me when stacked vertically in an open burger menu, and the padding around made it taller than it needed to be too.
+I refined the options down to only the most important, instead of all buttons and dropdown menu options, so that the stacked list wasn't too long, and also ensured the were centralised.
+
+| Before | Before (with open split button dropdown menu) | After |
+| :---: | :---: | :---: |
+| ![Burger Menu Options Before](assets/images/readme/issues/burger-menu/open-burger-menu-before.png) | ![Burger Menu Options Before with open split button dropdown menu](assets/images/readme/issues/burger-menu/open-burger-menu-before-dropdown.png) | ![Burger Menu Options After](assets/images/readme/issues/burger-menu/open-burger-menu-after.png) |
+
+**How I did this:** To do this I added a new navbar unordered list with the links I wanted to show instead, and I changed the visibility to only appear when on the smaller screen sizes, and edited the split buttons to only show on larger screen sizes, when the burger icon isn't visible.
+
+```html
+d-none d-lg-block
+```
+I added this to the left and right `div` elements containing my current split nav buttons in the navbar. This means `display-none` and `display-large-block`, which stops it being visible until it gets to a 'large' or larger screen, which is the breakpoint that the navbar menu switches from having links in a burger menu, to being buttons.
+
+```html
+d-block d-lg-none
+```
+I added this to the `ul` container for new links that I wanted to show when clicking on the burger icon at smaller screens.
+
+</details>
+
+---
+
 ### Issue Title
 
 <details>
@@ -895,7 +921,6 @@ After:
 </details>
 
 ---
-
 
 ### Issue Title
 
@@ -917,10 +942,10 @@ After:
 
 **Issue:** At certain screen sizes, the text box was either too long or too short compared to the adjacent images, causing unwanted gaps, either between images or within the text box.
 
-**Solution:** I solved this problem by setting some of the images to appear/disappear depending on the size of the screen, using bootstrap classes.
+**Solution:** I solved this problem by setting some of the images to appear/disappear depending on the size of the screen, using bootstrap classes added to the image element.
 
 ```html
-CODE HERE
+class="img-fluid floating-section d-none d-lg-block d-xl-none">
 ```
 
 I also added space between images with [code] so that the gap was dispersed between each image, making it appear less, rather than showing as an obvious gap at the bottom.
@@ -1037,7 +1062,7 @@ I chose `justify-content-evenly` instead of `center`, as it worked better to spr
 - I used this to add icons to the website so that they could be coloured to match my design, specifically in the navbar (for the burger icon and dropdown menu arrows) and for the social media links in the footer.
 
 ### [Bootstrap](https://getbootstrap.com/)
-- I used this to design my navbar and as a flexbox/grid in my navbar, main content and forms.
+- I used this to design my navbar, add split buttons in navbar, and as a flexbox/grid in my navbar, main content and forms.
 
 ### [Notion](https://www.notion.com/)
 - I used this to write up ideas, to do lists/issues that needed fixing, and paste screenshots, images and their links, etc.
