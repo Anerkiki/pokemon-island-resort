@@ -109,7 +109,7 @@ A typical customer for the Pokémon Island Resort is:
   - I want the website to be easy to navigate, with a clear layout and intuitive links between pages, so I can move seamlessly through the site and find what I need without confusion and plan my trip effectively.
   
 - **As a Pokémon trainer:**
-  - I want to easily discover classes tailored to my Pokémon’s type and abilities, and find trainers with the right expertise to help them master their moves, develop new skills and reach their full potential.
+  - I want to easily discover classes tailored to my Pokémon's type and abilities, and find trainers with the right expertise to help them master their moves, develop new skills and reach their full potential.
 
 - **As a guest or potential guest looking to contact or request to book:**
   - I want to feel assured that my message or booking request has been received and will be responded to.
@@ -201,7 +201,7 @@ For paragraph text, I wanted a simple, clear, and unfussy font that would comple
 
 |  |  |
 | :---: | :---: |
-| ![Skranji Font](assets/images/readme/font-skranji.png) | ![Roboto Font](assets/images/readme/font-roboto.png) |
+| ![Skranji Font](assets/images/readme/design/font-skranji.png) | ![Roboto Font](assets/images/readme/design/font-roboto.png) |
 
 ---
 
@@ -213,12 +213,13 @@ I wanted the website's colour scheme to evoke a welcoming and relaxing island ho
 
 I also liked the idea of having a background image, so I began by searching on some of the free image websites for a suitable image that would set the tone for the site. After browsing through a few options, I found a [background image](#background-image-for-main-sections) on [Freepik](https://www.freepik.com/) that felt like it perfectly matched the tropical vibe I envisioned. I instantly loved the colours in this image (and how well they worked together) - from the golden sand background colour, the vibrant green of the palm leaves, and the range of other colours in the smaller details such as the shells and footprints - and decided to make a colour palette from these to use throughout the website for consistency.
 
-To be able to use each of these specific colours from the image throughout the website, I used the [ColorZilla Chrome Extension](https://www.colorzilla.com/), which allowed me to pinpoint and extract exact colour codes directly from any online image. I added many different colours, then refined my choices by previewing them on the site to ensure they complemented each other and provided good contrast.
+To be able to use each of these specific colours from the image throughout the website, I used used [ColorZilla](https://www.colorzilla.com/), which is a Chrome extension that allows you to select specific colours from a webpage using a dropper tool, to get the specific hex code/rgb code directly from any online image. I added many different colours, then refined my choices by previewing them on the site to ensure they complemented each other and provided good contrast.
 
 For the Header and Footer, I wanted to evoke the feel of a 'bamboo beach shack', so I searched for images featuring horizontally aligned bamboo. 
 
-I eventually found a [bamboo image](#bamboo-image-used-as-header-and-footer-background) that fit the look I wanted, but its original colors didn’t quite match my chosen palette, so I added a semi-transparent colored overlay using one of the palette colors extracted from the background image over the top of the bamboo background image. This allowed the bamboo texture to remain visible while ensuring the overall color scheme stayed consistent. The overlay also improves the readability of button text and titles against the background.
+I eventually found a [bamboo image](#bamboo-image-used-as-header-and-footer-background) that fit the look I wanted, but its original colors didn't quite match my chosen palette, so I decided to create a semi-transparent colored overlay using one of the palette colors extracted from the background image over the top of the bamboo background image by changing the hex code to an rgba code, where I can manipulate the opacity, and adding it as a background to another div I added on top. This allowed the bamboo texture to remain visible while ensuring the overall color scheme stayed consistent. The overlay also improves the readability of button text and titles against the background.
 
+![ColorZilla photo showing the green colour](assets/images/readme/colorzilla-leaf-green.png)
 
 **Images of Navbar before and after adding the coloured semi-transparent overlay**
 
@@ -236,7 +237,7 @@ The favicon for this site is a small palm tree icon, chosen to reflect the tropi
 
 ### Colour Pallet
 
-![Colour Pallet](assets/images/readme/colour-pallet.jpg)
+![Colour Pallet](assets/images/readme/design/colour-pallet.jpg)
 
 For future maintainability, I defined each colour as a CSS variable (e.g., `var(--colour-name)`). This approach made it easy to update the palette later if needed - changing a single variable would update the colour everywhere it was used. This was especially helpful when testing text contrast for accessibility, as I did end up changing the colour I had selected for the paragraph text when testing against the background colour of the text 'bubbles', so that it would pass all of the tests in the [add link] contrast test as it didn't originally.
 
@@ -361,7 +362,7 @@ This has links to social media, and is shown at the bottom of each page, althoug
 
 ### No Break Spaces
 
-I added no break spaces (`&nbsp;`) to the end of all paragraphs between the last 2 (sometimes 3 if short) words so there aren’t ever any 'orphan' words, no matter the screen size - which makes blocks of text look a lot better always.
+I added no break spaces (`&nbsp;`) to the end of all paragraphs between the last 2 (sometimes 3 if short) words so there aren't ever any 'orphan' words, no matter the screen size - which makes blocks of text look a lot better always.
 
 ![No Break Spaces in HTML code](assets/images/readme/nbsp-in-html.png)
 
@@ -647,7 +648,7 @@ Below is an image of the new, slightly darker brown colour passing all of the te
 
 | Original text colour which didn't pass the AAA test: | Original Colour Pallet before testing: |
 | :---: | :---: |
-| ![Checking Contrast of text colour and background](assets/images/readme/testing/webaim-contrast-checker-fail.png) | ![Old Colour Pallet](assets/images/readme/colour-pallet-original.jpg) |
+| ![Checking Contrast of text colour and background](assets/images/readme/testing/webaim-contrast-checker-fail.png) | ![Old Colour Pallet](assets/images/readme/design/colour-pallet-original.jpg) |
 
 </details>
 
@@ -699,8 +700,55 @@ These were added every time I formatted my pages, and resulted in errors in the 
 
 ---
 
-### Bootstrap's Active page not visible
+### Icons from Bootstrap couldn't be coloured
 
+<details>
+<summary>Issue & Solution:</summary>
+
+**Issue:** I was unable to colour the burger icon of the icon that I got from Bootstrap's navbar code, or the dropdown split button arrow icons.
+
+**Solution:** I inspected with Chrome **DevTools** and saw that the bootstrap burger icon was an image so I wouldn't be able to change the colour of that, so I decided to change the icon to a **Font Awesome** icon instead, which I know are customisable/colourable as text is. I also did the same with the small arrows in the split buttons that are used to open the button's dropdown menu, so that I could colour them all consistently.
+
+**Steps:**
+At first I made a class with the chosen colour called `.text-sand` which I added as a class to the span element which also had a `.navbar-toggler-icon` class.
+
+![Original code with .navbar-toggler-icon](assets/images/readme/issues/colouring-burger-icon/code-original.png)
+
+I then got rid of the `.navbar-toggler-class` which was creating the image, and added my chosen Font Awesome icon code inside the `span`.
+
+![Code with added Font Awesome Icon](assets/images/readme/issues/colouring-burger-icon/code-added-icon.png)
+
+I checked this worked, and it did, then tried moving all the classes to the newly added `i` element from Font Awesome instead to see if I still needed the `span`, and after checking, this still worked, so I removed the redundant `span` element.
+
+![Final code with span element removed](assets/images/readme/issues/colouring-burger-icon/code-final.png)
+
+| This is now the output on the website: | After border has been added: |
+| :---: | :---: |
+| ![Coloured burger icon](assets/images/readme/issues/colouring-burger-icon/burger-before-border.png) | ![Coloured burger icon with border](assets/images/readme/issues/colouring-burger-icon/burger-after-border.png) |
+
+**Later Change:**
+Later on I decided to change the `.text-sand` class to instead target all `i` elements which are a child of the `.navbar` class, which reduced and tidied the code and would make it easier to keep the colouring consistent if adding any more icons to the navbar in future.
+
+The CSS code used to style the navbar icons:
+```css
+/* Navbar Arrows and Burger Icon */
+.navbar i {
+    color: var(--primary-sand);
+}
+
+/* Navbar Burger Icon */
+.burger-icon {
+    border: solid 4px var(--primary-sand);
+    margin-bottom: 0.5rem;
+    padding: 0.25rem 0.75rem;
+}
+```
+</details>
+
+---
+
+### Bootstrap's Active page not visible
+<!-- work on this -->
 <details>
 <summary>Issue & Solution:</summary>
 
@@ -714,12 +762,12 @@ I did this by ...
 
 ---
 
-### Page Title inside Navbar not appearing centralised
+### Page Title inside Navbar not properly centralised
 
 <details>
 <summary>Issue & Solution:</summary>
 
-**Issue:** Because of the burger icon being to the right of the same navbar section that the page title appears in on smaller screens (mobile and tablet), the title wasn't appearing centralised, it was being pushed too far to the left.
+**Issue:** Because of the burger icon being to the right of the same navbar section that the page title appears in on smaller screens (mobile and tablet), the title wasn't appearing properly centralised as it was being pushed too far to the left.
 
 **Solution:** I fixed this by adding padding to the left of the page title which matched the width of the burger icon, centralising it correctly to match the title above.
 I added a class to the page title, and added `padding-left` of the same width of the burger icon.
@@ -732,10 +780,11 @@ I added a class to the page title, and added `padding-left` of the same width of
     padding-left: 28.4px;
 }
 ```
-This also had to be amended to match the burger icon's new width on a larger screen as I added padding to the x-axis at the mobile to tablet breakpoint. I checked the width of the burger icon at each breakpoint using Chrome DevTools (shown below).
-| Smaller burger icon without added padding in the x-axis: | Smaller burger icon with added padding in the x-axis: |
+This also had to be amended to match the burger icon's new width on a larger screen, as I added padding to the x-axis at the mobile to tablet breakpoint. I checked the width of the burger icon at each breakpoint using Chrome DevTools (shown below).
+
+| Smaller burger icon without extra padding in the x-axis: | Smaller burger icon with extra padding in the x-axis: |
 | :---: | :---: |
-| ![Smaller burger icon without added padding in the x-axis](assets/images/readme/issues/page-title-center/issue-burger-icon-small.png) | ![Smaller burger icon with added padding in the x-axis](assets/images/readme/issues/page-title-center/issue-burger-icon-large.png) |
+| ![Smaller burger icon without extra padding in the x-axis](assets/images/readme/issues/page-title-center/issue-burger-icon-small.png) | ![Smaller burger icon with extra padding in the x-axis](assets/images/readme/issues/page-title-center/issue-burger-icon-large.png) |
 ```css
 @media (max-width: 426px) {
     .page-title {
@@ -777,9 +826,7 @@ Later, I also updated the navbar alignment to better match the rest of the site'
 <details>
 <summary>Issue & Solution:</summary>
 
-**Issue:** When deploying the website, I noticed that the background image in the main section was far too zoomed in when on mobile/tablet view, making it appear pixelated.
-
-The background image I used as a background was being stretched too much by the height of too much page content - especially on mobile screens where boxes being stacked on top of each other made the page even taller - which resulted in the background image being very zoomed in, making the image look pixelated.
+**Issue:** The image I used as a background was being stretched too much by the height of too much page content - especially on mobile screens where boxes being stacked on top of each other made the page even taller - which resulted in the background image being very zoomed in, making the image look pixelated.
 
 |  |  |
 | :---: | :---: |
@@ -789,7 +836,7 @@ The background image I used as a background was being stretched too much by the 
 
 ---
 
-**New Issue:** When doing this I encountered an issue, in which the image didn’t spread all the way to the edges of the screen, and we were left with quite a large gap around the edges at certain screen sizes
+**New Issue:** When doing this I encountered an issue, in which the image didn't spread all the way to the edges of the screen, and we were left with quite a large gap around the edges at certain screen sizes
 
 ![Background image not stretched to edges of screen](assets/images/readme/issues/background-too-zoomed/issue-background-not-covering.png)
 
@@ -869,11 +916,11 @@ After:
 
 | Success Page on XXL screens before | Success Page on XXL screens after |
 | :---: | :---: |
-| ![Success Page Before](assets/images/readme/xxl-success-before.png) | ![Success Page After](assets/images/readme/xxl-success-after.png) |
+| ![Success Page Before](assets/images/readme/issues/xxl-success-before.png) | ![Success Page After](assets/images/readme/issues/xxl-success-after.png) |
 
 | 404 Page on XXL screens before | 404 Page on XXL screens after |
 | :---: | :---: |
-| ![404 Page Before](assets/images/readme/xxl-404-before.png) | ![404 Page After](assets/images/readme/xxl-404-after.png) |
+| ![404 Page Before](assets/images/readme/issues/xxl-404-before.png) | ![404 Page After](assets/images/readme/issues/xxl-404-after.png) |
 
 </details>
 
@@ -1028,7 +1075,7 @@ I chose `justify-content-evenly` instead of `center`, as it worked better to spr
 
 ![image](assets/images/readme/deployment/creating.png)
 
-- Then, after making sure I was still in the correct folder, I typed `git clone [link copied from GitHub]`
+- Then, after making sure I was still in the correct folder, I typed `git clone [link from GitHub]`
 
 ![image](assets/images/readme/deployment/terminal1.png)
 
@@ -1092,7 +1139,7 @@ I chose `justify-content-evenly` instead of `center`, as it worked better to spr
 <details>
 <summary>*click to view image*</summary>
 
-![Background image with sand and palm leaves](assets/images/site-wide/background-beach.jpg)
+![Background image with sand and palm leaves](assets/images/website/site-wide/background-beach.jpg)
 
 </details>
 
@@ -1102,7 +1149,7 @@ I chose `justify-content-evenly` instead of `center`, as it worked better to spr
 <details>
 <summary>*click to view image*</summary>
 
-![Bamboo image from Header and Footer](assets/images/site-wide/background-bamboo.jpg)
+![Bamboo image from Header and Footer](assets/images/website/site-wide/background-bamboo.jpg)
 
 </details>
 
@@ -1117,7 +1164,7 @@ I chose `justify-content-evenly` instead of `center`, as it worked better to spr
 <details>
 <summary>*click to view image*</summary>
 
-![Palm Tree Favicon](assets/images/site-wide/palm.ico)
+![Palm Tree Favicon](assets/images/website/site-wide/palm.ico)
 
 </details>
 
@@ -1133,6 +1180,9 @@ All Pokémon-related images used in this project, including screenshots from the
 - **Toho** for movie-related images.
 
 These images are used here for educational and illustrative purposes only. Full credit and copyright remain with the original creators and rights holders.
+
+<!-- Keep in? -->
+![Licensing for Pokémon photos](assets/images/readme/battle-arena-licensing.png)
 
 ---
 

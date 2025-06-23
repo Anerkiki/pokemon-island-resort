@@ -73,7 +73,7 @@ main {
 }
 
 section {
-    background-image: url(../images/site-wide/background-beach.jpg);
+    background-image: url(../images/website/site-wide/background-beach.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     border-radius: 30px;
@@ -124,7 +124,7 @@ h6 {
 /* Header and Footer Background */
 
 .edge-background {
-    background-image: url(../images/site-wide/background-bamboo.jpg);
+    background-image: url(../images/website/site-wide/background-bamboo.jpg);
     width: 100%;
 }
 
@@ -186,7 +186,7 @@ h1.head-title {
     color: var(--tertiary-sand);
 }
 
-/* Navbar Arrows and Icon */
+/* Navbar Arrows and Burger Icon */
 .navbar i {
     color: var(--primary-sand);
 }
