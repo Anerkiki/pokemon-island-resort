@@ -1019,7 +1019,7 @@ However, I couldn't get everything to work as I wanted - there was always one ex
 
 The image below shows both page titles being visible - when 1 of them should be hidden if the other one visible.
 
-![Page Titles both appearing at the same time](assets\images\readme\issues\breakpoint-error.png)
+![Page Titles both appearing at the same time](assets/images/readme/issues/breakpoint-error.png)
 
 **Solution:** The issue stemmed from the navbar switching to a burger icon at the `lg` breakpoint, while other elements controlled by CSS media queries didn't always sync perfectly, resulting in a mismatch at a specific screen width.
 
