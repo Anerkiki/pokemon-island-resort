@@ -378,7 +378,13 @@ I added no break spaces (`&nbsp;`) to the end of all paragraphs between the last
 
 Instead of adding margins/padding/gaps to individual elements using Bootstrap classes, like I was doing at the start, I decided to instead add these to my custom `style.css` stylesheet, so that these would be automatically passed down or I could add multiple changes with a simple custom class instead.
 
-I did this by adding some to new classes, like the `.floating-section` class below, for my text bubbles and images:
+Instead of having lots of different classes that applied specific spacing, that were the same on multiple elements, I decided to add spacing like this to a new CSS class or onto as an element rule in my stylesheet.
+
+```html
+<div class="my-5 mt-2 px-4 pb-2 pt-0">
+```
+
+The new class: `.floating-section` below I used for spacing all for my text bubbles and images:
 
 ```css
 .floating-section {
@@ -390,15 +396,11 @@ Images showing the spacing applied due to the above class, such as padding (in g
 
 | | |
 | :---: | :---: |
-| ![alt text](assets/images/readme/features/universal-spacing/bubble-chalet.png) | ![An example of the spacing applied to a form](assets/images/readme/features/universal-spacing/form-spacing.png) |
+| ![An example of the spacing applied to a text bubble](assets/images/readme/features/universal-spacing/bubble-chalet.png) | ![An example of the spacing applied to a form](assets/images/readme/features/universal-spacing/form-spacing.png) |
 
-I also added spacing to the `body`,`main` and `section` elements. This image shows some of the rules I added to these elements:
+I also added spacing to the `body`,`main` and `section` elements. This image shows some of the rules I added to some of these elements:
 
 ```css
-body {
-    gap: 10px;
-}
-
 main {
     gap: 10px;
 }
@@ -408,14 +410,13 @@ section {
     padding: 10px 0;
     width: 99%;
 }
-
-section div.container {
-    gap: 20px;
-    margin: 10px auto;
-}
 ```
 
-The spacing was particularly helpful to space the content and add padding to my multiple text bubbles, so ensure nothing got too cramped and make sure everything stays consistant.
+| Before | After |
+| :---: | :---: |
+| ![Page spacing before](assets/images/readme/features/universal-spacing/body-before.png) | ![Page spacing after](assets/images/readme/features/universal-spacing/body-after.png) |
+
+The spacing was particularly helpful to space the content and add padding inside and inbetween the multiple text bubbles, so ensure nothing got too cramped and make sure everything stays consistant, no matter the screen size.
 
 ---
 
@@ -721,16 +722,16 @@ Below is an image of the new, slightly darker brown colour passing all of the te
 
 ## Manual Testing
 
-  | Test Area | What I'm Testing | Did it Pass? |
-  | --- | --- |:---:|
-  | Navigation Links | Do all links navigate to the correct page/section? | Yes |
-  | Navigation Links | Do all buttons lead to the intended destination? | Yes |
-  | Forms | Does all the validation work, so the form can't be submitted without all required fields filled and with valid/the correct characters? | Yes |
-  | Forms | Once submitted does it navigate to the `success.html` page? | Yes |
-  | External Links (Social Media Icons) | Do they all lead to the intended website? | Yes |
-  | External Links (Social Media Icons) | Do they open in a new tab? | Yes |
-  | Responsive Design | Does the website adapt as intended at all screen sizes? | Yes |
-  | Responsive Design | Does the burger menu work as it should, including closing when a link has been clicked? | Yes |
+| Test Area | What I'm Testing | Did it Pass? |
+| --- | --- |:---:|
+| Navigation Links | Do all links navigate to the correct page/section? | Yes |
+| Navigation Links | Do all buttons lead to the intended destination? | Yes |
+| Forms | Does all the validation work, so the form can't be submitted without all required fields filled and with valid/the correct characters? | Yes |
+| Forms | Once submitted does it navigate to the `success.html` page? | Yes |
+| External Links (Social Media Icons) | Do they all lead to the intended website? | Yes |
+| External Links (Social Media Icons) | Do they open in a new tab? | Yes |
+| Responsive Design | Does the website adapt as intended at all screen sizes? | Yes |
+| Responsive Design | Does the burger menu work as it should, including closing when a link has been clicked? | Yes |
 
 ---
 
