@@ -20,7 +20,7 @@ View live website [here](https://anerkiki.github.io/pokemon-island-resort/) (Hos
 - [Design and Planning](#design-and-planning)
   - [Objectives](#objectives)
   - [Design and Brand Identity](#design-and-brand-identity)
-  - [User Experience/User Interface(UX/UI)](#user-experienceuser-interfaceuxui)
+  - [User Experience/User Interface (UX/UI)](#user-experienceuser-interfaceuxui)
     - [Typical Customer Profile](#typical-customer-profile)
     - [User Stories](#user-stories)
   - [Wireframes](#wireframes)
@@ -242,7 +242,7 @@ The favicon for this site is a small palm tree icon, chosen to reflect the tropi
 
 ![Colour Palette](assets/images/readme/design/colour-palette.jpg)
 
-For future maintainability, I defined each colour as a CSS variable (e.g., `var(--colour-name)`). This approach made it easy to update the palette later if needed - changing a single variable would update the colour everywhere it was used. This was especially helpful when testing text contrast for accessibility, as I did end up changing the colour I had selected for the paragraph text when testing against the background colour of the text 'bubbles', so that it would pass all of the tests in the [add link] contrast test as it didn't originally.
+For future maintainability, I defined each colour as a CSS variable (e.g., `var(--colour-name)`). This approach made it easy to update the palette later if needed - changing a single variable would update the colour everywhere it was used. This was especially helpful when testing text contrast for accessibility, as I did end up changing the colour I had selected for the paragraph text when testing against the background colour of the text 'bubbles', so that it would pass all of the tests in the [WebAIM Contrast Checker Test](#webaim-contrast-checker-test) as it didn't originally.
 
 I also used a couple of colours outside of this colour palette, one which was a shade in between 2 of the colours from my colour palette, and one which is a lighter version of the original - in places where the original colours didn't look quite right (either too light or too dark).
 
@@ -296,7 +296,7 @@ This includes:
 | Large screen sizes (laptop) - now with 3 images to the side of the text box | XL screen sizes (monitor/TV) - now with 2 images to the side of the text box |
 | ![Responsive Images on Medium Screens](assets/images/readme/features/responsive-images-large.png) | ![Responsive Images on Medium Screens](assets/images/readme/features/responsive-images-xl.png) |
 
-The paragraphs inside the text box and images are all inside a Bootstrap flexbox, which will adjust to the screen size accordingly, and if gaps are needed, they will be evenly distributed between so there are never any large unsightly gaps, no matter the viewing dimensions.
+The paragraphs inside the text box and images are all inside a Bootstrap flexbox, which adjusts to the screen size. If gaps are needed, they are evenly distributed, so there are never any large unsightly gaps, no matter the viewing dimensions."
 
 ---
 
@@ -418,7 +418,7 @@ section {
 | :---: | :---: |
 | ![Page spacing before](assets/images/readme/features/universal-spacing/body-before.png) | ![Page spacing after](assets/images/readme/features/universal-spacing/body-after.png) |
 
-The spacing was particularly helpful to space the content and add padding inside and in between the multiple text bubbles, so ensure nothing got too cramped and make sure everything stays consistent, no matter the screen size.
+The spacing was particularly helpful to space the content and add padding inside and in between the multiple text bubbles, to ensure nothing got too cramped and make sure everything stays consistent, no matter the screen size.
 
 ---
 
