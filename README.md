@@ -26,7 +26,6 @@ View live website [here](https://anerkiki.github.io/pokemon-island-resort/) (Hos
   - [Wireframes](#wireframes)
   - [Typography/Fonts](#typographyfonts)
   - [Colour Scheme/Design](#colour-schemedesign)
-    - [Background Images and Colours](#background-images-and-colours)
     - [Colour Palette](#colour-palette)
     - [Font Colouring](#font-colouring)
     - [Favicon](#favicon)
@@ -40,24 +39,25 @@ View live website [here](https://anerkiki.github.io/pokemon-island-resort/) (Hos
   - [Pages](#pages)
 
 - [Testing](#testing)
+  - [W3C Markup/HTML Validation Service](#w3c-markuphtml-validation-service)
+  - [W3C CSS Validation Service](#w3c-css-validation-service)
   - [Lighthouse Performance](#lighthouse-performance)
   - [Accessible Web Test](#accessible-web-test)
   - [WAVE Test](#wave-test)
   - [WebAIM Contrast Checker Test](#webaim-contrast-checker-test)
-  - [W3C Markup/HTML Validation Service](#w3c-markuphtml-validation-service)
-  - [W3C CSS Validation Service](#w3c-css-validation-service)
   - [Manual Testing](#manual-testing)
 
 - [Fixed Issues](#fixed-issues)
-  - [Extra fixes for ease of use](#extra-fixes-for-ease-of-use)
 
 - [Deployment](#deployment)
 
 - [Credits](#credits)
   - [Technologies Used](#technologies-used)
   - [Images Used](#images-used)
+  - [Acknowledgements](#acknowledgements)
 
 - [Other](#other)
+  - [Future Enhancements](#future-enhancements)
   - [Full Navbar Button Dropdown List](#full-navbar-button-dropdown-list)
 
 ---
