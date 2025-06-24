@@ -492,11 +492,31 @@ I had 3 of these warnings, for the 2 continued sections that I needed to split d
 
 After correcting the above Warning message, these are the test results from my W3C HTML Validator Tests:
 
+| Home Page | Suites Page |
+| :---: | :---: |
+| ![alt text](image.png) | ![alt text](image-2.png) |
+
+| Classes Page | Success Page | 404 Page |
+| :---: | :---: | :---: |
+| ![alt text](image-1.png) | ![alt text](image-3.png) | ![alt text](image-4.png) |
 
 <!-- (Do I want to add readme too?) -->
+
 ---
 
 ## W3C CSS Validation Service
+
+The CSS stylesheet passes the CSS Validation Service.
+
+![alt text](image-5.png)
+
+There were some warnings which are due to using CSS variables and imported stylesheets from Bootstrap, which aren't anything to worry about.
+
+<details>
+<summary>*click to see warning messages*</summary>
+
+![alt text](image-6.png)
+</details>
 
 ---
 
@@ -534,7 +554,7 @@ Success Page:
 
 ---
 
-## Accessible Web Test
+## Accessible Web Test <!-- Do I want this? -->
 
 https://accessibleweb.com/website-accessibility-checker/?page_url=https%3A%2F%2Fanerkiki.github.io%2Fpokemon-island-resort%2F
 
@@ -544,16 +564,14 @@ https://accessibleweb.com/website-accessibility-checker/?page_url=https%3A%2F%2F
 
 ## WAVE Test
 
-<!-- Put all wave images into wave folder and rename all -->
-
 <details>
 <summary>False Contrast Errors</summary>
 
-![Wave Test False Fail Summary](assets/images/readme/testing/wave/wave-test-false-fail-summary.png)
+![Wave Test False Fail Summary](assets/images/readme/testing/wave/false-fail-summary.png)
 
 **Issue** The only contrast errors were caused by the visually hidden headers I had added during the W3C HTML Validation test just above, which I discovered when inspecting the code shown below:
 
-![False Contrast Errors](assets/images/readme/testing/wave/wave-test-false-fail.png)
+![False Contrast Errors](assets/images/readme/testing/wave/false-fail.png)
 
 **Solution** I got around these errors by adding a colour to these headers by adding a colour to the headings in the HTML using the `style` attribute.
 
@@ -1170,7 +1188,7 @@ I chose `justify-content-evenly` instead of `center`, as it worked better to spr
 
 [IconArchive - Palm Tree Icon](https://www.iconarchive.com/show/noto-emoji-animals-nature-icons-by-google/22331-palm-tree-icon.html)
 
-### Pokémon Images Copyright and Credits
+## Pokémon Images Copyright and Credits
 
 All Pokémon-related images used in this project, including screenshots from the games and anime, are the property of their respective copyright holders. These include:
 
@@ -1181,7 +1199,7 @@ All Pokémon-related images used in this project, including screenshots from the
 
 These images are used here for educational and illustrative purposes only. Full credit and copyright remain with the original creators and rights holders.
 
-<!-- Keep in? -->
+<!-- Keep in or remove? -->
 ![Licensing for Pokémon photos](assets/images/readme/battle-arena-licensing.png)
 
 ---
