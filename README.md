@@ -199,7 +199,7 @@ I wanted to pick a playful and tropical font with a seaside feel for my headings
 
 For paragraph text, I wanted a simple, clear, and unfussy font that would complement 'Skranji' without competing for attention. Again using **Google Fonts**, I browsed sans-serif options and selected **Roboto** for its versatility and readability across devices. Its straightforward design and spacious lettering make it easy to read, even in longer paragraphs.
 
-|  |  |
+| Header Font | Paragraph Font |
 | :---: | :---: |
 | ![Skranji Font](assets/images/readme/design/font-skranji.png) | ![Roboto Font](assets/images/readme/design/font-roboto.png) |
 
@@ -269,14 +269,16 @@ I tested the colours using [WebAIM Contrast Checker Test](https://webaim.org/res
 
 ## Key Features
 
+### Accessible for screen readers/visually impaired
+
+I added aria-labels to all links on the website and ensured that even sections without a header had a hidden visibility header which made it clear what the section was for.
+
 ### Fully Responsive at any screen size:
 Ensures the website is accessible and visually appealing on all devices, including mobile, tablet, and desktop.
 
 This includes:
-- A hero image that switches from landscape to portrait when shrinking to mobile/tablet screen size
-- Text 'bubbles' that change order and location trainsitioning from different screen sizes, such as from mobile to laptop
-<!-- work on this -->
-- Images which go from being inside the floating text bubbles, to outside, next to the text, in their own "bubbles" and  change order and visibility depending in the screen size
+- A hero image that switches from landscape to portrait when shrinking from laptop to mobile/tablet screen size.
+- Text 'bubbles' that change order and location transitioning from different screen sizes, with images which go from being inside the floating text bubbles, to outside, next to the text, in their own "bubbles" and also change order and visibility depending in the screen size.
 
 | Hero Image on smaller screens (mobile & tablet): | Hero Image on large screens (laptop & larger): |
 | :---: | :---: |
@@ -340,7 +342,6 @@ Below is an interactive feature to show you the buttons in the navbar and dropdo
 - Book Now!<br>
 </details><br>
 
-
 **Larger Screen (Full Sized) Navbar:**
 
 ![Full Sized Navbar](assets/images/readme/features/navbar-full-size.png)
@@ -382,47 +383,49 @@ I added no break spaces (`&nbsp;`) to the end of all paragraphs between the last
 Featuring:
 - A fun and colourful **Hero Image** with small floating 'Welcome' text bubble.
 - Different Navbar options depending on the screen size.
-- A responsive Hero image that changes orientation at different sizes to fill the screen (portrait for mobile/tablet and landscape for laptop and larger screens)
+- A responsive Hero image that changes orientation at different sizes to fill the screen (portrait for mobile/tablet and landscape for laptop and larger screens).
 
 ![Mockups of Home Page on various screen sizes](assets/images/readme/mockups/mockups-home-page.png)
 
-  - Responsive so that the center content doesn't stretch too large on XXL Screens
+- An **Activities** Section* with responsive floating text bubbles and images which multiply to up to 3 depending on the height of the text bubble, or appear inside the text bubbles at mobile and tablet screen sizes.
 
-![The Home Page on XXL Screens](assets/images/readme/mockups/xxl-screens.png)
-
-  - An **Activities** Section* with responsive floating text bubbles and images which multiply to up to 3, or appear inside the text boxes/bubbles at different screen sizes.
-    - Image shows open 'Our Activities' dropdown menu option selected.
+  - The image below shows a way to jump to this section from anywhere on the Home page - an open 'Our Activities' dropdown menu option from opening the 'Home' dropdown menu in the navbar, which is being hovered over so the colour has inverted.
 
 ![Mockups of Home Page Activities Section on various screen sizes](assets/images/readme/mockups/mockups-home-page-activities.png)
 
-  - An **Our Trainers** Section* with group image, and then individual images, descriptions, and links to their classes, which are fully responsive, and the images also multiply to up to 3, or appear inside the text boxes/bubbles at different screen sizes.*
+- An **Our Trainers** Section* with group image, and then individual images, descriptions, and links to their classes, which are fully responsive, and the images also multiply to up to 3, or appear inside the text bubbles at different screen sizes.
+  - You can get to this section of the Home page by clicking the 'Trainers' button, or selecting the 'Our Trainers' option in the Home dropdown menu.
+  - As you can see on the largest screen in the image below, when the 'Trainers' button is hovered over, there is a hover effect that changes the colouring/background, like in the dropdown menus.
 
-  **Home Page Trainers Section** mockups:
-  You can get to this section of the Home Page by clicking the 'Trainers' button, or selecting the 'Our Trainers' option in the Home dropdown menu.
-  - As you can see, when the 'Trainers' button is hovered over, there is a hover effect that changes the colouring/background, like in the dropdown menus.
 ![Mockups of Home Page Trainers Section on various screen sizes](assets/images/readme/mockups/mockups-home-page-trainers.png)
 
-  - A **Contact Form*** to get in touch, with an adjustable message box, which links to the **Success/Thank You Page** when correctly submitted.
+- A **Contact Form*** to get in touch, with an adjustable message box, which links to the **Success/Thank You Page** when correctly submitted.
 
-  **Home Page Contact Form** mockups showing one of the dropdown menu options that directs there from the Home button:<br>
+  - This image shows one of the dropdown menu options that directs to the contact form from the 'Contact' split button dropdown menu.<br>
 *(you can also use the Contact button or 'Send Us a Message' option in the Contact dropdown menu)*
+
 ![Mockups of Home Page Contact Form on various screen sizes](assets/images/readme/mockups/mockups-home-page-form.png)
+
+- All pages are also responsive so that the center content won't stretch too large on XXL Screens.
+
+![The Home Page on XXL Screens](assets/images/readme/mockups/xxl-screens.png)
 
 ---
 
 **Suites Page*** - Lists the suites, complete with descriptions and images, and also has a booking request form.
 
 Featuring:
-- A large bubble **Page Title** which disappears and is instead incorporated into the navbar on smaller (mobile) devices.
-- **4 Suite Options*** with images, descriptions, [[[-----links to nearby activities??----]]] and a 'Book Now' button, which links directly down to the Booking Form at the bottom of the page.
+- A large bubble **Page Title** which disappears and is instead incorporated into the navbar on smaller screen sizes.
+- **4 Suite Options*** with images, descriptions, and a 'Book Now' button, which links directly down to the suite Booking Enquiry Form at the bottom of the page.
 
-  **Suites Page** mockups:
-  - As you can see the selected page (Suites) is underlined on the navbar button to show that this is the current page, and the dropdown menu arrow has appeared beside it
+  - As you can see in the image below, as the Suites page is the current page, the 'Book a Suite' button is underlined on the navbar button so that it is clear to the user at a glance which page they are on, and also the dropdown menu arrow has appeared beside it.
+
 ![Mockups of Suites Page on various screen sizes](assets/images/readme/mockups/mockups-suites-page.png)
 
-  - A Suite **Booking Form*** with dropdown menu to pick a suite to enquire about, which link to the **Success/Thank You Page** when correctly submitted.
+- A Suite **Booking Enquiry Form*** with dropdown menu to pick a suite to enquire about, which link to the **Success/Thank You Page** when correctly submitted.
 
-  **Suites Page Enquiry Form** mockups showing open dropdown menu with Suites 'Book Now' option selected:
+  - The image below shows the open dropdown menu from the 'Book a Suite' split button, with the 'Book Now' option being hovered over.
+
 ![Mockups of Suites Page Enquiry Form on various screen sizes](assets/images/readme/mockups/mockups-suites-page-form.png)
 
 ---
@@ -430,35 +433,36 @@ Featuring:
 **Classes Page*** - Lists the classes, complete with descriptions, images and trainers teaching the classes and has a booking request form.
 
 Featuring:
+- A large bubble **Page Title** which disappears and is instead incorporated into the navbar on smaller screen sizes.
 - **5 Class Options*** which are all fully responsive, so the image is inside the description box in a mobile/tablet screen, and then on larger screens the images pop out of the text box and appear beside, increasing/decreasing from 1 to 4 depending on the screen size, to match the height of the description bubble. As well as related images, these all have titles, descriptions, which trainer/trainers that will take the class (including a link to the specific trainer on the main home page), and a 'Book Now' button, which links directly down to the Booking Form at the bottom of the page.
 
-**Classes Page** mockups:
 ![Mockups of Classes Page on various screen sizes](assets/images/readme/mockups/mockups-classes-page.png)
 
-  - A Class **Booking Form*** with dropdown menu to pick a suite to enquire about, which link to the **Success/Thank You Page** when correctly submitted.
+- A Class **Booking Form*** with dropdown menu to pick a suite to enquire about, which redirects to the **Success/Thank You Page** when correctly submitted.
 
-  **Classes Page Enquiry Form** mockups showing open dropdown menu with Classes 'Book Now' option selected:
-  <!-- remove this and all others like it - combine with bulletpoints/text above -->
+  - The image below shows the open dropdown menu from the 'Book a Class' split button, with the 'Book Now' option being hovered over.
+
 ![Mockups of Classes Page Enquiry Form on various screen sizes](assets/images/readme/mockups/mockups-classes-page-form.png)
 
 ---
 
-**Success/Thank You Page** – Confirms successful form submission with a friendly thank you message and offers links to explore more of the site.
+**Success/Thank You Page** – Confirms successful form submission and offers links to explore more of the website.
 
 Feauturing:
-- A large bubble **Page Title** saying 'Thank You' which disappears and is instead incorporated into the navbar on smaller (mobile) devices.
-- A message of gratitude to the customer, including links to other places on the website that they can look at.
-- An image of all of the Trainers/Team
+- A large bubble "Thank You" **Page Title**, which disappears and is instead incorporated into the navbar on smaller screen sizes.
+- A friendly "Thank You" message to the user, with links to other places on the website that they can look at.
+- An image (or two at XXL screen sizes) of all of the Trainers/Team.
 
-  **Success Page** mockups:
 ![Mockups of Success Page on various screen sizes](assets/images/readme/mockups/mockups-success-page.png)
 
 ---
 
-**404 Page** - A custom error page with a playful message and links to help users return to the main sections of the site.
+**404 Page** - A custom error page with links to help users return to the main sections of the site.
 
 Featuring:
-- Links back to different pages in a fun paragraph of text.
+- A large bubble **Page Title** which disappears and is instead incorporated into the navbar on smaller screen sizes.
+- Links back to different pages in a fun and playful paragraph of text.
+- An image (or two at XXL screen sizes) of the Trainers/Team.
 
 ![Mockups of 404 Page on various screen sizes](assets/images/readme/mockups/mockups-404-page.png)
 
@@ -840,71 +844,18 @@ Later, I also updated the navbar alignment to better match the rest of the site'
 ---
 
 ### Background Image pixelated on small screens
-<!-- needs work? -->
 
 <details>
 <summary>Issue & Solution:</summary>
-
-**Issue:** The image I used as a background was being stretched too much by the height of too much page content - especially on mobile screens where boxes being stacked on top of each other made the page even taller - which resulted in the background image being very zoomed in, making the image look pixelated.
+**Issue:** The background image was becoming overly stretched due to the tall page content - particularly on mobile devices where stacked boxes increased the overall height. As a result, the image appeared excessively zoomed in and pixelated, diminishing its visual quality.
 
 |  |  |
 | :---: | :---: |
 | ![Image showing background image appearing too zoomed in and pixelated](assets/images/readme/issues/background-too-zoomed/issue-background-too-zoomed-before.png) | ![Image showing background image appearing too zoomed in and pixelated](assets/images/readme/issues/background-too-zoomed/issue-background-too-zoomed-before-two.png) |
 
-**Solution:** I resolved this issue by splitting the content into seperate sections, and adding the background image to each section, instead of having all of the content in one giant section. I found that having around 2 of the text boxes in each worked well on all screen sizes, so none were too tall for the image, eliminating the need to change the amount of sections depending on screen sizes, which I did consider, but would have added a lot more code and been more complex than necessary.
+**Solution:** I resolved this issue by splitting the content into seperate sections, and adding the background image to each section, instead of having all of the content in one giant section with just one background image.
 
----
-
-**New Issue:** When doing this I encountered an issue, in which the image didn't spread all the way to the edges of the screen, and we were left with quite a large gap around the edges at certain screen sizes
-
-![Background image not stretched to edges of screen](assets/images/readme/issues/background-too-zoomed/issue-background-not-covering.png)
-
-**New Solution:**I used Chrome DevTools to inspect this, and by removing the container class realised this took away the gap around the edges.
-
-I attempted to fix this by changing the section with the container attribute to a `div`, and wrapping this `div` inside a `section`.
-
-I also moved the `id` from one of the `div`s further down to this new `section` element, so that it was clearer which section was which.
-
-Before:
-
-```html
- <!-- Island Features -->
-        <section class="container m-4 mx-auto">
-            <div class="row justify-content-center">
-            
-                <div class="col-12 text-center title-bubble" id="our-island">
-                    <h2 class="display-4 floating-section title-bubble-text">Our Island</h2>
-                </div>
-
-                <article class="col-12 col-lg-5 text-center floating-section p-4">
-                    <h2 class="display-6">Island Feature</h2>
-                    <p class="lead">Our resort is nice!</p>
-                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ullam maxime laboriosam,
-                        quae dolores voluptate nisi sed cumque cupiditate tenetur veniam beatae magnam iure. Quo, nam?
-                        Fugit, laboriosam aperiam. Accusantium,&nbsp;debitis.</p>
-                </article>
-```
-
-After:
-
-```html
-<!-- Our Island & Features Section -->
-    <section id="our-island">
-        <div class="container m-4 mx-auto">
-            <div class="row justify-content-center">
-
-                <div class="col-12 text-center title-bubble">
-                    <h2 class="display-4 floating-section title-bubble-text">Our Island</h2>
-                </div>
-
-                <article class="col-12 col-lg-5 text-center floating-section p-4">
-                    <h2 class="display-6">Island Feature</h2>
-                    <p class="lead">Our resort is nice!</p>
-                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ullam maxime laboriosam,
-                        quae dolores voluptate nisi sed cumque cupiditate tenetur veniam beatae magnam iure. Quo, nam?
-                        Fugit, laboriosam aperiam. Accusantium,&nbsp;debitis.</p>
-                </article>
-```
+I found that having around two of the text boxes in each worked well on all screen sizes, so none were too tall for the image, eliminating the need to change the amount of sections depending on screen sizes, which I did consider, but would have added a lot more code and been more complex than necessary.
 
 </details>
 
@@ -974,7 +925,7 @@ I added this to the `ul` container for new links that I wanted to show when clic
 </details>
 
 ---
-
+<!-- 
 ### Issue Title
 
 <details>
@@ -999,7 +950,7 @@ I added this to the `ul` container for new links that I wanted to show when clic
 
 </details>
 
----
+--- -->
 
 ### Text box/bubble height mismatched with height of images
 
@@ -1011,12 +962,12 @@ I added this to the `ul` container for new links that I wanted to show when clic
 **Solution:** I solved this problem by setting some of the images to appear/disappear depending on the size of the screen, using bootstrap classes added to the image element.
 
 ```html
-class="img-fluid floating-section d-none d-lg-block d-xl-none">
+class="img-fluid floating-section d-none d-lg-block d-xl-none"
 ```
 
-I also added space between images with [code] so that the gap was dispersed between each image, making it appear less, rather than showing as an obvious gap at the bottom.
+I also added space between images with `d-flex flex-column justify-content-evenly` so that the gap was dispersed between each image vertically, making any gaps appear less, rather than showing up more obviously at the bottom.
 
-I then did the same to the titles, paragraphs and buttons in the text boxes/bubbles by adding `d-flex flex-column justify-content-evenly` to all article elements which contain the headers and paragraphs so that the content is aligned correctly vertically, with even gaps at the top and bottom, rather than just squashed to the top if the box is too big.
+I then did the same to the titles, paragraphs and buttons in the text bubbles by also adding `d-flex flex-column justify-content-evenly` to all article elements which contain the headers and paragraphs so that the content is aligned correctly vertically, with even gaps throughout, rather than another unsightly gap at the bottom if the box is too big.
 
 | | |
 | :---: | :---: |
@@ -1024,6 +975,7 @@ I then did the same to the titles, paragraphs and buttons in the text boxes/bubb
 
 I chose `justify-content-evenly` instead of `center`, as it worked better to spread the items better, leaving less gaps, and then by adding/removing images at certain screen sizes I made it so that there were never any noticeable gaps, no matter the screen size.
 
+`justify-content-start` is the default, but as you can see from this Bootstrap image below, it means content is bunched together (at the top in this case as I has changed the flex direction to column)
 [Justify Content explanation on Bootstrap](assets/images/readme/issues/textbox-and-images-gaps/justify-content.png)
 
 </details>
@@ -1142,9 +1094,6 @@ I chose `justify-content-evenly` instead of `center`, as it worked better to spr
 ### [Balsamiq](https://balsamiq.com/)
 - I used this to make my wireframes.
 
-<!-- TO ASK MENTOR -->
-<!-- Should I also add testing applications such as WebAIM Contrast Checker here or leave just in Testing(?) -->
-
 ---
 
 # Images Used
@@ -1200,8 +1149,11 @@ All Pokémon-related images used in this project, including screenshots from the
 
 These images are used here for educational and illustrative purposes only. Full credit and copyright remain with the original creators and rights holders.
 
-<!-- Keep in or remove? -->
-![Licensing for Pokémon photos](assets/images/readme/battle-arena-licensing.png)
+---
+
+# Achnowledgements
+
+I would like to thank the team at Code Institute, especially my tutor Tom and mentor Spencer for your help throughout this project.
 
 ---
 
