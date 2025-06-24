@@ -255,7 +255,7 @@ I used a [Color Blender tool](https://meyerweb.com/eric/tools/color-blend/#FFD8B
 
 ### Font Colouring
 
-The only colour (in the Colour Pallet) not from the background image was the dark brown shade `#674A18`, originally `#84644B`, which I chose because all of the other colours (apart from the leaf colour) were too pale to stand out against a pale sandy background (which I used as a background for all blocks of text), and it still matches the aesthetic nicely, but doesn't compete for attention from any of the more important headers, that I want the attention to initially be drawn to.
+The only colour (in the Colour Pallet) not picked from the background image was the dark brown shade `#674A18`, originally `#84644B`, which I chose because all of the other colours (apart from the leaf colour) were too pale to stand out against a pale sandy background (which I used as a background for all blocks of text), and it still matches the aesthetic nicely, but doesn't compete for attention from any of the more important headers, that I want the attention to initially be drawn to.
 
 For this reason I kept the headings (Skranji) as more colourful, in a brighter green/golden sandy colour depending on the background shade, e.g. the bolder leaf colour on a paler background and the lighter sand colour on a darker background, so that the contrast is enough to be read easily.
 
@@ -301,14 +301,6 @@ The paragraphs inside the text box and images are all inside a Bootstrap flexbox
 
 This has links to all of the main pages and is always fixed to the top, so is accessible from anywhere in the website. It has links to all of the pages (with exception to the Success and 404 pages) - [see full list](#full-navbar-button-dropdown-list)
 
-**Larger Screen (Full Sized) Navbar:**
-
-![Full Sized Navbar](assets/images/readme/features/navbar-full-size.png)
-
-**Larger Screen (Full Sized) Navbar: with open Dropdown Menu:**
-
-![Full Sized Navbar with open dropdown menu](assets/images/readme/features/navbar-full-size-dropdown.png)
-
 Below is an interactive feature to show you the buttons in the navbar and dropdown options of each (tap the arrow to see dropdown options):
 
 <details>
@@ -332,7 +324,7 @@ Below is an interactive feature to show you the buttons in the navbar and dropdo
 </details>
 <details>
 <summary>Book a Suite - (Dropdown arrow only shows when on Suites Page)</summary>
-- Luxury Sea View Penthouse<br>
+- Sea View Penthouse<br>
 - Mountain View Apartment<br>
 - Garden View Chalet<br>
 - Arena View Apartment<br>
@@ -347,6 +339,15 @@ Below is an interactive feature to show you the buttons in the navbar and dropdo
 - Snorkeling & Deep Sea Diving<br>
 - Book Now!<br>
 </details><br>
+
+
+**Larger Screen (Full Sized) Navbar:**
+
+![Full Sized Navbar](assets/images/readme/features/navbar-full-size.png)
+
+**Larger Screen (Full Sized) Navbar: with open Dropdown Menu:**
+
+![Full Sized Navbar with open dropdown menu](assets/images/readme/features/navbar-full-size-dropdown.png)
 
 | Smaller Screen (Collapsed) Navbar: | Open Smaller Screen (Collapsed) Navbar: |
 | :---: | :---: |
@@ -1229,7 +1230,7 @@ These images are used here for educational and illustrative purposes only. Full 
     - Dropdown Option 3 - **Book a Suite**
     - Dropdown Option 4 - **Social Media**
   - **Book a Suite** - (Dropdown arrow only shows when on Suites page)
-    - Dropdown Option 1 - **Luxury Sea View Penthouse**
+    - Dropdown Option 1 - **Sea View Penthouse**
     - Dropdown Option 2 - **Mountain View Apartment**
     - Dropdown Option 3 - **Garden View Chalet**
     - Dropdown Option 4 - **Arena View Apartment**
