@@ -374,6 +374,49 @@ I added no break spaces (`&nbsp;`) to the end of all paragraphs between the last
 | Before | After |
 | ![Before adding No Break Spaces](assets/images/readme/features/nbsp-before.png) | ![After adding No Break Spaces](assets/images/readme/features/nbsp-after.png) |
 
+### Universal Spacing
+
+Instead of adding margins/padding/gaps to individual elements using Bootstrap classes, like I was doing at the start, I decided to instead add these to my custom `style.css` stylesheet, so that these would be automatically passed down or I could add multiple changes with a simple custom class instead.
+
+I did this by adding some to new classes, like the `.floating-section` class below, for my text bubbles and images:
+
+```css
+.floating-section {
+    gap: 10px;
+    padding: 24px;
+}
+```
+Images showing the spacing applied due to the above class, such as padding (in green) and gaps (in purple):
+
+| | |
+| :---: | :---: |
+| ![alt text](assets/images/readme/features/universal-spacing/bubble-chalet.png) | ![An example of the spacing applied to a form](assets/images/readme/features/universal-spacing/form-spacing.png) |
+
+I also added spacing to the `body`,`main` and `section` elements. This image shows some of the rules I added to these elements:
+
+```css
+body {
+    gap: 10px;
+}
+
+main {
+    gap: 10px;
+}
+
+section {
+    margin: 0 20px;
+    padding: 10px 0;
+    width: 99%;
+}
+
+section div.container {
+    gap: 20px;
+    margin: 10px auto;
+}
+```
+
+The spacing was particularly helpful to space the content and add padding to my multiple text bubbles, so ensure nothing got too cramped and make sure everything stays consistant.
+
 ---
 
 ## Pages
@@ -715,7 +758,7 @@ These were added every time I formatted my pages, and resulted in errors in the 
 
 ![Navbar background being overridden by Bootstrap](assets/images/readme/issues/removing-navbar-background.png)
 
-**Solution:** I checked using Devtools and noticed that the background colour was being set my a bootstrap scss file, and that this was set as `!important;` so would override any background I added. Looking further I spotted it was being added because of the `bg-body-tertiary` class, so once I removed this, the background image covered the whole title & nav section, including the navbar.
+**Solution:** I checked using Devtools and noticed that the background colour was being set my a bootstrap scss file, and that this was set as `!important;` so would override any background I added. Looking further I spotted it was being added because of the `.bg-body-tertiary` class, so once I removed this, the background image covered the whole title & nav section, including the navbar.
 ![Code causing the issue](assets/images/readme/issues/removing-navbar-background-code.png)
 </details>
 
@@ -735,7 +778,7 @@ At first I made a class with the chosen colour called `.text-sand` which I added
 
 ![Original code with .navbar-toggler-icon](assets/images/readme/issues/colouring-burger-icon/code-original.png)
 
-I then got rid of the `.navbar-toggler-class` which was creating the image, and added my chosen Font Awesome icon code inside the `span`.
+I then got rid of the `.navbar-toggler-icon` class which was creating the image, and added my chosen Font Awesome icon code inside the `span`.
 
 ![Code with added Font Awesome Icon](assets/images/readme/issues/colouring-burger-icon/code-added-icon.png)
 
@@ -858,11 +901,11 @@ This also had to be amended to match the burger icon's new width on a larger scr
 
 ![Dropdown Menu being cut off](assets/images/readme/issues/right-align-before.png)
 
-**Solution:**  After consulting the Bootstrap documentation, I discovered that adding the `dropdown-menu-end` class to the same element as `dropdown-menu` changes the alignment of the dropdown menu to the right, instead of the default left alignment. This prevents the menu from being cut off at the edge of the screen. I applied this fix only to the two rightmost navbar dropdown menus, while keeping the left-side dropdowns left-aligned. This approach maintains visual consistency across the navbar and avoids potential overflow issues on either side.
+**Solution:**  After consulting the Bootstrap documentation, I discovered that adding the `.dropdown-menu-end` class to the same element as `dropdown-menu` changes the alignment of the dropdown menu to the right, instead of the default left alignment. This prevents the menu from being cut off at the edge of the screen. I applied this fix only to the two rightmost navbar dropdown menus, while keeping the left-side dropdowns left-aligned. This approach maintains visual consistency across the navbar and avoids potential overflow issues on either side.
 
 ![Dropdown Menu fixed](assets/images/readme/issues/right-align-after.png)
 
-Later, I also updated the navbar alignment to better match the rest of the site's layout by changing `container-fluid` to `container` in the navbar, which added more space between the buttons and edges of the screen and helped the navbar appear more consistent with the more centralised page content.
+Later, I also updated the navbar alignment to better match the rest of the site's layout by changing the class `.container-fluid` to `.container` in the navbar, which added more space between the buttons and edges of the screen and helped the navbar appear more consistent with the more centralised page content.
 
 </details>
 
@@ -893,9 +936,9 @@ I found that having around two of the text boxes in each worked well on all scre
 
 **Issue:** After I decided to add universal gaps and spacing between all items in my text bubbles (I added `gap: 20px;` to the `.row` class), I noticed that some of the bootstrap flexbox items weren't appearing correctly, for example. the input boxes in my forms didn't appear side by side anymore, even though the column sizes didn't add up to more than 12.
 
-![Image showing 2 col-6 text boxes not appearing in line](assets/images/readme/issues/added-gaps-interfering-with-flex/columns-appearing-wrong.png)
+![Image showing 2 .col-6 text boxes not appearing in line](assets/images/readme/issues/added-gaps-interfering-with-flex/columns-appearing-wrong.png)
 
-**Solution:** To fix this issue I changed the column size numbers (eg. `col-6`) to numbers that added up to 11 instead of 12 per row, to account for the added gap, so instead of 2 `col-6`s in a row I changed it to `col-6` and `col-5` or 2 `col-5`s. This fixed the issue, and after altering the other text boxes to match these new sizes, the forms looked great again.
+**Solution:** To fix this issue I changed the column size numbers (eg. `.col-6`) to numbers that added up to 11 instead of 12 per row, to account for the added gap, so instead of 2 `.col-6`s in a row I changed it to `.col-6` and `.col-5` or 2 `.col-5`s. This fixed the issue, and after altering the other text boxes to match these new sizes, the forms looked great again.
 </details>
 
 ---
@@ -981,43 +1024,54 @@ I chose `justify-content-evenly` instead of `center`, as it worked better to spr
 
 ---
 
-## Extra fixes for ease of use
-
-
-### Added Universal margins/padding/gaps instead of to each individual element
-
-<details>
-<summary>Issue & Solution:</summary>
-
-**Issue:** [add]
-
-**Solution:** [add]
-
-</details>
-
----
-
 # Deployment
-<!-- WORK ON THIS -->
-<!-- Maybe make numbered list -->
+
+The following steps outline how I created my project and cloned it locally from GitHub. You can use equivalent tools, apps, or platforms based on your own device or preferences.
+
+**GitHub**
+
 - Firstly, I made a new repository in GitHub from the code institute template, with my chosen name for my project, which is `pokemon-island-resort`
-    - I ensured that this was in *snake case* so it would all be coordinated.
+    - I ensured that this was in *snake case*.
+
+- I then copied the GitHub repository URL from the top of the page, as shown below.
+
+![Copying URL from GitHub repository](assets/images/readme/deployment/copying-url.png)
+
+**File Explorer**
+
 - Once I had made a new repository, in 'File Explorer' on my local Windows device, I then navigated to the folder I wanted my project to be in, and right clicked to 'Open in Terminal'.
 
-![image](assets/images/readme/deployment/creating.png)
+![Right clicking in chosen folder to open in Terminal](assets/images/readme/deployment/opening-terminal.png)
 
-- Then, after making sure I was still in the correct folder, I typed `git clone [link from GitHub]`
+**Terminal**
 
-![image](assets/images/readme/deployment/terminal1.png)
+- Then, after making sure I was still in the correct folder, I typed `git clone [link copied and pasted from GitHub address bar]` into the Terminal.
 
-![image](assets/images/readme/deployment/terminal2.png)
+![Cloning repository in the Terminal](assets/images/readme/deployment/terminal-cloning.png)
 
-- Now a new folder has been added which is linked to the GitHub repository
+- This is what it should look like if this has worked correctly.
 
-![image](assets/images/readme/deployment/folder.png)
+![Finished cloning repository in the Terminal](assets/images/readme/deployment/terminal-cloning-finished.png)
 
-- I then opened my new folder in VS Code, added some of the starter files such as `index.html` and the `assets` & `css` folders, linked to bootstrap, font awesome, and linked my own custom css sheets, where I also added in my chosen fonts from google fonts, and added colours and fonts to the stylesheet to make sure these were all linked correctly.
-- I then added, committed and pushed the changes to my GitHub repository.
+- Now a new folder will have been added to your 'File Explorer' which is linked to the GitHub repository.
+
+![Newly created project folder](assets/images/readme/deployment/new-project-folder.png)
+
+**VS Code**
+
+- Next, I opened the new project folder in my chosen IDE (in my case this is VS Code) and pushed to GitHub to ensure the connection had been made.
+
+Then I set up the initial project structure:
+
+- I created the main html page: `index.html`, and created the `assets` folder which I added a `css` folder and an `images` folder inside.
+
+- I added a `style.css` stylesheet inside the `css` folder and linked it to my `index.html` file, testing that the link had worked.
+
+- I integrated Bootstrap and Font Awesome by linking them into my `index.html`, and also imported my chosen Google Fonts to the `style.css` stylesheet by adding the import URL to the top.
+
+- In my custom CSS file (`style.css`), I defined the color palette and font styles as CSS variables to ensure consistent branding and design.
+
+- After verifying that all dependencies and styles were correctly linked, I staged, committed, and pushed these initial changes to the GitHub repository.
 
 ![Image of the commits on Git](assets/images/readme/deployment/commits.png)
 
@@ -1028,31 +1082,34 @@ I chose `justify-content-evenly` instead of `center`, as it worked better to spr
 # Technologies Used
 
 ### [GitHub](https://github.com/)
-- GitHub has been used to store this project.
+- I used GitHub to store and manage the source code for this project and track changes.
 
-### [VScode](https://code.visualstudio.com/)
-- I used this as my IDE to code and develop this website and to push to GitHub.
+### [VS Code](https://code.visualstudio.com/)
+- I used VS Code as my IDE to code and develop this website and to push to GitHub.
 
 ### [Google Fonts](https://fonts.google.com/)
-- I used this to find and create an import url so that I could use by 2 chosen fonts - [Skranji](https://fonts.google.com/specimen/Skranji) (Designed by Neapolitan) and [Roboto](https://fonts.google.com/specimen/Roboto) (Designed by Christian Robertson, Paratype, & Font Bureau).
+- I used this to find and create an import URL so that I could use by 2 chosen fonts - [Skranji](https://fonts.google.com/specimen/Skranji) (Designed by Neapolitan) and [Roboto](https://fonts.google.com/specimen/Roboto) (Designed by Christian Robertson, Paratype, & Font Bureau).
 
 ### [Font Awesome](https://fontawesome.com/)
-- I used this to add icons to the website so that they could be coloured to match my design, specifically in the navbar (for the burger icon and dropdown menu arrows) and for the social media links in the footer.
+- I used Font Awesome to add icons to the website so that they could be coloured to match my design, specifically in the navbar (for the burger icon and dropdown menu arrows) and for the social media links in the footer.
 
 ### [Bootstrap](https://getbootstrap.com/)
-- I used this to design my navbar, add split buttons in navbar, and as a flexbox/grid in my navbar, main content and forms.
+- I used Bootstrap to design my navbar, add split buttons in navbar, and as a flexbox/grid in my navbar, main content and forms.
+
+### [Google](https://google.com/)
+- I used Google to research features, troubleshoot issues, and find solutions for implementing various aspects of the website.
 
 ### [Notion](https://www.notion.com/)
-- I used this to write up ideas, to do lists/issues that needed fixing, and paste screenshots, images and their links, etc.
+- I used Notion to write up ideas, to do lists/issues that needed fixing, and paste screenshots, images and their links, etc.
 
 ### [ColorZilla (Chrome Extension)](https://www.colorzilla.com/)
-- I used this to pinpoint exact colour codes from images etc on websites.
+- I used ColorZilla to extract precise color codes from images and web pages, allowing me to accurately match and apply colors throughout the website for a consistent design.
 
 ### [Color Blender](https://meyerweb.com/eric/tools/color-blend/#:::hex)
-- I used this website to find a colour between my background and highlight colours using their hex codes.
+- I used Color Blender to find a colour between my background and highlight colours using their hex codes.
 
 ### [Balsamiq](https://balsamiq.com/)
-- I used this to make my wireframes.
+- I used Balsamiq to make my wireframes.
 
 ---
 
@@ -1113,7 +1170,7 @@ These images are used here for educational and illustrative purposes only. Full 
 
 # Achnowledgements
 
-I would like to thank the team at Code Institute, the members of the Slack community, and my tutor Tom and mentor Spencer for your help throughout this course and project.
+I would like to thank the team at Code Institute, the members of the Slack community, my tutor Tom and my mentor Spencer for all of their help and support throughout this course and project.
 
 ---
 
