@@ -3,7 +3,7 @@
 
 # Pokemon Island Resort
 
-![Mockups of Home Page on various screen sizes](assets/images/readme/mockups/mockups-home-page.png)
+![Mockups of Home Page on various screen sizes](assets/images/readme/mockups/home-page.png)
 
 I am looking to create this website to showcase a fictional tropical island resort with classes and activities designed for Pokémon and their trainers.
 
@@ -39,6 +39,7 @@ View live website [here](https://anerkiki.github.io/pokemon-island-resort/) (Hos
 
 - [Testing](#testing)
   - [Lighthouse Performance](#lighthouse-performance)
+  - [Accessible Web Test](#accessible-web-test)
   - [WAVE Test](#wave-test)
   - [WebAIM Contrast Checker Test](#webaim-contrast-checker-test)
   - [W3C Markup/HTML Validation Service](#w3c-markuphtml-validation-service)
@@ -385,26 +386,26 @@ Featuring:
 - Different Navbar options depending on the screen size.
 - A responsive Hero image that changes orientation at different sizes to fill the screen (portrait for mobile/tablet and landscape for laptop and larger screens).
 
-![Mockups of Home Page on various screen sizes](assets/images/readme/mockups/mockups-home-page.png)
+![Mockups of Home Page on various screen sizes](assets/images/readme/mockups/home-page.png)
 
 - An **Activities** Section* with responsive floating text bubbles and images which multiply to up to 3 depending on the height of the text bubble, or appear inside the text bubbles at mobile and tablet screen sizes.
 
   - The image below shows a way to jump to this section from anywhere on the Home page - an open 'Our Activities' dropdown menu option from opening the 'Home' dropdown menu in the navbar, which is being hovered over so the colour has inverted.
 
-![Mockups of Home Page Activities Section on various screen sizes](assets/images/readme/mockups/mockups-home-page-activities.png)
+![Mockups of Home Page Activities Section on various screen sizes](assets/images/readme/mockups/home-page-activities.png)
 
 - An **Our Trainers** Section* with group image, and then individual images, descriptions, and links to their classes, which are fully responsive, and the images also multiply to up to 3, or appear inside the text bubbles at different screen sizes.
   - You can get to this section of the Home page by clicking the 'Trainers' button, or selecting the 'Our Trainers' option in the Home dropdown menu.
   - As you can see on the largest screen in the image below, when the 'Trainers' button is hovered over, there is a hover effect that changes the colouring/background, like in the dropdown menus.
 
-![Mockups of Home Page Trainers Section on various screen sizes](assets/images/readme/mockups/mockups-home-page-trainers.png)
+![Mockups of Home Page Trainers Section on various screen sizes](assets/images/readme/mockups/home-page-trainers.png)
 
 - A **Contact Form*** to get in touch, with an adjustable message box, which links to the **Success/Thank You Page** when correctly submitted.
 
   - This image shows one of the dropdown menu options that directs to the contact form from the 'Contact' split button dropdown menu.<br>
 *(you can also use the Contact button or 'Send Us a Message' option in the Contact dropdown menu)*
 
-![Mockups of Home Page Contact Form on various screen sizes](assets/images/readme/mockups/mockups-home-page-form.png)
+![Mockups of Home Page Contact Form on various screen sizes](assets/images/readme/mockups/home-page-form.png)
 
 - All pages are also responsive so that the center content won't stretch too large on XXL Screens.
 
@@ -420,13 +421,13 @@ Featuring:
 
   - As you can see in the image below, as the Suites page is the current page, the 'Book a Suite' button is underlined on the navbar button so that it is clear to the user at a glance which page they are on, and also the dropdown menu arrow has appeared beside it.
 
-![Mockups of Suites Page on various screen sizes](assets/images/readme/mockups/mockups-suites-page.png)
+![Mockups of Suites Page on various screen sizes](assets/images/readme/mockups/suites-page.png)
 
 - A Suite **Booking Enquiry Form*** with dropdown menu to pick a suite to enquire about, which link to the **Success/Thank You Page** when correctly submitted.
 
   - The image below shows the open dropdown menu from the 'Book a Suite' split button, with the 'Book Now' option being hovered over.
 
-![Mockups of Suites Page Enquiry Form on various screen sizes](assets/images/readme/mockups/mockups-suites-page-form.png)
+![Mockups of Suites Page Enquiry Form on various screen sizes](assets/images/readme/mockups/suites-page-form.png)
 
 ---
 
@@ -436,24 +437,24 @@ Featuring:
 - A large bubble **Page Title** which disappears and is instead incorporated into the navbar on smaller screen sizes.
 - **5 Class Options*** which are all fully responsive, so the image is inside the description box in a mobile/tablet screen, and then on larger screens the images pop out of the text box and appear beside, increasing/decreasing from 1 to 4 depending on the screen size, to match the height of the description bubble. As well as related images, these all have titles, descriptions, which trainer/trainers that will take the class (including a link to the specific trainer on the main home page), and a 'Book Now' button, which links directly down to the Booking Form at the bottom of the page.
 
-![Mockups of Classes Page on various screen sizes](assets/images/readme/mockups/mockups-classes-page.png)
+![Mockups of Classes Page on various screen sizes](assets/images/readme/mockups/classes-page.png)
 
 - A Class **Booking Form*** with dropdown menu to pick a suite to enquire about, which redirects to the **Success/Thank You Page** when correctly submitted.
 
   - The image below shows the open dropdown menu from the 'Book a Class' split button, with the 'Book Now' option being hovered over.
 
-![Mockups of Classes Page Enquiry Form on various screen sizes](assets/images/readme/mockups/mockups-classes-page-form.png)
+![Mockups of Classes Page Enquiry Form on various screen sizes](assets/images/readme/mockups/classes-page-form.png)
 
 ---
 
 **Success/Thank You Page** – Confirms successful form submission and offers links to explore more of the website.
 
-Feauturing:
+Featuring:
 - A large bubble "Thank You" **Page Title**, which disappears and is instead incorporated into the navbar on smaller screen sizes.
 - A friendly "Thank You" message to the user, with links to other places on the website that they can look at.
 - An image (or two at XXL screen sizes) of all of the Trainers/Team.
 
-![Mockups of Success Page on various screen sizes](assets/images/readme/mockups/mockups-success-page.png)
+![Mockups of Success Page on various screen sizes](assets/images/readme/mockups/success-page.png)
 
 ---
 
@@ -464,7 +465,7 @@ Featuring:
 - Links back to different pages in a fun and playful paragraph of text.
 - An image (or two at XXL screen sizes) of the Trainers/Team.
 
-![Mockups of 404 Page on various screen sizes](assets/images/readme/mockups/mockups-404-page.png)
+![Mockups of 404 Page on various screen sizes](assets/images/readme/mockups/404-page.png)
 
 ---
 
@@ -477,7 +478,7 @@ Featuring:
 <details>
 <summary>Warning Message that I fixed</summary>
 
-![Section lacks Heading Warning](assets/images/readme/testing/w3c/w3c-html-header-warning.png)
+![Section lacks Heading Warning](assets/images/readme/testing/w3c/html-header-warning.png)
 
 I had 3 of these warnings, for the 2 continued sections that I needed to split due to the background image being too zoomed in otherwise ('Our Activities' and 'Our Trainers'). I added an `id` to each section to make it clear for screen readers and accessibility, and also added a hidden header for extra clarity and so there were no errors or warnings in the tests.
 
@@ -499,13 +500,11 @@ After correcting the above Warning message, these are the test results from my W
 
 | Home Page | Suites Page |
 | :---: | :---: |
-| ![alt text](image.png) | ![alt text](image-2.png) |
+| ![HTML Validation Pass - Home](assets/images/readme/testing/w3c/html-home-pass.png) | ![HTML Validation Pass - Suites](assets/images/readme/testing/w3c/html-suites-pass.png) |
 
 | Classes Page | Success Page | 404 Page |
 | :---: | :---: | :---: |
-| ![alt text](image-1.png) | ![alt text](image-3.png) | ![alt text](image-4.png) |
-
-<!-- (Do I want to add readme too?) -->
+| ![HTML Validation Pass - Classes](assets/images/readme/testing/w3c/html-classes-pass.png) | ![HTML Validation Pass - Success](assets/images/readme/testing/w3c/html-success-pass.png) | ![HTML Validation Pass - 404](assets/images/readme/testing/w3c/html-404-pass.png) |
 
 ---
 
@@ -513,14 +512,14 @@ After correcting the above Warning message, these are the test results from my W
 
 The CSS stylesheet passes the CSS Validation Service.
 
-![alt text](image-5.png)
+![CSS Validation Pass](assets/images/readme/testing/w3c/css-pass.png)
 
 There were some warnings which are due to using CSS variables and imported stylesheets from Bootstrap, which aren't anything to worry about.
 
 <details>
 <summary>*click to see warning messages*</summary>
 
-![alt text](image-6.png)
+![CSS Warnings](assets/images/readme/testing/w3c/css-warnings.png)
 </details>
 
 ---
@@ -559,7 +558,7 @@ Success Page:
 
 ---
 
-## Accessible Web Test <!-- Do I want this? -->
+## Accessible Web Test
 
 https://accessibleweb.com/website-accessibility-checker/?page_url=https%3A%2F%2Fanerkiki.github.io%2Fpokemon-island-resort%2F
 
@@ -693,7 +692,6 @@ Below is an image of the new, slightly darker brown colour passing all of the te
 ---
 
 # Fixed Issues
-<!-- Problems/Challenges/Bugs -->
 
 ### VS Code Extension *'Prettier'* adding unneccessary closing tags
 
@@ -771,15 +769,42 @@ The CSS code used to style the navbar icons:
 ---
 
 ### Bootstrap's Active page not visible
-<!-- work on this -->
+
 <details>
 <summary>Issue & Solution:</summary>
 
 **Issue:** When customising the navbar from bootstrap, I changed the font/button border/hover colours, which meant the active page colour wasn't visible anymore, but I still wanted users to be able to see clearly from a glance which page they were on just from looking at the navbar.
 
-**Solution:** I decided to add in my own effect, by adding an underline to the button text of the current page.
+**Solution:** I decided to add in my own effect, by adding an underline to the button text of the current page button.
 
-I did this by ...
+I experimented with adding an underline using `border-bottom: 4px solid var(--primary-sand);` and `text-decoration: underline;`, and although I liked the `border-bottom` effect, this didn't work with the buttons, as they already had a full border, so I decided to go for the underline option.
+
+```css
+border-bottom: 4px solid var(--primary-sand);
+```
+
+```css
+text-decoration: underline;
+text-decoration-thickness: 3px;
+```
+
+Before:
+
+![Underline before](assets/images/readme/issues/active-page/underline-before.png)
+
+I found it didn't look quite right as the underline was a little too close to the text, but after some research online I discovered there was a way to lower the underline by adding `text-underline-position: under;` - which after checking - I felt this worked perfectly for what I was going for, so this is the code I decided to implement for the final project
+
+```css
+.navbar .btn.active {
+    text-decoration: underline;
+    text-decoration-thickness: 3px;
+    text-underline-position: under;
+}
+```
+
+After:
+
+![Underline after](assets/images/readme/issues/active-page/underline-after.png)
 
 </details>
 
@@ -925,34 +950,8 @@ I added this to the `ul` container for new links that I wanted to show when clic
 </details>
 
 ---
-<!-- 
-### Issue Title
 
-<details>
-<summary>Issue & Solution:</summary>
-
-**Issue:**
-
-**Solution:**
-
-</details>
-
----
-
-### Issue Title
-
-<details>
-<summary>Issue & Solution:</summary>
-
-**Issue:**
-
-**Solution:**
-
-</details>
-
---- -->
-
-### Text box/bubble height mismatched with height of images
+### Text bubble height mismatched with height of images
 
 <details>
 <summary>Issue & Solution:</summary>
@@ -998,47 +997,8 @@ I chose `justify-content-evenly` instead of `center`, as it worked better to spr
 
 ---
 
-### Fix Title
-
-<details>
-<summary>Issue & Solution:</summary>
-
-**Issue:**
-
-**Solution:**
-
-</details>
-
----
-
-### Fix Title
-
-<details>
-<summary>Issue & Solution:</summary>
-
-**Issue:**
-
-**Solution:**
-
-</details>
-
----
-
-
-### Fix Title
-
-<details>
-<summary>Issue & Solution:</summary>
-
-**Issue:**
-
-**Solution:**
-
-</details>
-
----
-
 # Deployment
+<!-- WORK ON THIS -->
 <!-- Maybe make numbered list -->
 - Firstly, I made a new repository in GitHub from the code institute template, with my chosen name for my project, which is `pokemon-island-resort`
     - I ensured that this was in *snake case* so it would all be coordinated.
@@ -1153,7 +1113,7 @@ These images are used here for educational and illustrative purposes only. Full 
 
 # Achnowledgements
 
-I would like to thank the team at Code Institute, especially my tutor Tom and mentor Spencer for your help throughout this project.
+I would like to thank the team at Code Institute, the members of the Slack community, and my tutor Tom and mentor Spencer for your help throughout this course and project.
 
 ---
 
@@ -1163,10 +1123,14 @@ I would like to thank the team at Code Institute, especially my tutor Tom and me
 
 - Implement interactive maps to help users navigate the resort.
 - Include a gallery page to showcase more images of the resort and its amenities.
+- Add user accounts for booking management and personalized experiences.
+- Integrate a real-time booking calendar for suite and class availability.
+- Add reviews and testimonials from guests and trainers.
+- Implement multilingual support for international visitors.
+- Integrate a newsletter signup for updates and promotions.
 
 ---
 
-<!-- Do I want this? -->
 ### Full Navbar Button Dropdown List
   - **Home** Button - (Dropdown arrow only shows when on Home page, on Classes and Suites pages, the button changes to **Back to Home**)
     - Dropdown Option 1 - **Our Activities**
@@ -1194,38 +1158,3 @@ I would like to thank the team at Code Institute, especially my tutor Tom and me
     - Dropdown Option 4 - **Fire Breathing & Fire Skills**
     - Dropdown Option 5 - **Snorkeling & Deep Sea Diving**
     - Dropdown Option 6 - **Book Now!**
-
-<!--
-
-### Home Page
-
-### Suites Page
-
-### Classes Page
-
-### Success Page
-
-### 404 Page
-
--->
-
-
-<!--
-
-| First Header  | Second Header |
-| :---: | :---: |
-| Content Cell  | Content Cell  |
-| Content Cell  | Content Cell  |
-
--->
-
-<!--
-
-<details>
-<summary>*click to view image*</summary>
-
-Content
-
-</details>
-
--->

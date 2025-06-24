@@ -80,7 +80,6 @@ section {
     margin: 0 20px;
     padding: 10px 0;
     width: 99%;
-    /* min-height: 99vh; - maybe look at adding this so that on large/tall screens the section image still fills the screen? */
 }
 
 section div.container {
@@ -321,10 +320,6 @@ img.floating-section {
     font-weight: 400;
 }
 
-/* #form input:-internal-autofill-selected {
-    background-color: var(--form-textbox-background);
-} this is to try and fix light blue background appearing when selecting a pre-selected option on forms */
-
 .form {
     gap: 20px;
 }
@@ -338,7 +333,6 @@ img.floating-section {
 
 #footer {
     margin-top: auto;
-    /* This is also bootstrap classes for some of the footers, remove 1 or the other in the end */
     color: var(--primary-sand);
     font-family: var(--font-heading);
 }
@@ -454,6 +448,7 @@ img.floating-section {
     /* Scroll Fix */
     main {
         margin-top: 112px;
+        /* this needs changing as the navbar height changes at different screen sizes, and matching with below */
     }
 
     html {
