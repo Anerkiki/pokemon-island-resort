@@ -1,7 +1,7 @@
 ![CI logo](https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png)
 ---
 
-# Pokemon Island Resort
+# Pokémon Island Resort
 
 ![Mockups of Home Page on various screen sizes](assets/images/readme/mockups/home-page.png)
 
