@@ -6,7 +6,7 @@
         --font-heading: 'Skranji', cursive;
         --font-paragraph: 'Roboto', sans-serif;
 
-    /* Colour Pallet Colours */
+    /* Colour Palette Colours */
 
         --primary-text-colour: #674A18;
         /* passed contrast checker test */
@@ -26,7 +26,7 @@
         /* rgb(207, 165, 129); */
         --border-color-opaque: rgba(207, 165, 129, 0.9);
 
-    /* Extra Colours (Not in Colour Pallet) */
+    /* Extra Colours (Not in Colour Palette) */
 
         --tertiary-sand: #ffe3ca;
         /* rgb(255, 227, 202); */

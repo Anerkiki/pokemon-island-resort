@@ -27,7 +27,7 @@ View live website [here](https://anerkiki.github.io/pokemon-island-resort/) (Hos
   - [Typography/Fonts](#typographyfonts)
   - [Colour Scheme/Design](#colour-schemedesign)
     - [Background Images and Colours](#background-images-and-colours)
-    - [Colour Pallet](#colour-pallet)
+    - [Colour Palette](#colour-palette)
     - [Font Colouring](#font-colouring)
     - [Favicon](#favicon)
 
@@ -216,7 +216,7 @@ I wanted the website's colour scheme to evoke a welcoming and relaxing island ho
 
 I also liked the idea of having a background image, so I began by searching on some of the free image websites for a suitable image that would set the tone for the site. After browsing through a few options, I found a [background image](#background-image-for-main-sections) on [Freepik](https://www.freepik.com/) that felt like it perfectly matched the tropical vibe I envisioned. I instantly loved the colours in this image (and how well they worked together) - from the golden sand background colour, the vibrant green of the palm leaves, and the range of other colours in the smaller details such as the shells and footprints - and decided to make a colour palette from these to use throughout the website for consistency.
 
-To be able to use each of these specific colours from the image throughout the website, I used used [ColorZilla](https://www.colorzilla.com/), which is a Chrome extension that allows you to select specific colours from a webpage using a dropper tool, to get the specific hex code/rgb code directly from any online image. I added many different colours, then refined my choices by previewing them on the site to ensure they complemented each other and provided good contrast.
+To be able to use each of these specific colours from the image throughout the website, I used [ColorZilla](https://www.colorzilla.com/), which is a Chrome extension that allows you to select specific colours from a webpage using a dropper tool, to get the specific hex code/rgb code directly from any online image. I added many different colours, then refined my choices by previewing them on the site to ensure they complemented each other and provided good contrast.
 
 For the Header and Footer, I wanted to evoke the feel of a 'bamboo beach shack', so I searched for images featuring horizontally aligned bamboo. 
 
@@ -238,13 +238,13 @@ I eventually found a [bamboo image](#bamboo-image-used-as-header-and-footer-back
 
 The favicon for this site is a small palm tree icon, chosen to reflect the tropical island theme of the resort. It appears in the browser tab and bookmarks, helping users quickly identify the site. The favicon was sourced from IconArchive and is free to use under an open source license. Its playful design complements the overall branding and adds a professional touch to the website.
 
-### Colour Pallet
+### Colour Palette
 
-![Colour Pallet](assets/images/readme/design/colour-pallet.jpg)
+![Colour Palette](assets/images/readme/design/colour-palette.jpg)
 
 For future maintainability, I defined each colour as a CSS variable (e.g., `var(--colour-name)`). This approach made it easy to update the palette later if needed - changing a single variable would update the colour everywhere it was used. This was especially helpful when testing text contrast for accessibility, as I did end up changing the colour I had selected for the paragraph text when testing against the background colour of the text 'bubbles', so that it would pass all of the tests in the [add link] contrast test as it didn't originally.
 
-I also used a couple of colours outside of this colour pallet, one which was a shade in between 2 of the colours from my colour pallet, and one which is a lighter version of the original - in places where the original colours didn't look quite right (either too light or too dark).
+I also used a couple of colours outside of this colour palette, one which was a shade in between 2 of the colours from my colour palette, and one which is a lighter version of the original - in places where the original colours didn't look quite right (either too light or too dark).
 
 I used a [Color Blender tool](https://meyerweb.com/eric/tools/color-blend/#FFD8B7:FEEDDC:5:hex) to find a colour between my `--primary-sand` and `--secondary-sand` colours by inputting their 2 hex codes - producing the perfect middle tone which I named `--tertiary-sand`.
 
@@ -258,7 +258,7 @@ I used a [Color Blender tool](https://meyerweb.com/eric/tools/color-blend/#FFD8B
 
 ### Font Colouring
 
-The only colour (in the Colour Pallet) not picked from the background image was the dark brown shade `#674A18`, originally `#84644B`, which I chose because all of the other colours (apart from the leaf colour) were too pale to stand out against a pale sandy background (which I used as a background for all blocks of text), and it still matches the aesthetic nicely, but doesn't compete for attention from any of the more important headers, that I want the attention to initially be drawn to.
+The only colour (in the Colour Palette) not picked from the background image was the dark brown shade `#674A18`, originally `#84644B`, which I chose because all of the other colours (apart from the leaf colour) were too pale to stand out against a pale sandy background (which I used as a background for all blocks of text), and it still matches the aesthetic nicely, but doesn't compete for attention from any of the more important headers, that I want the attention to initially be drawn to.
 
 For this reason I kept the headings (Skranji) as more colourful, in a brighter green/golden sandy colour depending on the background shade, e.g. the bolder leaf colour on a paler background and the lighter sand colour on a darker background, so that the contrast is enough to be read easily.
 
@@ -418,7 +418,7 @@ section {
 | :---: | :---: |
 | ![Page spacing before](assets/images/readme/features/universal-spacing/body-before.png) | ![Page spacing after](assets/images/readme/features/universal-spacing/body-after.png) |
 
-The spacing was particularly helpful to space the content and add padding inside and inbetween the multiple text bubbles, so ensure nothing got too cramped and make sure everything stays consistant, no matter the screen size.
+The spacing was particularly helpful to space the content and add padding inside and in between the multiple text bubbles, so ensure nothing got too cramped and make sure everything stays consistent, no matter the screen size.
 
 ---
 
@@ -714,9 +714,9 @@ Below is an image of the new, slightly darker brown colour passing all of the te
 <details>
 <summary>*click to original colour that didn't pass contrast tests*</summary>
 
-| Original text colour which didn't pass the AAA test: | Original Colour Pallet before testing: |
+| Original text colour which didn't pass the AAA test: | Original Colour Palette before testing: |
 | :---: | :---: |
-| ![Checking Contrast of text colour and background](assets/images/readme/testing/webaim-contrast-checker-fail.png) | ![Old Colour Pallet](assets/images/readme/design/colour-pallet-original.jpg) |
+| ![Checking Contrast of text colour and background](assets/images/readme/testing/webaim-contrast-checker-fail.png) | ![Old Colour Palette](assets/images/readme/design/colour-palette-original.jpg) |
 
 </details>
 
@@ -739,12 +739,12 @@ Below is an image of the new, slightly darker brown colour passing all of the te
 
 # Fixed Issues
 
-### VS Code Extension *'Prettier'* adding unneccessary closing tags
+### VS Code Extension *'Prettier'* adding unnecessary closing tags
 
 <details>
 <summary>Issue & Solution:</summary>
 
-**Issue:** As part of the course material, I installed a code refactoring extension called 'Prettier' in VS Code, but had issues with this adding unneccessary closing tags (`/>`) to all of the self-closing elements, such as `meta` and `img`.
+**Issue:** As part of the course material, I installed a code refactoring extension called 'Prettier' in VS Code, but had issues with this adding unnecessary closing tags (`/>`) to all of the self-closing elements, such as `meta` and `img`.
 
 These were added every time I formatted my pages, and resulted in errors in the [W3C Testing](#w3c-markuphtml-validation-service) stage, wasting time with having to remove each time I formatted.
 
@@ -924,7 +924,7 @@ Later, I also updated the navbar alignment to better match the rest of the site'
 | :---: | :---: |
 | ![Image showing background image appearing too zoomed in and pixelated](assets/images/readme/issues/background-too-zoomed/issue-background-too-zoomed-before.png) | ![Image showing background image appearing too zoomed in and pixelated](assets/images/readme/issues/background-too-zoomed/issue-background-too-zoomed-before-two.png) |
 
-**Solution:** I resolved this issue by splitting the content into seperate sections, and adding the background image to each section, instead of having all of the content in one giant section with just one background image.
+**Solution:** I resolved this issue by splitting the content into separate sections, and adding the background image to each section, instead of having all of the content in one giant section with just one background image.
 
 I found that having around two of the text boxes in each worked well on all screen sizes, so none were too tall for the image, eliminating the need to change the amount of sections depending on screen sizes, which I did consider, but would have added a lot more code and been more complex than necessary.
 
@@ -1203,7 +1203,7 @@ These images are used here for educational and illustrative purposes only. Full 
 
 ---
 
-# Achnowledgements
+# Acknowledgements
 
 I would like to thank the team at Code Institute, the members of the Slack community, my tutor Tom and my mentor Spencer for all of their help and support throughout this course and project.
 
