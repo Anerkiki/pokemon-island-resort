@@ -219,15 +219,15 @@ For the Header and Footer, I wanted to evoke the feel of a 'bamboo beach shack',
 
 I eventually found a [bamboo image](#bamboo-image-used-as-header-and-footer-background) that fit the look I wanted, but its original colors didn't quite match my chosen palette, so I decided to create a semi-transparent colored overlay using one of the palette colors extracted from the background image over the top of the bamboo background image by changing the hex code to an rgba code, where I can manipulate the opacity, and adding it as a background to another div I added on top. This allowed the bamboo texture to remain visible while ensuring the overall color scheme stayed consistent. The overlay also improves the readability of button text and titles against the background.
 
-![ColorZilla photo showing the green colour](assets/images/readme/colorzilla-leaf-green.png)
+![ColorZilla photo showing the green colour](assets/images/readme/design/colorzilla-leaf-green.png)
 
 **Images of Navbar before and after adding the coloured semi-transparent overlay**
 
 <details>
 <summary>*click to view*</summary>
 
-![Navbar background image without coloured overlay](assets/images/readme/navbar-without-leaf-overlay.png)
-![Navbar background image with coloured overlay](assets/images/readme/navbar-with-leaf-overlay.png)
+![Navbar background image without coloured overlay](assets/images/readme/design/navbar-without-leaf-overlay.png)
+![Navbar background image with coloured overlay](assets/images/readme/design/navbar-with-leaf-overlay.png)
 
 </details>
 
@@ -280,16 +280,16 @@ This includes:
 
 | Hero Image on smaller screens (mobile & tablet): | Hero Image on large screens (laptop & larger): |
 | :---: | :---: |
-| ![Hero Image on smaller screens](assets/images/readme/hero-small.png) | ![Hero Image on large screens](assets/images/readme/hero-large.png) |
+| ![Hero Image on smaller screens](assets/images/readme/features/hero-small.png) | ![Hero Image on large screens](assets/images/readme/features/hero-large.png) |
 
 **Examples of how images change depending on screen size to match the text box height**:
 
 |  |  |
 | :---: | :---: |
 | Small screen sizes (tablet & mobile) - showing 1 image inside the text box | Medium screen sizes (small laptop) - now with 4 images to the side of the text box |
-| ![Responsive Images on Small Screens](assets/images/readme/responsiveness-screenshots/responsive-images-small.png) | ![Responsive Images on Medium Screens](assets/images/readme/responsiveness-screenshots/responsive-images-medium.png) |
+| ![Responsive Images on Small Screens](assets/images/readme/features/responsive-images-small.png) | ![Responsive Images on Medium Screens](assets/images/readme/features/responsive-images-medium.png) |
 | Large screen sizes (laptop) - now with 3 images to the side of the text box | XL screen sizes (monitor/TV) - now with 2 images to the side of the text box |
-| ![Responsive Images on Medium Screens](assets/images/readme/responsiveness-screenshots/responsive-images-large.png) | ![Responsive Images on Medium Screens](assets/images/readme/responsiveness-screenshots/responsive-images-xl.png) |
+| ![Responsive Images on Medium Screens](assets/images/readme/features/responsive-images-large.png) | ![Responsive Images on Medium Screens](assets/images/readme/features/responsive-images-xl.png) |
 
 The paragraphs inside the text box and images are all inside a Bootstrap flexbox, which will adjust to the screen size accordingly, and if gaps are needed, they will be evenly distributed between so there are never any large unsightly gaps, no matter the viewing dimensions.
 
@@ -303,11 +303,11 @@ This has links to all of the main pages and is always fixed to the top, so is ac
 
 **Larger Screen (Full Sized) Navbar:**
 
-![Full Sized Navbar](assets/images/readme/navbar-full-size.png)
+![Full Sized Navbar](assets/images/readme/features/navbar-full-size.png)
 
 **Larger Screen (Full Sized) Navbar: with open Dropdown Menu:**
 
-![Full Sized Navbar with open dropdown menu](assets/images/readme/navbar-full-size-dropdown.png)
+![Full Sized Navbar with open dropdown menu](assets/images/readme/features/navbar-full-size-dropdown.png)
 
 Below is an interactive feature to show you the buttons in the navbar and dropdown options of each (tap the arrow to see dropdown options):
 
@@ -350,7 +350,7 @@ Below is an interactive feature to show you the buttons in the navbar and dropdo
 
 | Smaller Screen (Collapsed) Navbar: | Open Smaller Screen (Collapsed) Navbar: |
 | :---: | :---: |
-| ![Collapsed Navbar](assets/images/readme/navbar-collapsed.png) | ![Collapsed Navbar](assets/images/readme/navbar-collapsed-open.png) |
+| ![Collapsed Navbar](assets/images/readme/features/navbar-collapsed.png) | ![Collapsed Navbar](assets/images/readme/features/navbar-collapsed-open.png) |
 
 ### Footer:
 
@@ -358,18 +358,18 @@ This has links to social media, and is shown at the bottom of each page, althoug
 
 | Larger Screen Footer: | Smaller Screen Footer: |
 | :---: | :---: |
-| ![Full Sized Footer](assets/images/readme/footer-full-size.png) | ![Collapsed Footer](assets/images/readme/footer-collapsed.png) |
+| ![Full Sized Footer](assets/images/readme/features/footer-full-size.png) | ![Collapsed Footer](assets/images/readme/features/footer-collapsed.png) |
 
 ### No Break Spaces
 
 I added no break spaces (`&nbsp;`) to the end of all paragraphs between the last 2 (sometimes 3 if short) words so there aren't ever any 'orphan' words, no matter the screen size - which makes blocks of text look a lot better always.
 
-![No Break Spaces in HTML code](assets/images/readme/nbsp-in-html.png)
+![No Break Spaces in HTML code](assets/images/readme/features/nbsp-in-html.png)
 
 |  |  |
 | :---: | :---: |
 | Before | After |
-| ![Before adding No Break Spaces](assets/images/readme/nbsp-before.png) | ![After adding No Break Spaces](assets/images/readme/nbsp-after.png) |
+| ![Before adding No Break Spaces](assets/images/readme/features/nbsp-before.png) | ![After adding No Break Spaces](assets/images/readme/features/nbsp-after.png) |
 
 ---
 
