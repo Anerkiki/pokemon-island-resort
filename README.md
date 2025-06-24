@@ -15,6 +15,8 @@ View live website [here](https://anerkiki.github.io/pokemon-island-resort/) (Hos
 
 # Table of Contents
 
+---
+
 - [Design and Planning](#design-and-planning)
   - [Objectives](#objectives)
   - [Design and Brand Identity](#design-and-brand-identity)
@@ -990,6 +992,38 @@ I added this to the left and right `div` elements containing my current split na
 d-block d-lg-none
 ```
 I added this to the `ul` container for new links that I wanted to show when clicking on the burger icon at smaller screens.
+
+</details>
+
+---
+
+### `display: none` not working at breakpoints
+
+<details>
+<summary>Issue & Solution:</summary>
+
+**Issue:** I had an issue with items in the navbar not disappearing/appearing at the chosen breakpoints I had set.
+
+I originally set some items in the navbar (such as the page title in the navbar and main section or buttons) to appear/disappear using a media query class which matched the specified breakpoint on Bootstrap for `lg`, as shown in the code below:
+
+```css
+@media (max-width: 992px) {
+    .main-page-title {
+        display: none;
+    }
+}
+```
+![Bootstrap Breakpoints](assets/images/readme/issues/breakpoints-bootstrap.png)
+
+However, I couldn't get everything to work as I wanted - there was always one exact screen size where elements wouldn't behave properly. Even when adjusting the breakpoint by 1px up or down, something would fail to appear or disappear as expected.
+
+The image below shows both page titles being visible - when 1 of them should be hidden if the other one visible.
+
+![Page Titles both appearing at the same time](assets\images\readme\issues\breakpoint-error.png)
+
+**Solution:** The issue stemmed from the navbar switching to a burger icon at the `lg` breakpoint, while other elements controlled by CSS media queries didn't always sync perfectly, resulting in a mismatch at a specific screen width.
+
+So I decided not to mix bootstrap breakpoints and media query breakpoints, changing the `.disappear-tablet` class to a pre-set class designed by Bootstrap to hide/reveal elements - `.d-none .d-lg-block` - which worked, and meant everything appeared/disappeared as it should.
 
 </details>
 
