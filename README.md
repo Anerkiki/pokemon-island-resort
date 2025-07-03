@@ -501,6 +501,7 @@ Featuring:
 - An image (or two at XXL screen sizes) of all of the Trainers/Team.
 
 ![Mockups of Success Page on various screen sizes](assets/images/readme/mockups/success-page.png)
+*After making these mockup images, I changed the image on mobile screen sizes to appear at the top of the text instead of at the bottom.*
 
 ---
 
@@ -512,6 +513,7 @@ Featuring:
 - An image (or two at XXL screen sizes) of the Trainers/Team.
 
 ![Mockups of 404 Page on various screen sizes](assets/images/readme/mockups/404-page.png)
+*After making these mockup images, I changed the image on mobile screen sizes to appear at the top of the text instead of at the bottom.*
 
 ---
 
@@ -942,27 +944,6 @@ I found that having around two of the text boxes in each worked well on all scre
 ![Image showing 2 .col-6 text boxes not appearing in line](assets/images/readme/issues/added-gaps-interfering-with-flex/columns-appearing-wrong.png)
 
 **Solution:** To fix this issue I changed the column size numbers (eg. `.col-6`) to numbers that added up to 11 instead of 12 per row, to account for the added gap, so instead of 2 `.col-6`s in a row I changed it to `.col-6` and `.col-5` or 2 `.col-5`s. This fixed the issue, and after altering the other text boxes to match these new sizes, the forms looked great again.
-</details>
-
----
-
-### On XXL/4K Screens, there is a gap below main content
-
-<details>
-<summary>Issue & Solution:</summary>
-
-**Issue:** On a 4K or larger screen, the section didn't stretch the full height of the page in the success and 404 pages.
-
-**Solution:** I added another image below the 'Back to Home' button on both of these pages to only appear at 4K/XXL screens.
-
-| Success Page on XXL screens before | Success Page on XXL screens after |
-| :---: | :---: |
-| ![Success Page Before](assets/images/readme/issues/xxl-success-before.png) | ![Success Page After](assets/images/readme/issues/xxl-success-after.png) |
-
-| 404 Page on XXL screens before | 404 Page on XXL screens after |
-| :---: | :---: |
-| ![404 Page Before](assets/images/readme/issues/xxl-404-before.png) | ![404 Page After](assets/images/readme/issues/xxl-404-after.png) |
-
 </details>
 
 ---

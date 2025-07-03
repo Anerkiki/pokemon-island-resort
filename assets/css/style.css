@@ -78,8 +78,13 @@ section {
     background-size: cover;
     border-radius: 30px;
     margin: 0 20px;
-    padding: 10px 0;
+    padding: 10px 5px;
     width: 99%;
+}
+
+section.less-content {
+    min-height: 80vh;
+    /* Ensures the background image doesn't leave any gaps at the bottom on XXL/4K screens on pages with less content - but still leaves room for footer to be visible */
 }
 
 section div.container {
