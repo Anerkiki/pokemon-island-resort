@@ -384,7 +384,7 @@ Instead of having lots of different classes that applied specific spacing, that 
 <div class="my-5 mt-2 px-4 pb-2 pt-0">
 ```
 
-The new class: `.floating-section` below I used for spacing all for my text bubbles and images:
+The new class: `.floating-section` below, I used for spacing inside all my text bubbles:
 
 ```css
 .floating-section {
