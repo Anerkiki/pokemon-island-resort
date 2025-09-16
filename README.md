@@ -248,8 +248,6 @@ I also used a couple of colours outside of this colour palette, one which was a 
 
 I used a [Color Blender tool](https://meyerweb.com/eric/tools/color-blend/#FFD8B7:FEEDDC:5:hex) to find a colour between my `--primary-sand` and `--secondary-sand` colours by inputting their 2 hex codes - producing the perfect middle tone which I named `--tertiary-sand`.
 
-<!-- add a bit about the colour lightener I used -->
-
 <details>
 <summary>Click for Image of Color Blender showing the two colours I inputted to find midpoint colour</summary>
 
