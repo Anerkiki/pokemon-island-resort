@@ -1102,7 +1102,7 @@ Then I set up the initial project structure:
 - I used VS Code as my IDE to code and develop this website and to push to GitHub.
 
 ### [Google Fonts](https://fonts.google.com/)
-- I used this to find and create an import URL so that I could use by 2 chosen fonts - [Skranji](https://fonts.google.com/specimen/Skranji) (Designed by Neapolitan) and [Roboto](https://fonts.google.com/specimen/Roboto) (Designed by Christian Robertson, Paratype, & Font Bureau).
+- I used this to find and create an import URL so that I could use my 2 chosen fonts - [Skranji](https://fonts.google.com/specimen/Skranji) (Designed by Neapolitan) and [Roboto](https://fonts.google.com/specimen/Roboto) (Designed by Christian Robertson, Paratype, & Font Bureau).
 
 ### [Font Awesome](https://fontawesome.com/)
 - I used Font Awesome to add icons to the website so that they could be coloured to match my design, specifically in the navbar (for the burger icon and dropdown menu arrows) and for the social media links in the footer.
